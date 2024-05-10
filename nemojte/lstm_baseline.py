@@ -4,6 +4,7 @@ import torch.optim as optim
 from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
 from sklearn import metrics
+from Loader import Loader
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -28,37 +29,42 @@ class BiLSTM(nn.Module):
         return out
    
 
-def parse_dataset(fp):
-    '''
-    Loads the dataset .txt file with label-tweet on each line and parses the dataset.
-    :param fp: filepath of dataset
-    :return:
-        corpus: list of tweet strings of each tweet.
-        y: list of labels
-    '''
-    y = []
-    corpus = []
-    with open(fp, 'rt', encoding='utf-8') as data_in:
-        for line in data_in:
-            if not line.lower().startswith("tweet index"): # discard first line if it contains metadata
-                line = line.rstrip() # remove trailing whitespace
-                label = int(line.split("\t")[1])
-                tweet = line.split("\t")[2]
-                y.append(label)
-                corpus.append(tweet)
+# def parse_dataset(fp):
+#     '''
+#     Loads the dataset .txt file with label-tweet on each line and parses the dataset.
+#     :param fp: filepath of dataset
+#     :return:
+#         corpus: list of tweet strings of each tweet.
+#         y: list of labels
+#     '''
+#     y = []
+#     corpus = []
+#     with open(fp, 'rt', encoding='utf-8') as data_in:
+#         for line in data_in:
+#             if not line.lower().startswith("tweet index"): # discard first line if it contains metadata
+#                 line = line.rstrip() # remove trailing whitespace
+#                 label = int(line.split("\t")[1])
+#                 tweet = line.split("\t")[2]
+#                 y.append(label)
+#                 corpus.append(tweet)
 
-    return corpus, y
+#     return corpus, y
 
-corpus, labels = parse_dataset("../datasets/train/SemEval2018-T3-train-taskA_emoji_ironyHashtags.txt")
-test_corpus, test_labels = parse_dataset("..\datasets\goldtest_TaskA\SemEval2018-T3_gold_test_taskA_emoji.txt")
-labels = torch.tensor(labels).to(device)
+# corpus, labels = parse_dataset("../datasets/train/SemEval2018-T3-train-taskA_emoji_ironyHashtags.txt")
+# test_corpus, test_labels = parse_dataset("..\datasets\goldtest_TaskA\SemEval2018-T3_gold_test_taskA_emoji.txt")
+# labels = torch.tensor(labels).to(device)
 
-glove = GloVe(name='6B', dim=300)
+# glove = GloVe(name='6B', dim=300)
 
-tokenized_tweets = [[glove[word] for word in tweet.split()] for tweet in corpus]
-tokenized_tweets = [torch.stack(tweet) for tweet in tokenized_tweets]
+# tokenized_tweets = [[glove[word] for word in tweet.split()] for tweet in corpus]
+# tokenized_tweets = [torch.stack(tweet) for tweet in tokenized_tweets]
 
-padded_sequences = pad_sequence(tokenized_tweets, batch_first=True).to(device)
+# padded_sequences = pad_sequence(tokenized_tweets, batch_first=True).to(device)
+
+train_fp = "../datasets/train/SemEval2018-T3-train-taskA_emoji_ironyHashtags.txt"
+test_fp = "..\datasets\goldtest_TaskA\SemEval2018-T3_gold_test_taskA_emoji.txt"
+
+padded_sequences, paddes_test_sequences = Loader().load(device=device)
 
 input_size = padded_sequences.size(-1)
 
@@ -99,9 +105,7 @@ for epoch in range(num_epochs):
 
 test_labels = torch.tensor(test_labels).to(device)
 with torch.no_grad():
-    tokenized_test_tweets = [[glove[word] for word in tweet.split()] for tweet in test_corpus]
-    tokenized_test_tweets = [torch.stack(tweet) for tweet in tokenized_test_tweets]
-    padded_test_sequences = pad_sequence(tokenized_test_tweets, batch_first=True).to(device)
+    
     test_outputs = model(padded_test_sequences)
     _, predicted = torch.max(test_outputs, 1)
     f1 = metrics.f1_score(test_labels.cpu(), predicted.cpu(), average='macro')
