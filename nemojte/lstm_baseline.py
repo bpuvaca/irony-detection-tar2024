@@ -5,6 +5,8 @@ from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
 from sklearn import metrics
 from Loader import Loader
+from Evaluator import Evaluator
+from Trainer import Trainer
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -29,44 +31,14 @@ class BiLSTM(nn.Module):
         return out
    
 
-# def parse_dataset(fp):
-#     '''
-#     Loads the dataset .txt file with label-tweet on each line and parses the dataset.
-#     :param fp: filepath of dataset
-#     :return:
-#         corpus: list of tweet strings of each tweet.
-#         y: list of labels
-#     '''
-#     y = []
-#     corpus = []
-#     with open(fp, 'rt', encoding='utf-8') as data_in:
-#         for line in data_in:
-#             if not line.lower().startswith("tweet index"): # discard first line if it contains metadata
-#                 line = line.rstrip() # remove trailing whitespace
-#                 label = int(line.split("\t")[1])
-#                 tweet = line.split("\t")[2]
-#                 y.append(label)
-#                 corpus.append(tweet)
-
-#     return corpus, y
-
-# corpus, labels = parse_dataset("../datasets/train/SemEval2018-T3-train-taskA_emoji_ironyHashtags.txt")
-# test_corpus, test_labels = parse_dataset("..\datasets\goldtest_TaskA\SemEval2018-T3_gold_test_taskA_emoji.txt")
-# labels = torch.tensor(labels).to(device)
-
-# glove = GloVe(name='6B', dim=300)
-
-# tokenized_tweets = [[glove[word] for word in tweet.split()] for tweet in corpus]
-# tokenized_tweets = [torch.stack(tweet) for tweet in tokenized_tweets]
-
-# padded_sequences = pad_sequence(tokenized_tweets, batch_first=True).to(device)
-
 train_fp = "../datasets/train/SemEval2018-T3-train-taskA_emoji_ironyHashtags.txt"
 test_fp = "..\datasets\goldtest_TaskA\SemEval2018-T3_gold_test_taskA_emoji.txt"
 
-padded_sequences, paddes_test_sequences = Loader().load(device=device)
+glove = GloVe(name='6B', dim=300)
 
-input_size = padded_sequences.size(-1)
+loader = Loader()
+loader.load(device, train_fp, test_fp, glove)
+
 
 hidden_size = 16
 num_layers = 2
@@ -75,39 +47,11 @@ batch_size = 64
 learning_rate = 0.0005
 num_epochs = 10
 
-model = BiLSTM(input_size, hidden_size, num_layers, num_classes).to(device)
+model = BiLSTM(loader.input_size, hidden_size, num_layers, num_classes).to(device)
 
 criterion = nn.CrossEntropyLoss()
 
-optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+model = Trainer().train(model, learning_rate, batch_size, num_epochs, loader.train_dataset, criterion)
 
-train_dataset = torch.utils.data.TensorDataset(padded_sequences, labels)
-train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+Evaluator().evaluate(device, glove, loader.test_corpus, loader.test_labels, model)
 
-# Training loop
-for epoch in range(num_epochs):
-    total_loss = 0
-    for batch_inputs, batch_labels in train_loader:
-        
-        # Forward pass
-        outputs = model(batch_inputs)
-        loss = criterion(outputs, batch_labels)
-        
-        # Backward pass and optimization
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-        
-        total_loss += loss.item()
-    
-    print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {total_loss / len(train_loader)}")
-
-
-test_labels = torch.tensor(test_labels).to(device)
-with torch.no_grad():
-    
-    test_outputs = model(padded_test_sequences)
-    _, predicted = torch.max(test_outputs, 1)
-    f1 = metrics.f1_score(test_labels.cpu(), predicted.cpu(), average='macro')
-    print("F1: ", f1)
-    
