@@ -1,7 +1,7 @@
-
 import torch
 from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
+
 def parse_dataset(fp):
     y = []
     corpus = []
@@ -16,8 +16,6 @@ def parse_dataset(fp):
     return corpus, y
     
 class Loader():
-    
-    
     def load(self, device, train_fp, test_fp, glove):
 
         corpus, labels = parse_dataset(train_fp)
