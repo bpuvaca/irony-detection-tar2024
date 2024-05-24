@@ -1,0 +1,12 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Oprea and Magdy}2020]{iSarcasm}
+Silviu Oprea and Walid Magdy.
+\newblock 2020.
+\newblock i{S}arcasm: A dataset of intended sarcasm.
+\newblock In Dan Jurafssky, Joyce Chai, Natalie Schluter, and Joel Tetreault,
+  editors, {\em Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics}, pages 1279--1289, Online, July. Association for
+  Computational Linguistics.
+
+\end{thebibliography}
