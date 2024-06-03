@@ -1,5 +1,15 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citename{Merriam-Webster}2024]{mw-dictionary}
+Merriam-Webster.
+\newblock 2024.
+\newblock Merriam-webster dictionary.
+
+\bibitem[\protect\citename{Nikhil}2020]{kaggle-tweets}
+John Nikhil.
+\newblock 2020.
+\newblock Tweets with sarcasm and irony.
+
 \bibitem[\protect\citename{Oprea and Magdy}2020]{iSarcasm}
 Silviu Oprea and Walid Magdy.
 \newblock 2020.
@@ -8,5 +18,14 @@ Silviu Oprea and Walid Magdy.
   editors, {\em Proceedings of the 58th Annual Meeting of the Association for
   Computational Linguistics}, pages 1279--1289, Online, July. Association for
   Computational Linguistics.
+
+\bibitem[\protect\citename{Van~Hee \bgroup et al.\egroup }2018]{semeval-2018}
+Cynthia Van~Hee, Els Lefever, and V{\'e}ronique Hoste.
+\newblock 2018.
+\newblock {S}em{E}val-2018 task 3: Irony detection in {E}nglish tweets.
+\newblock In Marianna Apidianaki, Saif~M. Mohammad, Jonathan May, Ekaterina
+  Shutova, Steven Bethard, and Marine Carpuat, editors, {\em Proceedings of the
+  12th International Workshop on Semantic Evaluation}, pages 39--50, New
+  Orleans, Louisiana, June. Association for Computational Linguistics.
 
 \end{thebibliography}
