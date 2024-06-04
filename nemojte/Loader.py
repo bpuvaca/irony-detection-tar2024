@@ -1,33 +1,41 @@
 import torch
 from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
+import pandas as pd
+from torch.utils.data import Dataset, DataLoader
 
 def parse_dataset(fp):
-    y = []
-    corpus = []
-    with open(fp, 'rt', encoding='utf-8') as data_in:
-        for line in data_in:
-            if not line.lower().startswith("tweet index"): # discard first line if it contains metadata
-                line = line.rstrip() # remove trailing whitespace
-                label = int(line.split("\t")[1])
-                tweet = line.split("\t")[2]
-                y.append(label)
-                corpus.append(tweet)
-    return corpus, y
-    
-class Loader():
-    def load(self, device, train_fp, test_fp, glove):
+    df = pd.read_csv(fp)
+    corpus = df['tweet'].tolist()
+    labels = df['label'].tolist()
+    return corpus, labels
 
-        corpus, labels = parse_dataset(train_fp)
-        labels = torch.tensor(labels).to(device)
-        tokenized_tweets = [[glove[word] for word in tweet.split()] for tweet in corpus]
-        tokenized_tweets = [torch.stack(tweet) for tweet in tokenized_tweets]
-        padded_sequences = pad_sequence(tokenized_tweets, batch_first=True).to(device)
-        self.train_dataset = torch.utils.data.TensorDataset(padded_sequences, labels)
-        self.input_size = padded_sequences.size(-1)
-
-        # train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+class TweetDataset(Dataset):
+    def __init__(self, tweets, labels, glove, device):
+        self.tweets = tweets
+        print(tweets)
+        self.labels = torch.tensor(labels).to(device)
+        self.glove = glove
+        self.device = device
+        self.tokenized_tweets = [self.tokenize(tweet) for tweet in tweets]
+        self.padded_sequences = pad_sequence([torch.stack(tweet) for tweet in self.tokenized_tweets], batch_first=True).to(device)
         
-        self.test_corpus, self.test_labels = parse_dataset(test_fp)
+    def tokenize(self, tweet):
+        return [self.glove[word] for word in tweet.split()]
+        
+    def __len__(self):
+        return len(self.labels)
+    
+    def __getitem__(self, idx):
+        return self.padded_sequences[idx], self.labels[idx]
+
+class Loader():
+    def load_dataset(self, device, train_fp, test_fp, glove):
+        train_corpus, train_labels = parse_dataset(train_fp)
+        self.train_dataset = TweetDataset(train_corpus, train_labels, glove, device)
+        self.input_size = self.train_dataset.padded_sequences.size(-1)
+        
+        test_corpus, test_labels = parse_dataset(test_fp)
+        self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         
 
