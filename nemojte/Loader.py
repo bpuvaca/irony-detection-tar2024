@@ -1,13 +1,25 @@
 import torch
 from torch.nn.utils.rnn import pad_sequence
-from torchtext.vocab import GloVe
 import pandas as pd
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset
 from transformerUtils import TransformerDataset
+import re
+from TweetNormalizer import normalizeTweet
+import re
 
-def parse_dataset(fp):
+def clean_hashtags(sentence):
+    hashtags_to_remove = ["#sarcasm", "#irony", "#not"]
+    for hashtag in hashtags_to_remove:
+        sentence = re.sub(fr"(?i){re.escape(hashtag)}", "", sentence)
+    return sentence
+
+def parse_dataset(fp, remove_hashtags=False):
     df = pd.read_csv(fp)
     corpus = df['tweet'].tolist()
+    corpus = [normalizeTweet(tweet) for tweet in corpus]
+    if remove_hashtags:
+        corpus = [clean_hashtags(tweet) for tweet in corpus]
+        corpus = [tweet for tweet in corpus if tweet.strip()]
     labels = df['label'].tolist()
     return corpus, labels
 
@@ -18,10 +30,6 @@ class TweetDataset(Dataset):
         self.glove = glove
         self.device = device
         self.tokenized_tweets = [self.tokenize(tweet) for tweet in tweets]
-        #self.tokenized_tweets = []
-        #for tweet in tweets:
-        #    print(tweet)
-        #    self.tokenized_tweets.append(torch.stack([self.glove[word] for word in tweet.split()]))
         self.padded_sequences = pad_sequence([torch.stack(tweet) for tweet in self.tokenized_tweets], batch_first=True).to(device)
         
     def tokenize(self, tweet):
@@ -34,17 +42,17 @@ class TweetDataset(Dataset):
         return self.padded_sequences[idx], self.labels[idx]
 
 class GloveLoader():
-    def load_dataset(self, device, train_fp, test_fp, glove):
-        train_corpus, train_labels = parse_dataset(train_fp)
+    def load_dataset(self, device, train_fp, test_fp, glove, remove_hashtags=False):
+        train_corpus, train_labels = parse_dataset(train_fp, remove_hashtags=remove_hashtags)
         self.train_dataset = TweetDataset(train_corpus, train_labels, glove, device)
         self.input_size = self.train_dataset.padded_sequences.size(-1)
-        test_corpus, test_labels = parse_dataset(test_fp)
+        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         
 class TransformerLoader():
-    def load_dataset(self, train_fp, test_fp, tokenizer):
-        train_corpus, train_labels = parse_dataset(train_fp)
+    def load_dataset(self, train_fp, test_fp, tokenizer, remove_hashtags=False):
+        train_corpus, train_labels = parse_dataset(train_fp, remove_hashtags=remove_hashtags)
         self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
-        test_corpus, test_labels = parse_dataset(test_fp)
+        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
 
