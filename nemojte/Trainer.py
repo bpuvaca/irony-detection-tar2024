@@ -22,7 +22,7 @@ class Trainer:
                 
                 # Forward pass
                 outputs = model(batch_inputs)
-                loss = criterion(outputs, batch_labels)
+                loss = criterion(outputs, batch_labels)  
                 
                 # Backward pass and optimization
                 optimizer.zero_grad()

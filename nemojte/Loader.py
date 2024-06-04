@@ -37,7 +37,6 @@ class Loader():
         train_corpus, train_labels = parse_dataset(train_fp)
         self.train_dataset = TweetDataset(train_corpus, train_labels, glove, device)
         self.input_size = self.train_dataset.padded_sequences.size(-1)
-        
         test_corpus, test_labels = parse_dataset(test_fp)
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         

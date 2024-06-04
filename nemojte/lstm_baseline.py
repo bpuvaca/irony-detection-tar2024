@@ -39,14 +39,15 @@ test_irony = "../new_datasets/irony/test_irony.csv"
 glove = GloVe(name='6B', dim=300)
 
 loader = Loader()
-loader.load_dataset(device, train_sarcasm, test_sarcasm, glove)
+#loader.load_dataset(device, train_sarcasm, test_sarcasm, glove)
+loader.load_dataset(device, train_irony, test_irony, glove)
 
 hidden_size = 16
 num_layers = 4
 num_classes = 2
 batch_size = 32
 learning_rate = 0.0005
-num_epochs = 50
+num_epochs = 40
 
 model = BiLSTM(loader.input_size, hidden_size, num_layers, num_classes).to(device)
 
