@@ -4,7 +4,7 @@ import torch.optim as optim
 from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
 from sklearn import metrics
-from Loader import Loader
+from Loader import GloveLoader
 from Evaluator import Evaluator
 from Trainer import Trainer
 
@@ -38,7 +38,7 @@ test_irony = "../new_datasets/irony/test_irony.csv"
 
 glove = GloVe(name='6B', dim=300)
 
-loader = Loader()
+loader = GloveLoader()
 #loader.load_dataset(device, train_sarcasm, test_sarcasm, glove)
 loader.load_dataset(device, train_irony, test_irony, glove)
 

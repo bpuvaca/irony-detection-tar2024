@@ -3,6 +3,7 @@ from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
 import pandas as pd
 from torch.utils.data import Dataset, DataLoader
+from transformerUtils import TransformerDataset
 
 def parse_dataset(fp):
     df = pd.read_csv(fp)
@@ -32,7 +33,7 @@ class TweetDataset(Dataset):
     def __getitem__(self, idx):
         return self.padded_sequences[idx], self.labels[idx]
 
-class Loader():
+class GloveLoader():
     def load_dataset(self, device, train_fp, test_fp, glove):
         train_corpus, train_labels = parse_dataset(train_fp)
         self.train_dataset = TweetDataset(train_corpus, train_labels, glove, device)
@@ -40,4 +41,10 @@ class Loader():
         test_corpus, test_labels = parse_dataset(test_fp)
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         
+class TransformerLoader():
+    def load_dataset(self, train_fp, test_fp, tokenizer):
+        train_corpus, train_labels = parse_dataset(train_fp)
+        self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
+        test_corpus, test_labels = parse_dataset(test_fp)
+        self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
 
