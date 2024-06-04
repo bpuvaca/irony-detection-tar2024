@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import numpy as np
 import pandas as pd
 from Loader import TransformerLoader
-from torch.utils.data import DataLoader, TensorDataset
+from torch.utils.data import DataLoader
 import torch
 from transformerUtils import train_and_evaluate
 

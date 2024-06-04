@@ -18,10 +18,6 @@ class TweetDataset(Dataset):
         self.glove = glove
         self.device = device
         self.tokenized_tweets = [self.tokenize(tweet) for tweet in tweets]
-        #self.tokenized_tweets = []
-        #for tweet in tweets:
-        #    print(tweet)
-        #    self.tokenized_tweets.append(torch.stack([self.glove[word] for word in tweet.split()]))
         self.padded_sequences = pad_sequence([torch.stack(tweet) for tweet in self.tokenized_tweets], batch_first=True).to(device)
         
     def tokenize(self, tweet):
