@@ -2,3 +2,9 @@
 /nemojte/.vector_cache
 /nemojte/__pycache__
 .vector_cache
+/latex_template/nemojte-irony.aux
+/latex_template/nemojte-irony.blg
+/latex_template/nemojte-irony.fdb_latexmk
+/latex_template/nemojte-irony.fls
+/latex_template/nemojte-irony.log
+/latex_template/nemojte-irony.synctex.gz

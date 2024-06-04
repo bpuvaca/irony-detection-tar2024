@@ -113,3 +113,73 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, epochs=3):
         print(f"Epoch {epoch + 1}, Validation Accuracy: {val_accuracy}")
         print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
         print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
+
+def train_and_evaluate_deep_bertweet(model, train_dataloader, val_dataloader, criterion, epochs=3):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-2, eps=1e-8)
+    total_steps = len(train_dataloader) * epochs
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+
+    for epoch in range(epochs):
+        # Training phase
+        model.train()
+        total_train_loss = 0
+
+        for step, batch in enumerate(train_dataloader):
+            batch_input_ids = batch['input_ids'].to(device)
+
+            model.zero_grad()
+
+            outputs = model(batch_input_ids)
+
+            loss = criterion.loss(outputs, batch['labels'])
+            total_train_loss += loss.item()
+
+            loss.backward()
+            optimizer.step()
+            scheduler.step()
+
+            if step % 10 == 0 and step != 0:
+                print(f"Epoch {epoch + 1}, Step {step}, Loss {loss.item()}")
+
+        avg_train_loss = total_train_loss / len(train_dataloader)
+        print(f"Epoch {epoch + 1}, Average Training Loss: {avg_train_loss}")
+
+        # Evaluation phase
+        import torch.nn.functional as F
+
+        model.eval()
+        total_eval_loss = 0
+        all_preds = []
+        all_labels = []
+
+        for batch in val_dataloader:
+            batch_input_ids = batch['input_ids'].to(device)
+
+            with torch.no_grad():
+                outputs = model(batch_input_ids)
+
+                loss = criterion.loss(outputs, batch['labels'])
+                logits = outputs.logits
+
+            total_eval_loss += loss.item()
+
+            logits = logits.detach().cpu().numpy()
+            label_ids = batch['labels'].to('cpu').numpy()
+
+            sigmoid_logits = F.sigmoid(logits)  # Apply sigmoid function to logits
+
+            all_preds.extend(np.round(sigmoid_logits).flatten())  # Round predictions to 0 or 1
+            all_labels.extend(label_ids.flatten())
+
+        avg_val_loss = total_eval_loss / len(val_dataloader)
+        val_f1_score = f1_score(all_labels, all_preds, average='macro')
+        val_accuracy = accuracy_score(all_labels, all_preds)
+        val_precision = precision_score(all_labels, all_preds, average='macro')
+        val_recall = recall_score(all_labels, all_preds, average='macro')
+
+        print(f"Epoch {epoch + 1}, Validation Loss: {avg_val_loss}")
+        print(f"Epoch {epoch + 1}, Validation F1 Score: {val_f1_score}")
+        print(f"Epoch {epoch + 1}, Validation Accuracy: {val_accuracy}")
+        print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
+        print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")

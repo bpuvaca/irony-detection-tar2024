@@ -4,7 +4,7 @@ import pandas as pd
 from Loader import TransformerLoader
 from torch.utils.data import DataLoader
 import torch
-from transformerUtils import train_and_evaluate
+from transformerUtils import train_and_evaluate_bertweet
 
 tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base")
 model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-base", num_labels=2)
@@ -26,4 +26,4 @@ dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=Tru
 val_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
 # Train and evaluate the model
-train_and_evaluate(model, dataloader, val_dataloader, epochs=3)
+train_and_evaluate_bertweet(model, dataloader, val_dataloader, epochs=3)
