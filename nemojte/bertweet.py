@@ -34,11 +34,17 @@ def preprocess_data(texts, labels, tokenizer, max_len):
     return TensorDataset(input_ids, attention_masks, labels)
 
 # Example data
-# texts = ["I love using BERTweet!", "I dislike this model."]
-# labels = [1, 0]  # Binary labels
-df_irony = pd.read_csv("./datasets/kaggle/kaggle_irony")
-texts = df_irony["tweets"]
-labels = df_irony["labels"]
+
+df_irony = pd.read_csv("./datasets/kaggle/kaggle_irony.csv")
+
+texts = df_irony["tweets"].to_numpy()
+labels = df_irony["label"].to_numpy()
+
+permutation = np.random.permutation(len(texts))
+
+texts = texts[permutation][:1000]
+labels = labels[permutation][:1000]
+
 
 train_size = 0.8
 
@@ -51,8 +57,8 @@ labels_test = labels[int(len(labels) * train_size):]
 dataset_train = preprocess_data(texts_train, labels_train, tokenizer, max_len=128)
 dataset_test = preprocess_data(texts_test, labels_test, tokenizer, max_len=128)
 
-dataloader = DataLoader(dataset_train, batch_size=2, shuffle=True)
-val_dataloader = DataLoader(dataset_test, batch_size=2, shuffle=True)
+dataloader = DataLoader(dataset_train, batch_size=10, shuffle=True)
+val_dataloader = DataLoader(dataset_test, batch_size=10, shuffle=True)
 
 #Define the Training Loop:
 
