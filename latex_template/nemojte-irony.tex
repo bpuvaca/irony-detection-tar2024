@@ -14,12 +14,12 @@
 
 \title{Unjust Equivalence: Are Irony and Sarcasm Truly the Same in NLP?}
 
-\name{Florijan Sandalj, Bojan Puvača, Ivan Unković} 
+\name{Bojan Puvača, Florijan Sandalj, Ivan Unković} 
 
 \address{
 University of Zagreb, Faculty of Electrical Engineering and Computing\\
 Unska 3, 10000 Zagreb, Croatia\\ 
-\texttt{\{florijan.sandalj, bojan.puvaca, ivan.unkovic\}@fer.hr}\\
+\texttt{\{bojan.puvaca, florijan.sandalj, ivan.unkovic\}@fer.hr}\\
 }
           
          
@@ -33,16 +33,30 @@ Unska 3, 10000 Zagreb, Croatia\\
 \section{Introduction}
 
 \section{Irony and sarcasm in NLP}
-The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest to see when looking at different sarcasm and irony datasets, where
-we can find cases when they are treated as completely seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or even vice versa \citep{iSarcasm}
-Searching for the definite answer in the realm of linguistics is a futile effort as well, however we have found two distinctions between the two that have merit in the context of NLP.
+The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest
+to notice when looking at different sarcasm and irony datasets, where we can find cases when they are treated as completely
+seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or even vice
+versa \citep{iSarcasm}. Searching for a consensus in the realm of linguistics is a futile effort as well, however we have 
+found two distinctions between the two that have merit in the context of NLP.
 
 \subsection{Sarcasm - irony's meaner cousin}
-The online Merriam-Webster dictionary defines sarcasm as "a sharp and often satirical or ironic utterance designed to cut or give pain" \citep{mw-dictionary}. This definition seems to be in line
-with the general consensus that sarcasm is a form of irony that is more aggressive and mean-spirited. The iSarcasm dataset \citep{iSarcasm} is a good example of this categorization, as the "sarcasm"
-label is, in fact, a subset of the unfortunately named "sarcastic" label, which actually indicates any kind of ironic speech.
+The online Merriam-Webster dictionary defines sarcasm as "a sharp and often satirical or ironic utterance designed to 
+cut or give pain" \citep{mw-dictionary}. This definition seems to be in line with the general consensus that sarcasm is
+a form of irony that is more aggressive and mean-spirited. The iSarcasm dataset \citep{iSarcasm} is a good example of this 
+categorization, as the "sarcasm" label is, in fact, a subset of the unfortunately named "sarcastic" label, which actually 
+indicates any kind of ironic speech. 
+In this context, irony refers to any type of speech that is based on polarity -
+expressing with words the opposite of what we mean. Although this definition works on paper, there are some pitfalls.
+Most notably, the line between sarcasm and irony is unclear, as whether or not a statement is mean-spirited is subjective.
+Also, tweets that contain irony and aren't directed at a specific person can still be considered sarcastic, as they often
+target a group of people, concepts, ideas or themselves in the form of self-deprecating humor. How the object of the irony
+affects the classification is a question that remains unanswered.
+All things considered, this distinction is a solid starting point for NLP research, and the iSarcasm \citep{iSarcasm} dataset
+does a solid job at distinguishing between the two. However, the usefullness of this distinction is limited, as both concepts
+are based on dishonest speech, meaning that in practice there isn't much use in distinguishing between the two.
 
 \subsection{Sarcasm - the figure of speech}
+In search of a 
 
 \section{Experimental setup}
 \subsection{Sarcasm detection dataset}

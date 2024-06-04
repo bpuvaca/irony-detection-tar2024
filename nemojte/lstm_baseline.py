@@ -29,23 +29,25 @@ class BiLSTM(nn.Module):
         
         out = self.fc(out)
         return out
-   
 
-train_fp = "../datasets/train/SemEval2018-T3-train-taskA_emoji_ironyHashtags.txt"
-test_fp = "..\datasets\goldtest_TaskA\SemEval2018-T3_gold_test_taskA_emoji.txt"
+train_sarcasm = "../new_datasets/sarcasm/train_sarcasm.csv"
+test_sarcasm = "../new_datasets/sarcasm/test_sarcasm.csv"
+
+train_irony = "../new_datasets/irony/train_irony.csv"
+test_irony = "../new_datasets/irony/test_irony.csv"
 
 glove = GloVe(name='6B', dim=300)
 
 loader = Loader()
-loader.load(device, train_fp, test_fp, glove)
-
+#loader.load_dataset(device, train_sarcasm, test_sarcasm, glove)
+loader.load_dataset(device, train_irony, test_irony, glove)
 
 hidden_size = 16
-num_layers = 2
+num_layers = 4
 num_classes = 2
-batch_size = 64
+batch_size = 32
 learning_rate = 0.0005
-num_epochs = 10
+num_epochs = 40
 
 model = BiLSTM(loader.input_size, hidden_size, num_layers, num_classes).to(device)
 
@@ -53,5 +55,5 @@ criterion = nn.CrossEntropyLoss()
 
 model = Trainer().train(model, learning_rate, batch_size, num_epochs, loader.train_dataset, criterion)
 
-Evaluator().evaluate(device, glove, loader.test_corpus, loader.test_labels, model)
+Evaluator().evaluate(device, loader.test_dataset, model)
 
