@@ -1,3 +1,4 @@
 #ignore folder .vector_cache
 /nemojte/.vector_cache
 /nemojte/__pycache__
+.vector_cache
