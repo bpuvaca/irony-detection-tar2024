@@ -11,7 +11,7 @@ class Trainer:
             
     def train(self, model, learning_rate, batch_size, num_epochs, train_dataset, criterion):
 
-        optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+        optimizer = optim.Adam(model.parameters(), lr=learning_rate, )
 
         train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 

@@ -3,6 +3,7 @@ from torch.utils.data import Dataset
 from transformers import get_linear_schedule_with_warmup
 from sklearn.metrics import f1_score
 import numpy as np
+from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 class TransformerDataset(Dataset):
     def __init__(self, tweets, labels, tokenizer, max_len=128):
@@ -35,7 +36,7 @@ class TransformerDataset(Dataset):
 
 def train_and_evaluate(model, train_dataloader, val_dataloader, epochs=3):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-2, eps=1e-8)
     total_steps = len(train_dataloader) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
 
@@ -53,7 +54,7 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, epochs=3):
 
             outputs = model(
                 batch_input_ids,
-                token_type_ids=None,  # Explicitly set token_type_ids to None
+                token_type_ids=None,
                 attention_mask=batch_attention_masks,
                 labels=batch_labels
             )
@@ -85,7 +86,7 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, epochs=3):
             with torch.no_grad():
                 outputs = model(
                     batch_input_ids,
-                    token_type_ids=None,  # Explicitly set token_type_ids to None
+                    token_type_ids=None,
                     attention_mask=batch_attention_masks,
                     labels=batch_labels
                 )
@@ -102,6 +103,13 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, epochs=3):
             all_labels.extend(label_ids.flatten())
 
         avg_val_loss = total_eval_loss / len(val_dataloader)
-        val_f1_score = f1_score(all_labels, all_preds, average='weighted')
+        val_f1_score = f1_score(all_labels, all_preds, average='macro')
+        val_accuracy = accuracy_score(all_labels, all_preds)
+        val_precision = precision_score(all_labels, all_preds, average='macro')
+        val_recall = recall_score(all_labels, all_preds, average='macro')
+
         print(f"Epoch {epoch + 1}, Validation Loss: {avg_val_loss}")
         print(f"Epoch {epoch + 1}, Validation F1 Score: {val_f1_score}")
+        print(f"Epoch {epoch + 1}, Validation Accuracy: {val_accuracy}")
+        print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
+        print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")

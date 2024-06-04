@@ -7,8 +7,7 @@ import torch
 from transformerUtils import train_and_evaluate
 
 tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base")
-model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-base", num_labels=2)  # Binary classification
-
+model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-base", num_labels=2)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
@@ -18,13 +17,13 @@ train_irony = "../new_datasets/irony/train_irony.csv"
 test_irony = "../new_datasets/irony/test_irony.csv"
 
 loader = TransformerLoader()
-loader.load_dataset(train_irony, test_irony, tokenizer)
+loader.load_dataset(train_irony, train_sarcasm, tokenizer, remove_hashtags=True)
 
-batch_size = 32
+batch_size = 16
 
 # Create DataLoaders
 dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
-val_dataloader = DataLoader(loader.test_dataset, batch_size=batch_size, shuffle=False)
+val_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
 # Train and evaluate the model
-train_and_evaluate(model, dataloader, val_dataloader, epochs=5)
+train_and_evaluate(model, dataloader, val_dataloader, epochs=3)
