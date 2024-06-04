@@ -30,17 +30,18 @@ class BiLSTM(nn.Module):
         out = self.fc(out)
         return out
 
-train_sarcasm = "../new_datasets/sarcasm/train_sarcasm.csv"
-test_sarcasm = "../new_datasets/sarcasm/test_sarcasm.csv"
-
-train_irony = "../new_datasets/irony/train_irony.csv"
-test_irony = "../new_datasets/irony/test_irony.csv"
+train_sarcasm = "../sarcasm_dataset/sarcasm_train.csv"
+test_sarcasm = "../sarcasm_dataset/sarcasm_test.csv"
+valid_sarcasm = "../sarcasm_dataset/sarcasm_validation.csv"
+train_irony = "../irony_dataset/irony_train.csv"
+test_irony = "../irony_dataset/irony_test.csv"
+valid_irony = "../irony_dataset/irony_validation.csv"
 
 glove = GloVe(name='6B', dim=300)
 
 loader = GloveLoader()
-#loader.load_dataset(device, train_sarcasm, test_sarcasm, glove)
-loader.load_dataset(device, train_irony, test_irony, glove)
+
+loader.load_dataset(device, train_irony, valid_irony, test_irony, glove)
 
 hidden_size = 16
 num_layers = 4

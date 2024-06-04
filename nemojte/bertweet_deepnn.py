@@ -31,18 +31,20 @@ tokenizer = BertTokenizer.from_pretrained('vinai/bertweet-base')
 bertweet_model = BertModel.from_pretrained('vinai/bertweet-base').to(device)
 bertweet_model.to(device)
 
-train_sarcasm = "../new_datasets/sarcasm/train_sarcasm.csv"
-test_sarcasm = "../new_datasets/sarcasm/test_sarcasm.csv"
-train_irony = "../new_datasets/irony/train_irony.csv"
-test_irony = "../new_datasets/irony/test_irony.csv"
+train_sarcasm = "../sarcasm_dataset/sarcasm_train.csv"
+test_sarcasm = "../sarcasm_dataset/sarcasm_test.csv"
+valid_sarcasm = "../sarcasm_dataset/sarcasm_validation.csv"
+train_irony = "../irony_dataset/irony_train.csv"
+test_irony = "../irony_dataset/irony_test.csv"
+valid_irony = "../irony_dataset/irony_validation.csv"
 
 loader = TransformerLoader()
-loader.load_dataset(train_irony, train_sarcasm, tokenizer, remove_hashtags=True)
+loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
 
 batch_size = 16
 
 train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
-valid_dataloader = DataLoader(loader.test_dataset, batch_size=batch_size, shuffle=False)
+valid_dataloader = DataLoader(loader.valid_dataset, batch_size=batch_size, shuffle=False)
 
 model = BertweetDeepModel(bertweet_model).to(device)
 

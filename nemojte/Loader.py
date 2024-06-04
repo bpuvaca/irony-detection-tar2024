@@ -42,17 +42,21 @@ class TweetDataset(Dataset):
         return self.padded_sequences[idx], self.labels[idx]
 
 class GloveLoader():
-    def load_dataset(self, device, train_fp, test_fp, glove, remove_hashtags=False):
+    def load_dataset(self, device, train_fp, valid_fp, test_fp, glove, remove_hashtags=True):
         train_corpus, train_labels = parse_dataset(train_fp, remove_hashtags=remove_hashtags)
         self.train_dataset = TweetDataset(train_corpus, train_labels, glove, device)
         self.input_size = self.train_dataset.padded_sequences.size(-1)
+        valid_corpus, valid_labels = parse_dataset(valid_fp, remove_hashtags=remove_hashtags)
+        self.valid_dataset = TweetDataset(valid_corpus, valid_labels, glove, device)
         test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         
 class TransformerLoader():
-    def load_dataset(self, train_fp, test_fp, tokenizer, remove_hashtags=False):
+    def load_dataset(self, train_fp, valid_fp ,test_fp, tokenizer, remove_hashtags=True):
         train_corpus, train_labels = parse_dataset(train_fp, remove_hashtags=remove_hashtags)
         self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
+        valid_corpus, valid_labels = parse_dataset(valid_fp, remove_hashtags=remove_hashtags)
+        self.valid_dataset = TransformerDataset(valid_corpus, valid_labels, tokenizer)
         test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
 
