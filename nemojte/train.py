@@ -228,6 +228,11 @@ def train_transformer_deep(model, train_dataloader, val_dataloader, epochs=10, e
 
     if early_stopping:
         model.load_state_dict(prev_params)
+    
+    if save_path is not None:
+        if not save_path.endswith(".pt"):
+            save_path += ".pt"
+        torch.save(model.state_dict(), "../params/" + save_path)
 
     if save_path is not None:
         save_model(model, save_path)
