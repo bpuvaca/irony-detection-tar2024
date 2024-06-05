@@ -5,33 +5,29 @@ from torch.utils.data import DataLoader
 from Loader import TransformerLoader
 import train
 
-class TransformerCNNModel(nn.Module):
-    def __init__(self, base_model, num_labels, max_len):
-        super(TransformerCNNModel, self).__init__()
+class TransformerBiLSTMModel(nn.Module):
+    def __init__(self, base_model, num_labels, hidden_size=64, num_layers=2, dropout=0.1):
+        super(TransformerBiLSTMModel, self).__init__()
         self.bert = base_model
-        self.conv1 = nn.Conv1d(in_channels=768, out_channels=256, kernel_size=3, padding=1)
-        self.conv2 = nn.Conv1d(in_channels=256, out_channels=128, kernel_size=3, padding=1)
-        self.pool = nn.MaxPool1d(kernel_size=2)
-        self.dropout = nn.Dropout(0.1)
-        self.fc = nn.Linear(4096, num_labels)  
+        self.bilstm = nn.LSTM(input_size=768, hidden_size=hidden_size, num_layers=num_layers, bidirectional=True, batch_first=True, dropout=dropout)
+        self.dropout = nn.Dropout(dropout)
+        self.fc = nn.Linear(hidden_size * 2, num_labels)
 
     def forward(self, input_ids, attention_mask=None):
         outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
-        sequence_output = outputs.last_hidden_state.transpose(1, 2) 
-        conv_output = self.pool(nn.ReLU()(self.conv1(sequence_output)))
-        conv_output = self.pool(nn.ReLU()(self.conv2(conv_output)))
-        flat_output = conv_output.view(conv_output.size(0), -1)  
-        dropout_output = self.dropout(flat_output)
+        sequence_output = outputs.last_hidden_state
+        lstm_output, _ = self.bilstm(sequence_output)
+        pooled_output = lstm_output.mean(dim=1)
+        dropout_output = self.dropout(pooled_output)
         logits = self.fc(dropout_output)
         return logits
-
+    
 transformer_model = "vinai/bertweet-base"
 tokenizer = AutoTokenizer.from_pretrained(transformer_model)
 base_model = AutoModel.from_pretrained(transformer_model)
 
 num_labels = 2
-max_len = 200
-model = TransformerCNNModel(base_model, num_labels, max_len)
+model = TransformerBiLSTMModel(base_model, num_labels)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
