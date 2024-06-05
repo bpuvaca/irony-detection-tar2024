@@ -115,7 +115,7 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, epochs=3):
         print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
         print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
         
-def train_eval_test(model, train_dataloader, val_dataloader, test_dataloader, epochs=3, early_stopping=False):
+def train_eval_test(model, train_dataloader, val_dataloader, test_dataloader, epochs=3, early_stopping=False, save_model=False, save_path=None):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
@@ -244,10 +244,13 @@ def train_eval_test(model, train_dataloader, val_dataloader, test_dataloader, ep
     test_recall = recall_score(all_labels, all_preds, average='macro')
 
     print(f"Test Loss: {avg_test_loss}")
-    print(f"Epoch {epoch + 1}, Validation F1 Score: {test_f1_score}")
-    print(f"Epoch {epoch + 1}, Validation Accuracy: {test_accuracy}")
-    print(f"Epoch {epoch + 1}, Validation Precision: {test_precision}")
-    print(f"Epoch {epoch + 1}, Validation Recall: {test_recall}")
+    print(f"Test F1 Score: {test_f1_score}")
+    print(f"Test Accuracy: {test_accuracy}")
+    print(f"Test Precision: {test_precision}")
+    print(f"Test Recall: {test_recall}")
+    
+    params = model.state_dict()
+    torch.save(params, )
 
 def train_and_evaluate_deep_bertweet(model, train_dataloader, val_dataloader, criterion, epochs=3):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
