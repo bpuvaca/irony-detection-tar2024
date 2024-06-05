@@ -31,7 +31,17 @@ def train_baseline(self, model, learning_rate, batch_size, num_epochs, train_dat
     
     return model
 
-def train_eval_test_bertweet(model, train_dataloader, val_dataloader, test_dataloader, epochs=3, early_stopping=False):
+def train_eval_test_bertweet(model, train_dataloader, val_dataloader, test_dataloader, epochs=3, early_stopping=False, save_path:str=None):
+    """
+
+    Args:
+    save_path(str): parameters of the trained model will be saved to params/[save_path], 
+    first folder should describe the model and second should describe 
+    the dataset used for training, 
+    e.g. save_path="bertweet/sarcasm.pt"
+    default value is None and the params won't be saved 
+    
+    """
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
@@ -122,6 +132,12 @@ def train_eval_test_bertweet(model, train_dataloader, val_dataloader, test_datal
                 prev_params = model.state_dict()
             
     if (early_stopping): model.load_state_dict(prev_params)
+    
+    if save_path is not None:
+        if not save_path.endswith(".pt"):
+            save_path += ".pt"
+        torch.save(model.state_dict(), "../params/" + save_path)
+
 
     # Test phase
     model.eval()
@@ -165,7 +181,17 @@ def train_eval_test_bertweet(model, train_dataloader, val_dataloader, test_datal
     print(f"Epoch {epoch + 1}, Validation Precision: {test_precision}")
     print(f"Epoch {epoch + 1}, Validation Recall: {test_recall}")
 
-def train_eval_test_transformer_deep(model, train_dataloader, val_dataloader, test_dataloader, epochs=10, early_stopping=False):
+def train_eval_test_transformer_deep(model, train_dataloader, val_dataloader, test_dataloader, epochs=10, early_stopping=False, save_path:str=None):
+    """
+
+    Args:
+    save_path(str): parameters of the trained model will be saved to params/[save_path], 
+    first folder should describe the model and second should describe 
+    the dataset used for training, 
+    e.g. save_path="transformerCNN/sarcasm"
+    default value is None and the params won't be saved 
+
+    """
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
@@ -252,6 +278,11 @@ def train_eval_test_transformer_deep(model, train_dataloader, val_dataloader, te
     
     if early_stopping:
         model.load_state_dict(prev_params)
+    
+    if save_path is not None:
+        if not save_path.endswith(".pt"):
+            save_path += ".pt"
+        torch.save(model.state_dict(), "../params/" + save_path)
 
     # Test phase
     model.eval()
