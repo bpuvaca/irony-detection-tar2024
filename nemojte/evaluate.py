@@ -1,6 +1,5 @@
 import torch
 from sklearn import metrics
-from Loader import pad_sequence
 
 class Evaluator:
     def evaluate(self, device, test_dataset, model):

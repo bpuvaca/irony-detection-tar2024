@@ -5,8 +5,9 @@ from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
 from sklearn import metrics
 from Loader import GloveLoader
-from Evaluator import Evaluator
-from Trainer import Trainer
+from nemojte.evaluate import Evaluator
+import train
+import evaluate
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -54,7 +55,7 @@ model = BiLSTM(loader.input_size, hidden_size, num_layers, num_classes).to(devic
 
 criterion = nn.CrossEntropyLoss()
 
-model = Trainer().train(model, learning_rate, batch_size, num_epochs, loader.train_dataset, criterion)
+model = train.train_baseline(model, learning_rate, batch_size, num_epochs, loader.train_dataset, criterion)
 
-Evaluator().evaluate(device, loader.test_dataset, model)
+evaluate.evaluate(device, loader.test_dataset, model)
 

@@ -2,9 +2,8 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from transformerUtils import train_eval_test_roberta
 from Loader import TransformerLoader
-
+import train
 
 class ConvRobertaModel(nn.Module):
     def __init__(self, base_model, num_labels, max_len):
@@ -26,8 +25,9 @@ class ConvRobertaModel(nn.Module):
         logits = self.fc(dropout_output)
         return logits
 
-tokenizer = AutoTokenizer.from_pretrained("roberta-base")
-base_model = AutoModel.from_pretrained("roberta-base")
+transformer_model = "vinai/bertweet-base"
+tokenizer = AutoTokenizer.from_pretrained(transformer_model)
+base_model = AutoModel.from_pretrained(transformer_model)
 
 num_labels = 2
 max_len = 200
@@ -38,9 +38,13 @@ model.to(device)
 train_sarcasm = "../datasets/sarcasm/sarcasm_train.csv"
 test_sarcasm = "../datasets/sarcasm/sarcasm_test.csv"
 valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
+train_irony = "../datasets/irony/irony_train.csv"
+test_irony = "../datasets/irony/irony_test.csv"
+valid_irony = "../datasets/irony/irony_valid.csv"
 
 loader = TransformerLoader()
-loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
+#loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
+loader.load_dataset(train_irony, valid_irony, test_irony, tokenizer, remove_hashtags=True)
 
 batch_size = 16
 
@@ -48,4 +52,4 @@ train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuff
 valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
 test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
-train_eval_test_roberta(model, train_dataloader, valid_dataloader, test_dataloader, epochs=5, early_stopping=True)
+train.train_eval_test_transformer_cnn(model, train_dataloader, valid_dataloader, test_dataloader, epochs=10, early_stopping=True)

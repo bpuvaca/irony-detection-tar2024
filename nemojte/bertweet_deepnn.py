@@ -6,8 +6,8 @@ from torch.utils.data import DataLoader
 from Loader import TransformerLoader
 from transformerUtils import train_and_evaluate_deep_bertweet
 
-from Trainer import Trainer
 from torch.nn import BCEWithLogitsLoss
+import train
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -52,7 +52,6 @@ valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=Fals
 
 model = BertweetDeepModel(bertweet_model).to(device)
 
-trainer = Trainer()
 criterion = BCEWithLogitsLoss()
 
-train_and_evaluate_deep_bertweet(model, train_dataloader, valid_dataloader, criterion, 3)
+train.train_eval_test_deep_bertweet(model, train_dataloader, valid_dataloader, criterion, 3)
