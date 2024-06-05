@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.nn.utils.rnn import pad_sequence
-from torchtext.vocab import GloVe
 from transformers import get_linear_schedule_with_warmup
 from sklearn.metrics import f1_score
 import numpy as np

@@ -25,7 +25,8 @@ class TransformerCNNModel(nn.Module):
         logits = self.fc(dropout_output)
         return logits
 
-transformer_model = "vinai/bertweet-base"
+#transformer_model = "vinai/bertweet-base"
+transformer_model = "roberta-base"
 tokenizer = AutoTokenizer.from_pretrained(transformer_model)
 base_model = AutoModel.from_pretrained(transformer_model)
 
@@ -44,7 +45,7 @@ valid_irony = "../datasets/irony/irony_valid.csv"
 
 loader = TransformerLoader()
 #loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
-loader.load_dataset(train_irony, valid_irony, test_irony, tokenizer, remove_hashtags=True)
+loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
 
 batch_size = 16
 
