@@ -29,7 +29,7 @@ class BertweetDeepModel(nn.Module):
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output).squeeze(-1)
         return logits
-    
+
 tokenizer = BertTokenizer.from_pretrained('vinai/bertweet-base')
 bertweet_model = BertModel.from_pretrained('vinai/bertweet-base').to(device)
 bertweet_model.to(device)
