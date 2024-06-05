@@ -31,12 +31,13 @@ tokenizer = BertTokenizer.from_pretrained('vinai/bertweet-base')
 bertweet_model = BertModel.from_pretrained('vinai/bertweet-base').to(device)
 bertweet_model.to(device)
 
-train_sarcasm = "../sarcasm_dataset/sarcasm_train.csv"
-test_sarcasm = "../sarcasm_dataset/sarcasm_test.csv"
-valid_sarcasm = "../sarcasm_dataset/sarcasm_validation.csv"
-train_irony = "../irony_dataset/irony_train.csv"
-test_irony = "../irony_dataset/irony_test.csv"
-valid_irony = "../irony_dataset/irony_validation.csv"
+
+train_sarcasm = "../datasets/sarcasm/sarcasm_train.csv"
+test_sarcasm = "../datasets/sarcasm/sarcasm_test.csv"
+valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
+train_irony = "../datasets/irony/irony_train.csv"
+test_irony = "../datasets/irony/irony_test.csv"
+valid_irony = "../datasets/irony/irony_valid.csv"
 
 loader = TransformerLoader()
 loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
