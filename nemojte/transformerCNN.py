@@ -5,9 +5,9 @@ from torch.utils.data import DataLoader
 from Loader import TransformerLoader
 import train
 
-class ConvRobertaModel(nn.Module):
+class TransformerCNNModel(nn.Module):
     def __init__(self, base_model, num_labels, max_len):
-        super(ConvRobertaModel, self).__init__()
+        super(TransformerCNNModel, self).__init__()
         self.bert = base_model
         self.conv1 = nn.Conv1d(in_channels=768, out_channels=256, kernel_size=3, padding=1)
         self.conv2 = nn.Conv1d(in_channels=256, out_channels=128, kernel_size=3, padding=1)
@@ -31,7 +31,7 @@ base_model = AutoModel.from_pretrained(transformer_model)
 
 num_labels = 2
 max_len = 200
-model = ConvRobertaModel(base_model, num_labels, max_len)
+model = TransformerCNNModel(base_model, num_labels, max_len)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 

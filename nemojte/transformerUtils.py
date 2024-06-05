@@ -29,4 +29,3 @@ class TransformerDataset(Dataset):
             'attention_mask': encoding['attention_mask'].squeeze(0),
             'labels': torch.tensor(label, dtype=torch.long)
         }
-

@@ -294,7 +294,6 @@ def train_eval_test_transformer_cnn(model, train_dataloader, val_dataloader, tes
     prev_val_f1 = 0
 
     for epoch in range(epochs):
-        # Training phase
         model.train()
         total_train_loss = 0
 
