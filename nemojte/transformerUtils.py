@@ -429,3 +429,209 @@ def train_eval_test_deep_bertweet(model, train_dataloader, val_dataloader, test_
     print(f"Test Accuracy: {test_accuracy}")
     print(f"Test Precision: {test_precision}")
     print(f"Test Recall: {test_recall}")
+
+
+def train_and_evaluate_roberta(model, train_dataloader, val_dataloader, epochs=3):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
+    total_steps = len(train_dataloader) * epochs
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+
+    for epoch in range(epochs):
+        # Training phase
+        model.train()
+        total_train_loss = 0
+
+        for step, batch in enumerate(train_dataloader):
+            batch_input_ids = batch['input_ids'].to(device)
+            batch_attention_masks = batch['attention_mask'].to(device)
+            batch_labels = batch['labels'].to(device)
+
+            model.zero_grad()
+
+            outputs = model(
+                input_ids=batch_input_ids,
+                attention_mask=batch_attention_masks
+            )
+
+            loss = nn.CrossEntropyLoss()(outputs, batch_labels)
+            total_train_loss += loss.item()
+
+            loss.backward()
+            optimizer.step()
+            scheduler.step()
+
+            if step % 10 == 0 and step != 0:
+                print(f"Epoch {epoch + 1}, Step {step}, Loss {loss.item()}")
+
+        avg_train_loss = total_train_loss / len(train_dataloader)
+        print(f"Epoch {epoch + 1}, Average Training Loss: {avg_train_loss}")
+
+        # Evaluation phase
+        model.eval()
+        total_eval_loss = 0
+        all_preds = []
+        all_labels = []
+
+        for batch in val_dataloader:
+            batch_input_ids = batch['input_ids'].to(device)
+            batch_attention_masks = batch['attention_mask'].to(device)
+            batch_labels = batch['labels'].to(device)
+
+            with torch.no_grad():
+                outputs = model(
+                    input_ids=batch_input_ids,
+                    attention_mask=batch_attention_masks
+                )
+
+                loss = nn.CrossEntropyLoss()(outputs, batch_labels)
+                logits = outputs
+
+            total_eval_loss += loss.item()
+
+            logits = logits.detach().cpu().numpy()
+            label_ids = batch_labels.to('cpu').numpy()
+
+            all_preds.extend(np.argmax(logits, axis=1).flatten())
+            all_labels.extend(label_ids.flatten())
+
+        avg_val_loss = total_eval_loss / len(val_dataloader)
+        val_f1_score = f1_score(all_labels, all_preds, average='macro')
+        val_accuracy = accuracy_score(all_labels, all_preds)
+        val_precision = precision_score(all_labels, all_preds, average='macro')
+        val_recall = recall_score(all_labels, all_preds, average='macro')
+
+        print(f"Epoch {epoch + 1}, Validation Loss: {avg_val_loss}")
+        print(f"Epoch {epoch + 1}, Validation F1 Score: {val_f1_score}")
+        print(f"Epoch {epoch + 1}, Validation Accuracy: {val_accuracy}")
+        print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
+        print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
+
+def train_eval_test_roberta(model, train_dataloader, val_dataloader, test_dataloader, epochs=3, early_stopping=False):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
+    total_steps = len(train_dataloader) * epochs
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+    prev_params = model.state_dict()
+    prev_val_f1 = 0
+
+    for epoch in range(epochs):
+        # Training phase
+        model.train()
+        total_train_loss = 0
+
+        for step, batch in enumerate(train_dataloader):
+            batch_input_ids = batch['input_ids'].to(device)
+            batch_attention_masks = batch['attention_mask'].to(device)
+            batch_labels = batch['labels'].to(device)
+
+            model.zero_grad()
+
+            outputs = model(
+                input_ids=batch_input_ids,
+                attention_mask=batch_attention_masks
+            )
+
+            loss = nn.CrossEntropyLoss()(outputs, batch_labels)
+            total_train_loss += loss.item()
+
+            loss.backward()
+            optimizer.step()
+            scheduler.step()
+
+            if step % 10 == 0 and step != 0:
+                print(f"Epoch {epoch + 1}, Step {step}, Loss {loss.item()}")
+
+        avg_train_loss = total_train_loss / len(train_dataloader)
+        print(f"Epoch {epoch + 1}, Average Training Loss: {avg_train_loss}")
+
+        # Evaluation phase
+        model.eval()
+        total_eval_loss = 0
+        all_preds = []
+        all_labels = []
+
+        for batch in val_dataloader:
+            batch_input_ids = batch['input_ids'].to(device)
+            batch_attention_masks = batch['attention_mask'].to(device)
+            batch_labels = batch['labels'].to(device)
+
+            with torch.no_grad():
+                outputs = model(
+                    input_ids=batch_input_ids,
+                    attention_mask=batch_attention_masks
+                )
+
+                loss = nn.CrossEntropyLoss()(outputs, batch_labels)
+                logits = outputs
+
+            total_eval_loss += loss.item()
+
+            logits = logits.detach().cpu().numpy()
+            label_ids = batch_labels.to('cpu').numpy()
+
+            all_preds.extend(np.argmax(logits, axis=1).flatten())
+            all_labels.extend(label_ids.flatten())
+
+        avg_val_loss = total_eval_loss / len(val_dataloader)
+        val_f1_score = f1_score(all_labels, all_preds, average='macro')
+        val_accuracy = accuracy_score(all_labels, all_preds)
+        val_precision = precision_score(all_labels, all_preds, average='macro')
+        val_recall = recall_score(all_labels, all_preds, average='macro')
+
+        print(f"Epoch {epoch + 1}, Validation Loss: {avg_val_loss}")
+        print(f"Epoch {epoch + 1}, Validation F1 Score: {val_f1_score}")
+        print(f"Epoch {epoch + 1}, Validation Accuracy: {val_accuracy}")
+        print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
+        print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
+
+        if early_stopping:
+            if val_f1_score < prev_val_f1:
+                print("F1 on validation set is declining, early stopping is activated")
+                break
+            else:
+                prev_val_f1 = val_f1_score
+                prev_params = model.state_dict()
+    
+    if early_stopping:
+        model.load_state_dict(prev_params)
+
+    # Test phase
+    model.eval()
+    total_test_loss = 0
+    all_preds = []
+    all_labels = []
+
+    for batch in test_dataloader:
+        batch_input_ids = batch['input_ids'].to(device)
+        batch_attention_masks = batch['attention_mask'].to(device)
+        batch_labels = batch['labels'].to(device)
+
+        with torch.no_grad():
+            outputs = model(
+                input_ids=batch_input_ids,
+                attention_mask=batch_attention_masks
+            )
+
+            loss = nn.CrossEntropyLoss()(outputs, batch_labels)
+            logits = outputs
+
+        total_test_loss += loss.item()
+
+        logits = logits.detach().cpu().numpy()
+        label_ids = batch_labels.to('cpu').numpy()
+
+        all_preds.extend(np.argmax(logits, axis=1).flatten())
+        all_labels.extend(label_ids.flatten())
+
+    avg_test_loss = total_test_loss / len(test_dataloader)
+    test_f1_score = f1_score(all_labels, all_preds, average='macro')
+    test_accuracy = accuracy_score(all_labels, all_preds)
+    test_precision = precision_score(all_labels, all_preds, average='macro')
+    test_recall = recall_score(all_labels, all_preds, average='macro')
+
+    print(f"Test Loss: {avg_test_loss}")
+    print(f"Test F1 Score: {test_f1_score}")
+    print(f"Test Accuracy: {test_accuracy}")
+    print(f"Test Precision: {test_precision}")
+    print(f"Test Recall: {test_recall}")
