@@ -26,32 +26,38 @@ class TransformerCNNModel(nn.Module):
         logits = self.fc(dropout_output)
         return logits
 
-#transformer_model = "vinai/bertweet-base"
-transformer_model = "roberta-base"
-tokenizer = AutoTokenizer.from_pretrained(transformer_model)
-base_model = AutoModel.from_pretrained(transformer_model)
+def main():
+    transformer_model = "vinai/bertweet-base"
+    #transformer_model = "roberta-base"
+    tokenizer = AutoTokenizer.from_pretrained(transformer_model)
+    base_model = AutoModel.from_pretrained(transformer_model)
 
-num_labels = 2
-model = TransformerCNNModel(base_model, num_labels)
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model.to(device)
+    num_labels = 2
+    model = TransformerCNNModel(base_model, num_labels)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model.to(device)
 
-train_sarcasm = "../datasets/sarcasm/sarcasm_train.csv"
-test_sarcasm = "../datasets/sarcasm/sarcasm_test.csv"
-valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
-train_irony = "../datasets/irony/irony_train.csv"
-test_irony = "../datasets/irony/irony_test.csv"
-valid_irony = "../datasets/irony/irony_valid.csv"
+    train_sarcasm = "../datasets/sarcasm/sarcasm_train.csv"
+    test_sarcasm = "../datasets/sarcasm/sarcasm_test.csv"
+    valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
+    train_irony = "../datasets/irony/irony_train.csv"
+    test_irony = "../datasets/irony/irony_test.csv"
+    valid_irony = "../datasets/irony/irony_valid.csv"
 
-loader = TransformerLoader()
-#loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
-loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
+    loader = TransformerLoader()
+    #loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
+    loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
 
-batch_size = 16
+    batch_size = 16
 
-train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
-valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
-test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
+    train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
+    valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
+    test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
-train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True)
-evaluate.evaluate_transformer_deep(model, test_dataloader)
+    save_path = "roberta_cnn/sarcasm"
+
+    train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True, save_path=save_path)
+    evaluate.evaluate_transformer_deep(model, test_dataloader)
+
+if __name__ == "__main__":
+    main()
