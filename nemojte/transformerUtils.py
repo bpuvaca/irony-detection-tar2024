@@ -3,6 +3,7 @@ from torch.utils.data import Dataset
 from transformers import get_linear_schedule_with_warmup
 from sklearn.metrics import f1_score
 import numpy as np
+import torch.nn as nn
 from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 class TransformerDataset(Dataset):
@@ -116,9 +117,8 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, epochs=3):
 
 def train_and_evaluate_deep_bertweet(model, train_dataloader, val_dataloader, criterion, epochs=3):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-2, eps=1e-8)
-    total_steps = len(train_dataloader) * epochs
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+    optimizer = torch.optim.Adam(model.parameters(), lr=5e-8, weight_decay=1e-5, eps=1e-8)
+    model.to(device)
 
     for epoch in range(epochs):
         # Training phase
@@ -126,19 +126,17 @@ def train_and_evaluate_deep_bertweet(model, train_dataloader, val_dataloader, cr
         total_train_loss = 0
 
         for step, batch in enumerate(train_dataloader):
-            batch_input_ids = batch['input_ids'].to(device)
+            input_ids = batch['input_ids'].to(device)
+            labels = batch['labels'].to(device)
 
-            model.zero_grad()
+            optimizer.zero_grad()
 
-            outputs = model(batch_input_ids)
-
-            loss = criterion.loss(outputs, batch['labels'])
+            logits = model(input_ids)
+            loss = criterion(logits, labels.float())
             total_train_loss += loss.item()
 
             loss.backward()
             optimizer.step()
-            scheduler.step()
-
             if step % 10 == 0 and step != 0:
                 print(f"Epoch {epoch + 1}, Step {step}, Loss {loss.item()}")
 
@@ -146,31 +144,25 @@ def train_and_evaluate_deep_bertweet(model, train_dataloader, val_dataloader, cr
         print(f"Epoch {epoch + 1}, Average Training Loss: {avg_train_loss}")
 
         # Evaluation phase
-        import torch.nn.functional as F
-
         model.eval()
         total_eval_loss = 0
         all_preds = []
         all_labels = []
 
         for batch in val_dataloader:
-            batch_input_ids = batch['input_ids'].to(device)
+            input_ids = batch['input_ids'].to(device)
+            labels = batch['labels'].to(device)
 
             with torch.no_grad():
-                outputs = model(batch_input_ids)
+                logits = model(input_ids)
+                loss = criterion(logits, labels.float())
+                total_eval_loss += loss.item()
 
-                loss = criterion.loss(outputs, batch['labels'])
-                logits = outputs.logits
+                preds = torch.sigmoid(logits).round().cpu().numpy()
+                label_ids = labels.cpu().numpy()
 
-            total_eval_loss += loss.item()
-
-            logits = logits.detach().cpu().numpy()
-            label_ids = batch['labels'].to('cpu').numpy()
-
-            sigmoid_logits = F.sigmoid(logits)  # Apply sigmoid function to logits
-
-            all_preds.extend(np.round(sigmoid_logits).flatten())  # Round predictions to 0 or 1
-            all_labels.extend(label_ids.flatten())
+                all_preds.extend(preds)
+                all_labels.extend(label_ids)
 
         avg_val_loss = total_eval_loss / len(val_dataloader)
         val_f1_score = f1_score(all_labels, all_preds, average='macro')
@@ -183,3 +175,4 @@ def train_and_evaluate_deep_bertweet(model, train_dataloader, val_dataloader, cr
         print(f"Epoch {epoch + 1}, Validation Accuracy: {val_accuracy}")
         print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
         print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
+
