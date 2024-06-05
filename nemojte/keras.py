@@ -35,9 +35,9 @@ model = ConvRobertaModel(base_model, num_labels, max_len)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
-train_sarcasm = "../datasets/sarcasm/sarcasm_train.csv"
-test_sarcasm = "../datasets/sarcasm/sarcasm_test.csv"
-valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
+train_sarcasm = "../datasets/irony_taskA/irony_train_taskA.csv"
+test_sarcasm = "../datasets/irony_taskA/irony_test_taskA.csv"
+valid_sarcasm = "../datasets/irony_taskA/irony_validation_taskA.csv"
 
 loader = TransformerLoader()
 loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
