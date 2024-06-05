@@ -7,6 +7,7 @@ from sklearn.metrics import f1_score
 import numpy as np
 import torch.nn as nn
 from sklearn.metrics import accuracy_score, precision_score, recall_score
+import os
             
 def train_baseline(self, model, learning_rate, batch_size, num_epochs, train_dataset, criterion):
 
@@ -31,7 +32,19 @@ def train_baseline(self, model, learning_rate, batch_size, num_epochs, train_dat
     
     return model
 
-def train_eval_test_bertweet(model, train_dataloader, val_dataloader, test_dataloader, epochs=3, early_stopping=False):
+def save_model(model, path):
+    if not path.endswith(".pt"):
+        path += ".pt"
+    full_path = "../params/" + path
+    os.makedirs(os.path.dirname(full_path), exist_ok=True)
+    if os.path.exists(full_path):
+        print(f"Parameters with path {path} already exist")
+    else:
+        torch.save(model.state_dict(), full_path)
+        print(f"Model parameters saved to {full_path}")
+    
+
+def train_bertweet(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
@@ -113,59 +126,22 @@ def train_eval_test_bertweet(model, train_dataloader, val_dataloader, test_datal
         print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
         print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
 
-        if (early_stopping):
-            if (val_f1_score < prev_val_f1):
+        if early_stopping:
+            if val_f1_score < prev_val_f1:
                 print("F1 on validation set is declining, early stopping is activated")
                 break
             else:
                 prev_val_f1 = val_f1_score
                 prev_params = model.state_dict()
-            
-    if (early_stopping): model.load_state_dict(prev_params)
 
-    # Test phase
-    model.eval()
-    total_test_loss = 0
-    all_preds = []
-    all_labels = []
+    if early_stopping:
+        model.load_state_dict(prev_params)
 
-    for batch in test_dataloader:
-        batch_input_ids = batch['input_ids'].to(device)
-        batch_attention_masks = batch['attention_mask'].to(device)
-        batch_labels = batch['labels'].to(device)
+    if save_path is not None:
+        save_model(model, save_path)
 
-        with torch.no_grad():
-            outputs = model(
-                batch_input_ids,
-                token_type_ids=None,
-                attention_mask=batch_attention_masks,
-                labels=batch_labels
-            )
 
-            loss = outputs.loss
-            logits = outputs.logits
-
-        total_test_loss += loss.item()
-
-        logits = logits.detach().cpu().numpy()
-        label_ids = batch_labels.to('cpu').numpy()
-
-        all_preds.extend(np.argmax(logits, axis=1).flatten())
-        all_labels.extend(label_ids.flatten())
-
-    avg_test_loss = total_test_loss / len(test_dataloader)
-    test_f1_score = f1_score(all_labels, all_preds, average='macro')
-    test_accuracy = accuracy_score(all_labels, all_preds)
-    test_precision = precision_score(all_labels, all_preds, average='macro')
-    test_recall = recall_score(all_labels, all_preds, average='macro')
-
-    print(f"Test Loss: {avg_test_loss}")
-    print(f"Epoch {epoch + 1}, Validation F1 Score: {test_f1_score}")
-    print(f"Epoch {epoch + 1}, Validation Accuracy: {test_accuracy}")
-    print(f"Epoch {epoch + 1}, Validation Precision: {test_precision}")
-    print(f"Epoch {epoch + 1}, Validation Recall: {test_recall}")
-
-def train_eval_test_transformer_deep(model, train_dataloader, val_dataloader, test_dataloader, epochs=10, early_stopping=False):
+def train_transformer_deep(model, train_dataloader, val_dataloader, epochs=10, early_stopping=False, save_path: str = None):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
@@ -249,46 +225,9 @@ def train_eval_test_transformer_deep(model, train_dataloader, val_dataloader, te
             else:
                 prev_val_f1 = val_f1_score
                 prev_params = model.state_dict()
-    
+
     if early_stopping:
         model.load_state_dict(prev_params)
 
-    # Test phase
-    model.eval()
-    total_test_loss = 0
-    all_preds = []
-    all_labels = []
-
-    for batch in test_dataloader:
-        batch_input_ids = batch['input_ids'].to(device)
-        batch_attention_masks = batch['attention_mask'].to(device)
-        batch_labels = batch['labels'].to(device)
-
-        with torch.no_grad():
-            outputs = model(
-                input_ids=batch_input_ids,
-                attention_mask=batch_attention_masks
-            )
-
-            loss = nn.CrossEntropyLoss()(outputs, batch_labels)
-            logits = outputs
-
-        total_test_loss += loss.item()
-
-        logits = logits.detach().cpu().numpy()
-        label_ids = batch_labels.to('cpu').numpy()
-
-        all_preds.extend(np.argmax(logits, axis=1).flatten())
-        all_labels.extend(label_ids.flatten())
-
-    avg_test_loss = total_test_loss / len(test_dataloader)
-    test_f1_score = f1_score(all_labels, all_preds, average='macro')
-    test_accuracy = accuracy_score(all_labels, all_preds)
-    test_precision = precision_score(all_labels, all_preds, average='macro')
-    test_recall = recall_score(all_labels, all_preds, average='macro')
-
-    print(f"Test Loss: {avg_test_loss}")
-    print(f"Test F1 Score: {test_f1_score}")
-    print(f"Test Accuracy: {test_accuracy}")
-    print(f"Test Precision: {test_precision}")
-    print(f"Test Recall: {test_recall}")
+    if save_path is not None:
+        save_model(model, save_path)

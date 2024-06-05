@@ -5,6 +5,7 @@ from Loader import TransformerLoader
 from torch.utils.data import DataLoader
 import torch
 import train
+import evaluate
 
 tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base")
 model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-base", num_labels=2)
@@ -30,4 +31,5 @@ valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=Fals
 test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
 # Train and evaluate the model
-train.train_eval_test_bertweet(model, train_dataloader, valid_dataloader, test_dataloader, epochs=10, early_stopping=True)
+train.train_bertweet(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True)
+evaluate.evaluate_bertweet(model, test_dataloader)

@@ -50,6 +50,10 @@ class GloveLoader():
         self.valid_dataset = TweetDataset(valid_corpus, valid_labels, glove, device)
         test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
+    
+    def load_test_dataset(self, device, test_fp, glove, remove_hashtags=True):
+        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
+        self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         
 class TransformerLoader():
     def load_dataset(self, train_fp, valid_fp ,test_fp, tokenizer, remove_hashtags=True):
@@ -57,6 +61,10 @@ class TransformerLoader():
         self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
         valid_corpus, valid_labels = parse_dataset(valid_fp, remove_hashtags=remove_hashtags)
         self.valid_dataset = TransformerDataset(valid_corpus, valid_labels, tokenizer)
+        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
+        self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
+        
+    def load_test_dataset(self, test_fp, tokenizer, remove_hashtags=True):
         test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags)
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
 

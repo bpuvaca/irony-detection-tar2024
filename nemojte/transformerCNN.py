@@ -4,9 +4,10 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from Loader import TransformerLoader
 import train
+import evaluate
 
 class TransformerCNNModel(nn.Module):
-    def __init__(self, base_model, num_labels, max_len):
+    def __init__(self, base_model, num_labels):
         super(TransformerCNNModel, self).__init__()
         self.bert = base_model
         self.conv1 = nn.Conv1d(in_channels=768, out_channels=256, kernel_size=3, padding=1)
@@ -31,8 +32,7 @@ tokenizer = AutoTokenizer.from_pretrained(transformer_model)
 base_model = AutoModel.from_pretrained(transformer_model)
 
 num_labels = 2
-max_len = 200
-model = TransformerCNNModel(base_model, num_labels, max_len)
+model = TransformerCNNModel(base_model, num_labels)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
@@ -53,4 +53,5 @@ train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuff
 valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
 test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
-train.train_eval_test_transformer_deep(model, train_dataloader, valid_dataloader, test_dataloader, epochs=10, early_stopping=True)
+train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True)
+evaluate.evaluate_transformer_deep(model, test_dataloader)
