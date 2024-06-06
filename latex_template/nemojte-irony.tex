@@ -37,7 +37,14 @@ currently available irony and sarcasm detection datasets and analyze the ways in
 concepts.
 
 Our goal is to determine the practical usefulness of the currently most popular definition of irony and sarcasm in NLP, which
-states that sarcasm is a sharp, mean-spirited form of irony. 
+states that sarcasm is a sharp, mean-spirited form of irony. We conduct a meta-analysis of the performance of different
+models on the tasks of irony and sarcasm detection in order to determine the amount of overlap between the two tasks and
+whether or not this definition makes sense in practice by examining how well models trained on one task perform on the other.
+
+As both irony and sarcasm are based on polarity, we hypothesize that models that perform well on one task will also perform
+well on the other, in which case the current distinction between the two wouldn't be of much use, and we would be better off
+either treating the detection of the two as the same task or creating a more useful distinction between the two in the context
+of NLP.
 
 \section{Irony and sarcasm in NLP}
 The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest
@@ -66,8 +73,8 @@ does a solid job at distinguishing between the two. However, the usefulness of t
 are based on dishonest speech, meaning that in practice there isn't much use in distinguishing between the two.
 
 In this paper, we will take a closer look at how different models perform on the seperate tasks of irony and sarcasm detection,
-with the goal of determining the amount of overlap between the two tasks and the potential benefits of treating them as seperate
-concepts in NLP. We will do so using a combination of the iSarcasm \citep{iSarcasm} and the SemEval-2018 \citep{semeval-2018} 
+with the goal of determining the amount of overlap between the two tasks and the potential benefits of redefining their distinction.
+We will do so using a combination of the iSarcasm \citep{iSarcasm} and the SemEval-2018 \citep{semeval-2018} 
 datasets, both of which contain tweets that are labeled as either ironic or sarcastic based on this distinction.
 
 \subsection{Sarcasm - the figure of speech}
@@ -187,7 +194,7 @@ The F1 metric was used as the primary metric for evaluating and comparing the di
    \end{center}
 \end{table}
 
-\subsection{Irony and sarcasm detection}
+\subsection{Irony and sarcasm detection meta-analysis}
 
 \begin{table}[h!]
    \centering
