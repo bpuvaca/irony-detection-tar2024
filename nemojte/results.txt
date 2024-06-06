@@ -1,0 +1,166 @@
+BERTWEET+BILSTM, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.547
+Testing on sarcasm
+Test F1 Score: 0.743
+Testing on mix
+Test F1 Score: 0.660
+BERTWEET+BILSTM, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.759
+Testing on sarcasm
+Test F1 Score: 0.682
+Testing on mix
+Test F1 Score: 0.720
+BERTWEET+BILSTM, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.698
+Testing on sarcasm
+Test F1 Score: 0.775
+Testing on mix
+Test F1 Score: 0.736
+--------------------------------------------------------------------------------------------------
+ROBERTA+CNN, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.654
+Testing on sarcasm
+Test F1 Score: 0.706
+Testing on mix
+Test F1 Score: 0.748
+ROBERTA+CNN, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.871
+Testing on sarcasm
+Test F1 Score: 0.662
+Testing on mix
+Test F1 Score: 0.796
+ROBERTA+CNN, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.841
+Testing on sarcasm
+Test F1 Score: 0.710
+Testing on mix
+Test F1 Score: 0.819
+--------------------------------------------------------------------------------------------------
+ROBERTA+BILSTM, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.546
+Testing on sarcasm
+Test F1 Score: 0.702
+Testing on mix
+Test F1 Score: 0.667
+ROBERTA+BILSTM, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.902
+Testing on sarcasm
+Test F1 Score: 0.595
+Testing on mix
+Test F1 Score: 0.770
+ROBERTA+BILSTM, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.802
+Testing on sarcasm
+Test F1 Score: 0.677
+Testing on mix
+Test F1 Score: 0.726
+--------------------------------------------------------------------------------------------------
+BERTWEET+CNN, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.597
+Testing on sarcasm
+Test F1 Score: 0.746
+Testing on mix
+Test F1 Score: 0.706
+BERTWEET+CNN, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.767
+Testing on sarcasm
+Test F1 Score: 0.679
+Testing on mix
+Test F1 Score: 0.722
+BERTWEET+CNN, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.712
+Testing on sarcasm
+Test F1 Score: 0.741
+Testing on mix
+Test F1 Score: 0.730
+--------------------------------------------------------------------------------------------------
+BERTWEET, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.622
+Testing on sarcasm
+Test F1 Score: 0.710
+Testing on mix
+Test F1 Score: 0.682
+BERTWEET, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.720
+Testing on sarcasm
+Test F1 Score: 0.634
+Testing on mix
+Test F1 Score: 0.657
+BERTWEET, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.681
+Testing on sarcasm
+Test F1 Score: 0.767
+Testing on mix
+Test F1 Score: 0.723
+--------------------------------------------------------------------------------------------------
+ROBERTA, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.699
+Testing on sarcasm
+Test F1 Score: 0.753
+Testing on mix
+Test F1 Score: 0.765
+ROBERTA, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.853
+Testing on sarcasm
+Test F1 Score: 0.586
+Testing on mix
+Test F1 Score: 0.733
+ROBERTA, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.835
+Testing on sarcasm
+Test F1 Score: 0.699
+Testing on mix
+Test F1 Score: 0.775
+--------------------------------------------------------------------------------------------------
+TASK A
+training on train_taskA, testing on test_taskA
+metric results for different models:
+ROBERTA
+Test Loss: 0.211
+Test F1 Score: 0.922
+Test Accuracy: 0.923
+Test Precision: 0.919
+Test Recall: 0.935
+BERTWEET
+Test Loss: 0.540
+Test F1 Score: 0.785
+Test Accuracy: 0.788
+Test Precision: 0.784
+Test Recall: 0.796
+ROBERTA+CNN
+Test Loss: 0.228
+Test F1 Score: 0.930
+Test Accuracy: 0.931
+Test Precision: 0.925
+Test Recall: 0.940
+BERTWEET+CNN:
+Test Loss: 0.597
+Test F1 Score: 0.752
+Test Accuracy: 0.754
+Test Precision: 0.759
+Test Recall: 0.770
+ROBERTA+BILSTM
+Test Loss: 0.204
+Test F1 Score: 0.933
+Test Accuracy: 0.935
+Test Precision: 0.929
+Test Recall: 0.942
+BERTWEET+BILSTM
