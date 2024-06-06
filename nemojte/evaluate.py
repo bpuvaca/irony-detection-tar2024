@@ -63,11 +63,11 @@ def evaluate_bertweet(model, test_dataloader):
     test_precision = precision_score(all_labels, all_preds, average='macro')
     test_recall = recall_score(all_labels, all_preds, average='macro')
 
-    print(f"Test Loss: {avg_test_loss}")
-    print(f"Test F1 Score: {test_f1_score}")
-    print(f"Test Accuracy: {test_accuracy}")
-    print(f"Test Precision: {test_precision}")
-    print(f"Test Recall: {test_recall}")
+    print(f"Test Loss: {avg_test_loss:.3f}")
+    print(f"Test F1 Score: {test_f1_score:.3f}")
+    print(f"Test Accuracy: {test_accuracy:.3f}")
+    print(f"Test Precision: {test_precision:.3f}")
+    print(f"Test Recall: {test_recall:.3f}")
 
 
 def evaluate_transformer_deep(model, test_dataloader):
@@ -106,8 +106,8 @@ def evaluate_transformer_deep(model, test_dataloader):
     test_precision = precision_score(all_labels, all_preds, average='macro')
     test_recall = recall_score(all_labels, all_preds, average='macro')
 
-    print(f"Test Loss: {avg_test_loss}")
-    print(f"Test F1 Score: {test_f1_score}")
-    print(f"Test Accuracy: {test_accuracy}")
-    print(f"Test Precision: {test_precision}")
-    print(f"Test Recall: {test_recall}")
+    print(f"Test Loss: {avg_test_loss:.3f}")
+    print(f"Test F1 Score: {test_f1_score:.3f}")
+    print(f"Test Accuracy: {test_accuracy:.3f}")
+    print(f"Test Precision: {test_precision:.3f}")
+    print(f"Test Recall: {test_recall:.3f}")
