@@ -20,8 +20,7 @@
 University of Zagreb, Faculty of Electrical Engineering and Computing\\
 Unska 3, 10000 Zagreb, Croatia\\ 
 \texttt{\{bojan.puvaca, florijan.sandalj, ivan.unkovic\}@fer.hr}\\
-}
-          
+}      
          
 \abstract{ 
 }
@@ -51,12 +50,13 @@ a form of irony that is more patronizing and mean-spirited. The iSarcasm dataset
 categorization, as the "sarcasm" label is, in fact, a subset of the unfortunately named "sarcastic" label, which actually 
 indicates any kind of ironic speech. 
 
-In this context, irony refers to any type of speech that is based on polarity -
-expressing with words the opposite of what we mean. Although this definition works on paper, there are some pitfalls.
-Most notably, the line between sarcasm and irony is unclear, as whether or not a statement is mean-spirited is subjective.
-Also, tweets that contain irony and aren't directed at a specific person can still be considered sarcastic, as they often
-target a group of people, concepts, ideas or themselves in the form of self-deprecating humor. How the object of the irony
-affects the classification is a question that remains unanswered.
+In this context, irony refers to any type of speech that is based on polarity - whether that be pointing out the polarity 
+between the expected and actual outcome of a situation (situational irony), or expressing with words the opposite of what 
+we mean (verbal irony based on polarity). Although this definition works on paper, there are some pitfalls. Most notably, 
+the line between sarcasm and verbal irony is unclear, as whether or not a statement is mean-spirited is subjective, while 
+a clearly mean spirited statement can also be based on polarity. Also, tweets that contain irony and aren’t directed at a 
+specific person can still be considered sarcastic, as they often target a group of people, concepts, ideas or themselves 
+in the form of self-deprecating humor. How the object of the irony affects the classification is a question that remains unanswered.
 
 All things considered, this distinction is a fair starting point for NLP research, and the iSarcasm \citep{iSarcasm} dataset
 does a solid job at distinguishing between the two. However, the usefullness of this distinction is limited, as both concepts
@@ -77,8 +77,7 @@ as ironic, one containing tweets labeled as sarcastic and the third one combinin
 All three datasets were constructed as a binary classification task, with neutral tweets, not containing any irony or sarasm,
 being labeled as negative, and the tweets containing either irony or sarcasm being labeled as positive.
 
-We ensured that during training and evaluation, all three datasets were completely balanced, with an equal number of positive
-and negative examples in the training, validation and test sets. As the SemEval-2018 dataset contained significantly more
+As the SemEval-2018 dataset contained significantly more
 ironic tweets than sarcastic ones, we merged it with the iSarcasm dataset in order to produce larger and more balanced datasets.
 We found this approach to be justified, as both datasets discerned between irony and sarcasm in a similar manner, both in
 their explanations for the labels and upon manual inspection of the tweets. 
@@ -86,15 +85,81 @@ their explanations for the labels and upon manual inspection of the tweets.
 Various models were trained on all three of these tasks, after which their performance was evaluated on the test sets of all
 three datasets in order to determine the amount of overlap between irony and sarcasm detection.
 
+The same models were also trained and evaluated on the unmodified SemEval-2018 dataset, in order to showcase their performance
+on a standard dataset for ironic speech detection.
+
 In section \ref{sec:dataset_construction}, we will describe the process of constructing the datasets and in \ref{sec:models}
 we will describe the models used in this experiment.
 
 \subsection{Construction of the datasets}\label{sec:dataset_construction}
 
-The data for the sarcasm detection task 
+The positively labeled tweets for the sarcasm detection task were taken from both the iSarcasm dataset, using tweets labeled
+as "sarcasm", which the authors define as "tweets that contradict the state of affairs and are critical towards an addressee"
+\citep{iSarcasm} and the SemEval-2018 dataset, using tweets with the label "3", meaning "other irony" and defined as "instances
+which show no polarity contrast between the literal and the intended evaluation, but are nevertheless ironic" 
+\citep{semeval-2018}. Although this definition seems different than the one from the iSarcasm dataset, when manually
+inspecting the contents of those tweets, we found that they almost exclusively contained the hashtag \#sarcasm and contained
+sarcastic remarks. This makes sense given the fact that the tweets were manually annotated after being collected using the
+\#sarcasm hashtag.
+
+For the irony detection task we used the same method, only this time using the tweets labeled as "irony" from the iSarcasm
+dataset, defined as "tweets that contradict the state of affairs but are not obviously critical towards an
+addressee" \citep{iSarcasm} and the tweets with labels "1" and "2" from the SemEval-2018 dataset, meaning "verbal irony by means 
+of a polarity contrast" and "situational irony" respectively \citep{semeval-2018}. All three of these categories were based
+on a polarity contrast, which is why they were grouped together.
+
+Negative examples for both tasks were taken from both the iSarcasm and the SemEval-2018 datasets, using tweets labeled as
+not being sarcastic or ironic.
+
+The reason for not including sarcastic tweets as negative examples in the irony detection task and vice versa is so we
+can effectively use models trained on one task for some other task, as otherwise the models would be trained
+to label the positive examples of the other task as negative.
+
+The combined dataset was created by merging the sarcastic and ironic datasets, with the positive examples of both tasks
+being labeled as positive, and the neutral examples being labeled as negative.
+
+All three datasets were split into training, validation and test sets and undersampled in runtime to ensure that all three
+tasks had the same number of positive and negative examples in all three sets in order to ensure their fair comparison.
+
+\subsection{Tweet preprocessing}
+Because of the specific language used in tweets, as well as the presence of hashtags, links and mentions, we used the
+tweet normalization method proposed by the authors of BERTweet \citep{bertweet} in order to preprocess the tweets. This method
+performs subword tokenization and replaces mentions and links with special tokens. Although this method was proposed to be 
+used with the BERTweet model, we found it's use to be beneficial for all models used in this experiment.
+
+The hashtags used to find and scrape the tweets in the SemEval-2018 dataset (\#sarcasm, \#irony and \#not) were removed
+from the tweets, as not to make the detection task trivial.
 
 \subsection{Models}\label{sec:models}
-\citep{iSarcasm}
+
+As our goal was to compare the performance of state-of-the-art models on the tasks of irony and sarcasm detection, we 
+focused on transformer-based models. Specifically we used the RoBERTa \citep{roberta} and BERTweet \citep{bertweet} models,
+as they showed excellent performance on the SemEval-2018 task in previous research \citep{transformers4irony-2020,bertweet}.
+
+RoBERTa is a transformer-based model that improves the pre-training process of the BERT model \cite{devlin-etal-2019-bert},
+while BERTweet uses the RoBERTa pre-training procedure on a corpus of tweets, making it more suitable for the tweet
+classification tasks.
+
+Both of these models were used with their out-of-the-box sequence classification configurations, fine-tuned on our 
+different tasks. We will refer to these models as \textsc{RoBERTa} and \textsc{BERTweet}.
+
+We have also used RoBERTa and BERTweet as encoders and fed their outputs to a bidirecitonal LSTM layer, followed by 
+a dropout layer and a dense layer which performs the classification. We will refer to these models as \textsc{RoBERTa+LSTM}
+and \textsc{BERTweet+LSTM}. 
+
+A convolution based approach was used in a similar manner, with two convolutional layers
+replacing the LSTM layer. In these models, the convolutional layer was followed by a max pooling layer, a dropout layer
+and a dense layer. We will refer to these models as \textsc{RoBERTa+CNN} and \textsc{BERTweet+CNN}.
+
+All of these models were trained on the three tasks described in section \ref{sec:dataset_construction} and the SemEval-2018
+task, along with a simple baseline model based on an LSTM network and GloVe embeddings, which we will refer to as the
+\textsc{Baseline} model. 
+
+\subsection{Evaluation}
+All of the afformentioned models trained on the SemEval-2018 training set were evaluated on the appropriate 
+SemEval-2018 test set, while the models trained on each of our three tasks were evaluated on all three of our test sets. 
+The F1 metric was used as the primary metric for evaluating and comparing the different models.
+
 \section{Results}
 
 \section{Discussion}

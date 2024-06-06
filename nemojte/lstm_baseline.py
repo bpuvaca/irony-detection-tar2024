@@ -24,8 +24,6 @@ class BiLSTM(nn.Module):
         c0 = torch.zeros(self.num_layers*2, x.size(0), self.hidden_size).to(device)
         
         out, _ = self.lstm(x, (h0, c0))
-        
-        # Concat the final forward and backward hidden states
         out = torch.cat((out[:, -1, :self.hidden_size], out[:, 0, self.hidden_size:]), dim=1)
         
         out = self.fc(out)
