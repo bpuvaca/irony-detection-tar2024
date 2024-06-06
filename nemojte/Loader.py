@@ -88,6 +88,7 @@ class TweetDataset(Dataset):
 class GloveLoader():
     def __init__(self, task):
         task = task.lower()
+        task = 'task_a' if task == 'taska' else task
         self.task = task
         self.balance = False if task == 'task_a' else True
         self.train_fp = file_path_dict[f"train_{task}"]
@@ -113,6 +114,7 @@ class TransformerLoader():
     def __init__(self, task):
         task = task.lower()
         self.task = task
+        task = 'task_a' if task == 'taska' else task
         self.balance = False if task == 'task_a' else True
         self.train_fp = file_path_dict[f"train_{task}"]
         self.valid_fp = file_path_dict[f"valid_{task}"]
