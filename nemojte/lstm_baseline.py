@@ -5,7 +5,6 @@ from torch.nn.utils.rnn import pad_sequence
 from torchtext.vocab import GloVe
 from sklearn import metrics
 from Loader import GloveLoader
-from nemojte.evaluate import Evaluator
 import train
 import evaluate
 
@@ -29,18 +28,18 @@ class BiLSTM(nn.Module):
         out = self.fc(out)
         return out
 
-train_sarcasm = "../sarcasm_dataset/sarcasm_train.csv"
-test_sarcasm = "../sarcasm_dataset/sarcasm_test.csv"
-valid_sarcasm = "../sarcasm_dataset/sarcasm_validation.csv"
-train_irony = "../irony_dataset/irony_train.csv"
-test_irony = "../irony_dataset/irony_test.csv"
-valid_irony = "../irony_dataset/irony_validation.csv"
+train_sarcasm = "../datasets/sarcasm/sarcasm_train.csv"
+test_sarcasm = "../datasets/sarcasm/sarcasm_test.csv"
+valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
+train_irony = "../datasets/irony/irony_train.csv"
+test_irony = "../datasets/irony/irony_test.csv"
+valid_irony = "../datasets/irony/irony_valid.csv"
 
 glove = GloVe(name='6B', dim=300)
 
 loader = GloveLoader()
 
-loader.load_dataset(device, train_irony, valid_irony, test_irony, glove)
+loader.load_dataset(device, train_irony, valid_irony, train_irony, glove, balance=True)
 
 hidden_size = 16
 num_layers = 4
@@ -53,7 +52,7 @@ model = BiLSTM(loader.input_size, hidden_size, num_layers, num_classes).to(devic
 
 criterion = nn.CrossEntropyLoss()
 
-model = train.train_baseline(model, learning_rate, batch_size, num_epochs, loader.train_dataset, criterion)
+model = train.train_baseline(device, model, learning_rate, batch_size, num_epochs, loader.train_dataset, loader.valid_dataset, criterion)
 
-evaluate.evaluate(device, loader.test_dataset, model)
+evaluate.evaluate_baseline(device, loader.test_dataset, model)
 

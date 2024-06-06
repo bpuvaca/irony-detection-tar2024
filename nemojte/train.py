@@ -5,15 +5,19 @@ from torch.nn.utils.rnn import pad_sequence
 from transformers import get_linear_schedule_with_warmup
 from sklearn.metrics import f1_score
 import numpy as np
+from sklearn import metrics
 import torch.nn as nn
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import accuracy_score, precision_score, recall_score
             
-def train_baseline(self, model, learning_rate, batch_size, num_epochs, train_dataset, criterion):
+def train_baseline(device, model, learning_rate, batch_size, num_epochs, train_dataset, val_dataset, criterion):
 
     optimizer = optim.Adam(model.parameters(), lr=learning_rate, )
 
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=batch_size, shuffle=True)
 
+    prev_val_f1 = 0
     for epoch in range(num_epochs):
         total_loss = 0
         for batch_inputs, batch_labels in train_loader:
@@ -27,8 +31,38 @@ def train_baseline(self, model, learning_rate, batch_size, num_epochs, train_dat
             
             total_loss += loss.item()
         
-        print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {total_loss / len(train_loader)}")
+        print(f"Epoch [{epoch+1}/{num_epochs}], Average Training Loss: {total_loss / len(train_loader)}")
+        
+        #Evaluation phase
+        if (epoch + 1) % 10 == 0:
+            model.eval()
+            
+            all_labels = []
+            all_predictions = []
+
+            with torch.no_grad():
+                for padded_sequences, labels in val_loader:
+                    padded_sequences = padded_sequences.to(device)
+                    labels = labels.to(device)
+                    
+                    outputs = model(padded_sequences)
+                    _, predicted = torch.max(outputs, 1)
+                    
+                    all_labels.extend(labels.cpu().numpy())
+                    all_predictions.extend(predicted.cpu().numpy())
+
+            # Calculate F1 score
+            f1 = metrics.f1_score(all_labels, all_predictions, average='macro')
+            print(f"Epoch {epoch + 1} Validation F1: ", f1)
+            if f1 < prev_val_f1:
+                print("F1 on validation set is declining, early stopping is activated")
+                break
+            else:
+                prev_val_f1 = f1
+                prev_params = model.state_dict()
+
     
+    model.load_state_dict(prev_params)
     return model
 
 def save_model(model, path):

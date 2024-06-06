@@ -4,7 +4,7 @@ import torch.nn as nn
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import numpy as np
 
-def evaluate(self, device, test_dataset, model):
+def evaluate_baseline(device, test_dataset, model):
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=32, shuffle=False)
     
     all_labels = []
@@ -23,7 +23,7 @@ def evaluate(self, device, test_dataset, model):
     
     # Calculate F1 score
     f1 = metrics.f1_score(all_labels, all_predictions, average='macro')
-    print("F1: ", f1)
+    print("Test F1: ", f1)
     
 def evaluate_bertweet(model, test_dataloader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
