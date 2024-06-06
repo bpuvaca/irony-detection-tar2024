@@ -34,7 +34,7 @@ def train_baseline(device, model, learning_rate, batch_size, num_epochs, train_d
         print(f"Epoch [{epoch+1}/{num_epochs}], Average Training Loss: {total_loss / len(train_loader)}")
         
         #Evaluation phase
-        if (epoch + 1) % 10 == 0:
+        if (epoch + 1) % 3 == 0:
             model.eval()
             
             all_labels = []

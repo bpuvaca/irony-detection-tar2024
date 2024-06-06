@@ -34,12 +34,20 @@ valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
 train_irony = "../datasets/irony/irony_train.csv"
 test_irony = "../datasets/irony/irony_test.csv"
 valid_irony = "../datasets/irony/irony_valid.csv"
+train_mix = "../datasets/mix/mix_train.csv"
+test_mix = "../datasets/mix/mix_test.csv"
+valid_mix = "../datasets/mix/mix_valid.csv"
+train_taskA = "../datasets/taskA/taskA_train.csv"
+test_taskA = "../datasets/taskA/taskA_test.csv"
+valid_taskA = "../datasets/taskA/taskA_valid.csv"
 
 glove = GloVe(name='6B', dim=300)
 
-loader = GloveLoader()
+loader_sarcasm = GloveLoader()
+loader_irony = GloveLoader()
+loader_mix = GloveLoader()
+loader_taskA = GloveLoader()
 
-loader.load_dataset(device, train_irony, valid_irony, train_irony, glove, balance=True)
 
 hidden_size = 16
 num_layers = 4
@@ -48,11 +56,25 @@ batch_size = 32
 learning_rate = 0.0005
 num_epochs = 40
 
-model = BiLSTM(loader.input_size, hidden_size, num_layers, num_classes).to(device)
+loader_sarcasm.load_dataset(device, train_sarcasm, valid_sarcasm, test_sarcasm, glove, balance=True)
+loader_irony.load_dataset(device, train_irony, valid_irony, test_irony, glove, balance=True)
+loader_mix.load_dataset(device, train_mix, valid_mix, test_mix, glove, balance=True)
+loader_taskA.load_dataset(device, train_taskA, valid_taskA, test_taskA, glove, balance=False)
 
-criterion = nn.CrossEntropyLoss()
+for loader, dataset in zip([loader_taskA, loader_sarcasm, loader_irony, loader_mix], ["taskA", "sarcasm", "irony", "mix"]):
+    
+    sum_f1 = 0
+    for i in range(5):
 
-model = train.train_baseline(device, model, learning_rate, batch_size, num_epochs, loader.train_dataset, loader.valid_dataset, criterion)
+        model = BiLSTM(loader.input_size, hidden_size, num_layers, num_classes).to(device)
 
-evaluate.evaluate_baseline(device, loader.test_dataset, model)
+        criterion = nn.CrossEntropyLoss()
+
+        model = train.train_baseline(device, model, learning_rate, batch_size, num_epochs, loader.train_dataset, loader.valid_dataset, criterion)
+
+        f1 = evaluate.evaluate_baseline(device, loader.test_dataset, model)
+        
+        sum_f1 += f1
+    
+    print(f"\n\nAverage f1 for {dataset} is {sum_f1 / 5}\n\n")
 

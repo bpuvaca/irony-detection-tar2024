@@ -24,6 +24,7 @@ def evaluate_baseline(device, test_dataset, model):
     # Calculate F1 score
     f1 = metrics.f1_score(all_labels, all_predictions, average='macro')
     print("Test F1: ", f1)
+    return f1
     
 def evaluate_bertweet(model, test_dataloader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
