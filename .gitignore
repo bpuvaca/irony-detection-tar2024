@@ -8,4 +8,6 @@
 /latex_template/nemojte-irony.fls
 /latex_template/nemojte-irony.log
 /latex_template/nemojte-irony.synctex.gz
+/latex_template/nemojte-irony.pdf
 *.pt
+*.gz

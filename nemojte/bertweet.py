@@ -34,6 +34,8 @@ train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuff
 valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
 test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
+save_path = "bertweet/mix"
+
 # Train and evaluate the model
-train.train_bertweet(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True)
+train.train_bertweet(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True, save_path=save_path)
 evaluate.evaluate_bertweet(model, test_dataloader)
