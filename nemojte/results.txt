@@ -116,6 +116,56 @@ Test F1 Score: 0.753
 Testing on mix
 Test F1 Score: 0.765
 ROBERTA, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.853
+Testing on sarcasm
+Test F1 Score: 0.586
+Testing on mix
+Test F1 Score: 0.733
 ROBERTA, TRAINED ON MIX
-
-
+Testing on irony
+Test F1 Score: 0.835
+Testing on sarcasm
+Test F1 Score: 0.699
+Testing on mix
+Test F1 Score: 0.775
+--------------------------------------------------------------------------------------------------
+TASK A
+training on train_taskA, testing on test_taskA
+metric results for different models:
+ROBERTA
+Test Loss: 0.211
+Test F1 Score: 0.922
+Test Accuracy: 0.923
+Test Precision: 0.919
+Test Recall: 0.935
+BERTWEET
+Test Loss: 0.540
+Test F1 Score: 0.785
+Test Accuracy: 0.788
+Test Precision: 0.784
+Test Recall: 0.796
+ROBERTA+CNN
+Test Loss: 0.228
+Test F1 Score: 0.930
+Test Accuracy: 0.931
+Test Precision: 0.925
+Test Recall: 0.940
+BERTWEET+CNN:
+Test Loss: 0.597
+Test F1 Score: 0.752
+Test Accuracy: 0.754
+Test Precision: 0.759
+Test Recall: 0.770
+ROBERTA+BILSTM
+Test Loss: 0.204
+Test F1 Score: 0.933
+Test Accuracy: 0.935
+Test Precision: 0.929
+Test Recall: 0.942
+BERTWEET+BILSTM
+Test Loss: 0.6161941460200718
+Test F1 Score: 0.7626613439787092
+Test Accuracy: 0.7678571428571429
+Test Precision: 0.7607108417137347
+Test Recall: 0.7701678415803892

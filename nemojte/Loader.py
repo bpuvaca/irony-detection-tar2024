@@ -12,6 +12,21 @@ BALANCED_TRAIN_0S = 1338
 BALANCED_TEST_VALID_1S = 173
 BALANCED_TEST_VALID_0S = 287
 
+file_path_dict = {
+    "train_sarcasm": "../datasets/sarcasm/sarcasm_train.csv",
+    "test_sarcasm": "../datasets/sarcasm/sarcasm_test.csv",
+    "valid_sarcasm": "../datasets/sarcasm/sarcasm_valid.csv",
+    "train_irony": "../datasets/irony/irony_train.csv",
+    "test_irony": "../datasets/irony/irony_test.csv",
+    "valid_irony": "../datasets/irony/irony_valid.csv",
+    "train_mix": "../datasets/mix/mix_train.csv",
+    "test_mix": "../datasets/mix/mix_test.csv",
+    "valid_mix": "../datasets/mix/mix_valid.csv",
+    "train_task_a": "../datasets/taskA/taskA_train.csv",
+    "test_task_a": "../datasets/taskA/taskA_test.csv",
+    "valid_task_a": "../datasets/taskA/taskA_valid.csv"
+}
+
 def reduce_dataset(corpus, labels, num_1s, num_0s):
     reduced_corpus = []
     reduced_labels = []
@@ -71,32 +86,50 @@ class TweetDataset(Dataset):
         return self.padded_sequences[idx], self.labels[idx]
 
 class GloveLoader():
-    def load_dataset(self, device, train_fp, valid_fp, test_fp, glove, remove_hashtags=True, balance=False):
-        train_corpus, train_labels = parse_dataset(train_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='train')
+    def __init__(self, task):
+        task = task.lower()
+        task = 'task_a' if task == 'taska' else task
+        self.task = task
+        self.balance = False if task == 'task_a' else True
+        self.train_fp = file_path_dict[f"train_{task}"]
+        self.valid_fp = file_path_dict[f"valid_{task}"]
+        self.test_fp = file_path_dict[f"test_{task}"]
+
+    def load_dataset(self, device, glove, remove_hashtags=True):
+        train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='train')
         self.train_dataset = TweetDataset(train_corpus, train_labels, glove, device)
         self.input_size = self.train_dataset.padded_sequences.size(-1)
         
-        valid_corpus, valid_labels = parse_dataset(valid_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='valid')
+        valid_corpus, valid_labels = parse_dataset(self.valid_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='valid')
         self.valid_dataset = TweetDataset(valid_corpus, valid_labels, glove, device)
         
-        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='test')
+        test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
     
-    def load_test_dataset(self, device, test_fp, glove, remove_hashtags=True, balance=False):
-        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='test')
+    def load_test_dataset(self, device, glove, remove_hashtags=True):
+        test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         
 class TransformerLoader():
-    def load_dataset(self, train_fp, valid_fp, test_fp, tokenizer, remove_hashtags=True, balance=False):
-        train_corpus, train_labels = parse_dataset(train_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='train')
+    def __init__(self, task):
+        task = task.lower()
+        self.task = task
+        task = 'task_a' if task == 'taska' else task
+        self.balance = False if task == 'task_a' else True
+        self.train_fp = file_path_dict[f"train_{task}"]
+        self.valid_fp = file_path_dict[f"valid_{task}"]
+        self.test_fp = file_path_dict[f"test_{task}"]
+        
+    def load_dataset(self, tokenizer, remove_hashtags=True):
+        train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='train')
         self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
         
-        valid_corpus, valid_labels = parse_dataset(valid_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='valid')
+        valid_corpus, valid_labels = parse_dataset(self.valid_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='valid')
         self.valid_dataset = TransformerDataset(valid_corpus, valid_labels, tokenizer)
         
-        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='test')
+        test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
         
-    def load_test_dataset(self, test_fp, tokenizer, remove_hashtags=True, balance=False):
-        test_corpus, test_labels = parse_dataset(test_fp, remove_hashtags=remove_hashtags, balance=balance, dataset_type='test')
+    def load_test_dataset(self, tokenizer, remove_hashtags=True):
+        test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)

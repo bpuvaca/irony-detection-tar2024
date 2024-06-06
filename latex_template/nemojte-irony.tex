@@ -31,19 +31,29 @@ Unska 3, 10000 Zagreb, Croatia\\
 
 \section{Introduction}
 
-Human communication is a convoluted subject, being a topic of discussion and investigation across multiple fields of research.
-There are various forms of human communication which are particularly intriguing to linguists and psychologists, 
-with irony and sarcasm being of paramount importance due to their complexity and the depth of insight they provide 
-into human cognition and social interaction.
+Irony and sarcasm are two very commonly used concepts in everyday language, which makes the fact that the distinction 
+between the two is so puzzling and controversial all the more interesting. In this paper, we take a closer look at the
+currently available irony and sarcasm detection datasets and analyze the ways in which they distinguish between those two
+concepts.
+
+Our goal is to determine the practical usefulness of the currently most popular definition of irony and sarcasm in NLP, which
+states that sarcasm is a sharp, mean-spirited form of irony. We conduct a meta-analysis of the performance of different
+models on the tasks of irony and sarcasm detection in order to determine the amount of overlap between the two tasks and
+whether or not this definition makes sense in practice by examining how well models trained on one task perform on the other.
+
+As both irony and sarcasm are based on polarity, we hypothesize that models that perform well on one task will also perform
+well on the other, in which case the current distinction between the two wouldn't be of much use, and we would be better off
+either treating the detection of the two as the same task or creating a more useful distinction between the two in the context
+of NLP.
 
 \section{Irony and sarcasm in NLP}
 The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest
 to notice when looking at different sarcasm and irony datasets, where we can find cases when they are treated as completely
-seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or even vice
-versa \citep{iSarcasm}. Searching for a consensus in the realm of linguistics is a futile effort as well, however we have 
-found two distinctions between the two that have merit in the context of NLP.
+seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or vice
+versa \citep{iSarcasm}. Searching for a clear consensus in the realm of linguistics is a futile effort as well, however the
+distinction explained in \ref{sec:sarcasm_definition} seems to be the most common one, both in NLP and in general.
 
-\subsection{Sarcasm - irony's meaner cousin}
+\subsection{Sarcasm - irony's meaner cousin}\label{sec:sarcasm_definition}
 The online Merriam-Webster dictionary defines sarcasm as "a sharp and often satirical or ironic utterance designed to 
 cut or give pain" \citep{mw-dictionary}. This definition seems to be in line with the general consensus that sarcasm is
 a form of irony that is more patronizing and mean-spirited. The iSarcasm dataset \citep{iSarcasm} is a good example of this 
@@ -59,12 +69,12 @@ specific person can still be considered sarcastic, as they often target a group 
 in the form of self-deprecating humor. How the object of the irony affects the classification is a question that remains unanswered.
 
 All things considered, this distinction is a fair starting point for NLP research, and the iSarcasm \citep{iSarcasm} dataset
-does a solid job at distinguishing between the two. However, the usefullness of this distinction is limited, as both concepts
+does a solid job at distinguishing between the two. However, the usefulness of this distinction is limited, as both concepts
 are based on dishonest speech, meaning that in practice there isn't much use in distinguishing between the two.
 
 In this paper, we will take a closer look at how different models perform on the seperate tasks of irony and sarcasm detection,
-with the goal of determining the amount of overlap between the two tasks and the potential benefits of treating them as seperate
-concepts in NLP. We will do so using a combination of the iSarcasm \citep{iSarcasm} and the SemEval-2018 \citep{semeval-2018} 
+with the goal of determining the amount of overlap between the two tasks and the potential benefits of redefining their distinction.
+We will do so using a combination of the iSarcasm \citep{iSarcasm} and the SemEval-2018 \citep{semeval-2018} 
 datasets, both of which contain tweets that are labeled as either ironic or sarcastic based on this distinction.
 
 \subsection{Sarcasm - the figure of speech}
@@ -161,6 +171,44 @@ SemEval-2018 test set, while the models trained on each of our three tasks were 
 The F1 metric was used as the primary metric for evaluating and comparing the different models.
 
 \section{Results}
+
+\subsection{SemEval-2018 dataset}
+
+\begin{table}[h]
+   \caption{Results of the models on the SemEval-2018 dataset}
+   \label{tab:semeval-2018}
+   \begin{center}
+   \begin{tabular}{ll}
+   \toprule
+   Irony classification model & F1 \\
+   \midrule
+   \textsc{Baseline} & 0.1 \\
+   \textsc{RoBERTa} & 0.8 \\
+   \textsc{BERTweet} & 0.9 \\
+   \textsc{RoBERTa+LSTM} & 0.9 \\
+   \textsc{BERTweet+LSTM} & 0.9 \\
+   \textsc{RoBERTa+CNN} & 0.9 \\
+   \textsc{BERTweet+CNN} & 0.9 \\
+   \bottomrule
+   \end{tabular}
+   \end{center}
+\end{table}
+
+\subsection{Irony and sarcasm detection meta-analysis}
+
+\begin{table}[h!]
+   \centering
+   \begin{tabular}{|c|c|c|c|}
+       \hline
+        & \textbf{Irony} & \textbf{Sarcasm} & \textbf{Mixed} \\ \hline
+       \textbf{Irony} & 0.85 & 0.90 & 0.88 \\ \hline
+       \textbf{Sarcasm} & 0.82 & 0.89 & 0.86 \\ \hline
+       \textbf{Mixed} & 0.84 & 0.91 & 0.87 \\ \hline
+   \end{tabular}
+   \caption{F1 score matrix for model \textsc{RoBERTa} on the three tasks. Rows represent the task the model was trained on, 
+   while columns represent the task the model was evaluated on.}
+   \label{tab:methods}
+\end{table}
 
 \section{Discussion}
 
