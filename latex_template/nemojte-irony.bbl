@@ -1,9 +1,34 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citename{Devlin \bgroup et al.\egroup
+  }2019]{devlin-etal-2019-bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock 2019.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In Jill Burstein, Christy Doran, and Thamar Solorio, editors, {\em
+  Proceedings of the 2019 Conference of the North {A}merican Chapter of the
+  Association for Computational Linguistics: Human Language Technologies,
+  Volume 1 (Long and Short Papers)}, pages 4171--4186, Minneapolis, Minnesota,
+  June. Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Liu \bgroup et al.\egroup }2019]{roberta}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+  Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov.
+\newblock 2019.
+\newblock Roberta: A robustly optimized bert pretraining approach.
+
 \bibitem[\protect\citename{Merriam-Webster}2024]{mw-dictionary}
 Merriam-Webster.
 \newblock 2024.
 \newblock Merriam-webster dictionary.
+
+\bibitem[\protect\citename{Nguyen \bgroup et al.\egroup }2020]{bertweet}
+Dat~Quoc Nguyen, Thanh Vu, and Anh~Tuan Nguyen.
+\newblock 2020.
+\newblock {BERTweet: A pre-trained language model for English Tweets}.
+\newblock In {\em Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing: System Demonstrations}, pages 9--14.
 
 \bibitem[\protect\citename{Nikhil}2020]{kaggle-tweets}
 John Nikhil.
@@ -18,6 +43,14 @@ Silviu Oprea and Walid Magdy.
   editors, {\em Proceedings of the 58th Annual Meeting of the Association for
   Computational Linguistics}, pages 1279--1289, Online, July. Association for
   Computational Linguistics.
+
+\bibitem[\protect\citename{Potamias \bgroup et al.\egroup
+  }2020]{transformers4irony-2020}
+Rolandos~Alexandros Potamias, Georgios Siolas, and Andreas-Georgios
+  Stafylopatis.
+\newblock 2020.
+\newblock A transformer-based approach to irony and sarcasm detection.
+\newblock {\em Neural Computing and Applications}, 32(23):17309--17320, Dec.
 
 \bibitem[\protect\citename{Van~Hee \bgroup et al.\egroup }2018]{semeval-2018}
 Cynthia Van~Hee, Els Lefever, and V{\'e}ronique Hoste.
