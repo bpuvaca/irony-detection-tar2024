@@ -7,7 +7,6 @@ from sklearn.metrics import f1_score
 import numpy as np
 import torch.nn as nn
 from sklearn.metrics import accuracy_score, precision_score, recall_score
-import os
             
 def train_baseline(self, model, learning_rate, batch_size, num_epochs, train_dataset, criterion):
 
@@ -36,14 +35,9 @@ def save_model(model, path):
     if not path.endswith(".pt"):
         path += ".pt"
     full_path = "../params/" + path
-    os.makedirs(os.path.dirname(full_path), exist_ok=True)
-    if os.path.exists(full_path):
-        print(f"Parameters with path {path} already exist")
-    else:
-        torch.save(model.state_dict(), full_path)
-        print(f"Model parameters saved to {full_path}")
+    torch.save(model.state_dict(), full_path)
+    print(f"Model parameters saved to {full_path}")
     
-
 def train_bertweet(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)

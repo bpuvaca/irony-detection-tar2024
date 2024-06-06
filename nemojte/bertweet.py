@@ -18,10 +18,14 @@ valid_sarcasm = "../datasets/sarcasm/sarcasm_valid.csv"
 train_irony = "../datasets/irony/irony_train.csv"
 test_irony = "../datasets/irony/irony_test.csv"
 valid_irony = "../datasets/irony/irony_valid.csv"
+train_mix = "../datasets/mix/mix_train.csv"
+test_mix = "../datasets/mix/mix_test.csv"
+valid_mix = "../datasets/mix/mix_valid.csv"
 
 loader = TransformerLoader()
-loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True)
-#loader.load_dataset(train_irony, valid_irony, test_irony, tokenizer, remove_hashtags=True)
+#loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True, balance=True)
+#loader.load_dataset(train_irony, valid_irony, test_irony, tokenizer, remove_hashtags=True, balance=True)
+loader.load_dataset(train_mix, valid_mix, test_mix, tokenizer, remove_hashtags=True, balance=True)
 
 batch_size = 16
 

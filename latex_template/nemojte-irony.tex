@@ -70,6 +70,19 @@ datasets, both of which contain tweets that are labeled as either ironic or sarc
 \subsection{Sarcasm - the figure of speech}
 
 \section{Experimental setup}
+We created three separate datasets for this experiment, one containing tweets labeled as ironic, one containing tweets labeled
+as sarcastic and the third one combining the first two. All three datasets were constructed as a binary classification task, 
+with neutral tweets, not containing any irony or sarasm, being labeled as negative, and the tweets containing either irony or
+sarcasm being labeled as positive.
+
+We ensured that during training and evaluation, all three datasets were completely balanced, with an equal number of positive
+and negative examples in the training, validation and test sets.
+
+Various models were trained on all three of these tasks, after which their performance was evaluated on the test sets of all
+three datasets in order to determine the amount of overlap between irony and sarcasm detection.
+
+
+
 \subsection{Sarcasm detection dataset}
 \citep{iSarcasm}
 \section{Results}
