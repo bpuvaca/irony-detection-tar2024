@@ -169,3 +169,34 @@ Test F1 Score: 0.7626613439787092
 Test Accuracy: 0.7678571428571429
 Test Precision: 0.7607108417137347
 Test Recall: 0.7701678415803892
+--------------------------------------------------------------------------------------------------
+BERT, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.45278745313005586
+Testing on sarcasm
+Test F1 Score: 0.7030981067125646
+Testing on mix
+Test F1 Score: 0.6147651871416607
+BERT, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.7130604288499025  
+Testing on sarcasm
+Test F1 Score: 0.5214501855009952  
+Testing on mix
+Test F1 Score: 0.6010217503192969 
+BERT, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.5406770116084822
+Testing on sarcasm
+Test F1 Score: 0.64565581253804
+Testing on mix
+Test F1 Score: 0.6257402887362586
+--------------------------------------------------------------------------------------------------
+BERT+BILSTM, TRAINED ON SARCASM
+BERT+BILSTM, TRAINED ON IRONY
+BERT+BILSTM, TRAINED ON MIX
+--------------------------------------------------------------------------------------------------
+BERT+CNN, TRAINED ON SARCASM
+BERT+CNN, TRAINED ON IRONY
+BERT+CNN, TRAINED ON MIX
+--------------------------------------------------------------------------------------------------
