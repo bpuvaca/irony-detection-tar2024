@@ -24,7 +24,8 @@ class TransformerBiLSTMModel(nn.Module):
         return logits
 
 def main():
-    transformer_model = "vinai/bertweet-base"
+    #transformer_model = "vinai/bertweet-base"
+    transformer_model = "roberta-base"
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
     base_model = AutoModel.from_pretrained(transformer_model)
 
@@ -45,15 +46,16 @@ def main():
 
     loader = TransformerLoader()
     #loader.load_dataset(train_sarcasm, valid_sarcasm, test_sarcasm, tokenizer, remove_hashtags=True, balance=True)
-    loader.load_dataset(train_irony, valid_irony, test_irony, tokenizer, remove_hashtags=True, balance=True)
-    #loader.load_dataset(train_mix, valid_mix, test_mix, tokenizer, remove_hashtags=True, balance=True)
+    #loader.load_dataset(train_irony, valid_irony, test_irony, tokenizer, remove_hashtags=True, balance=True)
+    loader.load_dataset(train_mix, valid_mix, test_mix, tokenizer, remove_hashtags=True, balance=True)
 
     batch_size = 16
 
     train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
     test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
-    save_path = "bertweet_bilstm/irony"
+
+    save_path = "roberta_bilstm/mix"
 
     train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True, save_path=save_path)
     evaluate.evaluate_transformer_deep(model, test_dataloader)
