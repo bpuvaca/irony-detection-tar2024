@@ -58,7 +58,7 @@ Also, tweets that contain irony and aren't directed at a specific person can sti
 target a group of people, concepts, ideas or themselves in the form of self-deprecating humor. How the object of the irony
 affects the classification is a question that remains unanswered.
 
-All things considered, this distinction is a solid starting point for NLP research, and the iSarcasm \citep{iSarcasm} dataset
+All things considered, this distinction is a fair starting point for NLP research, and the iSarcasm \citep{iSarcasm} dataset
 does a solid job at distinguishing between the two. However, the usefullness of this distinction is limited, as both concepts
 are based on dishonest speech, meaning that in practice there isn't much use in distinguishing between the two.
 
@@ -70,20 +70,30 @@ datasets, both of which contain tweets that are labeled as either ironic or sarc
 \subsection{Sarcasm - the figure of speech}
 
 \section{Experimental setup}
-We created three separate datasets for this experiment, one containing tweets labeled as ironic, one containing tweets labeled
-as sarcastic and the third one combining the first two. All three datasets were constructed as a binary classification task, 
-with neutral tweets, not containing any irony or sarasm, being labeled as negative, and the tweets containing either irony or
-sarcasm being labeled as positive.
+
+Three seperate datasets were created for the experiment of comparing irony and sarcasm detection, one containing tweets labeled
+as ironic, one containing tweets labeled as sarcastic and the third one combining the first two.
+
+All three datasets were constructed as a binary classification task, with neutral tweets, not containing any irony or sarasm,
+being labeled as negative, and the tweets containing either irony or sarcasm being labeled as positive.
 
 We ensured that during training and evaluation, all three datasets were completely balanced, with an equal number of positive
-and negative examples in the training, validation and test sets.
+and negative examples in the training, validation and test sets. As the SemEval-2018 dataset contained significantly more
+ironic tweets than sarcastic ones, we merged it with the iSarcasm dataset in order to produce larger and more balanced datasets.
+We found this approach to be justified, as both datasets discerned between irony and sarcasm in a similar manner, both in
+their explanations for the labels and upon manual inspection of the tweets. 
 
 Various models were trained on all three of these tasks, after which their performance was evaluated on the test sets of all
 three datasets in order to determine the amount of overlap between irony and sarcasm detection.
 
+In section \ref{sec:dataset_construction}, we will describe the process of constructing the datasets and in \ref{sec:models}
+we will describe the models used in this experiment.
 
+\subsection{Construction of the datasets}\label{sec:dataset_construction}
 
-\subsection{Sarcasm detection dataset}
+The data for the sarcasm detection task 
+
+\subsection{Models}\label{sec:models}
 \citep{iSarcasm}
 \section{Results}
 
