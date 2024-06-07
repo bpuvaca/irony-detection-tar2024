@@ -248,3 +248,22 @@ Test F1 Score: 0.6632585288285799
 Testing on mix
 Test F1 Score: 0.6678796280251834
 --------------------------------------------------------------------------------------------------
+TRAINED ON MIX NOT BALANCED RESULTS:
+BERT:-
+BERTWEET:
+Testing on irony
+Test F1 Score: 0.6594209776934029
+Testing on sarcasm
+Test F1 Score: 0.7723700296908657
+Testing on mix
+Test F1 Score: 0.7260800245874872
+BERT+BILSTM:-
+BERTWEET+BILSTM:
+Testing on irony
+Test F1 Score: 0.7465646078384176
+Testing on sarcasm
+Test F1 Score: 0.7339905205073745
+Testing on mix
+Test F1 Score: 0.740062159048923
+BERT+CNN: -
+BERTWEET+CNN: -

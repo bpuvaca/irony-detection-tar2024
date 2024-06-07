@@ -114,14 +114,15 @@ class GloveLoader():
         self.test_dataset = TweetDataset(test_corpus, test_labels, glove, device)
         
 class TransformerLoader():
-    def __init__(self, task):
+    def __init__(self, task, mixed_not_balanced=False):
         task = task.lower()
         self.task = task
         task = 'task_a' if task == 'taska' else task
-        self.balance = False if task == 'task_a' else True
+        self.balance = False if (task == 'task_a' or mixed_not_balanced == True) else True
         self.train_fp = file_path_dict[f"train_{task}"]
         self.valid_fp = file_path_dict[f"valid_{task}"]
         self.test_fp = file_path_dict[f"test_{task}"]
+        print("Balance: {}".format(self.balance))
         
     def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True):
         train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=(self.balance and balance_train), dataset_type='train')
