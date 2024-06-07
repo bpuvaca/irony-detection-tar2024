@@ -24,7 +24,9 @@ class TransformerBiLSTMModel(nn.Module):
         return logits
 
 def main():
-    transformer_model = "roberta-base"
+    #transformer_model = "bert-base-uncased"
+    transformer_model = "vinai/bertweet-base"
+    #transformer_model = "roberta-base"
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
     base_model = AutoModel.from_pretrained(transformer_model)
 
@@ -33,7 +35,7 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.to(device)
 
-    loader = TransformerLoader('taska')
+    loader = TransformerLoader('mix', mixed_not_balanced=True)
     loader.load_dataset(tokenizer, remove_hashtags=True)
 
     batch_size = 16
@@ -41,7 +43,7 @@ def main():
     train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
     test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
-    save_path = "roberta_bilstm/taskA"
+    save_path = "bertweet_bilstm/mix_not_b"
 
     train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True, save_path=save_path)
     evaluate.evaluate_transformer_deep(model, test_dataloader)
