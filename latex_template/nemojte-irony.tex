@@ -23,7 +23,19 @@ Unska 3, 10000 Zagreb, Croatia\\
 }      
          
 \abstract{ 
-}
+   Forms of speech like irony and sarcasm, where the actual sentiment and the words being spoken differ or even 
+   oppose, sometimes pose a problem even for humans. Furthermore, detecting such forms of speech in plain text
+   like tweets or messages is an even harder task due to the lack other social cues such as tone, intonation, pacing,
+   pauses etc. Therefore, it is of great importance to define the task at hand precisely, and make sure that the
+   distinctions are clear and that they contribute to the solving process. 
+   In this paper, we take a look at how the difference between irony and sarcasm is defined in the field of NLP,
+   how different models perform on different tasks of their detection, how and where those tasks overlap and finally,
+   try to conclude does solving those tasks separately even make practical sense.  }
+%    The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest
+% to notice when looking at different sarcasm and irony datasets, where we can find cases when they are treated as completely
+% seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or vice
+% versa \citep{iSarcasm}. Searching for a clear consensus in the realm of linguistics is a futile effort as well, however the
+% distinction explained in \ref{sec:sarcasm_definition} seems to be the most common one, both in NLP and in general.
 
 
 
@@ -31,22 +43,7 @@ Unska 3, 10000 Zagreb, Croatia\\
 
 \maketitleabstract
 
-\begin{abstract}
-   .Forms of speech like irony and sarcasm, where the actual sentiment and the words being spoken differ or even 
-   oppose, sometimes pose a problem even for humans. Furthermore, detecting such forms of speech in plain text
-   like tweets or messages is an even harder task due to the lack other social cues such as tone, intonation, pacing,
-   pauses etc. Therefore, it is of great importance to define the task at hand precisely, and make sure that the
-   distinctions are clear and that they contribute to the solving process. 
-   In this paper, we take a look at how the difference between irony and sarcasm is defined in the field of NLP,
-   how different models perform on different tasks of their detection, how and where those tasks overlap and finally,
-   try to conclude does solving those tasks separately even make practical sense.  
-%    The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest
-% to notice when looking at different sarcasm and irony datasets, where we can find cases when they are treated as completely
-% seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or vice
-% versa \citep{iSarcasm}. Searching for a clear consensus in the realm of linguistics is a futile effort as well, however the
-% distinction explained in \ref{sec:sarcasm_definition} seems to be the most common one, both in NLP and in general.
-      
-\end{abstract}
+   
 
 
 \section{Introduction}
@@ -60,6 +57,7 @@ Our goal is to determine the practical usefulness of the currently most popular 
 states that sarcasm is a sharp, mean-spirited form of irony. We conduct a meta-analysis of the performance of different
 models on the tasks of irony and sarcasm detection in order to determine the amount of overlap between the two tasks and
 whether or not this definition makes sense in practice by examining how well models trained on one task perform on the other.
+Our \emph{code}\footnote{\scriptsize\texttt{https://github.com/bpuvaca/irony-detection-tar2024}} is publicly available.
 
 As both irony and sarcasm 
 % are based on polarity
@@ -88,7 +86,7 @@ the SemEval2018 task \citep{semeval-2018}, and they are better explained in the 
 datasets. From actual attempts at classifying 
 ironic speech, it's worth mentioning \citep{bertweet}, where the proposed BERTweet architecture uses a modified pre-training procedure based 
 on RoBERTa \citep{roberta} and is pretrained on a corpus of tweets, 
-making it more suitable for the tweet classification tasks. It was tested on the SemEval-2018 taskA which 
+making it more suitable for tweet classification tasks. It was tested on the SemEval-2018 taskA which 
 deals with binary classification of irony and produced excellent results. Also, in \citep{transformers4irony-2020}, the authors build on the 
 RoBERTa model to tackle 
 irony classification, which proved to be a success. In \citep{transformers4irony-2023}, images associated with the tweets are also used 
@@ -169,7 +167,7 @@ to label the positive examples of the other task as negative.
 The combined dataset was created by merging the sarcastic and ironic datasets, with the positive examples of both tasks
 being labeled as positive, and the neutral examples being labeled as negative.
 
-All three datasets were split into training, validation and test sets and undersampled in runtime to ensure that all three
+All three datasets were split into training, validation and test sets using a 60/20/20 split and undersampled in runtime to ensure that all three
 tasks had the same number of positive and negative examples in all three sets in order to ensure their fair comparison. For
 the combined dataset, we also considered its unbalanced variant with all the available data. This was done to see if the 
 approach of seperating sarcastic and ironic data makes sense in the general case, or if there is enough overlap between 
@@ -193,7 +191,7 @@ as they showed excellent performance on the SemEval-2018 task in previous resear
 Both of these models were used with their out-of-the-box sequence classification configurations, fine-tuned on our 
 different tasks. We will refer to these models as \textsc{BERT} and \textsc{BERTweet}.
 
-We have also used BERT and BERTweet as encoders and fed their outputs to a bidirecitonal LSTM layer, followed by 
+We have also used BERT and BERTweet as encoders and fed their outputs to a bidirecitonal LSTM layer from \citep{paszke2017automatic}, followed by 
 a dropout layer and a dense layer which performs the classification. We will refer to these models as \textsc{BERT+LSTM}
 and \textsc{BERTweet+LSTM}. 
 
@@ -206,9 +204,14 @@ task, along with a simple baseline model based on an LSTM network and GloVe embe
 \textsc{Baseline} model. 
 
 \subsection{Training setup}
-All of the transformer-based models were optmimized using cross-entropy loss, the AdamW PyTorch optimizer and a
-learning rate scheduler with warmup with hyperparameters optimized on a per-model basis. The baseline model
-was optimized using only the Adam optimizer and cross-entropy loss.
+% All of the transformer-based models were optmimized using cross-entropy loss, the AdamW PyTorch optimizer and a
+% learning rate scheduler with warmup with hyperparameters optimized on a per-model basis. The baseline model
+% was optimized using only the Adam optimizer and cross-entropy loss.
+
+All of the transformer-based models were trained using cross-entropy loss, the AdamW PyTorch optimizer and a
+learning rate scheduler with a warmup. The hyperparameters were optimized on a per-model basis using a grid 
+search over the combined and balanced dataset. The baseline model
+was trained using only the Adam optimizer and cross-entropy loss.
 
 Models were trained for up to 10 epochs, with batch size of 16 and early stopping based on the F1 score on the validation set.
 For each task and model pair, 5 different runs were performed, with the results being averaged in the end.
