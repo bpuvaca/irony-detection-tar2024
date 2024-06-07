@@ -114,7 +114,7 @@ making it more suitable for tweet classification tasks. It was tested on the Sem
 deals with binary classification of irony and produced competitive results. Also, in \citep{transformers4irony-2020}, the authors build on the 
 RoBERTa model to tackle 
 irony classification, which proved to be a success. In \citep{transformers4irony-2023}, images associated with the tweets are also used 
-for classification. However, it was noticed that none of these works delved into the differences between irony and sarcasm and whether it 
+for classification. However, none of these works explored the differences between irony and sarcasm and whether it 
 is useful to treat them as separate concepts, which is the direction this paper takes.
  
  
@@ -128,14 +128,15 @@ In this context, irony refers to any type of speech that is based on polarity - 
 between the expected and actual outcome of a situation (situational irony, in which case there is no dishonest speech), or expressing with words the opposite of what 
 we mean (verbal irony based on polarity). On the other hand, sarcasm refers to instances that show no polarity contrast between the
 literal and the intended meaning, but are nevertheless ironic \citep{semeval-2018}.
- Although this definition works on paper, there are some pitfalls. Most notably, 
-the line between sarcasm and verbal irony is unclear, as whether or not a statement is mean-spirited is subjective, while 
-a clearly mean spirited statement can also be based on polarity. Also, tweets that contain irony and aren’t directed at a 
+Although this definition works on paper, there are some pitfalls. Most notably, 
+the line between sarcasm and verbal irony is unclear, as whether or not a statement is mean-spirited is subjective.
+Statements with a mean tone, but without polarity can also be considered sarcastic, meaning that sarcasm doesn't necessarily entail irony.
+Also, tweets that contain irony and aren’t directed at a 
 specific person can still be considered sarcastic, as they often target a group of people, concepts, ideas or themselves 
-in the form of self-deprecating humor. How the object of the irony affects the classification is a question that remains unanswered.
+in the form of self-deprecating humor. How the object of the irony affects the classification is another unanswered question.
 
 All things considered, the iSarcasm \citep{iSarcasm} dataset
-does a solid job at distinguishing between the two. However, the usefulness of this distinction is fairly questionable, 
+does a solid job at distinguishing between the two. However, the usefulness of this distinction is somewhat questionable, 
 as both concepts can be based on dishonest speech, meaning that in practice there might not be much use in distinguishing
  between them.
 
@@ -172,7 +173,6 @@ The positively labeled tweets for the sarcasm detection task were taken from bot
 datasets, using tweets labeled as "sarcasm" and "other verbal irony", respectively. Although their definitions 
 seem different, when manually inspecting the contents of those tweets, we found that they almost exclusively 
 contained the hashtag \#sarcasm and contained sarcastic remarks. 
-
 
 For the irony detection task we used the same method, only this time using the tweets labeled as "irony" from the iSarcasm
 dataset, and the tweets from the first and second category from the SemEval-2018 dataset, meaning "verbal irony by means 
@@ -213,9 +213,9 @@ as they showed excellent performance on the SemEval-2018 task in previous resear
 Both of these models were used with their out-of-the-box sequence classification configurations, fine-tuned on our 
 different tasks \citep{wolf2020huggingfaces}. We will refer to these models as \textsc{BERT} and \textsc{BERTweet}.
 
-We have also used BERT and BERTweet as encoders and fed their outputs to a bidirecitonal LSTM layer from \citep{paszke2017automatic}, followed by 
-a dropout layer and a dense layer which performs the classification. We will refer to these models as \textsc{BERT+LSTM}
-and \textsc{BERTweet+LSTM}. 
+We have also used BERT and BERTweet as encoders and fed their outputs to a bidirecitonal LSTM layer from the PyTorch library
+\citep{paszke2017automatic}, followed by a dropout layer and a dense layer which performs the classification. We will refer
+to these models as \textsc{BERT+LSTM} and \textsc{BERTweet+LSTM}. 
 
 A convolution based approach was used in a similar manner, with two convolutional layers
 replacing the LSTM layer. In these models, the convolutional layer was followed by a max pooling layer, a dropout layer
@@ -279,11 +279,11 @@ the baseline and BERT-based models. Based on these results, the models we will c
    \end{center}
 \end{table}
 
-\subsection{Irony and sarcasm transferabilty analysis}\label{task-analysis}
+\subsection{Irony and sarcasm transferabilty results}\label{task-analysis}
 
 Tables \ref{tab:bertweet-results} and \ref{tab:bertweet-bilstm-results} show the results of the \textsc{BERTweet} and
 \textsc{BERTweet+LSTM} trained on the three tasks, as well as the unbalanced version of the combined task. For each model
-and training setup, we showcas
+and training setup, we showcase the F1 score on each of the three tasks.
 
 \begin{table}[h!]
    \centering
@@ -382,6 +382,8 @@ similarities in their respective classification tasks. For example, the term "ir
 defined exclusively as situational irony, whereas the term "sarcasm" could refer to all kinds of speech characterized by polarity.
 Alternatively, even less emphasis could be placed on their distinction, treating irony and sarcasm detection
 as closely related sequence classification tasks.
+
+We would like to see these suggestions considered in future datasets, as they could make the landscape of irony and sarcasm detection more consistent.
 \section{Conclusion}
 In order to disambiguate the relationship between irony and sarcasm in NLP, we conducted a meta-analysis of the performance of different models on the 
 seperate tasks of irony and sarcasm detection. The results of our analysis provide useful insights into how these two concepts should be treated in the

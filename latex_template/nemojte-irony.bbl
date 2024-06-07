@@ -30,11 +30,6 @@ Dat~Quoc Nguyen, Thanh Vu, and Anh~Tuan Nguyen.
 \newblock In {\em Proceedings of the 2020 Conference on Empirical Methods in
   Natural Language Processing: System Demonstrations}, pages 9--14.
 
-\bibitem[\protect\citename{Nikhil}2020]{kaggle-tweets}
-John Nikhil.
-\newblock 2020.
-\newblock Tweets with sarcasm and irony.
-
 \bibitem[\protect\citename{Oprea and Magdy}2020]{iSarcasm}
 Silviu Oprea and Walid Magdy.
 \newblock 2020.
@@ -43,6 +38,14 @@ Silviu Oprea and Walid Magdy.
   editors, {\em Proceedings of the 58th Annual Meeting of the Association for
   Computational Linguistics}, pages 1279--1289, Online, July. Association for
   Computational Linguistics.
+
+\bibitem[\protect\citename{Paszke \bgroup et al.\egroup
+  }2017]{paszke2017automatic}
+Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary
+  DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer.
+\newblock 2017.
+\newblock Automatic differentiation in pytorch.
+\newblock In {\em NIPS-W}.
 
 \bibitem[\protect\citename{Potamias \bgroup et al.\egroup
   }2020]{transformers4irony-2020}
@@ -68,5 +71,16 @@ Cynthia Van~Hee, Els Lefever, and V{\'e}ronique Hoste.
   Shutova, Steven Bethard, and Marine Carpuat, editors, {\em Proceedings of the
   12th International Workshop on Semantic Evaluation}, pages 39--50, New
   Orleans, Louisiana, June. Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Wolf \bgroup et al.\egroup
+  }2020]{wolf2020huggingfaces}
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+  Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe
+  Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+  Plu, Canwen Xu, Teven~Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+  and Alexander~M. Rush.
+\newblock 2020.
+\newblock Huggingface's transformers: State-of-the-art natural language
+  processing.
 
 \end{thebibliography}
