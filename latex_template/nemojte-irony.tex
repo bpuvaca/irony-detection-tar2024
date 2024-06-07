@@ -74,9 +74,8 @@ is useful to treat them as separate concepts, which is the direction this paper 
  
 \subsection{Sarcasm - irony's meaner cousin}\label{sec:sarcasm_definition}
 The online Merriam-Webster dictionary defines sarcasm as "a sharp and often satirical or ironic utterance designed to 
-cut or give pain" \citep{mw-dictionary}. This definition seems to be in line with the general consensus that sarcasm is
-a form of irony that is more patronizing and mean-spirited. The iSarcasm dataset \citep{iSarcasm} is a good example of this 
-categorization, as the "sarcasm" label is, in fact, a subset of the unfortunately named "sarcastic" label, which actually 
+cut or give pain" \citep{mw-dictionary}. The iSarcasm dataset \citep{iSarcasm} aligns with this definition, as 
+the "sarcasm" label is a subset of the unfortunately named "sarcastic" label, which actually 
 indicates any kind of ironic speech. 
 
 In this context, irony refers to any type of speech that is based on polarity - whether that be pointing out the polarity 
@@ -87,7 +86,7 @@ a clearly mean spirited statement can also be based on polarity. Also, tweets th
 specific person can still be considered sarcastic, as they often target a group of people, concepts, ideas or themselves 
 in the form of self-deprecating humor. How the object of the irony affects the classification is a question that remains unanswered.
 
-All things considered, this distinction is a fair starting point for NLP research, and the iSarcasm \citep{iSarcasm} dataset
+All things considered, the iSarcasm \citep{iSarcasm} dataset
 does a solid job at distinguishing between the two. However, the usefulness of this distinction is limited, as both concepts
 are based on dishonest speech, meaning that in practice there isn't much use in distinguishing between the two.
 
@@ -337,8 +336,6 @@ defined exclusively as situational irony, whereas the term "sarcasm" could refer
 Alternatively, even less emphasis could be placed on their distinction, treating irony and sarcasm detection
 as closely related sequence classification tasks.
 \section{Conclusion}
-
-\section*{Acknowledgements}
 
 \bibliographystyle{tar2023}
 \bibliography{tar2023} 
