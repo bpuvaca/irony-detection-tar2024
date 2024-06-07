@@ -299,8 +299,21 @@ This data will be used to determine the correlation between model performance on
 The results shown in tables \ref{tab:bertweet-results} and \ref{tab:bertweet-bilstm-results} show solid transferability between 
 the tasks of irony and sarcasm detection, with the BERTweet based models trained on one task performing decently well on the other.
 
-This 
-
+This
+\subsection{Suitability of different models for irony and sarcasm detection}
+The F1 scores obtained for models trained and tested on both irony and sarcasm indicate minimal differences between the tasks.
+To further test the similarity between the tasks, we calculated the correlation between the F1 scores of our models using the pearson coeffiecient.
+$$
+r = 0.9421
+$$
+The coeffiecient indicates that models performing well in irony detection also demonstrate strong performance in sarcasm detection, and vice versa. 
+Consequently, there appears to be no justification for the utilization of separate models for detecting irony and sarcasm, as the tasks exhibit strong
+similarity.
+\subsection{Redefinition of "irony" and "sarcasm" in NLP}
+Developing more distinct definitions of irony and sarcasm could be more beneficial in future research in NLP. For example, the term irony could be 
+defined exclusively as situational irony, whereas the term sarcasm could refer to all kinds of speech charactarized by polarity.
+Alternatively, less emphasis could be placed on their distinction, treating irony and sarcasm detection
+as closely related sequence classification tasks. 
 \section{Conclusion}
 
 \section*{Acknowledgements}
