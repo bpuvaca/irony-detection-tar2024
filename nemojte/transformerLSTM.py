@@ -43,7 +43,7 @@ def main():
     train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
     test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
-    save_path = "bertweet_bilstm/mix_not_b"
+    save_path = "bertweet_bilstm/mixed_unbalanced"
 
     train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True, save_path=save_path)
     evaluate.evaluate_transformer_deep(model, test_dataloader)

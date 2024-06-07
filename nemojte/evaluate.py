@@ -60,7 +60,7 @@ def evaluate_bertweet(model, test_dataloader):
     avg_test_loss = total_test_loss / len(test_dataloader)
     test_f1_score = f1_score(all_labels, all_preds, average='macro')
     test_accuracy = accuracy_score(all_labels, all_preds)
-    test_precision = precision_score(all_labels, all_preds, average='macro')
+    test_precision = precision_score(all_labels, all_preds, average='macro', zero_division=0)
     test_recall = recall_score(all_labels, all_preds, average='macro')
 
     print(f"Test Loss: {avg_test_loss:.3f}")
@@ -103,7 +103,7 @@ def evaluate_transformer_deep(model, test_dataloader):
     avg_test_loss = total_test_loss / len(test_dataloader)
     test_f1_score = f1_score(all_labels, all_preds, average='macro')
     test_accuracy = accuracy_score(all_labels, all_preds)
-    test_precision = precision_score(all_labels, all_preds, average='macro')
+    test_precision = precision_score(all_labels, all_preds, average='macro', zero_division=0)
     test_recall = recall_score(all_labels, all_preds, average='macro')
 
     print(f"Test Loss: {avg_test_loss:.3f}")

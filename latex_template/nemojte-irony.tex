@@ -253,7 +253,7 @@ and training setup, we showcas
        \textbf{Irony} & 0.759 & 0.682 & 0.720 \\ \hline
        \textbf{Sarcasm} & 0.547 & 0.743 & 0.660 \\ \hline
        \textbf{Mixed} & 0.698 & 0.775 & 0.736 \\ \hline
-       \textbf{Mixed unbalanced} & 0.746 & 0.733 & 0.740\\ \hline
+       \textbf{Mixed unbalanced} & 0.666 & 0.745 & 0.719\\ \hline
    \end{tabular}
    \caption{F1 score matrix for model \textsc{BERTweet+LSTM} on the three tasks}
    \label{tab:bertweet-bilstm-results}
@@ -285,7 +285,12 @@ This data will be used to determine the correlation between model performance on
    \end{center}
 \end{table}
 
-\section{Discussion}
+\section{Discussion}\label{discussion}
+\subsection{Overlap between irony and sarcasm detection}
+The results shown in tables \ref{tab:bertweet-results} and \ref{tab:bertweet-bilstm-results} show solid transferability between 
+the tasks of irony and sarcasm detection, with the BERTweet based models trained on one task performing decently well on the other.
+
+This 
 
 \section{Conclusion}
 
