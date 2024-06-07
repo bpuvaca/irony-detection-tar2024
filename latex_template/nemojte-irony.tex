@@ -337,9 +337,16 @@ defined exclusively as situational irony, whereas the term "sarcasm" could refer
 Alternatively, even less emphasis could be placed on their distinction, treating irony and sarcasm detection
 as closely related sequence classification tasks.
 \section{Conclusion}
+In order to disambiguate the relationship between irony and sarcasm in NLP, we conducted a meta-analysis of the performance of different models on the 
+seperate tasks of irony and sarcasm detection. The results of our analysis provide useful insights into how these two concepts should be treated in the
+future research.
 
-\section*{Acknowledgements}
+Specifically, seperating the two tasks doesn't seem to be beneficial, as state-of-the-art models that perform well on one task, also perform
+well on the other. The overlap between the two concepts also seems to be large enough such that labeling them differently in datasets and/or 
+detecting them separately isn't of much use.
 
+Consequently, we propose a redefinition of the terms "irony" and "sarcasm" in NLP, either by further distinguishing between the two or by treating
+their detection as an even more related task.
 \bibliographystyle{tar2023}
 \bibliography{tar2023} 
 
