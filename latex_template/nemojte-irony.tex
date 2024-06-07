@@ -295,11 +295,32 @@ This data will be used to determine the correlation between model performance on
 \end{table}
 
 \section{Discussion}\label{discussion}
+For the discussion part of this paper, we will answer the questions posed in the introduction, based on the results.
+
 \subsection{Overlap between irony and sarcasm detection}
 The results shown in tables \ref{tab:bertweet-results} and \ref{tab:bertweet-bilstm-results} show solid transferability between 
 the tasks of irony and sarcasm detection, with the BERTweet based models trained on one task performing decently well on the other.
 
-This 
+The dropoff in performance when training on one task and evaluating on the other goes both ways, with the dropoff in both cases 
+being of a similar magnitude. This suggests that framing sarcasm as a subset of irony in NLP doesn't tell the whole story, as
+in that case we would expect larger dropoffs in performance when training on the sarcasm task and evaluating on the irony task than
+the other way around.
+
+This can be explained by the fact that while clearly not all ironic statements are sarcastic, a lot of the statements we perceive 
+as sarcastic due to their tone don't actually contain any polarity and are therefore not picked up by the models trained on the
+irony detection tasks as ironic. In that case, irony and detection would have more of an overlapping relationship than a hierarchical
+one.
+
+\subsection{Usefulness of irony and sarcasm data separation}
+The results of the models trained on the combined dataset show excellent performance on the combined task, with the unbalanced 
+variant with more data not showing much of a performance increase. Surprisingly, the models trained on the combined dataset dominated
+the task of sarcasm detection, even more so than the models trained on the sarcasm detection task, while irony detection proved to be more
+challenging.
+
+Nevertheless, the results of the models trained on the combined dataset show that if our goal is to simply detect dishonest speech in
+general, we shouldn't be bothered with seperating irony and sarcasm in our datasets, as this approach doesn't seem to be beneficial
+when compared with combining the two tasks.
+
 
 \section{Conclusion}
 
@@ -310,14 +331,9 @@ This
 
 \end{document}
 
-\section{Discussion}
-
-\section{Conclusion}
-
 \section*{Acknowledgements}
 
 \bibliographystyle{tar2023}
 \bibliography{tar2023} 
 
-\end{document}
 
