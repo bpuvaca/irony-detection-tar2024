@@ -212,18 +212,18 @@ Test F1 Score: 0.6257402887362586
 --------------------------------------------------------------------------------------------------
 BERT+BILSTM, TRAINED ON SARCASM
 Testing on irony
-Test F1 Score: 0.432
+Test F1 Score: 0.363
 Testing on sarcasm
-Test F1 Score: 0.447
+Test F1 Score: 0.668
 Testing on mix
-Test F1 Score: 0.422
+Test F1 Score: 0.567
 BERT+BILSTM, TRAINED ON IRONY
 Testing on irony
-Test F1 Score: 0.401
+Test F1 Score: 0.704
 Testing on sarcasm
-Test F1 Score: 0.398
+Test F1 Score: 0.534
 Testing on mix
-Test F1 Score: 0.389
+Test F1 Score: 0.621
 BERT+BILSTM, TRAINED ON MIX
 --------------------------------------------------------------------------------------------------
 BERT+CNN, TRAINED ON SARCASM

@@ -27,11 +27,12 @@ file_path_dict = {
     "valid_task_a": "../datasets/taskA/taskA_valid.csv"
 }
 
-def reduce_dataset(corpus, labels, num_1s, num_0s):
+def reduce_dataset(corpus, labels, num_1s, num_0s, shuffle = True):
     reduced_corpus = []
     reduced_labels = []
     zip_corpus_labels = list(zip(corpus, labels))
-    random.shuffle(zip_corpus_labels)
+    if shuffle:
+        random.shuffle(zip_corpus_labels)
     for tweet, label in zip_corpus_labels:
         if label == 1 and num_1s > 0:
             reduced_corpus.append(tweet)
@@ -61,8 +62,10 @@ def parse_dataset(fp, remove_hashtags=False, balance=False, dataset_type='train'
     if balance:
         if dataset_type == 'train':
             corpus, labels = reduce_dataset(corpus, labels, BALANCED_TRAIN_1S, BALANCED_TRAIN_0S)
-        else:
+        elif dataset_type == 'valid':
             corpus, labels = reduce_dataset(corpus, labels, BALANCED_TEST_VALID_1S, BALANCED_TEST_VALID_0S)
+        elif dataset_type == 'test':
+            corpus, labels = reduce_dataset(corpus, labels, BALANCED_TEST_VALID_1S, BALANCED_TEST_VALID_0S, shuffle=False)
     
     print(f"Parsed dataset type {dataset_type} with {len(corpus)} tweets, {labels.count(1)} 1s and {labels.count(0)} 0s")
     return corpus, labels
@@ -120,8 +123,8 @@ class TransformerLoader():
         self.valid_fp = file_path_dict[f"valid_{task}"]
         self.test_fp = file_path_dict[f"test_{task}"]
         
-    def load_dataset(self, tokenizer, remove_hashtags=True):
-        train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='train')
+    def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True):
+        train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=(self.balance and balance_train), dataset_type='train')
         self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
         
         valid_corpus, valid_labels = parse_dataset(self.valid_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='valid')

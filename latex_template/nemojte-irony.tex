@@ -231,7 +231,7 @@ and training setup, we showcas
        \textbf{Mixed unbalanced} & 0.83 & 0.90 & 0.86\\ \hline
    \end{tabular}
    \caption{F1 score matrix for model \textsc{BERTweet} on the three tasks. Rows represent the task the model was trained on, 
-   while columns represent the task the model was evaluated on.}
+   while columns represent the task the model was evaluated on}
    \label{tab:bertweet-results}
 \end{table}
 
@@ -245,12 +245,46 @@ and training setup, we showcas
        \textbf{Mixed} & 0.84 & 0.91 & 0.87 \\ \hline
        \textbf{Mixed unbalanced} & 0.83 & 0.90 & 0.86\\ \hline
    \end{tabular}
-   \caption{F1 score matrix for model \textsc{BERTweet+LSTM} on the three tasks. Rows represent the task the model was trained on, 
-   while columns represent the task the model was evaluated on.}
+   \caption{F1 score matrix for model \textsc{BERTweet+LSTM} on the three tasks}
    \label{tab:bertweet-bilstm-results}
 \end{table}
 
 \subsection{Correlation between irony and sarcasm detection}\label{correlation}
+
+The Table \ref{tab:correlation} shows the F1 scores of all the models on the tasks of irony and sarcasm detection.
+For this analysis the models were trained and evaluated on the same task.
+
+\begin{table}[h!]
+   \caption{Irony and sarcasm detection F1 scores}
+   \label{tab:correlation}
+   \begin{center}
+   \begin{tabular}{|c|c|c|}
+   \toprule
+   Model & Irony F1 & Sarcasm F1 \\
+   \midrule
+   \textsc{Baseline} & 0.625 & 0.645 \\
+   \textsc{BERT} & 0.654 & 0.654 \\
+   \textsc{BERTweet} & 0.785 & 0.788 \\
+   \textsc{BERT+LSTM} & 0.657 & 0.657 \\
+   \textsc{BERTweet+LSTM} & 0.763 & 0.768 \\
+   \textsc{BERT+CNN} & 0.669 & 0.670 \\
+   \textsc{BERTweet+CNN} & 0.752 & 0.754 \\
+   \bottomrule
+   \end{tabular}
+   \end{center}
+\end{table}
+
+\section{Discussion}
+
+\section{Conclusion}
+
+\section*{Acknowledgements}
+
+\bibliographystyle{tar2023}
+\bibliography{tar2023} 
+
+\end{document}
+
 
 \section{Discussion}
 
