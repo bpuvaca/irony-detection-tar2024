@@ -27,8 +27,14 @@ class TransformerCNNModel(nn.Module):
         return logits
 
 def main():
+<<<<<<< HEAD
     #transformer_model = "vinai/bertweet-base"
     transformer_model = "roberta-base"
+=======
+    transformer_model = "bert-base-uncased"
+    #transformer_model = "vinai/bertweet-base"
+    #transformer_model = "roberta-base"
+>>>>>>> 780fda9e8703737678554b32aadf3b2c13555017
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
     base_model = AutoModel.from_pretrained(transformer_model)
 
@@ -46,7 +52,11 @@ def main():
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
     test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
+<<<<<<< HEAD
     save_path = "roberta_cnn/mix"
+=======
+    save_path = "bert_cnn/mix"
+>>>>>>> 780fda9e8703737678554b32aadf3b2c13555017
 
     train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True, save_path=save_path)
     evaluate.evaluate_transformer_deep(model, test_dataloader)
