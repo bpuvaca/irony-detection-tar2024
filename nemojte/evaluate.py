@@ -23,8 +23,15 @@ def evaluate_baseline(device, test_dataset, model):
     
     # Calculate F1 score
     f1 = metrics.f1_score(all_labels, all_predictions, average='macro')
-    print("Test F1: ", f1)
-    return f1
+    test_accuracy = accuracy_score(all_labels, all_predictions)
+    test_precision = precision_score(all_labels, all_predictions, average='macro')
+    test_recall = recall_score(all_labels, all_predictions, average='macro')
+
+    print(f"Test F1 Score: {f1:.3f}")
+    print(f"Test Accuracy: {test_accuracy:.3f}")
+    print(f"Test Precision: {test_precision:.3f}")
+    print(f"Test Recall: {test_recall:.3f}")
+    return f1, test_accuracy, test_precision, test_recall
     
 def evaluate_bertweet(model, test_dataloader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
