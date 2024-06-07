@@ -25,14 +25,34 @@ Unska 3, 10000 Zagreb, Croatia\\
 \abstract{ 
 }
 
+
+
 \begin{document}
 
 \maketitleabstract
 
+\begin{abstract}
+   .Forms of speech like irony and sarcasm, where the actual sentiment and the words being spoken differ or even 
+   oppose, sometimes pose a problem even for humans. Furthermore, detecting such forms of speech in plain text
+   like tweets or messages is an even harder task due to the lack other social cues such as tone, intonation, pacing,
+   pauses etc. Therefore, it is of great importance to define the task at hand precisely, and make sure that the
+   distinctions are clear and that they contribute to the solving process. 
+   In this paper, we take a look at how the difference between irony and sarcasm is defined in the field of NLP,
+   how different models perform on different tasks of their detection, how and where those tasks overlap and finally,
+   try to conclude does solving those tasks separately even make practical sense.  
+%    The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest
+% to notice when looking at different sarcasm and irony datasets, where we can find cases when they are treated as completely
+% seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or vice
+% versa \citep{iSarcasm}. Searching for a clear consensus in the realm of linguistics is a futile effort as well, however the
+% distinction explained in \ref{sec:sarcasm_definition} seems to be the most common one, both in NLP and in general.
+      
+\end{abstract}
+
+
 \section{Introduction}
 
 Irony and sarcasm are two very commonly used concepts in everyday language, which makes the fact that the distinction 
-between the two is so puzzling and controversial all the more interesting. In this paper, we take a closer look at the
+between the two can be so puzzling and inconsistent all the more interesting. In this paper, we take a closer look at the
 currently available irony and sarcasm detection datasets and analyze the ways in which they distinguish between those two
 concepts.
 
@@ -41,7 +61,10 @@ states that sarcasm is a sharp, mean-spirited form of irony. We conduct a meta-a
 models on the tasks of irony and sarcasm detection in order to determine the amount of overlap between the two tasks and
 whether or not this definition makes sense in practice by examining how well models trained on one task perform on the other.
 
-As both irony and sarcasm are based on polarity, we hypothesize that models that perform well on one task will also perform
+As both irony and sarcasm 
+% are based on polarity
+can be forms of dishonest speech, 
+we hypothesize that models that perform well on one task will also perform
 well on the other, in which case the current distinction between the two wouldn't be of much use, and we would be better off
 either treating the detection of the two as the same task or creating a more useful distinction between the two in the context
 of NLP.
@@ -57,18 +80,19 @@ and sarcasm in NLP:
 \end{itemize}
 
 \section{Irony and sarcasm in NLP}
-The relationship between irony and sarcasm is unfortunately a heavily contested subject in NLP. This problem is the easiest
-to notice when looking at different sarcasm and irony datasets, where we can find cases when they are treated as completely
-seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or vice
-versa \citep{iSarcasm}. Searching for a clear consensus in the realm of linguistics is a futile effort as well, however the
-distinction explained in \ref{sec:sarcasm_definition} seems to be the most common one, both in NLP and in general.
+This chapter takes a look at the related relevant works in NLP that deal with irony and sarcasm, and introduces our own view 
+of the problem.
 \subsection{Related work}
-After an overview of related work on this topic, two datasets were deemed useful for our research \citep{iSarcasm}, \citep{semeval-2018},
-and they are better explained in the section on construction of datasets \ref{sec:dataset_construction}. From other attempts in classifying 
-ironic speech, it's worth mentioning \citep{bertweet}, where the proposed BERTweet architecture was tested on the SemEval-2018 taskA which 
-deals with irony classification. Also, in \citep{transformers4irony-2020}, the authors build on the RoBERTa \citep{roberta} model to tackle 
-irony classification, which proved to be a success. In \citep{transformers4irony-2023}, a media associated with the tweets is also included 
-in classification data. However, it was noticed that none of these works delved into the differences between irony and sarcasm and whether it 
+After an overview of related work on this topic, two datasets were deemed useful for our research: the iSarcasm dataset \citep{iSarcasm} and 
+the SemEval2018 task \citep{semeval-2018}, and they are better explained in the section \ref{sec:dataset_construction} on construction of 
+datasets. From actual attempts at classifying 
+ironic speech, it's worth mentioning \citep{bertweet}, where the proposed BERTweet architecture uses a modified pre-training procedure based 
+on RoBERTa \citep{roberta} and is pretrained on a corpus of tweets, 
+making it more suitable for the tweet classification tasks. It was tested on the SemEval-2018 taskA which 
+deals with binary classification of irony and produced excellent results. Also, in \citep{transformers4irony-2020}, the authors build on the 
+RoBERTa model to tackle 
+irony classification, which proved to be a success. In \citep{transformers4irony-2023}, images associated with the tweets are also used 
+for classification. However, it was noticed that none of these works delved into the differences between irony and sarcasm and whether it 
 is useful to treat them as separate concepts, which is the direction this paper takes.
  
  
@@ -79,7 +103,7 @@ the "sarcasm" label is a subset of the unfortunately named "sarcastic" label, wh
 indicates any kind of ironic speech. 
 
 In this context, irony refers to any type of speech that is based on polarity - whether that be pointing out the polarity 
-between the expected and actual outcome of a situation (situational irony), or expressing with words the opposite of what 
+between the expected and actual outcome of a situation (situational irony, in which case there is no dishonest speech), or expressing with words the opposite of what 
 we mean (verbal irony based on polarity). Although this definition works on paper, there are some pitfalls. Most notably, 
 the line between sarcasm and verbal irony is unclear, as whether or not a statement is mean-spirited is subjective, while 
 a clearly mean spirited statement can also be based on polarity. Also, tweets that contain irony and aren’t directed at a 
@@ -87,8 +111,9 @@ specific person can still be considered sarcastic, as they often target a group 
 in the form of self-deprecating humor. How the object of the irony affects the classification is a question that remains unanswered.
 
 All things considered, the iSarcasm \citep{iSarcasm} dataset
-does a solid job at distinguishing between the two. However, the usefulness of this distinction is limited, as both concepts
-are based on dishonest speech, meaning that in practice there isn't much use in distinguishing between the two.
+does a solid job at distinguishing between the two. However, the usefulness of this distinction is fairly questionable, 
+as both concepts can be based on dishonest speech, meaning that in practice there might not be much use in distinguishing
+ between them.
 
 In this paper, we will take a closer look at how different models perform on the seperate tasks of irony and sarcasm detection,
 with the goal of determining the amount of overlap between the two tasks and the potential benefits of redefining their distinction.
@@ -164,9 +189,6 @@ from the tweets, as not to make the detection task trivial.
 As our goal was to compare the performance of state-of-the-art models on the tasks of irony and sarcasm detection, we 
 focused on transformer-based models. Specifically we used the BERT \citep{devlin-etal-2019-bert} and BERTweet \citep{bertweet} models,
 as they showed excellent performance on the SemEval-2018 task in previous research \citep{transformers4irony-2020,bertweet}.
-
-BERTweet uses a modified pre-training procedure based on RoBERTa \citep{roberta} and is pretrained on a corpus of tweets, 
-making it more suitable for the tweet classification tasks.
 
 Both of these models were used with their out-of-the-box sequence classification configurations, fine-tuned on our 
 different tasks. We will refer to these models as \textsc{BERT} and \textsc{BERTweet}.
