@@ -145,18 +145,30 @@ Test F1 Score: 0.785
 Test Accuracy: 0.788
 Test Precision: 0.784
 Test Recall: 0.796
+BERT
+Test Loss: 0.641
+Test F1 Score: 0.654
+Test Accuracy: 0.654
+Test Precision: 0.678
+Test Recall: 0.680
 ROBERTA+CNN
 Test Loss: 0.228
 Test F1 Score: 0.930
 Test Accuracy: 0.931
 Test Precision: 0.925
 Test Recall: 0.940
-BERTWEET+CNN:
+BERTWEET+CNN
 Test Loss: 0.597
 Test F1 Score: 0.752
 Test Accuracy: 0.754
 Test Precision: 0.759
 Test Recall: 0.770
+BERT+CNN
+Test Loss: 0.884
+Test F1 Score: 0.669
+Test Accuracy: 0.670
+Test Precision: 0.687
+Test Recall: 0.692
 ROBERTA+BILSTM
 Test Loss: 0.204
 Test F1 Score: 0.933
@@ -164,11 +176,17 @@ Test Accuracy: 0.935
 Test Precision: 0.929
 Test Recall: 0.942
 BERTWEET+BILSTM
-Test Loss: 0.6161941460200718
-Test F1 Score: 0.7626613439787092
-Test Accuracy: 0.7678571428571429
-Test Precision: 0.7607108417137347
-Test Recall: 0.7701678415803892
+Test Loss: 0.616
+Test F1 Score: 0.763
+Test Accuracy: 0.768
+Test Precision: 0.761
+Test Recall: 0.770
+BERT+BILSTM
+Test Loss: 0.649
+Test F1 Score: 0.657
+Test Accuracy: 0.657
+Test Precision: 0.680
+Test Recall: 0.683
 --------------------------------------------------------------------------------------------------
 BERT, TRAINED ON SARCASM
 Testing on irony
@@ -193,7 +211,19 @@ Testing on mix
 Test F1 Score: 0.6257402887362586
 --------------------------------------------------------------------------------------------------
 BERT+BILSTM, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.432
+Testing on sarcasm
+Test F1 Score: 0.447
+Testing on mix
+Test F1 Score: 0.422
 BERT+BILSTM, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.401
+Testing on sarcasm
+Test F1 Score: 0.398
+Testing on mix
+Test F1 Score: 0.389
 BERT+BILSTM, TRAINED ON MIX
 --------------------------------------------------------------------------------------------------
 BERT+CNN, TRAINED ON SARCASM
