@@ -93,17 +93,17 @@ which were useful for this research:
    \item \textit{Irony}:  tweets that contradict the state of affairs but are not obviously critical towards an addressee
  \end{enumerate}
 In SemEval-2018,
-two datasets are presented: taskA, which has any form of ironic speech labeled as 1, and non regular speech labeled 
-with 0, and taskB, where the ironic speech is further classed into three categories:
+two datasets are presented: taskA, where any form of ironic speech labeled 1, while regular speech is labeled 
+0, and taskB, where the ironic speech is further classed into three categories:
 \begin{enumerate}
-   \item \textit{Verbal irony by means of a polarity contrast}
+   \item \textit{Verbal irony by polarity}:
    instances containing an
-   evaluative expression whose polarity (positive,
-   negative) is inverted between the literal and the intended evaluation
+   expression whose polarity (positive,
+   negative) is inverted between the literal and the intended meaning
    \item \textit{Situational irony}:  instances describing situational irony, or situations
    that fail to meet some expectations
    \item \textit{Other verbal irony}: instances that show no polarity contrast between the 
-   literal and the intended evaluation, but are nevertheless ironic
+   literal and the intended meaning, but are nevertheless ironic
  \end{enumerate}
  In both datasets the tweets were manually annotated after being collected using specific hashtags, such 
  as \#irony, \#not and \#sarcasm.
@@ -111,8 +111,7 @@ with 0, and taskB, where the ironic speech is further classed into three categor
 From actual attempts at classifying 
 ironic speech, it's worth mentioning \citep{bertweet}, where the proposed BERTweet architecture uses a modified pre-training procedure based 
 on RoBERTa \citep{roberta} and is pretrained on a corpus of tweets, 
-making it more suitable for tweet classification tasks. It was tested on the SemEval-2018 taskA which 
-deals with binary classification of irony and produced competitive results. Also, in \citep{transformers4irony-2020}, the authors build on the 
+making it more suitable for tweet classification tasks. It was tested on the SemEval-2018 taskA and produced competitive results. Also, in \citep{transformers4irony-2020}, the authors build on the 
 RoBERTa model to tackle 
 irony classification, which proved to be a success. In \citep{transformers4irony-2023}, images associated with the tweets are also used 
 for classification. However, none of these works explored the differences between irony and sarcasm and whether it 
@@ -202,7 +201,7 @@ tweet normalization method proposed by the authors of BERTweet \citep{bertweet} 
 performs subword tokenization and replaces mentions and links with special tokens. Although this method was proposed to be 
 used with the BERTweet model, we found it's use to be beneficial for all models used in this experiment.
 
-The hashtags used to find and scrape the tweets in the SemEval-2018 dataset (\#sarcasm, \#irony and \#not) were removed
+The hashtags used to find and scrape the tweets in the SemEval-2018 dataset were removed
 from the tweets, as not to make the detection task trivial.
 
 \subsection{Models}\label{sec:models}
