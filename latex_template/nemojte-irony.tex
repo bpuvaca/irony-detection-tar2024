@@ -52,7 +52,16 @@ to notice when looking at different sarcasm and irony datasets, where we can fin
 seperate concepts \citep{kaggle-tweets}, when sarcasm is treated as a subset of irony \citep{semeval-2018} or vice
 versa \citep{iSarcasm}. Searching for a clear consensus in the realm of linguistics is a futile effort as well, however the
 distinction explained in \ref{sec:sarcasm_definition} seems to be the most common one, both in NLP and in general.
-
+\subsection{Related work}
+After an overview of related work on this topic, two datasets were deemed useful for our research \citep{iSarcasm}, \citep{semeval-2018},
+and they are better explained in the section on construction of datasets \ref{sec:dataset_construction}. From other attempts in classifying 
+ironic speech, it's worth mentioning \citep{bertweet}, where the proposed BERTweet architecture was tested on the SemEval-2018 taskA which 
+deals with irony classification. Also, in \citep{transformers4irony-2020}, the authors build on the RoBERTa \citep{roberta} model to tackle 
+irony classification, which proved to be a success. In \citep{transformers4irony-2023}, a media associated with the tweets is also included 
+in classification data. However, it was noticed that none of these works delved into the differences between irony and sarcasm and whether it 
+is useful to treat them as separate concepts, which is the direction this paper takes.
+ 
+ 
 \subsection{Sarcasm - irony's meaner cousin}\label{sec:sarcasm_definition}
 The online Merriam-Webster dictionary defines sarcasm as "a sharp and often satirical or ironic utterance designed to 
 cut or give pain" \citep{mw-dictionary}. This definition seems to be in line with the general consensus that sarcasm is

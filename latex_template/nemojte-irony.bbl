@@ -52,6 +52,14 @@ Rolandos~Alexandros Potamias, Georgios Siolas, and Andreas-Georgios
 \newblock A transformer-based approach to irony and sarcasm detection.
 \newblock {\em Neural Computing and Applications}, 32(23):17309--17320, Dec.
 
+\bibitem[\protect\citename{Tomás \bgroup et al.\egroup
+  }2023]{transformers4irony-2023}
+D.~Tomás, R.~Ortega-Bueno, G.~Zhang, et~al.
+\newblock 2023.
+\newblock Transformer-based models for multimodal irony detection.
+\newblock {\em Journal of Ambient Intelligence and Humanized Computing},
+  14:7399--7410.
+
 \bibitem[\protect\citename{Van~Hee \bgroup et al.\egroup }2018]{semeval-2018}
 Cynthia Van~Hee, Els Lefever, and V{\'e}ronique Hoste.
 \newblock 2018.
