@@ -38,7 +38,7 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.to(device)
 
-    loader = TransformerLoader('mix')
+    loader = TransformerLoader('mix', mixed_not_balanced=True)
     loader.load_dataset(tokenizer, remove_hashtags=True)
 
     batch_size = 16
@@ -47,7 +47,7 @@ def main():
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
     test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
 
-    save_path = "bert_cnn/mix"
+    save_path = "bert_cnn/mix_not_b"
 
     train.train_transformer_deep(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=True, save_path=save_path)
     evaluate.evaluate_transformer_deep(model, test_dataloader)
