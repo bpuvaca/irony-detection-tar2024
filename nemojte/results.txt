@@ -197,6 +197,24 @@ BERT+BILSTM, TRAINED ON IRONY
 BERT+BILSTM, TRAINED ON MIX
 --------------------------------------------------------------------------------------------------
 BERT+CNN, TRAINED ON SARCASM
+Testing on irony
+Test F1 Score: 0.4388652482269504
+Testing on sarcasm
+Test F1 Score: 0.7068431696265035
+Testing on mix
+Test F1 Score: 0.625585774763884
 BERT+CNN, TRAINED ON IRONY
+Testing on irony
+Test F1 Score: 0.6971007371007372
+Testing on sarcasm
+Test F1 Score: 0.47608448055047525
+Testing on mix
+Test F1 Score: 0.5598798547213191
 BERT+CNN, TRAINED ON MIX
+Testing on irony
+Test F1 Score: 0.5905349892183417
+Testing on sarcasm
+Test F1 Score: 0.6632585288285799
+Testing on mix
+Test F1 Score: 0.6678796280251834
 --------------------------------------------------------------------------------------------------
