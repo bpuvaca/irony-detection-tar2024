@@ -72,7 +72,7 @@ def save_model(model, path):
     torch.save(model.state_dict(), full_path)
     print(f"Model parameters saved to {full_path}")
     
-def train_bertweet(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None):
+def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs

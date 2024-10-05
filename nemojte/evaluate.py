@@ -33,7 +33,7 @@ def evaluate_baseline(device, test_dataset, model):
     print(f"Test Recall: {test_recall:.3f}")
     return f1, test_accuracy, test_precision, test_recall
     
-def evaluate_bertweet(model, test_dataloader):
+def evaluate_transformer(model, test_dataloader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.to(device)
     model.eval()

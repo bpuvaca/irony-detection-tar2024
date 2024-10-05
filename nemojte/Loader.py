@@ -122,7 +122,7 @@ class TransformerLoader():
         self.train_fp = file_path_dict[f"train_{task}"]
         self.valid_fp = file_path_dict[f"valid_{task}"]
         self.test_fp = file_path_dict[f"test_{task}"]
-        print("Balance: {}".format(self.balance))
+        #print("Balance: {}".format(self.balance))
         
     def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True):
         train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=(self.balance and balance_train), dataset_type='train')
