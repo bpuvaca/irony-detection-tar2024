@@ -77,6 +77,7 @@ result = parse_tweet_file(file_path)
 print(f"irony: \n{result[0]}")
 print(f"sarcasm: \n{result[1]}")
 
+"""
 cm_both = result[2]
 print(cm_both)
 print(f"true irony: {cm_both[0][0]}")
@@ -87,3 +88,4 @@ print(f"true sarcasm: {cm_both[1][1]}")
 
 print(f"#irony but neutral: {result[3]}/{result[5]}")
 print(f"#sarcasm but neutral: {result[4]}/{result[5]}")
+"""
