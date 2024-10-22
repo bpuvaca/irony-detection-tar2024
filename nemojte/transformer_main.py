@@ -65,13 +65,13 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
         train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=True, save_path=save_path)
 
     if not eval_on:
-        evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, return_wrong_preds=True, dataset_texts=tweets)
+        evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, return_wrong_preds=True, return_all_preds=True, dataset_texts=tweets)
     else:
         eval_on = eval_on.split(" ")
         for dataset in eval_on:
             _, _, test_dataloader, tweets = load_dataset(dataset, tokenizer)
             print(f"Evaluating on {dataset}")
-            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, return_wrong_preds=True, dataset_texts=tweets)
+            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, return_wrong_preds=True, return_all_preds=True, dataset_texts=tweets)
 
 if __name__ == "__main__":
     args = parse_args()
