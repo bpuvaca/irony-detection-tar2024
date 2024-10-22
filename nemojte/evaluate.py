@@ -89,7 +89,9 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
         filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".txt"
         with open("wrong_preds/" + filename, "w") as file:
             for wrong_pred in wrong_preds:
-                file.write(wrong_pred + "\n")
+                #file.write(wrong_pred + "\n")
+                file.write(f"{wrong_pred[0]}, {wrong_pred[1]}\n")
+
         print(f"Check nemojte/wrong_preds/{filename} for wrong preds")
 
 def evaluate_transformer_deep(model, test_dataloader):
