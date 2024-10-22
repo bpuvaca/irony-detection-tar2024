@@ -33,13 +33,14 @@ def evaluate_baseline(device, test_dataset, model):
     print(f"Test Recall: {test_recall:.3f}")
     return f1, test_accuracy, test_precision, test_recall
     
-def evaluate_transformer(model, test_dataloader):
+def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", eval_on="", return_wrong_preds=False, dataset_texts=None):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.to(device)
     model.eval()
     total_test_loss = 0
     all_preds = []
     all_labels = []
+    wrong_preds = []
 
     for batch in test_dataloader:
         batch_input_ids = batch['input_ids'].to(device)
@@ -62,9 +63,16 @@ def evaluate_transformer(model, test_dataloader):
         logits = logits.detach().cpu().numpy()
         label_ids = batch_labels.to('cpu').numpy()
 
+        preds = np.argmax(logits, axis=1).flatten()
+
         all_preds.extend(np.argmax(logits, axis=1).flatten())
         all_labels.extend(label_ids.flatten())
 
+        if return_wrong_preds and dataset_texts is not None:
+            for i, (pred, label) in enumerate(zip(preds, label_ids)):
+                if pred != label:
+                    wrong_preds.append(dataset_texts[i])
+    
     avg_test_loss = total_test_loss / len(test_dataloader)
     test_f1_score = f1_score(all_labels, all_preds, average='macro')
     test_accuracy = accuracy_score(all_labels, all_preds)
@@ -77,6 +85,12 @@ def evaluate_transformer(model, test_dataloader):
     print(f"Test Precision: {test_precision:.3f}")
     print(f"Test Recall: {test_recall:.3f}")
 
+    if wrong_preds:
+        filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".txt"
+        with open("wrong_preds/" + filename, "w") as file:
+            for wrong_pred in wrong_preds:
+                file.write(wrong_pred + "\n")
+        print(f"Check nemojte/wrong_preds/{filename} for wrong preds")
 
 def evaluate_transformer_deep(model, test_dataloader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
