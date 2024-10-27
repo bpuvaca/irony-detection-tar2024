@@ -134,10 +134,13 @@ class TransformerLoader():
         test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
 
-        self.test_texts = test_corpus
+        #self.test_texts = test_corpus
+        self.test_texts = list(zip(test_corpus, test_labels))
+
         
     def load_test_dataset(self, tokenizer, remove_hashtags=True):
         test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)
 
-        self.test_texts = test_corpus
+        #self.test_texts = test_corpus
+        self.test_texts = list(zip(test_corpus, test_labels))
