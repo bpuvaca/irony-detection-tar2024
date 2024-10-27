@@ -59,7 +59,6 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
     model = load_model(transformer_model, load_from)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
 
-<<<<<<< HEAD
     if not load_from:
         train_dataloader, valid_dataloader, test_dataloader = load_dataset(dataset, tokenizer)
         save_path = save_to if save_to else None
@@ -67,23 +66,11 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
 
     if not eval_on:
         evaluate.evaluate_transformer(model, test_dataloader)
-=======
-    train_dataloader, valid_dataloader, test_dataloader, test_texts = load_dataset(args.ds, tokenizer)
-
-    if not args.load_from:
-        save_path = args.save_to if args.save_to else None
-        train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=True, save_path=save_path)
-
-    eval_on = args.eval_on
-    if not args.eval_on:
-        evaluate.evaluate_transformer(model, test_dataloader, model_name=args.model, trained_on=args.ds, eval_on=args.ds, return_wrong_preds=True, dataset_texts=test_texts)
->>>>>>> 56c4c90c1faa86a38bf5356ebbf3216d725dd71b
     else:
         eval_on = eval_on.split(" ")
         for dataset in eval_on:
             _, _, test_dataloader, test_texts= load_dataset(dataset, tokenizer)
             print(f"Evaluating on {dataset}")
-<<<<<<< HEAD
             evaluate.evaluate_transformer(model, test_dataloader)
 
 if __name__ == "__main__":
@@ -93,8 +80,5 @@ if __name__ == "__main__":
     train_and_evaluate(args.ds, args.model, args.load_from, args.save_to, args.eval_on)
     
     
-=======
-            evaluate.evaluate_transformer(model, test_dataloader, model_name=args.model, trained_on=args.ds, eval_on=args.eval_on, return_wrong_preds=True, dataset_texts=test_texts)
->>>>>>> 56c4c90c1faa86a38bf5356ebbf3216d725dd71b
     
     
