@@ -53,7 +53,7 @@ def load_dataset(dataset_name, tokenizer):
 
     return train_dataloader, valid_dataloader, test_dataloader, loader.test_texts
 
-def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_on=None):
+def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True):
     print(f"Training {model_name} on {dataset}")
     transformer_model = map_model_name(model_name)
     model = load_model(transformer_model, load_from)
@@ -65,19 +65,21 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
         train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=True, save_path=save_path)
 
     if not eval_on:
-        evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, return_wrong_preds=True, return_all_preds=True, dataset_texts=tweets)
+        evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, 
+                                    return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
     else:
         eval_on = eval_on.split(" ")
         for dataset in eval_on:
             _, _, test_dataloader, tweets = load_dataset(dataset, tokenizer)
             print(f"Evaluating on {dataset}")
-            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, return_wrong_preds=True, return_all_preds=True, dataset_texts=tweets)
+            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
+                                    return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
 
 if __name__ == "__main__":
     args = parse_args()
     if args.load_from and args.save_to:
         raise ValueError("Choose either save path or load path, not both.")
-    train_and_evaluate(args.ds, args.model, args.load_from, args.save_to, args.eval_on)
+    train_and_evaluate(args.ds, args.model, args.load_from, args.save_to, args.eval_on, True, True)
     
     
     
