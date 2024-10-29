@@ -1,6 +1,6 @@
 from transformer_main import train_and_evaluate
 
-datasets = ['iSarcasm_sarc']
+datasets = ['isarcasm_sarc']
 models = ['roberta', 'bertweet', 'bert']
 params_suffix = ''
 

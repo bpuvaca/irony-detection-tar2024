@@ -26,6 +26,7 @@ file_path_dict = {
     "test_task_a": "../datasets/taskA/taskA_test.csv",
     "valid_task_a": "../datasets/taskA/taskA_valid.csv",
     "train_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_train.csv",
+    "valid_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_valid.csv",
     "test_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_test.csv",
     
 }
