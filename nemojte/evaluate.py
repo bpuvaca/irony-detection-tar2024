@@ -40,7 +40,7 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
     total_test_loss = 0
     all_preds = []
     all_labels = []
-    wrong_preds = []
+    wrong_preds_saver = []
     all_preds_saver = []
 
     for batch in test_dataloader:
@@ -72,11 +72,11 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
         if return_wrong_preds and dataset_texts is not None:
             for i, (pred, label) in enumerate(zip(preds, label_ids)):
                 if pred != label:
-                    wrong_preds.append(dataset_texts[i])
+                    wrong_preds_saver.append((i+1, (dataset_texts[i], pred)))
         
         if return_all_preds and dataset_texts is not None:
             for i, (pred, label) in enumerate(zip(preds, label_ids)):
-                all_preds_saver.append((dataset_texts[i], pred))
+                all_preds_saver.append((i+1, (dataset_texts[i], pred)))
     
     avg_test_loss = total_test_loss / len(test_dataloader)
     test_f1_score = f1_score(all_labels, all_preds, average='macro')
@@ -90,21 +90,21 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
     print(f"Test Precision: {test_precision:.3f}")
     print(f"Test Recall: {test_recall:.3f}")
 
-    if wrong_preds:
-        filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".txt"
+    if wrong_preds_saver:
+        filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
         with open("wrong_preds/" + filename, "w") as file:
-            for wrong_pred in wrong_preds:
-                #file.write(wrong_pred + "\n")
-                file.write(f"{wrong_pred[0]}, {wrong_pred[1]}\n")
+            file.write("index,tweet,label,prediction\n")
+            for wrong_pred in wrong_preds_saver:
+                file.write(f"{wrong_pred[0]},{wrong_pred[1][0][0]},{wrong_pred[1][0][1]},{wrong_pred[1][1]}\n")
 
         print(f"Check nemojte/wrong_preds/{filename} for wrong preds")
     
     if all_preds_saver:
-        filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".txt"
+        filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
         with open("all_preds/" + filename, "w") as file:
+            file.write("index,tweet,label,prediction\n")
             for pred in all_preds_saver:
-                #file.write(wrong_pred + "\n")
-                file.write(f"{pred[0][0]}, {pred[0][1]}, {pred[1]}\n")
+                file.write(f"{pred[0]},{pred[1][0][0]},{pred[1][0][1]},{pred[1][1]}\n")
 
         print(f"Check nemojte/all_preds/{filename} for all preds")
 
