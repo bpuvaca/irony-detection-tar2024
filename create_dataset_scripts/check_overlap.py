@@ -4,8 +4,8 @@ import sys
 def check_overlap(file1, file2):
     df1 = pd.read_csv(file1)
     df2 = pd.read_csv(file2)
-    tweets1 = df1['tweet']
-    tweets2 = df2['tweet']
+    tweets1 = df1['index']
+    tweets2 = df2['index']
 
     overlap = tweets1[tweets1.isin(tweets2)]
 
