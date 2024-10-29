@@ -24,7 +24,10 @@ file_path_dict = {
     "valid_mix": "../datasets/mix/mix_valid.csv",
     "train_task_a": "../datasets/taskA/taskA_train.csv",
     "test_task_a": "../datasets/taskA/taskA_test.csv",
-    "valid_task_a": "../datasets/taskA/taskA_valid.csv"
+    "valid_task_a": "../datasets/taskA/taskA_valid.csv",
+    "train_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_train.csv",
+    "test_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_test.csv",
+    
 }
 
 def reduce_dataset(corpus, labels, num_1s, num_0s, shuffle = True):
