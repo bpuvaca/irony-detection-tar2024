@@ -6,4 +6,4 @@ params_suffix = ''
 
 for model in models:
     for dataset in datasets:
-        train_and_evaluate(dataset, model, None, f"{model}_{dataset}_{params_suffix}", 'sarcasm from iSarcasm', False, False)
+        train_and_evaluate(dataset, model, None, f"{model}_{dataset}_{params_suffix}", None, False, False)
