@@ -1,7 +1,7 @@
 from transformer_main import train_and_evaluate
 
 datasets = ['isarcasm_sarc']
-models = ['roberta', 'bertweet', 'bert']
+models = ['roberta', 'bert']
 params_suffix = ''
 
 for model in models:
