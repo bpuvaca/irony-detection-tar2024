@@ -101,7 +101,7 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
     
     if all_preds_saver:
         filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
-        with open("all_preds/" + filename, "w") as file:
+        with open("all_preds/" + filename, "w", encoding="utf-8") as file:
             file.write("index,tweet,label,prediction\n")
             for pred in all_preds_saver:
                 file.write(f"{pred[0]},{pred[1][0][0]},{pred[1][0][1]},{pred[1][1]}\n")
