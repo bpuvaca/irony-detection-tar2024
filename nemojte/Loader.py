@@ -28,6 +28,10 @@ file_path_dict = {
     "train_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_train.csv",
     "valid_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_valid.csv",
     "test_isarcasm_sarc": "../datasets/iSarcasm/sarcasm_test.csv",
+    "train_isarcasm_irony": "../datasets/iSarcasm/irony_train.csv",
+    "valid_isarcasm_irony": "../datasets/iSarcasm/irony_valid.csv",
+    "test_isarcasm_irony": "../datasets/iSarcasm/irony_test.csv",
+    
     
 }
 
@@ -128,12 +132,14 @@ class TransformerLoader():
         self.test_fp = file_path_dict[f"test_{task}"]
         #print("Balance: {}".format(self.balance))
         
-    def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True):
-        train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=(self.balance and balance_train), dataset_type='train')
-        self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
+    def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True, test_only=False):
         
-        valid_corpus, valid_labels = parse_dataset(self.valid_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='valid')
-        self.valid_dataset = TransformerDataset(valid_corpus, valid_labels, tokenizer)
+        if not test_only:
+            train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=(self.balance and balance_train), dataset_type='train')
+            self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
+            
+            valid_corpus, valid_labels = parse_dataset(self.valid_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='valid')
+            self.valid_dataset = TransformerDataset(valid_corpus, valid_labels, tokenizer)
         
         test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)

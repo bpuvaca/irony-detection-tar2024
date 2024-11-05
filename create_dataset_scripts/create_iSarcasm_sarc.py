@@ -45,13 +45,6 @@ df_sarcasm_test = df_iSarcasm_test[(df_iSarcasm_test['sarcasm'] == 1)].drop(colu
 df_irony_test = df_iSarcasm_test[(df_iSarcasm_test['irony'] == 1)].drop(columns=["sarcasm"]).rename(columns={'irony': 'label'})
 df_not_sarcastic_test = df_iSarcasm_test[(df_iSarcasm_test['sarcasm'] != 1) & (df_iSarcasm_test['irony'] != 1)].drop(columns=["sarcasm"]).rename(columns={'irony': 'label'})
 
-# df_sarcasm_test.reset_index(inplace=True)
-
-# df_irony_test.reset_index(inplace=True)
-
-# df_irony_test.reset_index(inplace=True)
-
-
 sarcasm_train = pd.concat([df_sarcasm_train, df_not_sarcastic.head(len(df_sarcasm_train))])
 sarcasm_train['index'] = range(len(sarcasm_train))
 sarcasm_train.to_csv("datasets/iSarcasm/sarcasm_train.csv", index=False)
@@ -60,18 +53,37 @@ sarcasm_val = pd.concat([df_sarcasm_val, df_not_sarcastic.iloc[len(df_sarcasm_tr
 sarcasm_val['index'] = range(len(sarcasm_val))
 sarcasm_val.to_csv("datasets/iSarcasm/sarcasm_valid.csv", index=False)
 
-sarcasm_test = pd.concat([df_sarcasm_test, df_not_sarcastic_test.head(len(df_sarcasm_test))])
+sarcasm_test = pd.concat([df_sarcasm_test, df_not_sarcastic.iloc[len(df_sarcasm_train)+len(df_sarcasm_val):len(df_sarcasm_train)+len(df_sarcasm_val)+len(df_sarcasm_test)]])
 sarcasm_test['index'] = range(len(sarcasm_test))
 sarcasm_test.to_csv("datasets/iSarcasm/sarcasm_test.csv", index=False)
 
-print(len(sarcasm_train))
+irony_start_index = len(df_sarcasm_train)+len(df_sarcasm_val)+len(df_sarcasm_test)
+df_irony = pd.concat([df_irony, df_irony_test])
+irony_test = pd.concat([df_irony, df_not_sarcastic.iloc[irony_start_index:irony_start_index+len(df_irony)]])
+pd.DataFrame().to_csv("datasets/iSarcasm/irony_train.csv", index=False)
+pd.DataFrame().to_csv("datasets/iSarcasm/irony_valid.csv", index=False)
+irony_test['index'] = range(len(irony_test))
+irony_test.to_csv("datasets/iSarcasm/irony_test.csv", index=False)
+# Create a new and empty dataframe
+# print(len(sarcasm_train))
+# print(len(sarcasm_train[sarcasm_train['label'] == 1]))
+# print(len(sarcasm_train[sarcasm_train['label'] == 0]))
+
 # print(df_sarcasm.head(5))
 # print(df_not_sarcastic.head(5))
-print(len(sarcasm_val))
-print(len(sarcasm_test))
+# print(len(sarcasm_val))
+# print(len(sarcasm_val[sarcasm_val['label'] == 1]))
+# print(len(sarcasm_val[sarcasm_val['label'] == 0]))
+# print(len(sarcasm_test))
+# print(len(sarcasm_test[sarcasm_test['label'] == 1]))
+# print(len(sarcasm_test[sarcasm_test['label'] == 0]))
+# print(len(df_sarcasm_test))
+# print(len(df_not_sarcastic_test))
+# print(sarcasm_train.head(5))
 
-print(sarcasm_train.head(5))
-
+print(len(irony_test))
+print(len(irony_test[irony_test['label'] == 1]))
+print(len(irony_test[irony_test['label'] == 0]))
 # df_other_irony['label'] = 1
 # df_other_irony.reset_index(inplace=True)
 # df_other_irony.rename(columns={'index': 'index', 'tweet_text': 'tweet'}, inplace=True)

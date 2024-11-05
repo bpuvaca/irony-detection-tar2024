@@ -40,17 +40,19 @@ def load_model(transformer_model, load_from):
     
     return model
 
-def load_dataset(dataset_name, tokenizer):
+def load_dataset(dataset_name, tokenizer, test_only=False):
     loader = TransformerLoader(dataset_name)
-    loader.load_dataset(tokenizer, remove_hashtags=True)
+    loader.load_dataset(tokenizer, remove_hashtags=True, test_only=test_only)
 
     batch_size = 16
 
     # Create DataLoaders
+    test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
+    if test_only:
+        return test_dataloader, loader.test_texts
+
     train_dataloader = DataLoader(loader.train_dataset, batch_size=batch_size, shuffle=True)
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
-    test_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
-
     return train_dataloader, valid_dataloader, test_dataloader, loader.test_texts
 
 def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True):
@@ -74,6 +76,20 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
             print(f"Evaluating on {dataset}")
             evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
                                     return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
+
+def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, return_all_preds=True):
+    print(f"Evaluating {model_name}")
+    transformer_model = map_model_name(model_name)
+    model = load_model(transformer_model, load_from)
+    tokenizer = AutoTokenizer.from_pretrained(transformer_model)
+
+    eval_on = eval_on.split(" ")
+    for dataset in eval_on:
+        test_dataloader, tweets = load_dataset(dataset, tokenizer, test_only=True)
+        print(f"Evaluating on {dataset}")
+        evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
+                                return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
+
 
 if __name__ == "__main__":
     args = parse_args()
