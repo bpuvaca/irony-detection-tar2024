@@ -31,6 +31,10 @@ file_path_dict = {
     "train_isarcasm_irony": "../datasets/iSarcasm/irony_train.csv",
     "valid_isarcasm_irony": "../datasets/iSarcasm/irony_valid.csv",
     "test_isarcasm_irony": "../datasets/iSarcasm/irony_test.csv",
+    "train_semeval_polarity": "../datasets/SemEval2018/polarity_train.csv",
+    "valid_semeval_polarity": "../datasets/SemEval2018/polarity_valid.csv",
+    "test_semeval_polarity": "../datasets/SemEval2018/polarity_test.csv",
+    "test_semeval_other": "../datasets/SemEval2018/other_test.csv",
     
     
 }
@@ -65,6 +69,7 @@ def parse_dataset(fp, remove_hashtags=False, balance=False, dataset_type='train'
     if remove_hashtags:
         corpus = [clean_hashtags(tweet) for tweet in corpus]
         corpus = [tweet for tweet in corpus if tweet.strip()]
+        
     labels = df['label'].tolist()
     
     if balance:
@@ -126,20 +131,28 @@ class TransformerLoader():
         task = task.lower()
         self.task = task
         task = 'task_a' if task == 'taska' else task
-        self.balance = False if task == 'task_a' else True
-        self.train_fp = file_path_dict[f"train_{task}"]
-        self.valid_fp = file_path_dict[f"valid_{task}"]
+        # self.balance = False if task == 'task_a' else True
+        self.balance = False
+        try:
+            self.train_fp = file_path_dict[f"train_{task}"]
+        except:
+            self.train_fp = None
+        
+        try:
+            self.valid_fp = file_path_dict[f"valid_{task}"]
+        except:
+            self.valid_fp = None
+            
         self.test_fp = file_path_dict[f"test_{task}"]
         #print("Balance: {}".format(self.balance))
         
-    def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True, test_only=False):
+    def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True):
         
-        if not test_only:
-            train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=(self.balance and balance_train), dataset_type='train')
-            self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
-            
-            valid_corpus, valid_labels = parse_dataset(self.valid_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='valid')
-            self.valid_dataset = TransformerDataset(valid_corpus, valid_labels, tokenizer)
+        train_corpus, train_labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=(self.balance and balance_train), dataset_type='train')
+        self.train_dataset = TransformerDataset(train_corpus, train_labels, tokenizer)
+        
+        valid_corpus, valid_labels = parse_dataset(self.valid_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='valid')
+        self.valid_dataset = TransformerDataset(valid_corpus, valid_labels, tokenizer)
         
         test_corpus, test_labels = parse_dataset(self.test_fp, remove_hashtags=remove_hashtags, balance=self.balance, dataset_type='test')
         self.test_dataset = TransformerDataset(test_corpus, test_labels, tokenizer)

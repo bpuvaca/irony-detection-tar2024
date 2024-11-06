@@ -42,7 +42,10 @@ def load_model(transformer_model, load_from):
 
 def load_dataset(dataset_name, tokenizer, test_only=False):
     loader = TransformerLoader(dataset_name)
-    loader.load_dataset(tokenizer, remove_hashtags=True, test_only=test_only)
+    if test_only:
+        loader.load_test_dataset(tokenizer, remove_hashtags=True)
+    else:
+        loader.load_dataset(tokenizer, remove_hashtags=True)
 
     batch_size = 16
 
@@ -88,7 +91,7 @@ def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, 
         test_dataloader, tweets = load_dataset(dataset, tokenizer, test_only=True)
         print(f"Evaluating on {dataset}")
         evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
-                                return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
+                                return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets, load_from=load_from)
 
 
 if __name__ == "__main__":
