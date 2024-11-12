@@ -67,7 +67,7 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
     if not load_from:
         train_dataloader, valid_dataloader, test_dataloader, tweets = load_dataset(dataset, tokenizer)
         save_path = save_to if save_to else None
-        train.train_transformer(model, train_dataloader, valid_dataloader, epochs=5, early_stopping=False, save_path=save_path)
+        train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=False, save_path=save_path, model_name=model_name, trained_on=dataset, cartography=True)
 
     if not eval_on:
         evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, 
