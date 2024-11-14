@@ -181,8 +181,8 @@ class TransformerLoader():
         self.test_texts = [None for _ in range(k)]
         for i in range(k):
             fold_size = int(len(corpus) / k)
-            train_corpus = corpus[0:i*fold_size:].append(corpus[(i+1)*fold_size:])
-            train_labels = labels[0:i*fold_size:].append(labels[(i+1)*fold_size:])
+            train_corpus = corpus[0:i*fold_size] + corpus[(i+1)*fold_size:]
+            train_labels = labels[0:i*fold_size:] + labels[(i+1)*fold_size:]
             self.train_datasets[i] = TransformerDataset(train_corpus, train_labels, tokenizer)
             valid_corpus = corpus[i*fold_size:(i+1)*fold_size] if i < k-1 else corpus[i*fold_size:]
             valid_labels = labels[i*fold_size:(i+1)*fold_size] if i < k-1 else labels[i*fold_size:]
