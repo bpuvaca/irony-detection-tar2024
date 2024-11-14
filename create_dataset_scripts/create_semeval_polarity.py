@@ -31,6 +31,7 @@ print("Number of rows in df_polarity_test:", len(df_polarity_test))
 df_polarity = pd.concat([df_polarity, df_polarity_test])
 df_polarity.dropna(inplace=True, subset=['tweet'])
 df_polarity = pd.concat([df_polarity, df_non_ironic.head(len(df_polarity))])
+df_polarity = df_polarity.sample(frac=1).reset_index(drop=True)
 df_polarity['index'] = range(len(df_polarity))
 df_polarity.to_csv('datasets/SemEval2018/polarity.csv', index=False)
 
