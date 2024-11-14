@@ -1,5 +1,5 @@
 
-from nemojte.transformer_main import cross_validate
+from transformer_main import cross_validate
 
 for model in ['bertweet', 'roberta', 'bert']:            
     for train in ["isarcasm_sarc_crossval", "semeval_polarity_crossval"]:
