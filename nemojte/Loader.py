@@ -35,6 +35,12 @@ file_path_dict = {
     "valid_semeval_polarity": "../datasets/SemEval2018/polarity_valid.csv",
     "test_semeval_polarity": "../datasets/SemEval2018/polarity_test.csv",
     "test_semeval_other": "../datasets/SemEval2018/other_test.csv",
+    "train_semeval_polarity_crossval": "../datasets/SemEval2018/polarity.csv",
+    "valid_semeval_polarity_crossval": "",
+    "test_semeval_polarity_crossval": "",
+    "train_isarcasm_sarc_crossval": "../datasets/iSarcasm/sarcasm.csv",
+    "valid_isarcasm_sarc_crossval": "",
+    "test_isarcasm_sarc_crossval": ""
     
     
 }
@@ -167,3 +173,21 @@ class TransformerLoader():
 
         #self.test_texts = test_corpus
         self.test_texts = list(zip(test_corpus, test_labels))
+        
+    def load_crossval_dataset(self, tokenizer, remove_hashtags=True, k=5):
+        corpus, labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=False, dataset_type='train')
+        self.train_datasets = (None for _ in range(k))
+        self.valid_datasets = (None for _ in range(k))
+        self.test_texts = (None for _ in range(k))
+        for i in range(k):
+            fold_size = int(len(corpus) / k)
+            train_corpus = corpus[0:i*fold_size:].append(corpus[(i+1)*fold_size:])
+            train_labels = labels[0:i*fold_size:].append(labels[(i+1)*fold_size:])
+            self.train_datasets[i] = TransformerDataset(train_corpus, train_labels, tokenizer)
+            valid_corpus = corpus[i*fold_size:(i+1)*fold_size] if i < k-1 else corpus[i*fold_size:]
+            valid_labels = labels[i*fold_size:(i+1)*fold_size] if i < k-1 else labels[i*fold_size:]
+            self.valid_datasets[i] = TransformerDataset(valid_corpus, valid_labels, tokenizer)
+            self.test_texts[i] = list(zip(valid_corpus, valid_labels))
+        
+        
+    
