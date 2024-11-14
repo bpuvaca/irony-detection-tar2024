@@ -4,6 +4,7 @@ import torch.nn as nn
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import numpy as np
 import csv
+import os
 
 def evaluate_baseline(device, test_dataset, model):
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=32, shuffle=False)
@@ -97,7 +98,12 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
     print(f"Test Recall: {test_recall:.3f}")
 
     if wrong_preds_saver:
+        if load_from:
+            filename = load_from + "_test_on_" + eval_on + ".csv"
+        else:
+            filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
         filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
+        os.makedirs('wrong_preds', exist_ok=True)
         with open("wrong_preds/" + filename, "w") as file:
             file.write("index,tweet,label,prediction\n")
             for wrong_pred in wrong_preds_saver:
@@ -110,6 +116,7 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
             filename = load_from + "_test_on_" + eval_on + ".csv"
         else:
             filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
+        os.makedirs('all_preds', exist_ok=True)
         with open("all_preds/" + filename, "w", encoding="utf-8", newline='') as csvfile:
             csvwriter = csv.writer(csvfile)
             csvwriter.writerow(["index", "tweet", "label", "prediction"])

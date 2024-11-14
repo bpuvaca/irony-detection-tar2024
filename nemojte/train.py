@@ -9,6 +9,8 @@ from sklearn import metrics
 import torch.nn as nn
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import accuracy_score, precision_score, recall_score
+import os
+import json
             
 def train_baseline(device, model, learning_rate, batch_size, num_epochs, train_dataset, val_dataset, criterion):
 
@@ -72,13 +74,17 @@ def save_model(model, path):
     torch.save(model.state_dict(), full_path)
     print(f"Model parameters saved to {full_path}")
     
-def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None):
+def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None, model_name="", trained_on="", cartography=False):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     prev_params = model.state_dict()
     prev_val_f1 = 0
+
+    dynamics_output_dir = "./training_dynamics"
+    os.makedirs(dynamics_output_dir, exist_ok=True)
+    training_dynamics = {}
 
     for epoch in range(epochs):
         # Training phase
@@ -89,6 +95,7 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
             batch_input_ids = batch['input_ids'].to(device)
             batch_attention_masks = batch['attention_mask'].to(device)
             batch_labels = batch['labels'].to(device)
+            batch_tweet_texts = batch['tweet_text']
 
             model.zero_grad()
 
@@ -102,12 +109,35 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
             loss = outputs.loss
             total_train_loss += loss.item()
 
+            if cartography:
+
+                logits = outputs.logits
+
+                probabilities = torch.softmax(logits, dim=-1)
+                confidence, _ = torch.max(probabilities, dim=-1)
+                predicted = torch.argmax(probabilities, dim=-1)
+
+                for i in range(len(batch_labels)):
+                    data_id = f"{step * train_dataloader.batch_size + i}"
+                    if data_id not in training_dynamics:
+                        training_dynamics[data_id] = {'confidence': [], 'correctness': [], 'tweet_text': batch_tweet_texts[i]}
+
+                    training_dynamics[data_id]['confidence'].append(confidence[i].item())
+
+                    is_correct = int(predicted[i] == batch_labels[i])
+                    training_dynamics[data_id]['correctness'].append(is_correct)
+
+
             loss.backward()
             optimizer.step()
             scheduler.step()
 
             if step % 10 == 0 and step != 0:
                 print(f"Epoch {epoch + 1}, Step {step}, Loss {loss.item()}")
+        
+        if cartography and epoch == epochs-1:
+            with open(f"{dynamics_output_dir}/{model_name}_trainedon_{trained_on}.json", 'w') as f:
+                json.dump(training_dynamics, f)
 
         avg_train_loss = total_train_loss / len(train_dataloader)
         print(f"Epoch {epoch + 1}, Average Training Loss: {avg_train_loss}")
