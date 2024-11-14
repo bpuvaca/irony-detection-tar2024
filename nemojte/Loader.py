@@ -36,11 +36,11 @@ file_path_dict = {
     "test_semeval_polarity": "../datasets/SemEval2018/polarity_test.csv",
     "test_semeval_other": "../datasets/SemEval2018/other_test.csv",
     "train_semeval_polarity_crossval": "../datasets/SemEval2018/polarity.csv",
-    "valid_semeval_polarity_crossval": "",
-    "test_semeval_polarity_crossval": "",
+    "valid_semeval_polarity_crossval": "../datasets/SemEval2018/polarity.csv",
+    "test_semeval_polarity_crossval": "../datasets/SemEval2018/polarity.csv",
     "train_isarcasm_sarc_crossval": "../datasets/iSarcasm/sarcasm.csv",
-    "valid_isarcasm_sarc_crossval": "",
-    "test_isarcasm_sarc_crossval": ""
+    "valid_isarcasm_sarc_crossval": "../datasets/iSarcasm/sarcasm.csv",
+    "test_isarcasm_sarc_crossval": "../datasets/iSarcasm/sarcasm.csv"
     
     
 }

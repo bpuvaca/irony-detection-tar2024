@@ -11,7 +11,7 @@ pd.set_option('display.max_colwidth', None)
 sns.set(style='whitegrid', font_scale=1.6, font='Georgia', context='paper')
 
 
-def scatter_it(dataframe, hue_metric ='correct.', title='', model='RoBERTa', show_hist=False):
+def scatter_it(dataframe, hue_metric ='correct.', title='', model='BERTweet', show_hist=False):
     dataframe = pd.read_csv(dataframe)
 
     os.makedirs('figures', exist_ok=True)
@@ -99,4 +99,4 @@ def scatter_it(dataframe, hue_metric ='correct.', title='', model='RoBERTa', sho
 
 
 
-scatter_it("training_dynamics/roberta_trainedon_semeval_polarity.csv", title='trained on semeval_polarity', show_hist=True)
+scatter_it("training_dynamics/bertweet_trainedon_semeval_polarity_crossval.csv", title='trained on semeval_polarity', show_hist=True)
