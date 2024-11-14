@@ -32,6 +32,8 @@ df_not_sarcastic.dropna(inplace=True, subset=['tweet'])
 df_iSarcasm_sarcasm = pd.concat([df_iSarcasm_sarc, df_not_sarcastic[:len(df_iSarcasm_sarc)]])
 
 
+df_iSarcasm_sarcasm = df_iSarcasm_sarcasm.sample(frac=1).reset_index(drop=True)
+
 df_iSarcasm_sarcasm['index'] = range(len(df_iSarcasm_sarcasm))
 df_iSarcasm_sarcasm.to_csv("datasets/iSarcasm/sarcasm.csv", index=False)
 
