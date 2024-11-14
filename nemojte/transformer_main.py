@@ -15,7 +15,7 @@ def parse_args():
     parser.add_argument('--model', type=str, required=True, help='Model name')
     parser.add_argument('--load_from', type=str, required=False, help='Source')
     parser.add_argument('--save_to', type=str, required=False, help='Destination')
-    parser.add_argument('--cart', type=bool, required=False, help='Cartography')
+    parser.add_argument('--cart', type=bool, required=False, help='Cartography', default=False)
 
     args = parser.parse_args()
     return args
