@@ -95,8 +95,6 @@ def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, 
 
 def cross_validate(dataset, model_name, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True, folds=5):
     print(f"Training {model_name} on {dataset}")
-    transformer_model = map_model_name(model_name)
-    model = load_model(transformer_model, None)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
     #iskoristi save_to
 
@@ -112,6 +110,9 @@ def cross_validate(dataset, model_name, save_to=None, eval_on=None, return_wrong
     f1_score = 0
     for i in range(folds):
         # Create DataLoaders
+        print("\nFold: ", i)
+        transformer_model = map_model_name(model_name)
+        model = load_model(transformer_model, None)
         train_dataloader = DataLoader(loader.train_datasets[i], batch_size=batch_size, shuffle=True)
         if eval_on:
             valid_dataloader = DataLoader(loader2.valid_datasets[i], batch_size=128, shuffle=False)
