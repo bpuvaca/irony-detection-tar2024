@@ -94,9 +94,9 @@ def scatter_it(dataframe, hue_metric ='correct.', title='', model='RoBERTa', sho
         plot2.set_ylabel('')
 
     fig.tight_layout()
-    filename = f'figures/{title}_{model}.pdf' if show_hist else f'figures/compact_{title}_{model}.pdf'
+    filename = f'figures/{title}_{model}.png' if show_hist else f'figures/compact_{title}_{model}.png'
     fig.savefig(filename, dpi=300)
 
 
 
-scatter_it("training_dynamics/roberta_trainedon_irony.csv", title='trained on irony', show_hist=True)
+scatter_it("training_dynamics/roberta_trainedon_semeval_polarity.csv", title='trained on semeval_polarity', show_hist=True)

@@ -114,8 +114,8 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
                 logits = outputs.logits
 
                 probabilities = torch.softmax(logits, dim=-1)
-                confidence, _ = torch.max(probabilities, dim=-1)
-                predicted = torch.argmax(probabilities, dim=-1)
+                confidence = probabilities.gather(1, batch_labels.unsqueeze(1)).squeeze()
+                predictions = torch.argmax(probabilities, dim=-1)
 
                 for i in range(len(batch_labels)):
                     data_id = f"{step * train_dataloader.batch_size + i}"
@@ -124,7 +124,7 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
 
                     training_dynamics[data_id]['confidence'].append(confidence[i].item())
 
-                    is_correct = int(predicted[i] == batch_labels[i])
+                    is_correct = int(predictions[i] == batch_labels[i])
                     training_dynamics[data_id]['correctness'].append(is_correct)
 
 
