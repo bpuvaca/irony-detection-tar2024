@@ -93,7 +93,42 @@ def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, 
         evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
                                 return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets, load_from=load_from)
 
+def cross_validate(dataset, model_name, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True, folds=5):
+    print(f"Training {model_name} on {dataset}")
+    transformer_model = map_model_name(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(transformer_model)
+    #iskoristi save_to
 
+    loader = TransformerLoader(dataset)
+    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
+    
+    if eval_on:
+        loader2 = TransformerLoader(eval_on)
+        loader2.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
+
+    batch_size = 16
+    
+    f1_score = 0
+    for i in range(folds):
+        # Create DataLoaders
+        print("\nFold: ", i)
+        model = load_model(transformer_model, None)
+        train_dataloader = DataLoader(loader.train_datasets[i], batch_size=batch_size, shuffle=True)
+        if eval_on:
+            valid_dataloader = DataLoader(loader2.valid_datasets[i], batch_size=128, shuffle=False)
+        else:
+            valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
+        save_path = save_to if save_to else None
+        f1_score += train.train_transformer(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=False, save_path=save_path)
+        # evaluate.evaluate_transformer(model, loader.valid_datasets[i], model_name=model_name, trained_on=dataset, eval_on=dataset,
+                                    # return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i])
+    print(f"Average F1 score: {f1_score/folds}")
+
+    
+        
+
+
+    
 if __name__ == "__main__":
     args = parse_args()
     if args.load_from and args.save_to:
