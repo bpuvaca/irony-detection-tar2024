@@ -176,9 +176,9 @@ class TransformerLoader():
         
     def load_crossval_dataset(self, tokenizer, remove_hashtags=True, k=5):
         corpus, labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=False, dataset_type='train')
-        self.train_datasets = (None for _ in range(k))
-        self.valid_datasets = (None for _ in range(k))
-        self.test_texts = (None for _ in range(k))
+        self.train_datasets = [None for _ in range(k)]
+        self.valid_datasets = [None for _ in range(k)]
+        self.test_texts = [None for _ in range(k)]
         for i in range(k):
             fold_size = int(len(corpus) / k)
             train_corpus = corpus[0:i*fold_size:].append(corpus[(i+1)*fold_size:])
