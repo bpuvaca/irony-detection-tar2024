@@ -101,11 +101,11 @@ def cross_validate(dataset, model_name, save_to=None, eval_on=None, return_wrong
     #iskoristi save_to
 
     loader = TransformerLoader(dataset)
-    loader.load_crossval_dataset(tokenizer, remove_hashtags=True)
+    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
     
     if eval_on:
         loader2 = TransformerLoader(eval_on)
-        loader2.load_crossval_dataset(tokenizer, remove_hashtags=True)
+        loader2.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
 
     batch_size = 16
     
