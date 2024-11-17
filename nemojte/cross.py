@@ -1,8 +1,8 @@
 
-from transformer_main import cross_validate
+from transformer_main import train_and_cross_validate
 
-for model in ['bertweet']:#, 'roberta', 'bert']:            
-    for train in ["isarcasm_sarc_crossval", "semeval_polarity_crossval"]:
-        for valid in ["isarcasm_sarc_crossval", "semeval_polarity_crossval"]:
-                cross_validate(train, model, eval_on=(None if train==valid else valid), save_to=None, folds=5)
+for model in ['bertweet', 'roberta', 'bert']:            
+    for ds in ["sarcasm_crossval", "polarity_crossval", "sarcasm_mix_crossval", "irony_mix_crossval"]:
+        train_and_cross_validate(ds, model, return_all_preds=True, folds=5, save_params=True)
+
 
