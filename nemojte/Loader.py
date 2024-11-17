@@ -151,7 +151,10 @@ class TransformerLoader():
         except:
             self.valid_fp = None
             
-        self.test_fp = file_path_dict[f"test_{task}"]
+        try:
+            self.test_fp = file_path_dict[f"test_{task}"]
+        except:
+            self.test_fp = None
         #print("Balance: {}".format(self.balance))
         
     def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True):
