@@ -17,6 +17,7 @@ def parse_args():
     parser.add_argument('--model', type=str, required=True, help='Model name')
     parser.add_argument('--load_from', type=str, required=False, help='Source')
     parser.add_argument('--save_to', type=str, required=False, help='Destination')
+    parser.add_argument('--cart', type=bool, required=False, help='Cartography', default=False)
 
     args = parser.parse_args()
     return args
@@ -60,7 +61,7 @@ def load_dataset(dataset_name, tokenizer, test_only=False):
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
     return train_dataloader, valid_dataloader, test_dataloader, loader.test_texts
 
-def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True):
+def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True, cartography=False):
     print(f"Training {model_name} on {dataset}")
     transformer_model = map_model_name(model_name)
     model = load_model(transformer_model, load_from)
@@ -69,18 +70,23 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
     if not load_from:
         train_dataloader, valid_dataloader, test_dataloader, tweets = load_dataset(dataset, tokenizer)
         save_path = save_to if save_to else None
-        train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=False, save_path=save_path, model_name=model_name, trained_on=dataset, cartography=True)
+        if cartography:
+            train.train_cartography(model, train_dataloader, epochs=2, save_path=save_path, model_name=model_name, trained_on=dataset)
+ 
+        else:
+            train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=False, save_path=save_path)
 
-    if not eval_on:
-        evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, 
-                                    return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
-    else:
-        eval_on = eval_on.split(" ")
-        for dataset in eval_on:
-            _, _, test_dataloader, tweets = load_dataset(dataset, tokenizer)
-            print(f"Evaluating on {dataset}")
-            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
-                                    return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
+    if not cartography:
+        if not eval_on:
+            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, 
+                                        return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
+        else:
+            eval_on = eval_on.split(" ")
+            for dataset in eval_on:
+                _, _, test_dataloader, tweets = load_dataset(dataset, tokenizer)
+                print(f"Evaluating on {dataset}")
+                evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
+                                        return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
 
 def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, return_all_preds=True):
     print(f"Evaluating {model_name}")
@@ -189,7 +195,7 @@ if __name__ == "__main__":
     args = parse_args()
     if args.load_from and args.save_to:
         raise ValueError("Choose either save path or load path, not both.")
-    train_and_evaluate(args.ds, args.model, args.load_from, args.save_to, args.eval_on, True, True)
+    train_and_evaluate(args.ds, args.model, args.load_from, args.save_to, args.eval_on, True, True, args.cart)
     
     
     
