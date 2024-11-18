@@ -118,6 +118,12 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
         # Create DataLoaders
         print("\nFold: ", i)
         model = load_model(transformer_model, None)
+        filepath = f"../params/test/{model_name}/{dataset}/"
+        os.makedirs(filepath, exist_ok=True)
+        filename=f'{model_name}_{dataset}_fold_{i+1}.pt'
+        fullpath = filepath + filename
+        torch.save(model.state_dict(), fullpath)
+            
         train_dataloader = DataLoader(loader.train_datasets[i], batch_size=batch_size, shuffle=True)
         valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
         result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, cartography=True)
