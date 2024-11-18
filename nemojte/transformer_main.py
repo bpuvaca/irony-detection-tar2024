@@ -101,7 +101,7 @@ def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, 
         evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
                                 return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets, load_from=load_from)
 
-def train_and_cross_validate(dataset, model_name, save_params=False, return_all_preds=True, folds=5):
+def train_and_cross_validate(dataset, model_name, save_params=False, return_all_preds=True, folds=5, epochs=10):
     print(f"Training {model_name} on {dataset}")
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
@@ -120,7 +120,7 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
         model = load_model(transformer_model, None)    
         train_dataloader = DataLoader(loader.train_datasets[i], batch_size=batch_size, shuffle=True)
         valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
-        result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, cartography=True)
+        result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=epochs, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, cartography=True)
         if save_params:
             filepath = f"../params/crossval/{model_name}/{dataset}/"
             filename = f"{model_name}_{dataset}_fold_{i+1}.pt"
@@ -131,9 +131,11 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
     
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
-            filepath = f'../preds/crossval/{model_name}/{dataset}/{dataset}/{model_name}_trained_on_{dataset}_evaluated_on{dataset}_fold_{i+1}.csv' 
+            filepath = f'../preds/crossval/{model_name}/{dataset}/{dataset}/'
+            filename = f'{model_name}_trained_on_{dataset}_evaluated_on_{dataset}_fold_{i+1}.csv' 
             os.makedirs(filepath, exist_ok=True)
-            with open(filepath, "w", encoding="utf-8", newline='') as csvfile:
+            fullpath = filepath + filename
+            with open(fullpath, "w", encoding="utf-8", newline='') as csvfile:
                 csvwriter = csv.writer(csvfile)
                 csvwriter.writerow(["index", "tweet", "label", "prediction"])
                 for pred in all_preds:
