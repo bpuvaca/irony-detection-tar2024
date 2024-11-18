@@ -117,21 +117,17 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
     for i in range(folds):
         # Create DataLoaders
         print("\nFold: ", i)
-        model = load_model(transformer_model, None)
-        filepath = f"../params/test/{model_name}/{dataset}/"
-        os.makedirs(filepath, exist_ok=True)
-        filename=f'{model_name}_{dataset}_fold_{i+1}.pt'
-        fullpath = filepath + filename
-        torch.save(model.state_dict(), fullpath)
-            
+        model = load_model(transformer_model, None)    
         train_dataloader = DataLoader(loader.train_datasets[i], batch_size=batch_size, shuffle=True)
         valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
         result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, cartography=True)
         if save_params:
-            filepath = f"../params/crossval/{model_name}/{dataset}/{model_name}_{dataset}_fold_{i+1}.pt"
+            filepath = f"../params/crossval/{model_name}/{dataset}/"
+            filename = f"{model_name}_{dataset}_fold_{i+1}.pt"
             os.makedirs(filepath, exist_ok=True)
-            torch.save(model.state_dict(), filepath)
-            print(f"Model parameters saved to {filepath}")
+            fullpath = filepath + filename
+            torch.save(model.state_dict(), fullpath)
+            print(f"Model parameters saved to {fullpath}")
     
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
