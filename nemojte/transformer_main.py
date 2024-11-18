@@ -151,7 +151,7 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
 
 
 def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset, return_all_preds=True, folds=5):
-    print(f"Evaluating {model_name} on {dataset}")
+    print(f"Evaluating {model_name} trained on {trained_on} on {dataset}")
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
     #iskoristi save_to
@@ -169,15 +169,17 @@ def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset
     for i in range(folds):
         # Create DataLoaders
         print("\nFold: ", i)
-        model = load_model(transformer_model, f"{load_from}/{model_name}_{dataset}_fold_{i+1}.pr")
+        model = load_model(transformer_model, f"{load_from}/{model_name}_{trained_on}_fold_{i+1}.pr")
         valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
         result = evaluate.evaluate_transformer(model, valid_dataloader, model_name=model_name, trained_on=trained_on, eval_on=dataset, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i])
         
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
-            filepath = f'../preds/crossval/{model_name}/{trained_on}/{dataset}/{model_name}_trained_on_{trained_on}_evaluated_on_{dataset}_fold_{i}.csv' 
+            filepath = f'../preds/crossval/{model_name}/{trained_on}/{dataset}/'
+            filename = f'{model_name}_trained_on_{trained_on}_evaluated_on_{dataset}_fold_{i+1}.csv' 
             os.makedirs(filepath, exist_ok=True)
-            with open(filepath, "w", encoding="utf-8", newline='') as csvfile:
+            fullpath = filepath + filename
+            with open(fullpath, "w", encoding="utf-8", newline='') as csvfile:
                 csvwriter = csv.writer(csvfile)
                 csvwriter.writerow(["index", "tweet", "label", "prediction"])
                 for pred in all_preds:
