@@ -173,9 +173,11 @@ def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset
         model = load_model(transformer_model, f"{load_from}/{model_name}_{trained_on}_fold_{i+1}")
         if fold_test_dataset:
             valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
+            dataset_texts=loader.test_texts[i]
         else:
             valid_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
-        result = evaluate.evaluate_transformer(model, valid_dataloader, model_name=model_name, trained_on=trained_on, eval_on=dataset, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i])
+            dataset_texts=loader.test_texts
+        result = evaluate.evaluate_transformer(model, valid_dataloader, model_name=model_name, trained_on=trained_on, eval_on=dataset, return_all_preds=return_all_preds, dataset_texts=dataset_texts)
         
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
