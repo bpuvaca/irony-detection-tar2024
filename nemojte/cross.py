@@ -10,6 +10,9 @@ for model in ['bertweet', 'roberta', 'bert']:
     for train_ds in ["sarcasm_crossval", "polarity_crossval", "sarcasm_mix_crossval", "irony_mix_crossval"]:
         for test_ds in ["sarcasm_crossval", "polarity_crossval", "sarcasm_mix_crossval", "irony_mix_crossval", "isarcasm_irony", "semeval_other"]:
             if train_ds != test_ds:
-                cross_validate(test_ds, model, train_ds, f"../params/crossval/{model}/{train_ds}", return_all_preds=True, folds=5, fold_test_dataset=test_ds.endswith("crossval"))
+                #f"{load_from}/{model_name}_{trained_on}_fold_{i+1}"
+                cross_validate(dataset=test_ds, model_name=model, trained_on=train_ds, 
+                               load_from=f"crossval/{model}/{train_ds}", 
+                               return_all_preds=True, folds=5, fold_test_dataset=test_ds.endswith("crossval"))
 
 
