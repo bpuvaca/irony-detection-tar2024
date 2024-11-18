@@ -35,12 +35,14 @@ file_path_dict = {
     "valid_semeval_polarity": "../datasets/SemEval2018/polarity_valid.csv",
     "test_semeval_polarity": "../datasets/SemEval2018/polarity_test.csv",
     "test_semeval_other": "../datasets/SemEval2018/other_test.csv",
-    "train_semeval_polarity_crossval": "../datasets/SemEval2018/polarity.csv",
-    "valid_semeval_polarity_crossval": "",
-    "test_semeval_polarity_crossval": "",
-    "train_isarcasm_sarc_crossval": "../datasets/iSarcasm/sarcasm.csv",
-    "valid_isarcasm_sarc_crossval": "",
-    "test_isarcasm_sarc_crossval": ""
+    "train_polarity_crossval": "../datasets/crossval/polarity.csv",
+    "train_sarcasm_crossval": "../datasets/crossval/sarcasm.csv",
+    "train_sarcasm_mix_crossval": "../datasets/crossval/sarcasm_mix.csv",
+    "train_irony_mix_crossval": "../datasets/crossval/irony_mix.csv",
+    # "valid_semeval_polarity_crossval": "",
+    # "test_semeval_polarity_crossval": "",
+    # "valid_isarcasm_sarc_crossval": "",
+    # "test_isarcasm_sarc_crossval": ""
     
     
 }
@@ -149,7 +151,10 @@ class TransformerLoader():
         except:
             self.valid_fp = None
             
-        self.test_fp = file_path_dict[f"test_{task}"]
+        try:
+            self.test_fp = file_path_dict[f"test_{task}"]
+        except:
+            self.test_fp = None
         #print("Balance: {}".format(self.balance))
         
     def load_dataset(self, tokenizer, remove_hashtags=True, balance_train=True):
@@ -181,8 +186,8 @@ class TransformerLoader():
         self.test_texts = [None for _ in range(k)]
         for i in range(k):
             fold_size = int(len(corpus) / k)
-            train_corpus = corpus[0:i*fold_size] + corpus[(i+1)*fold_size:]
-            train_labels = labels[0:i*fold_size:] + labels[(i+1)*fold_size:]
+            train_corpus = corpus[0:i*fold_size] + (corpus[(i+1)*fold_size:] if i < k-1 else [])
+            train_labels = labels[0:i*fold_size] + (labels[(i+1)*fold_size:] if i < k-1 else [])
             self.train_datasets[i] = TransformerDataset(train_corpus, train_labels, tokenizer)
             valid_corpus = corpus[i*fold_size:(i+1)*fold_size] if i < k-1 else corpus[i*fold_size:]
             valid_labels = labels[i*fold_size:(i+1)*fold_size] if i < k-1 else labels[i*fold_size:]

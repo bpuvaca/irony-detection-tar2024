@@ -4,7 +4,6 @@ import torch.nn as nn
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import numpy as np
 import csv
-import os
 
 def evaluate_baseline(device, test_dataset, model):
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=32, shuffle=False)
@@ -97,33 +96,29 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
     print(f"Test Precision: {test_precision:.3f}")
     print(f"Test Recall: {test_recall:.3f}")
 
-    if wrong_preds_saver:
-        if load_from:
-            filename = load_from + "_test_on_" + eval_on + ".csv"
-        else:
-            filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
-        filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
-        os.makedirs('wrong_preds', exist_ok=True)
-        with open("wrong_preds/" + filename, "w") as file:
-            file.write("index,tweet,label,prediction\n")
-            for wrong_pred in wrong_preds_saver:
-                file.write(f"{wrong_pred[0]},\"{wrong_pred[1][0][0]}\",{wrong_pred[1][0][1]},{wrong_pred[1][1]}\n")
+    # if wrong_preds_saver:
+    #     filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
+    #     with open("wrong_preds/" + filename, "w") as file:
+    #         file.write("index,tweet,label,prediction\n")
+    #         for wrong_pred in wrong_preds_saver:
+    #             file.write(f"{wrong_pred[0]},\"{wrong_pred[1][0][0]}\",{wrong_pred[1][0][1]},{wrong_pred[1][1]}\n")
 
-        print(f"Check nemojte/wrong_preds/{filename} for wrong preds")
+    #     print(f"Check nemojte/wrong_preds/{filename} for wrong preds")
     
-    if all_preds_saver:
-        if load_from:
-            filename = load_from + "_test_on_" + eval_on + ".csv"
-        else:
-            filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
-        os.makedirs('all_preds', exist_ok=True)
-        with open("all_preds/" + filename, "w", encoding="utf-8", newline='') as csvfile:
-            csvwriter = csv.writer(csvfile)
-            csvwriter.writerow(["index", "tweet", "label", "prediction"])
-            for pred in all_preds_saver:
-                csvwriter.writerow([pred[0], pred[1], pred[2], pred[3]])
+    # if all_preds_saver:
+    #     if load_from:
+    #         filename = load_from + "_test_on_" + eval_on + ".csv"
+    #     else:
+    #         filename = model_name + "+" + trained_on + "_test_on_" + eval_on + ".csv"
+    #     with open("all_preds/" + filename, "w", encoding="utf-8", newline='') as csvfile:
+    #         csvwriter = csv.writer(csvfile)
+    #         csvwriter.writerow(["index", "tweet", "label", "prediction"])
+    #         for pred in all_preds_saver:
+    #             csvwriter.writerow([pred[0], pred[1], pred[2], pred[3]])
         
-        print(f"Check nemojte/all_preds/{filename} for all preds")
+    #     print(f"Check nemojte/all_preds/{filename} for all preds")
+    if all_preds_saver:
+        return all_preds_saver, (test_f1_score, test_accuracy, test_precision, test_recall)
 
 def evaluate_transformer_deep(model, test_dataloader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

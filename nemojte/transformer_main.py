@@ -7,6 +7,8 @@ from torch.utils.data import DataLoader
 import torch
 import train
 import evaluate
+import os
+import csv
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Process some arguments.')
@@ -15,6 +17,7 @@ def parse_args():
     parser.add_argument('--model', type=str, required=True, help='Model name')
     parser.add_argument('--load_from', type=str, required=False, help='Source')
     parser.add_argument('--save_to', type=str, required=False, help='Destination')
+    parser.add_argument('--cart', type=bool, required=False, help='Cartography', default=False)
 
     args = parser.parse_args()
     return args
@@ -58,7 +61,7 @@ def load_dataset(dataset_name, tokenizer, test_only=False):
     valid_dataloader = DataLoader(loader.valid_dataset, batch_size=128, shuffle=False)
     return train_dataloader, valid_dataloader, test_dataloader, loader.test_texts
 
-def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True):
+def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True, cartography=False):
     print(f"Training {model_name} on {dataset}")
     transformer_model = map_model_name(model_name)
     model = load_model(transformer_model, load_from)
@@ -67,18 +70,23 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
     if not load_from:
         train_dataloader, valid_dataloader, test_dataloader, tweets = load_dataset(dataset, tokenizer)
         save_path = save_to if save_to else None
-        train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=False, save_path=save_path, model_name=model_name, trained_on=dataset, cartography=True)
+        if cartography:
+            train.train_cartography(model, train_dataloader, epochs=2, save_path=save_path, model_name=model_name, trained_on=dataset)
+ 
+        else:
+            train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=False, save_path=save_path)
 
-    if not eval_on:
-        evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, 
-                                    return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
-    else:
-        eval_on = eval_on.split(" ")
-        for dataset in eval_on:
-            _, _, test_dataloader, tweets = load_dataset(dataset, tokenizer)
-            print(f"Evaluating on {dataset}")
-            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
-                                    return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
+    if not cartography:
+        if not eval_on:
+            evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset, 
+                                        return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
+        else:
+            eval_on = eval_on.split(" ")
+            for dataset in eval_on:
+                _, _, test_dataloader, tweets = load_dataset(dataset, tokenizer)
+                print(f"Evaluating on {dataset}")
+                evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
+                                        return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets)
 
 def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, return_all_preds=True):
     print(f"Evaluating {model_name}")
@@ -93,7 +101,7 @@ def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, 
         evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
                                 return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets, load_from=load_from)
 
-def cross_validate(dataset, model_name, save_to=None, eval_on=None, return_wrong_preds=True, return_all_preds=True, folds=5):
+def train_and_cross_validate(dataset, model_name, save_params=False, return_all_preds=True, folds=5):
     print(f"Training {model_name} on {dataset}")
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
@@ -102,28 +110,82 @@ def cross_validate(dataset, model_name, save_to=None, eval_on=None, return_wrong
     loader = TransformerLoader(dataset)
     loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
     
-    if eval_on:
-        loader2 = TransformerLoader(eval_on)
-        loader2.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
-
     batch_size = 16
     
     f1_score = 0
+    
     for i in range(folds):
         # Create DataLoaders
         print("\nFold: ", i)
         model = load_model(transformer_model, None)
         train_dataloader = DataLoader(loader.train_datasets[i], batch_size=batch_size, shuffle=True)
-        if eval_on:
-            valid_dataloader = DataLoader(loader2.valid_datasets[i], batch_size=128, shuffle=False)
+        valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
+        result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, cartography=True)
+        if save_params:
+            filepath = f"../params/crossval/{model_name}/{dataset}/{model_name}_{dataset}_fold_{i+1}.pt"
+            os.makedirs(filepath, exist_ok=True)
+            torch.save(model.state_dict(), filepath)
+            print(f"Model parameters saved to {filepath}")
+    
+        if return_all_preds:
+            all_preds, (f1, acc, prec, rec) = result
+            filepath = f'../preds/crossval/{model_name}/{dataset}/{dataset}/{model_name}_trained_on_{dataset}_evaluated_on{dataset}_fold_{i+1}.csv' 
+            os.makedirs(filepath, exist_ok=True)
+            with open(filepath, "w", encoding="utf-8", newline='') as csvfile:
+                csvwriter = csv.writer(csvfile)
+                csvwriter.writerow(["index", "tweet", "label", "prediction"])
+                for pred in all_preds:
+                    csvwriter.writerow([pred[0], pred[1], pred[2], pred[3]])
+                
+            print(f"Check {filepath} for all preds")
+
         else:
-            valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
-        save_path = save_to if save_to else None
-        f1_score += train.train_transformer(model, train_dataloader, valid_dataloader, epochs=10, early_stopping=False, save_path=save_path)
-        # evaluate.evaluate_transformer(model, loader.valid_datasets[i], model_name=model_name, trained_on=dataset, eval_on=dataset,
-                                    # return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i])
+            f1, acc, prec, rec = result
+        f1_score += f1
+            
     print(f"Average F1 score: {f1_score/folds}")
 
+
+def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset, return_all_preds=True, folds=5):
+    print(f"Evaluating {model_name} on {dataset}")
+    transformer_model = map_model_name(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(transformer_model)
+    #iskoristi save_to
+
+    loader = TransformerLoader(dataset)
+    if fold_test_dataset:
+        loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
+    else:
+        loader.load_test_dataset(tokenizer, remove_hashtags=True)
+    
+    batch_size = 16
+    
+    f1_score = 0
+    
+    for i in range(folds):
+        # Create DataLoaders
+        print("\nFold: ", i)
+        model = load_model(transformer_model, f"{load_from}/{model_name}_{dataset}_fold_{i+1}.pr")
+        valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
+        result = evaluate.evaluate_transformer(model, valid_dataloader, model_name=model_name, trained_on=trained_on, eval_on=dataset, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i])
+        
+        if return_all_preds:
+            all_preds, (f1, acc, prec, rec) = result
+            filepath = f'../preds/crossval/{model_name}/{trained_on}/{dataset}/{model_name}_trained_on_{trained_on}_evaluated_on_{dataset}_fold_{i}.csv' 
+            os.makedirs(filepath, exist_ok=True)
+            with open(filepath, "w", encoding="utf-8", newline='') as csvfile:
+                csvwriter = csv.writer(csvfile)
+                csvwriter.writerow(["index", "tweet", "label", "prediction"])
+                for pred in all_preds:
+                    csvwriter.writerow([pred[0], pred[1], pred[2], pred[3]])
+                
+            print(f"Check {filepath} for all preds")
+
+        else:
+            f1, acc, prec, rec = result
+        f1_score += f1
+            
+    print(f"Average F1 score: {f1_score/folds}")
     
         
 
@@ -133,7 +195,7 @@ if __name__ == "__main__":
     args = parse_args()
     if args.load_from and args.save_to:
         raise ValueError("Choose either save path or load path, not both.")
-    train_and_evaluate(args.ds, args.model, args.load_from, args.save_to, args.eval_on, True, True)
+    train_and_evaluate(args.ds, args.model, args.load_from, args.save_to, args.eval_on, True, True, args.cart)
     
     
     
