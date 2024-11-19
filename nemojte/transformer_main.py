@@ -157,10 +157,10 @@ def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset
     #iskoristi save_to
 
     loader = TransformerLoader(dataset)
-    if fold_test_dataset:
-        loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
-    else:
-        loader.load_test_dataset(tokenizer, remove_hashtags=True)
+    # if fold_test_dataset:
+    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
+    # else:
+    #     loader.load_test_dataset(tokenizer, remove_hashtags=True)
     
     batch_size = 16
     
@@ -171,12 +171,12 @@ def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset
         print("\nFold: ", i)
         #f"../params/{load_from}.pt"
         model = load_model(transformer_model, f"{load_from}/{model_name}_{trained_on}_fold_{i+1}")
-        if fold_test_dataset:
-            valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
-            dataset_texts=loader.test_texts[i]
-        else:
-            valid_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
-            dataset_texts=loader.test_texts
+        # if fold_test_dataset:
+        valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
+        dataset_texts=loader.test_texts[i]
+        # else:
+        #     valid_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
+        #     dataset_texts=loader.test_texts
         result = evaluate.evaluate_transformer(model, valid_dataloader, model_name=model_name, trained_on=trained_on, eval_on=dataset, return_all_preds=return_all_preds, dataset_texts=dataset_texts)
         
         if return_all_preds:

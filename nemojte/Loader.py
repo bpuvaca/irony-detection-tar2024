@@ -39,6 +39,8 @@ file_path_dict = {
     "train_sarcasm_crossval": "../datasets/crossval/sarcasm.csv",
     "train_sarcasm_mix_crossval": "../datasets/crossval/sarcasm_mix.csv",
     "train_irony_mix_crossval": "../datasets/crossval/irony_mix.csv",
+    "train_other_crossval": "../datasets/crossval/other.csv",
+    "train_irony_crossval": "../datasets/crossval/irony.csv",
     # "valid_semeval_polarity_crossval": "",
     # "test_semeval_polarity_crossval": "",
     # "valid_isarcasm_sarc_crossval": "",
