@@ -8,10 +8,10 @@ index,tweet,label,prediction
 7,:weary_cat: :face_screaming_in_fear: :weary_cat: :face_screaming_in_fear: :weary_cat: :face_screaming_in_fear: #POPCORN ! ! ! :face_with_tears_of_joy: :Santa_Claus: :face_with_tears_of_joy: :Santa_Claus: :face_with_tears_of_joy: :water_pistol: :water_pistol: bringing this at movie tuesday night ! !  HTTPURL,1,0
 8,Many of the best ideas come from having fingers too fat for your keyboard .  #nimble  #agile,1,0
 9,Oracle on Windows 2000 . This should be fun ! ,1,1
-10,@USER : Congratulations GG for giving us amazing collections for 10 yrs.In fact i was planning to do the same for u from my prospictive :smiling_face_with_smiling_eyes:,0,0
-11,"@USER but if you feel like it 's relevant do n't worry about the word limit man , at least you 're doing it",0,0
+10,@USER : Congratulations GG for giving us amazing collections for 10 yrs.In fact i was planning to do the same for u from my prospictive :smiling_face_with_smiling_eyes:,0,1
+11,"@USER but if you feel like it 's relevant do n't worry about the word limit man , at least you 're doing it",0,1
 12,"Time for the post Christmas car wash , yay ! ! !  #friesenfamilychristmas",1,1
-13,"@USER : A Guide To Coffee :OK_hand: HTTPURL LOL , espresso from that time we went to the Maple Leafs fan fest @USER",0,0
+13,"@USER : A Guide To Coffee :OK_hand: HTTPURL LOL , espresso from that time we went to the Maple Leafs fan fest @USER",0,1
 14,Really love when the @USER is over five minutes late on the cold days . Feels like Metro ! ,1,1
 15,One from her please * cries * HTTPURL,0,0
 16,If you gon ' judge people who drink and blaze FOH Go choke on some foreskin,0,0
@@ -33,7 +33,7 @@ index,tweet,label,prediction
 32,I just want to thank e-l-e-n-a-t on tumblr for spoiling me #BOFA - . -  ... Honestly ? Fuck you ! #martinfreeman,1,1
 33,"@USER @USER let 's face it , at the mo there 's delays on any day ending in a y ! #valueformoneynot ",1,1
 34,When you 're sick and you feel bad for your cells cause they 're fighting hard for you . #blessed #appreciative  #kinda,1,1
-35,@USER absolutely shocking that the lamestream media has n't picked up on this  #mediabias @USER @USER,0,1
+35,@USER absolutely shocking that the lamestream media has n't picked up on this  #mediabias @USER @USER,0,0
 36,"managing to fall flat on my face up the library stairs , has just made it to the top of my list of proudest student moments ",1,1
 37,Few things are more amazingly wonderful than getting up early on a Monday morning to start the work week ! ! !  #needmoresleep :sleeping_face: :ZZZ: :confused_face:,1,1
 38,yet another rainy goshen concert night :umbrella_with_rain_drops: :violin: #surprised ,1,1
@@ -46,7 +46,7 @@ index,tweet,label,prediction
 45,Coffee and Fiber One . It 's worth getting up for . ,1,1
 46,"@USER really well done . Another short formation , so I get to stand for the 3rd day in a row from Kel to LLS 7:18 . Thanks ",1,1
 47,"@USER well , people did ask where would have been without McCormack , and here we are",0,0
-48,"Rush rush rush , all done and then POW , a football through the window . #glasseverywhere #boyswillbeboys",0,0
+48,"Rush rush rush , all done and then POW , a football through the window . #glasseverywhere #boyswillbeboys",0,1
 49,Lady in red :red_heart: :sparkles: :kiss_mark: :princess: :woman_dancing: | #ootd #im #the #mom  #the #godmother #lol #athenakairalyn #baptism #love ... HTTPURL,0,0
 50,I love my customers  #annoying #stoptalking,1,1
 51,@USER @USER | Its @USER bcoz he is so #Nasty and loves his  ... | | #GoSupersonicQuikr,0,0
@@ -73,8 +73,8 @@ index,tweet,label,prediction
 72,@USER WHO LOOK SO MUCH ALIKE OMG lashwkaywiduwb ,0,0
 73,cies #eu How Santa Juncker can bring the gift of a healthier EU HTTPURL,0,0
 74,"@USER How do you propose to determine "" sides "" ? I have both black and white family members . #racewar  #LoveNotWar",1,0
-75, #adanisJet lol @USER : Irony committed suicide jumping from Adani 's jet ! #LoveJihad & #Gharwapsi orphaned ! HTTPURL,0,1
-76,If we could stop losing planes that would be great .,0,1
+75, #adanisJet lol @USER : Irony committed suicide jumping from Adani 's jet ! #LoveJihad & #Gharwapsi orphaned ! HTTPURL,0,0
+76,If we could stop losing planes that would be great .,0,0
 77,7 am . Pilates Now I get to go home and get ready for work ! AMAZING ! ,1,1
 78,"My coach is so supportive . "" tighten your belt , pick up the weight and just do it . ""  #ithinkhehatesmesomedays #itsmostlylove",1,1
 79,That was a very rememberable new years kiss :face_with_tears_of_joy: :kiss_mark: :red_heart: #lovemyrelationship,0,1
@@ -83,9 +83,9 @@ index,tweet,label,prediction
 82,"Those mini naps I had all night between sneezing , coughing and blowing my nose were super restful .  #fluday4",1,1
 83,Stuck behind someone who can't do the speed limit #lateforwork #fuck #happymonday ,1,1
 84,Spending the majority of my day in and out of the doctor has been awesome . ,1,1
-85,@USER You truly are my son .,0,1
+85,@USER You truly are my son .,0,0
 86,Highly inflamed stomach is just what I like ,1,1
-87,"Work done , gym done , steak for tea and Friday tomorrow #woohoo :grinning_face_with_big_eyes: :thumbs_up:",0,0
+87,"Work done , gym done , steak for tea and Friday tomorrow #woohoo :grinning_face_with_big_eyes: :thumbs_up:",0,1
 88,@USER @USER @USER @USER @USER @USER @USER not now guys finals  :hundred_points:,0,0
 89,Haha who the fuck says that to someone #TrueGentlemen ,1,1
 90,@USER There 's so much less controversy now that the BCS has been replaced . ,1,1
@@ -93,7 +93,7 @@ index,tweet,label,prediction
 92,@USER Can U use Smartphone ? | | HTTPURL APP PAYS you ! | See-http :/ / t.co/RDlRuGN0iE | Go 2 : HTTPURL,0,0
 93,@USER what is your argument ? 1 / $ 12.5 for Butler > 2 / $ 17 for Morales ?,0,0
 94,"Just realized I have n't watched this weeks episode of Degrassi . I "" eventually "" get around to it . ",1,0
-95,I still love the newsroom regardless of what everyone else thinks,0,0
+95,I still love the newsroom regardless of what everyone else thinks,0,1
 96,"Going to sleep , hope #sydneysiege is sorted out in the morning",0,0
 97,Nothing like waiting at an airport . #youcanthearit ,1,1
 98,#Heisenberg Uncertainty Principle : Whatever you study you also change . #JurassicParkTheLostWorld #JurassicWorld #BreakingBad ,0,0
@@ -151,17 +151,17 @@ index,tweet,label,prediction
 150,:party_popper: It 's Monday ! :party_popper: ,1,1
 151,Abraham was actually from modern day Iraq ( Ur of the Chaldea ) @USER @USER,0,0
 152,@USER after I went to Europe,0,0
-153,"@USER @USER  of course , Not !",0,1
+153,"@USER @USER  of course , Not !",0,0
 154,I really need to get my nails and eyebrows done tomorrow :beaming_face_with_smiling_eyes: been slacking on that  #cool :nail_polish: :person_gesturing_NO: :person_tipping_hand:,0,0
 155,you 're so sweet ,1,1
-156,tramp shit #youoweme #follow  HTTPURL,1,1
+156,tramp shit #youoweme #follow  HTTPURL,1,0
 157,"dressing gown on , turkey and buffalo sauce sandwich in hand and big fat quiz of the year  #moving #ever #again",0,0
 158,That 's nice . ,1,1
 159,The ever so caring @USER gets to see the siege ending first . Great journalism . ,1,1
-160,"oh yeah , that was funny as hell too , @USER @USER @USER @USER @USER @USER @USER",0,0
+160,"oh yeah , that was funny as hell too , @USER @USER @USER @USER @USER @USER @USER",0,1
 161,I 'm going to Finnish all my homework and get caught up on everything over the break  HTTPURL,1,1
 162,you are the one LYING @USER @USER @USER @USER @USER,0,0
-163,Who 's eating everything on the table for Noche buena ? :person_raising_hand: :person_raising_hand: :person_raising_hand:,0,0
+163,Who 's eating everything on the table for Noche buena ? :person_raising_hand: :person_raising_hand: :person_raising_hand:,0,1
 164,Dallas ( - 7 ) over Washington ; New Orleans ( - 7 ) over Tampa Bay ; Green Bay over Detroit ( + 9 ); Carolina ( +2.5 ) over Atlanta .,0,0
 165,On #HumanRightsDay #Manchester takes first steps towards independence HTTPURL . @USER . @USER OnwWell,0,0
 166,Best Christmas gift @USER new album . HTTPURL,0,0
@@ -169,7 +169,7 @@ index,tweet,label,prediction
 168,"@USER I liked the first one . Never cared enough to watch the sequel ( s ? ) . That said , I will only watch the #reboot because of #ChrisPratt",0,0
 169,@USER so pissed at 2K rn ..,0,0
 170," is not lost . @USER @USER @USER HTTPURL """,0,0
-171,@USER haha I also had 2 ... cheers bro ! ! !,0,1
+171,@USER haha I also had 2 ... cheers bro ! ! !,0,0
 172,Was pretty windy at the summit . Memphis loves the floppity ears while he watches the raptors soar #getoutside #yyj HTTPURL,0,1
 173,Bacon . That 's all . That 's the tweet .,0,0
 174,"Well done @USER , you 're doing a great job  "" @USER : A & E Waiting Times Worst Since Records Began HTTPURL """,1,1
@@ -181,11 +181,11 @@ index,tweet,label,prediction
 180,@USER You can afford stocks ? Teachers make SO MUCH money it 's crazy ! ,1,1
 181,"Less than 5 hours sleep , fantastic  :beaming_face_with_smiling_eyes:",1,1
 182,@USER @USER To be fair he looks like he 's lost a lot of weight since his amazingly successful halcyon Leeds ' days ! ,1,1
-183,Claybo Dawson and I are @USER ' s #squadgoals :smiling_face_with_sunglasses:,0,1
+183,Claybo Dawson and I are @USER ' s #squadgoals :smiling_face_with_sunglasses:,0,0
 184,"Do n't know about y'all but , I 'm super excited to get out there clean off my car , shovel and deal with fools on the road . Oh yeah . ",1,1
 185,"@USER I bet you 're gonna be outside today , its soooo warm , T-shirt and shorts weather :flushed_face: :smirking_face:  #Funny",1,1
 186,@USER  ___ I love that Song <3,0,0
-187,"Yep , it 's exactly what you 're thinking ... someone called an Ambulance for the former Audi R8 ... | | #Audi #R8 #Carporn  HTTPURL",0,0
+187,"Yep , it 's exactly what you 're thinking ... someone called an Ambulance for the former Audi R8 ... | | #Audi #R8 #Carporn  HTTPURL",0,1
 188,"On the train and surrounded by posh people , I 'm so at home !  #stickoutlikeasorethumb",1,1
 189,@USER ooh I can probably watch a replay or the #orion launch at some point ? Oh wonderful . That 's sooo exciting  hanks,1,0
 190,@USER see HTTPURL | #FOLLOWME | #FOLLOWNGAIN | #TEAMTOFOLLOW | #TEAMFOLLOWBACK | | RETWEET & GAIN FOLLOWERS .,0,0
@@ -193,7 +193,7 @@ index,tweet,label,prediction
 192,"@USER @USER Really ? ! This is absolutely below the belt , especially towards Tom Boon ... #DeepRespect ... ",1,1
 193,Today should be fun ,1,1
 194,Just a friendly reminder ! #motto #advice #you #are  #defined #by #your #past HTTPURL,0,0
-195,Gotta baps that hoe thou,0,0
+195,Gotta baps that hoe thou,0,1
 196,"Sony got hacked again ? Oh man , big surprise ...  : HTTPURL",1,1
 197,@USER @USER @USER but would you be willing to purchase from a vending machine ?,0,0
 198,@USER HTTPURL #CHRISTMAS #GIFT GET STARTED AT MAKING MONEY IN SOCIAL MEDIA @USER HTTPURL,0,0
@@ -213,30 +213,30 @@ index,tweet,label,prediction
 212,@USER hahaha such a 1 % town,0,1
 213,My dogs like to be nice and toasty while relaxing at home #adorable #puppy #socute #icant HTTPURL,0,0
 214,Casual stroll with lauralobaugh  Rochester #FunInTheSun @USER Key West Islands - Florida ( U . S . A . ) HTTPURL,1,0
-215,With no forwards . #confused  sure,0,0
+215,With no forwards . #confused  sure,0,1
 216,Woke up crying because of the nightmare I had ... gonna be a great day ,1,1
 217,@USER yay ! ! ! It works  #HateWhenThingsDontWorkRight,1,1
 218,wow what great banter from @USER ,1,1
 219,Love waking up to grumpy people ,1,1
 220,Time for my babies and I to take this medicine so we can get better :face_with_medical_mask:,0,0
-221,Welsh devolution ? How 's this for starters ... HTTPURL,0,1
+221,Welsh devolution ? How 's this for starters ... HTTPURL,0,0
 222,@USER Thanks . I 'll have to check out another store in Calgary .,0,0
 223,@USER was just about to say that :face_with_tears_of_joy:,0,0
 224,So glad all that voting was put to good use ! ,1,1
 225,8ams are just so lovely . ,1,1
-226,Done to much again  HTTPURL,1,1
-227,That 's always the solution ...  . Does n't fix anything !,1,0
+226,Done to much again  HTTPURL,1,0
+227,That 's always the solution ...  . Does n't fix anything !,1,1
 228,@USER fan-freakin-tastic ! Ca n't wait ,1,1
 229,"I have a VERY limited number of press seats available for a Meet Me There screening in Austin on January 21 . Hit me up , press types .",0,0
 230,Thank goodness the holiday help at work is no more ! I just love it when they think they know more than you  #annoyed #relieved #gone,1,1
 231,I fucked them really badly :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: | #AdvancedWarfare HTTPURL,0,0
-232,"@USER I know , but in the big spot ( the only time I 've watched him ) he choked ! Haha ! Must mean he sucks , right ? ",1,0
+232,"@USER I know , but in the big spot ( the only time I 've watched him ) he choked ! Haha ! Must mean he sucks , right ? ",1,1
 233,@USER if @USER exclude BF3 maps from the poll ... I am going to RIOT ! ! I really want Seine Crossing back :loudly_crying_face: :loudly_crying_face: | I would pay for it ! !,0,0
 234,@USER @USER @USER Missed off the  hashtag ?,0,0
 235,@USER @USER yeah I 'm avoiding you by waking up at 6 AM my time so by 10 PM I 'm exhausted .  #sucksimissedyou <3,1,1
 236,@USER That 'll work ...  #HellBeFiredinElevenMonths,1,1
 237,girl #beautiful #short #nose  #tall #but  #toshort #selfieeee <3 : * HTTPURL,0,0
-238,@USER @USER better bust out my aluminum hat ! ! !  #chemtrailsdontexist #growup,1,0
+238,@USER @USER better bust out my aluminum hat ! ! !  #chemtrailsdontexist #growup,1,1
 239,"Company profile NOT TWINS VENTURES , LLC - HTTPURL  #TWINS #VENTURES , #LLC",0,0
 240,If that 's Man U at its best they have much bigger problems than us ;) #saintsfc . Then again we 're still 5th #noproblem,0,1
 241,@USER @USER @USER And it starts :P | #GetEnchanted,0,0
@@ -251,7 +251,7 @@ index,tweet,label,prediction
 250,"@USER Marvellous ! Sounds nothing like any jingle bells song i 've ever heard ! I can see you in mismatched socks , tights & cricket gear :-)",0,1
 251,Agree with @USER @USER some people sigh so others will hear them . My husband sighs all the time . Around me . #Curious ,1,0
 252,I 'll grin or ill grin . There 's two ways to read my name .,0,0
-253,Such a good lie in ,1,0
+253,Such a good lie in ,1,1
 254,unless he 's changed @USER @USER @USER @USER @USER @USER @USER @USER,0,0
 255,"Every parent wants their child to get ahead , help your child with a sponsorship / grant from @USER #charity",0,0
 256,I have #OTH playing in the back ground at work ... ohhh #naughty :p but #FUN,0,0
@@ -262,7 +262,7 @@ index,tweet,label,prediction
 261,"Walking down the mall in front of a group of guys and hear "" even the momma got it "" Jesus lol everyone loves polly",0,1
 262,"Is it wrong of me to not want to read about horrible things in this world , just for one day ?",0,0
 263,Drinking a Mercury : The Winged Messenger ( Planet Series ) by @USER - HTTPURL #photo,0,0
-264,Everything You 've Been Told About Copywriting is BS .  HTTPURL,1,0
+264,Everything You 've Been Told About Copywriting is BS .  HTTPURL,1,1
 265,So far today I burned my tongue on my coffee . Saw a dead guy on the freeway and chipped the windshield in the truck #gonnahaveagoodday ,1,1
 266,"@USER @USER Would you have said in the 1800s , "" Why is GOP against Africans being brought here ? Do any of them want to pick cotton ? """,0,0
 267,"@USER : @USER It did get yo lazy butt outta bed , did n't it now . Thanks for proving my point !",0,1
@@ -272,7 +272,7 @@ index,tweet,label,prediction
 271,I have three test and a two dance performances tomorrow ! ! :books: :open_book: :woman_dancing: :woman_dancing: :people_with_bunny_ears: #EasyDay ,1,1
 272,An ' important ' call from the council about a form we did 3 months ago is just what I need an hour before we head off to Disneyland . ,1,1
 273,Someone stop Obama ! USA only should have relations with human rights loving nations like Saudi Arabia . Not terrorist Cuba ! #Cuba ,1,0
-274,It 's beginning to look a lot like Christmas ! #timetodecorate #tistheseason HTTPURL,0,1
+274,It 's beginning to look a lot like Christmas ! #timetodecorate #tistheseason HTTPURL,0,0
 275,#MIley #Cyrus #Is  #The #Bad #Influence – Sources Say Patrick Schwarzenegger Is ! : Miley Cyrus has been dating ... HTTPURL,0,0
 276,"OK , OK , GEEZ ! I KNOW ALREADY ! @USER @USER @USER #totally  #repetetive HTTPURL",0,1
 277,Oh how I missed middle school drama : ~ ) ,1,1
@@ -290,7 +290,7 @@ index,tweet,label,prediction
 289,"@USER : @USER : Me and Cam Newton will be engaged by the end of this year just wait on it lmao "" BYYER FOOLISHA "" < < good night",0,0
 290,I love that my body can't handle school stress and makes me physically sick . ,1,1
 291,One season down 8 togo ! #OneTreeHill,0,0
-292,@USER miss u lots and lots like jelly tots,0,0
+292,@USER miss u lots and lots like jelly tots,0,1
 293,@USER @USER Kick Raiola out of the league . #Scumbag #RepeatOffender #OneGameIsNotEnough,0,0
 294,@USER who said that retarded nonsense ?,0,0
 295,loyalty vs . self protection loyalty vs . self protection loyalty vs . self protection loyalty vs . self protection,0,0
@@ -308,15 +308,15 @@ index,tweet,label,prediction
 307,As a little girl I would dream of shouting instructions repeatedly and being completely ignored . #motherhood ,1,0
 308,Hope everyone is having a lovely Marxist Christmas ,1,1
 309,I am so glad that I woke up early for this office visit to have to the mother not show up ! ,1,1
-310,#marleyandme RT @USER : Sources tell @USER and me that Dodgers are showing serious interest in Jon Lester .,0,0
+310,#marleyandme RT @USER : Sources tell @USER and me that Dodgers are showing serious interest in Jon Lester .,0,1
 311,I always look super cute when guys come to fix stuff in the condo ,1,1
 312,Tamir Rice 's Memorial is today . His family had plans of seeing him grow up . Not gunned down by police . Police ?  HTTPURL,0,0
 313,"@USER what 's the law for parking on a residential street , on the opposite side of the road facing the wrong direction ? #curiosity",0,0
 314,@USER Loving how Fulham looks like a playoff team . Really ,1,1
 315,4 days left to enter @USER & @USER @USER planner #giveaway HTTPURL Enter to win ! #bbloggers #lbloggers,0,0
 316,Just found the picture of lisazamorano trying to kill me #bff at our #seniorbrunch @USER Moutain Meadows HTTPURL,0,0
-317,"Alright y'all , back to binge watching Legend of Korra like a muthafukn gangster .",0,0
-318,Horses are just hornless unicorns : O | | #enlightened #mystical #wow  #on #drugs,0,0
+317,"Alright y'all , back to binge watching Legend of Korra like a muthafukn gangster .",0,1
+318,Horses are just hornless unicorns : O | | #enlightened #mystical #wow  #on #drugs,0,1
 319,People who do n't get  : you are THE BEST !,1,0
 320,"@USER : Gas below $ 1 per litre in Ottawa . Happy holidays . HTTPURL ... Yes , crisis averted ",1,1
 321,My dream is to celebrate Christmas with you :smiling_face_with_heart-eyes:,0,0
@@ -324,7 +324,7 @@ index,tweet,label,prediction
 323,@USER I think you should go get checked out,0,0
 324,@USER absolutely ! I have no life so that should n't be a hard thing to do . Haha,0,0
 325,@USER no u dnt hav to .. bt sme ppl do ... evn whn they do shit .. :-P,0,0
-326,"Damn I lost a lot of followers , probs cuz I do n't tweet much related to @USER anymore",0,1
+326,"Damn I lost a lot of followers , probs cuz I do n't tweet much related to @USER anymore",0,0
 327,I love waking up five minutes before I have to be at school ... ,1,1
 328,Luv this ,1,1
 329,"Dirgahayu my corps @USER 16/12 / 1986 - 26/12 / 2014 :smiling_face_with_sunglasses: :musical_score: :clapping_hands: :oncoming_fist: |  just a corps , we ... ( w / Tari , eni , & 26 others ) [ pic ] — HTTPURL",0,0
@@ -345,7 +345,7 @@ index,tweet,label,prediction
 344,I love when my mornings start off like this . ,1,1
 345,"So now its Hamilton on a Monday night ? Thanks @USER for all those evening games you give us , saturday football is overrated ! ",1,1
 346,doing mental calculations and realizing that your chances of passing a module are slim to none is fantastic ,1,1
-347,Everyone is broken . Some of ' em are so good to hide it . So good until I want to punch them in the face . ,1,1
+347,Everyone is broken . Some of ' em are so good to hide it . So good until I want to punch them in the face . ,1,0
 348,@USER @USER an e-reader would definitely help save my life if someone broke into my house . Good call ,1,1
 349,I can already tell today is going to be a wonderful day ,1,1
 350,i just loove when my guy friends give me thorough descriptions of their bowel movements ...  #WHY #STOPTHIS,1,1
@@ -366,7 +366,7 @@ index,tweet,label,prediction
 365,Getting sick just in time for finals is so great ,1,1
 366,@USER Not passing judgment . Been in many binds before and actually love the creativity . Vodka is a versatile liquor .,0,0
 367,@USER 1/5 th . Just like in the real world ! ,1,1
-368,#YouAndIBackToYoutube WHAT ? ? ? ! WHY ? ? ? ! ! ITS CHRISTMAS ! ITS FORBIDDEN TO DO SUCH TERRIBILE THINGS ! GIVE IT BACK TO US ! @USER,0,1
+368,#YouAndIBackToYoutube WHAT ? ? ? ! WHY ? ? ? ! ! ITS CHRISTMAS ! ITS FORBIDDEN TO DO SUCH TERRIBILE THINGS ! GIVE IT BACK TO US ! @USER,0,0
 369,Making the most out of my last vacation day .  #tvandsleep,1,0
 370,@USER Weeeeee ! You too ! I love that xbox live and playstation network are down due to hackers on Christmas . ,1,1
 371,"@USER Hey Alex , thanks for the support . My FB page is : HTTPURL and success to you .",0,0
@@ -395,8 +395,8 @@ index,tweet,label,prediction
 394,Last day in #Riga ! #self #finnishgirl #businesswoman  @USER PK Riga Hotel HTTPURL,0,0
 395,Love it when your typing at work and a spider comes out from the keyboard and hangs out between your fingers ...  :see-no-evil_monkey:,1,1
 396,@USER ooooo touching myself to ODB he is the greatest Giants player to ever play the game ... Screw that the best player ever ! ! ,1,0
-397,@USER but if we all hold hands and sing Kumbaya they wo n't hate us ! ,1,0
-398,"Yoga pants , a sweatshirt , and nikes , am I @USER yet ? :face_with_tears_of_joy:",0,0
+397,@USER but if we all hold hands and sing Kumbaya they wo n't hate us ! ,1,1
+398,"Yoga pants , a sweatshirt , and nikes , am I @USER yet ? :face_with_tears_of_joy:",0,1
 399,The mouse 's first incepted memory was just the sound : BRAAAAAAWWWWWWWWWP !,0,0
 400,Check out my latest blog post on MyFairDaily : Pins That Really Work ! ! ! HTTPURL #lbloggers #lifestyle #pinterest #triedandtrue,0,0
 401,"@USER no im not mate , yea good pretty much there so shud b gd nxt week bit sore to kneel down still and twinges sumtimes but ok",0,0
@@ -417,9 +417,9 @@ index,tweet,label,prediction
 416,Last day of school it was so much fun but not much people came . what a shocker ,1,1
 417,@USER @USER We can vote Republican ! Their Civil rights record and their ability to empathize is amazing .  .,1,1
 418,#QZ8501 asks permission to #takeoff : #towercontrol of #Surubaya : yeah .. y can go ... away .,0,0
-419,My boy has another cold and spent the night coughing and sneezing all over me #sexy ,1,1
+419,My boy has another cold and spent the night coughing and sneezing all over me #sexy ,1,0
 420,It 's nice to see continuity in our gender struggles . ,1,1
-421,Meh ... i do n't think I 'm a suit person . | ~ Neil Caffrey |  | #TvQuotes | #WhiteCollar,0,1
+421,Meh ... i do n't think I 'm a suit person . | ~ Neil Caffrey |  | #TvQuotes | #WhiteCollar,0,0
 422,"Oh crap , Mac shutdown corrupted iPhoto so hours of rebuild ahead , so might as well eat and drink ! #FestiveFattyBumBum",0,1
 423,#np #NowPlaying #NowListening #Music  Of Dying On Your Birthday by #Senses Fail from the #album : #Let It E ... HTTPURL,0,0
 424,Being used is such a great feeling ... ,1,1
@@ -468,7 +468,7 @@ index,tweet,label,prediction
 467,It 's 8: 46 and I 'm ready for bed .,0,0
 468,At one point i almost believed that the law of attraction was effective .  !,1,1
 469,Gotta go back to work tonight,0,0
-470,Imagine an imaginary menagerie manager managing an imaginary menagerie .,0,0
+470,Imagine an imaginary menagerie manager managing an imaginary menagerie .,0,1
 471,Ca n't believe @USER is even considering renaming the Academic Building after Perry ... b / c he did so much great stuff for public educ ? ,1,1
 472,I like listening to dads truck drivers tell me about them going to the strip joint and their old lady getting mad at them over it  :face_with_tears_of_joy:,1,1
 473,Dang my selfie game is on point when I 'm drinking  #actuallysorry,1,1
@@ -476,11 +476,11 @@ index,tweet,label,prediction
 475, RT @USER : Should be great watching Miami try to block Sweat and Featherstone off the edge next two years . Real fun stuff,1,1
 476,"Great , I 've got a lung infection . This is fun . :/ |  fun #miserable",1,1
 477,"I liked a @USER video from @USER HTTPURL WWE 2K15 ( PS4 ) My Career Mode Ep : #12 : "" TRIPLE THREAT "" | WWE 2K15",0,0
-478,@USER yeah me !  | I should get a more active social life and get away from the internet ...,0,1
+478,@USER yeah me !  | I should get a more active social life and get away from the internet ...,0,0
 479,"#If we 're  #careful , #literacy #will #become # a #historical #blip : It 's a summer ... HTTPURL",0,0
 480,"I like how people freak out when they hear I 'm still getting paid while I 'm off for over 2 weeks . Join the military , duh .",0,1
 481,"He looks a decent bowler . Not really a 5th bowler , but , in a balanced side potentially 6th bowler Styris on HSohail . #pakvnz ",0,0
-482,"Crime figures : true picture may be worse than feared , says think-tank report | via @USER HTTPURL Surprised ? ",1,0
+482,"Crime figures : true picture may be worse than feared , says think-tank report | via @USER HTTPURL Surprised ? ",1,1
 483,"@USER @USER good old JK landing people in trouble again , ffs William i thought you were more savvy than that ",1,1
 484,Nothing like the 24hr swing back to being a day walker to make you feel like a million bucks ...  #shiftworkerlife,1,1
 485,I need my own pillow to fall asleep mymalsh,0,0
@@ -512,18 +512,18 @@ index,tweet,label,prediction
 511,"This is very likely to end well . More vaccines is exactly what we need - . -  | | "" Health and Human Services ... HTTPURL",1,1
 512,Experts Doubt North Korea Hacked Sony « CBS Dallas / Fort Worth HTTPURL #hacker #hacked ,1,0
 513,MT Darth Vader is polling higher than all potential 2016 US presidential candidates HTTPURL you surprised ? ,1,1
-514,Shawn still has n't follow me ... and I 'm okay with it ,1,1
+514,Shawn still has n't follow me ... and I 'm okay with it ,1,0
 515,"The answers often lay right infront of you , the problem is you seek in the distance , when in reality the answers are simple .",0,0
 516,You 're never too old for Footie Pajamas . HTTPURL,0,0
 517,Insanity is doing the same thing twice and expecting different results,0,0
 518,"Have successfully avoided everything from season 4 - which I 've not seen and there 's an S5 one , in my timeline . Thanks Indy ! ",1,1
 519,I adapted the Snoopy comic for academic paper submission :P Reviewer 2 is the stuff of nightmares ! HTTPURL,0,0
-520,@USER @USER gotta be a joke about tootin a Horn somewhere,0,0
+520,@USER @USER gotta be a joke about tootin a Horn somewhere,0,1
 521,I 'd rather you know and be upset than hide it for you to only question things later,0,0
 522,Bridal #jewels #exciting range #hand made #high quality jewellery  on the high street #bespoke #custom HTTPURL,0,0
 523,I can't waitlove #this #is #love #and #you #cAn  #tell #me #how #much #this #is #gonna #last #beth #rip #twd #forever #bae ... HTTPURL,0,0
 524,@USER the hospital for a new allergy test ... Love it . ,1,1
-525,@USER #spinless #gutless  acceptable,0,1
+525,@USER #spinless #gutless  acceptable,0,0
 526,@USER @USER are n't most legislators ' list of legislative accomplisments the past 8 years short ?,0,0
 527,Yay for knee machines !  HTTPURL,1,1
 528,Ummm can I please have @USER for Christmas ? ! Dang he looks great tonight . Why did I not go to this thing tonight ?,0,0
@@ -550,7 +550,7 @@ index,tweet,label,prediction
 549,2014 can't end fast enough ! Stupid dead battery .,0,0
 550," # A #TERROR #ORGANIZATION ... #Hamas man killed , 3 injured in "" suspicious explosion "" in #Gaza HTTPURL #Israel",0,0
 551,@USER Please give me a Follow Back .,0,0
-552,"#Daesh , #Taliban all need to become part of ' The religion of "" PIECES "" | My heart goes out to all the of the victims of #PeshawarAttack",0,1
+552,"#Daesh , #Taliban all need to become part of ' The religion of "" PIECES "" | My heart goes out to all the of the victims of #PeshawarAttack",0,0
 553,@USER thats not weird at all ,1,0
 554,"Wrapping up CROTCHED MOUNTAIN commercial tonight , and packing everything up to head up to Loon Mountain Resort ... HTTPURL",0,0
 555,"cies #eu Liverpool workers "" miscarriage of justice "" victims HTTPURL",0,0
@@ -572,13 +572,13 @@ index,tweet,label,prediction
 571,Hey there ! Nice to see you Minnesota / ND Winter Weather ,1,1
 572,@USER I can't wait :) Enjoy your Christmas !,0,0
 573,"Yea , yea that 's logical . ",1,1
-574,"Watching the move ' Begin Again ' and the verisimilitude is overpowering , it 's like I 'm back in the 90s music business again . ",1,0
+574,"Watching the move ' Begin Again ' and the verisimilitude is overpowering , it 's like I 'm back in the 90s music business again . ",1,1
 575,"@USER nice , lazy search in google scholar could n't find a free copy - openaccess for the win ",1,1
 576,"Just in case anyone was wondering , Veni Vidi Vici in Spanish is Vine Vi Vencí #studybreaks #UMDFinalsWeek",0,1
 577,I 'm in love with the cocoa :teacup_without_handle:,0,0
 578,@USER @USER what the hell ever .,0,0
 579,"Sure , let 's go back to work on my day off after after just leaving four hours ago . Why not ? #fb ",1,1
-580,"wait for it "" city-data "" will become a Fox News site soon @USER @USER @USER @USER",0,1
+580,"wait for it "" city-data "" will become a Fox News site soon @USER @USER @USER @USER",0,0
 581,HTTPURL What Day is the Sabbath ? #follow #Jesus #Christ #FBC #FBCJAX HTTPURL,0,0
 582,"@USER @USER What on earth does that mean "" Cloud vs Mobile "" ? It 's Cloud-Mobile - or basically Client-Server 2.0",0,0
 583,"All I want for Christmas is .. the complimentary coaster offered by the title insurance company if I generate a "" Quick Quote "" to myself . ",1,0
@@ -595,9 +595,9 @@ index,tweet,label,prediction
 594,Are n't you just loving the snow ? #Stockport  HTTPURL,1,1
 595,Day 39 & 40  3 #Novel Train . #comfortzone #christmastree #nextlevel #buzzkillington #familyguy ... HTTPURL via @USER,0,0
 596,"@USER Yeah thanks for messing me about and then not delivering on the product , i feel really great about how this went down ! !  #Thanks",1,1
-597,Hope Tulisa does n't get a job back on #xfactor next year,0,1
+597,Hope Tulisa does n't get a job back on #xfactor next year,0,0
 598,I love it when adults act like children . | |  #eyeroll,1,1
-599, #40 #Corner #Cute #Day #Expensive #diy #crafts | Please RT : HTTPURL HTTPURL,0,1
+599, #40 #Corner #Cute #Day #Expensive #diy #crafts | Please RT : HTTPURL HTTPURL,0,0
 600,love taking the subway alone at 2:40 am ,1,1
 601,I feel a nap in my near future . #NapTime,0,0
 602,"If his Twitter account is any sign , then this book looks to be a must read  id rather read twilight HTTPURL",1,1
@@ -607,7 +607,7 @@ index,tweet,label,prediction
 606,@USER @USER That 's fantastic up to date news . Also ,1,1
 607,Hell has frozen over . Literally . #Texas2015 .,0,0
 608,I blame my mom . Mother of the Year ,1,1
-609,@USER @USER years ago in M & & S in Rochdale they had 2 left shoes on sale with a £ 5 reduction from full price ! #bargain ,1,0
+609,@USER @USER years ago in M & & S in Rochdale they had 2 left shoes on sale with a £ 5 reduction from full price ! #bargain ,1,1
 610,Buffalo sports media is smarter than all of us . Where else can you get the quality insight offered by Harrington and Busgaglia . ,1,1
 611,Good crowd at the Independence Bowl ... ,1,1
 612,My stomach is a Wonderland for gas inducing bacteria . #blessed ,1,1
@@ -617,73 +617,73 @@ index,tweet,label,prediction
 616,Jordan fan here | |  :face_with_tongue: - not a hater . HTTPURL,1,0
 617,"[ Alaska #HipHop ] Flowtronics : What 's This World Coming To ( Rizzle P , Boone Pratt , Token R ... : HTTPURL via > @USER",0,0
 618,So fucking excited to be the 5th wheel for another New Year 's Eve ! ! ! Ca n't blame anybody but myself for being super picky re : men ,1,1
-619,Last day in Naples with my Emma girl ! :palm_tree: :sun: #soeasytotakeapicwithatoddler  #19wksandcounting ... HTTPURL,1,1
-620, It 's a comforting thought : every tax payer will b reminded of #OCARE being rammed in2 law when answering questions on 2014 tax forms,1,1
-621,I have such a loving family ,1,1
-622,Still awake sooo that 's nice ... ,1,1
-623,HTTPURL #TeenAnalCasting #VIRGIN VIRGIN ] cute teenage virgin playing in her hotel room in tight blue gstring underwear !,0,0
-624,"Dayum , I really got the house to myself while my brother still has school all week :smiling_face_with_sunglasses:",0,1
-625,3rdeye Brand Has Designed The Accessory For Your Easy To Carry And Comfortable HTTPURL,0,0
-626,"@USER : @USER great seing u mate , thanks for the cheap shot :winking_face: safe trip back :clinking_beer_mugs: :clinking_beer_mugs: | | Dry train why we lost :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: ",1,0
-627,@USER And when you overpay for that talent you get stuck w / that talent . Which perpetuates the losing cycle the Cubs are in,0,0
-628,@USER yes :thumbs_up: the taste .. The slight aroma of the tea :smiling_face_with_heart-eyes:,0,0
-629,Waking up with a pounding headache is just what I need for this final ,1,1
-630,"It 's hot , it 's humid & you 're wearing uggs . Wow . Nice style ! ",1,1
-631,home alone aka turn on all the lights #scaredycat,0,0
-632,@USER @USER Well that 's a completely well reasoned and thought out argument . You 've changed my mind ! ! ! #Ferguson ,1,1
-633,that is the face of a tired man hahahahah,0,0
-634,You decide to go on vacation without me sleep ? Reaaaal nice . #considerate  :unamused_face: :ZZZ:,1,1
-635,"HTTPURL #TeensAnalyzed  Not expirienced , but cock hungry",0,0
-636,Oh god I just so happens that i love really LOVE slow internet #slowinternet ,1,1
-637,"Standard Christmas newsfeed . Diamonds everywhere , everyone 's engaged . Congratulations . #original  #Christmas #engaged",1,1
-638,group message with bbc to start off my morning thanks Hannah :-) ,1,1
-639,Festive #ff to @USER @USER @USER @USER @USER @USER @USER @USER @USER,0,0
-640,"@USER Careful , Cayce . That 's almost a racist statement .  @USER @USER @USER",1,1
-641,@USER the word itself is a mockery ... Bae ... like abey :persevering_face:,0,0
-642,@USER It 's no longer political . @USER is setting the stage for all out race war.That is his only way he can succeed .,0,1
-643,@USER I be surprised at how many ppl have me blocked :weary_face: :weary_face: :weary_face:  #ITalkTooMuchShit #YOURSTILLCLOCKINGMETHO #ThatsWhyYourGirlStillFollows,1,1
-644,Yaaaayyy Valentine 's Day stuff is out already :two_hearts: ,1,1
-645,"You 're any moment , every second , | Every scent and every flower | As a girl .",0,0
-646,@USER We are rumored to have talked to Erv 's agent ... and the Angels asked about Ed Escobar ... that 's hardly nothing  ;),1,0
-647,Go get it you broke ass bitches .  my fault,0,0
-648,Oh noes ! The night train Berlin-Malmö runs only during summer ! HTTPURL & me who was planning a long comfortable train trip :(,0,1
-649,I 'm so ready to get drunk tonight,0,1
-650,When you 're in the doctors waiting room and hear a baby in the back screaming her lungs out is always a reassuring feeling ,1,1
-651,#chattyman never fails to make me laugh @USER # 1 talk show on TV ! #loveit,0,0
-652,"On a good note , only 49 more days until #Scandal .  :crying_face: :crying_face:",1,0
-653,"30 years on , people still have n't got justice they deserve . #BhopalGasTragedy Yet another brilliant job done by the Americans ",1,1
-654,"@USER @USER @USER @USER I 'm off to visit great-nephew very ill , only 20  fair",0,0
-655,How the fuck do u come out of a commercial injury break w a delay of game ? #Redskins,0,0
-656,It 's  #cute to be awake right now,0,1
-657,Thank God the #Knicks re-signed Carmelo .  #TheBullsCanHaveHim,1,1
-658,I love spending five hours a night doing homework ! Please assign more teachers ! ,1,1
-659,@USER : do n't say anything ... just retweet it HTTPURL @USER @USER @USER,0,0
-660,@USER returning my brand new ps4 thanks to your faulty security . #goodjob ,1,1
-661,Ma thing  HTTPURL,1,0
-662,Nose is stuffed.Awesome . ,1,1
-663,@USER @USER #goodgrief he may already have gone a little too far with those eyebrows !,0,1
-664,Have you gotten your tree yet ? Xmas tree nail wraps available at HTTPURL #nailwraps #nailart  ... HTTPURL,0,0
-665,In Scotland ( the little country that 's attached to the north of England ) 🇬🇧 :snowflake:,0,1
-666,"@USER : I learned that if you want to make it bad enough , no matter how bad it is , you can make it . - Gale Sayers  #Wise",0,0
-667,I 'm so different when I 'm back home ... I blame the work crew #rowdy #banter  #toomuchlove #360family,1,0
-668,So much  at work mate 10/10 #boring 100 % #dead mate full on #shit absolutely #sleeping mate can't handle the ,1,0
-669,"@USER @USER We must be tolerant and embrace the peaceful Islamic faith , Muslims are our peaceful brothers ",1,0
-670,Everone is supporting Fawad alam :D | No fawad no cricket :D : v | #Supportfawad  | #Usman HTTPURL,1,0
-671,"Found my motivation ... Aka the back of my eye lids , by accident . Boy , me and @USER are some winners .  #senioritisisreal #losers",1,1
-672,Ok ... so these two are my #AbsoluteFavs and I am  ashamed to admit that I actually cried when my ... HTTPURL,0,0
-673,@USER @USER @USER @USER they better !,0,0
-674,@USER @USER @USER Again fans come second . Thanks again ,1,1
-675,I picked a great week to start a new show on Netflix .  #HellOnWheels,1,1
-676,Lights went off at my school so now we trying to learn with one emergency light on in the classroom how great ! ,1,1
-677, 3 But 350 Girl Friends - #DrAmbarish - Upcoming Movies HTTPURL,0,0
-678,"@USER @USER No , it 's secured by the Cartels so that they can charge huge sums of money for illegals to cross into the US .",0,1
-679,Gee faculty at nicholls are so helpful ,1,1
-680,Oh how I love working in Baltimore ,1,1
-681,@USER dusty as usual :electric_plug: #redbucket HTTPURL,0,0
-682, much ! !,0,0
-683,@USER @USER well are n't you the brightest bulb in the chandelier ? ,1,1
-684, alot-still not sussed out how yo keep in touch with peop ! e via twitterTwitterversary,0,0
-685,Gonna be the shittest Christmas ever without my mum .. Gonna get so drunk :tropical_drink: :tropical_drink: :tropical_drink:,0,1
-686,@USER @USER Yeah thanks for that ! ,1,1
-687,Why can't I ( You ) retweet my ( your ) own tweets ? This is an important issue that needs to be resolved ! ,1,0
-688,@USER :beaming_face_with_smiling_eyes: contrary to this ... I 'm wide awake ( caffeine injected consciousness ) :flushed_face:,0,0
+619,The only thing I got from college is a caffeine addiction,1,0
+620,Remember the hundred emails from companies when Covid started getting real ? I 've gotten three in regards to support for protests . And only @USER shared helpful links and actually said black lives matter ... we love capitalism :smiling_face_with_hearts: 🙌🏼,1,1
+621,"@USER I choose to interpret it as "" XD "" : the universal emoticon for laughing at those poor , poor folks in Ubisoft 's marketing department who have to deal with that branding until the servers quietly shut down 8 months after launch .",1,1
+622,Why would Alexa 's recipe for Yorkshire pudding be a bhaji yorkshire pudding ? ? @USER,1,0
+623,"ANY PENSIONER AND 4 YEAR OLD WHO DARE TAKE ME ON AT DINOSAUR THEMED CRAZY GOLF WILL BE CRUSHED , CRUSHED I TELL YOU . HTTPURL",1,0
+624,See Brexit is going well,1,1
+625,My eldest is having a wild Friday night out . She 's going to bingo . :face_with_tears_of_joy:,1,0
+626,gaslight gatekeep girl boss,1,0
+627,"Not got one lynx Africa for Christmas Day this year , shocked and outraged . #RuinedChristmas",1,1
+628,teams is down what a shame I can't do my assignments 👉🏽 👈🏽,1,1
+629,90 % of adulthood is just refilling your Brita pitcher .,1,0
+630,July 1st . Half way point of the year . Well I think we can all agree that 2020 has gone swimmingly so far . Ca n't wait for part 2 . #murderhornets,1,1
+631,"Got locked out of Twitter for saying it 's embarrassing to be an arsenal fan . That 's not okay , but people can be abusive and racist and nothing ? ! ? Okay ! :rolling_on_the_floor_laughing: :face_with_rolling_eyes:",1,1
+632,I just absolutely LOVE how I 've got to work outside for the next 3 days in the heatwave . #sweatingmyballsoff,1,1
+633,"Ah yes , it really is wood-burning stoves in sub-Saharan Africa thats driving the climate crisis :brain: HTTPURL",1,1
+634,"Started watching house of cards , 4 episodes in . Already I can see it was a good choice :grinning_face_with_smiling_eyes:",1,1
+635,What a Race ! #sarcastic #WTF1 HTTPURL,1,1
+636,help ! i 'm being haunted by dead people ! ( my dissertations ),1,0
+637,considering crowd surfing the next time the hallways are too packed,1,1
+638,Avoid mass gatherings .. does this mean that I can stay home tomorrow as I work at a school ? No I thought not . #schoolclosure,1,1
+639,You know the wolves match is boring when you 're talking with your mate about the best way to wire up his new shed !,1,0
+640,What a wonderful time to have your AC go out HTTPURL,1,1
+641,okay but like the say so song ain't that bad . I 'm unironically jam to it lmao,1,1
+642,absolutely love waking up to the fire alarm at 7 am :smiling_face_with_heart-eyes:,1,1
+643,Raging debate on the importance of an Orlando Magic Summer League Championship . Definitely a notch below 6 if decided by coin flip . HTTPURL,1,0
+644,Ah gotta love that Friday morning burnt out feeling :sunrise_over_mountains:,1,1
+645,My work email is n't working so I can just log off for the day right ? :face_with_rolling_eyes:,1,1
+646,there 's no better way to wake up than having one dog jump directly on your stomach and knock the wind out of you while the other drop a dead rodent on the end of the bed . :expressionless_face:,1,1
+647,STOP TREATING MARS LIKE A BACK-UP BOYFRIEND JUST FIX YOUR CURRENT RELATIONSHIP WITH EARTH BECAUSE YOU CAN'T LIVE HERE .,1,0
+648,a level tudor history can do one,1,1
+649,omg there 's a sheet of ice in front of my school . should I slip and fall ?,1,0
+650,I wish that grilled cheese helped you get that summer bod,1,1
+651,Overthinking everything in life really takes a toll on you,1,0
+652,Taxes are just the best and I can not wait to pay more :smiling_face_with_halo: :smiling_face_with_hearts: :pleading_face:,1,1
+653,"Goodness my parents are actually watching something on Apple TV + , brilliant , yet another streaming service ! :sleepy_face:",1,1
+654,alright I 'm ready for some march madness :basketball: :fire:,1,0
+655,Efy is great,1,1
+656,cold queso is so much better than warm queso HTTPURL,1,0
+657,""" are you experiencing suicidal or homicidal ideation ? "" "" only while trying to talk to a human when I call @USER pharmacy """,1,0
+658,Just getting some WD40 on my letter box to help the poor postman with his delivery today #valentinesday2021 #WD40,1,0
+659,no more instagram . we must all return to scrapbooks .,1,1
+660,"Thank you twitter for deciding to completely reset your list of the "" suggested topics to follow "" I 've clicked to ignore ( all of them ) , so now I 'm back to seeing hundreds of them , every time . Really appreciate you doing that .",1,1
+661,"5:30 banshee-like kitten zoomies are definitely my all-time favorite alarm clock , and the sound of jewelry boxes flipping over and burnouts on the wood floor make for the calmest , most enjoyable start to any workday .",1,1
+662,Wow Bdubs can bench press 150 kilometers,1,1
+663,if trees would simply stop producing flammable leaves climate change would not be an issue,1,0
+664,hey quick question is it fall or spring ? ? ?,1,0
+665,when the toilet seat is warmed up for you > > >,1,1
+666,Hey what 's the weather like today ? Am I going to need an umbrella ?,1,1
+667,"Here comes the final of the UK #DailyBriefing - who will win , Johnson or Covid ?",1,0
+668,I love when you go to shop for plus size clothing and it 's always just shoved under women 's and it does n't have any subcategories so u just have to wade thru everything like a pig being thrown slop,1,1
+669,In sunny spain at the moment ! ! ! Hows it all in england ?,1,1
+670,wow . i left on time today and the airport connector is all the way backed up . love that,1,1
+671,""" @USER : FLORIDA YOU LITERALLY HAVE ONE JOB """,1,0
+672,NOT OLIVIA RODRIGO TRAITOR IN THE BACKGROUND #LoveIsland,1,1
+673,"Duodenum , Jejunum , and Ilium would be cute names for triplets , do n't @USER me",1,1
+674,Big day in the Mumford house #sports day,1,1
+675,“ If I could have changed anything about my childhood I would have never watched spongebob ” - no one,1,0
+676,What kind of sins have y'all been committing for God to punish us with this kinda weather ...,1,0
+677,"i love how i literally just finished watching the fifth hp film and then turned to my mum and said "" love a good bit of character death on a sunday :) "" the dsmp lore has utterly ruined my attachment to characters and how i see stories now . i am a broken woman .",1,1
+678,The fact I nearly froze on my way to work this morning is definitely a sign it 's not summer anymore #freezing,1,1
+679,Hot dog eating contest as a form of assisted suicide,1,1
+680,yeah i enjoy some oregano on a nice pasta dinner ( dumps oregano on mac n cheese ),1,1
+681,was not aware that Crocs were appropriate business casual attire .,1,1
+682,On a scale from 1 to 10 how deeply was your childhood influenced by the Hannah Montana 2 : Meet Miley Cyrus double album ? This is for research purposes .,1,0
+683,@USER one of them smonks weed so it 's super worth it / s,1,1
+684,"ah yes , of the course the summer rain pours when im on foot .",1,1
+685,"No joke , air-fried Twisted Teas are THE BEST .",1,0
+686,I reverse imaged searched a selfie and it under visually similar images it is exclusively asian woman my am I white passing narrative is quaking,1,1
+687,"Horse dancing is my new favorite Olympic sport , I have no clue what 's happening , but this is incredible",1,0
+688,this just in : phobias CAN be chosen and you CAN get rid of them by just not being scared ! :smiling_face_with_hearts: / s,1,0
