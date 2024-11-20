@@ -150,7 +150,7 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
     print(f"Average F1 score: {f1_score/folds}")
 
 
-def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset, return_all_preds=True, folds=5):
+def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=True, folds=5):
     print(f"Evaluating {model_name} trained on {trained_on} on {dataset}")
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
@@ -166,6 +166,8 @@ def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset
     
     f1_score = 0
     
+    dataset_short_name = dataset.split('_')[0]
+
     for i in range(folds):
         # Create DataLoaders
         print("\nFold: ", i)
@@ -187,9 +189,9 @@ def cross_validate(dataset, model_name, trained_on, load_from, fold_test_dataset
             fullpath = filepath + filename
             with open(fullpath, "w", encoding="utf-8", newline='') as csvfile:
                 csvwriter = csv.writer(csvfile)
-                csvwriter.writerow(["index", "tweet", "label", "prediction"])
+                csvwriter.writerow(["index", "dataset", "tweet", "label", "prediction"])
                 for pred in all_preds:
-                    csvwriter.writerow([pred[0], pred[1], pred[2], pred[3]])
+                    csvwriter.writerow([pred[0], dataset_short_name, pred[1], pred[2], pred[3]])
                 
             print(f"Check {filepath} for all preds")
 
