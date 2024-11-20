@@ -41,10 +41,10 @@ file_path_dict = {
     "train_irony_mix_crossval": "../datasets/crossval/irony_mix.csv",
     "train_other_crossval": "../datasets/crossval/other.csv",
     "train_irony_crossval": "../datasets/crossval/irony.csv",
-    # "valid_semeval_polarity_crossval": "",
-    # "test_semeval_polarity_crossval": "",
-    # "valid_isarcasm_sarc_crossval": "",
-    # "test_isarcasm_sarc_crossval": ""
+    "valid_semeval_polarity_crossval": "../datasets/crossval/polarity.csv",
+    "test_semeval_polarity_crossval": "../datasets/crossval/polarity.csv",
+    "valid_isarcasm_sarc_crossval": "../datasets/crossval/sarcasm.csv",
+    "test_isarcasm_sarc_crossval": "../datasets/crossval/sarcasm.csv"
     
     
 }

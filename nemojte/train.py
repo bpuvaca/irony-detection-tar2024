@@ -316,11 +316,8 @@ def train_cartography(model, train_dataloader, epochs=3, save_path: str = None, 
 
             logits = outputs.logits
 
-            print(logits)
-            exit(0)
-
             probabilities = torch.softmax(logits, dim=-1)
-            confidence = probabilities.gather(1, batch_labels.unsqueeze(1)).squeeze()
+            confidence = probabilities[range(probabilities.size(0)), batch_labels]
             predictions = torch.argmax(probabilities, dim=-1)
 
             #print("Probabilities:")
@@ -353,7 +350,7 @@ def train_cartography(model, train_dataloader, epochs=3, save_path: str = None, 
                 print(f"Epoch {epoch + 1}, Step {step}, Loss {loss.item()}")
         
         if epoch == epochs-1:
-            with open(f"{dynamics_output_dir}/{model_name}_trainedon_{trained_on}.json", 'w') as f:
+            with open(f"{dynamics_output_dir}/{model_name}_trainedon_{trained_on}_{epochs}epoch.json", 'w') as f:
                 json.dump(training_dynamics, f)
 
         avg_train_loss = total_train_loss / len(train_dataloader)

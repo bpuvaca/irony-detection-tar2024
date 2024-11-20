@@ -71,7 +71,7 @@ def train_and_evaluate(dataset, model_name, load_from=None, save_to=None, eval_o
         train_dataloader, valid_dataloader, test_dataloader, tweets = load_dataset(dataset, tokenizer)
         save_path = save_to if save_to else None
         if cartography:
-            train.train_cartography(model, train_dataloader, epochs=3, save_path=save_path, model_name=model_name, trained_on=dataset)
+            train.train_cartography(model, train_dataloader, epochs=10, save_path=save_path, model_name=model_name, trained_on=dataset)
  
         else:
             train.train_transformer(model, train_dataloader, valid_dataloader, epochs=1, early_stopping=False, save_path=save_path)
