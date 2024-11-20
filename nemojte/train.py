@@ -403,6 +403,9 @@ def train_cartography(model, train_dataloader, epochs=3, save_path: str = None, 
 
             logits = outputs.logits
 
+            print(logits)
+            exit(0)
+
             probabilities = torch.softmax(logits, dim=-1)
             confidence = probabilities.gather(1, batch_labels.unsqueeze(1)).squeeze()
             predictions = torch.argmax(probabilities, dim=-1)
