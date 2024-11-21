@@ -1,0 +1,5 @@
+trained_on,sarcasm_crossval,polarity_crossval,irony_crossval,other_crossval,sarcasm_mix_crossval,irony_mix_crossval
+sarcasm_crossval,0.64 ± 0.02,0.61 ± 0.01,0.59 ± 0.06,0.46 ± 0.08,N/A,N/A
+polarity_crossval,0.57 ± 0.03,0.77 ± 0.01,0.59 ± 0.06,0.33 ± 0.06,N/A,N/A
+sarcasm_mix_crossval,0.65 ± 0.02,0.61 ± 0.03,0.58 ± 0.02,0.60 ± 0.04,0.64 ± 0.02,N/A
+irony_mix_crossval,0.56 ± 0.03,0.76 ± 0.01,0.60 ± 0.02,0.35 ± 0.06,N/A,0.75 ± 0.01
