@@ -1,16 +1,16 @@
 index,dataset,tweet,label,prediction
 1,polarity,@USER could do with someone making me a hot chocolate right now ahaha,0,0
-2,polarity,@USER they are all written out in a gold gel pen waiting ! I hate how are relationship consists of twitter messaging  #fulfilling,0,0
-3,polarity,Is Obamacare Slowing Health Care Spending ?  HTTPURL via @USER,0,0
+2,polarity,@USER they are all written out in a gold gel pen waiting ! I hate how are relationship consists of twitter messaging  #fulfilling,0,1
+3,polarity,Is Obamacare Slowing Health Care Spending ?  HTTPURL via @USER,0,1
 4,polarity,Sad to hear about @USER passing . His family and friends are in my prayers today . #rip @USER,0,0
 5,polarity,"I always forget that many #activists and #radicals who are most earnest look back fondly to 1918 and 1793 , not 1848 or 1789 . #classwar",0,0
-6,polarity,HTTPURL In light of the #Murders of two NYPD Officers inspired by #IcantBreathe should ... HTTPURL,0,0
+6,polarity,HTTPURL In light of the #Murders of two NYPD Officers inspired by #IcantBreathe should ... HTTPURL,0,1
 7,polarity,:weary_cat: :face_screaming_in_fear: :weary_cat: :face_screaming_in_fear: :weary_cat: :face_screaming_in_fear: #POPCORN ! ! ! :face_with_tears_of_joy: :Santa_Claus: :face_with_tears_of_joy: :Santa_Claus: :face_with_tears_of_joy: :water_pistol: :water_pistol: bringing this at movie tuesday night ! !  HTTPURL,1,0
-8,polarity,Many of the best ideas come from having fingers too fat for your keyboard .  #nimble  #agile,1,0
+8,polarity,Many of the best ideas come from having fingers too fat for your keyboard .  #nimble  #agile,1,1
 9,polarity,Oracle on Windows 2000 . This should be fun ! ,1,1
 10,polarity,@USER : Congratulations GG for giving us amazing collections for 10 yrs.In fact i was planning to do the same for u from my prospictive :smiling_face_with_smiling_eyes:,0,1
 11,polarity,"@USER but if you feel like it 's relevant do n't worry about the word limit man , at least you 're doing it",0,0
-12,polarity,"Time for the post Christmas car wash , yay ! ! !  #friesenfamilychristmas",1,0
+12,polarity,"Time for the post Christmas car wash , yay ! ! !  #friesenfamilychristmas",1,1
 13,polarity,"@USER : A Guide To Coffee :OK_hand: HTTPURL LOL , espresso from that time we went to the Maple Leafs fan fest @USER",0,0
 14,polarity,Really love when the @USER is over five minutes late on the cold days . Feels like Metro ! ,1,1
 15,polarity,One from her please * cries * HTTPURL,0,0
@@ -29,21 +29,21 @@ index,dataset,tweet,label,prediction
 28,polarity,Harry 's literally such a good person it hurts my heart BYE #InternationalHarryStylesDay,0,0
 29,polarity,"Enroll 2 Members 1 on each leg ( L / R ) . THEN , help your 2 Personally-Enrolled Members get 2 Executive w / Diamond Pkgs . HTTPURL",0,0
 30,polarity,You can spit on a rose but it 's still a rose . #contempt  #mockery,0,1
-31,polarity,"I have a small jacket on , with a big coat for later , I 'm back at the train stn going back into town , work Xmas do #joy ",1,0
+31,polarity,"I have a small jacket on , with a big coat for later , I 'm back at the train stn going back into town , work Xmas do #joy ",1,1
 32,polarity,I just want to thank e-l-e-n-a-t on tumblr for spoiling me #BOFA - . -  ... Honestly ? Fuck you ! #martinfreeman,1,1
 33,polarity,"@USER @USER let 's face it , at the mo there 's delays on any day ending in a y ! #valueformoneynot ",1,0
 34,polarity,When you 're sick and you feel bad for your cells cause they 're fighting hard for you . #blessed #appreciative  #kinda,1,0
 35,polarity,@USER absolutely shocking that the lamestream media has n't picked up on this  #mediabias @USER @USER,0,0
 36,polarity,"managing to fall flat on my face up the library stairs , has just made it to the top of my list of proudest student moments ",1,1
 37,polarity,Few things are more amazingly wonderful than getting up early on a Monday morning to start the work week ! ! !  #needmoresleep :sleeping_face: :ZZZ: :confused_face:,1,1
-38,polarity,yet another rainy goshen concert night :umbrella_with_rain_drops: :violin: #surprised ,1,1
+38,polarity,yet another rainy goshen concert night :umbrella_with_rain_drops: :violin: #surprised ,1,0
 39,polarity,Set my alarm for PM not AM ... guess you could say I 've got my life together  sorry @USER #Pearlburg mom and Jesus,1,1
 40,polarity,@USER : Goal of the Season 1970 : GOAL 1 . Jon Sammels #ARSENAL vs #manutd HTTPURL @USER @USER,0,0
 41,polarity,@USER * * * ALERT * * * PLEASE CHANGE THIS ... ITS  ME > > > #NowPlaying Relentlezz @USER - Who I Be :: Tune In : HTTPURL,0,0
-42,polarity,Tomorrow will be a great day ... ,1,0
+42,polarity,Tomorrow will be a great day ... ,1,1
 43,polarity,"Guess its just me , brett and my mom this year . Gotta love my family ! ",1,1
-44,polarity,@USER wtf thanks for saying bye ,1,0
-45,polarity,Coffee and Fiber One . It 's worth getting up for . ,1,1
+44,polarity,@USER wtf thanks for saying bye ,1,1
+45,polarity,Coffee and Fiber One . It 's worth getting up for . ,1,0
 46,polarity,"@USER really well done . Another short formation , so I get to stand for the 3rd day in a row from Kel to LLS 7:18 . Thanks ",1,1
 47,polarity,"@USER well , people did ask where would have been without McCormack , and here we are",0,0
 48,polarity,"Rush rush rush , all done and then POW , a football through the window . #glasseverywhere #boyswillbeboys",0,0
@@ -52,10 +52,10 @@ index,dataset,tweet,label,prediction
 51,polarity,@USER @USER | Its @USER bcoz he is so #Nasty and loves his  ... | | #GoSupersonicQuikr,0,1
 52,polarity,:unamused_face: Half of the testing group was very helpful today . ,1,1
 53,polarity,So let me get this straight he was going to sign with UFC no matter what wifey said ? #HappyMarriage ,1,1
-54,polarity,And I used to hate coming to uni to do work lol,0,1
+54,polarity,And I used to hate coming to uni to do work lol,0,0
 55,polarity,"Kevin Durant with 23pts on 8-13 shooting , has this nigga been inefficient since he came . ",1,1
 56,polarity,Aaaaaaaaand we 're back in the ER . Hooray for no sleep ! ,1,1
-57,polarity,@USER It 's not work if you enjoy it #eh ,1,0
+57,polarity,@USER It 's not work if you enjoy it #eh ,1,1
 58,polarity,@USER Kohli showing all the guts of Scooby Doo . #CaptainCourageous ,1,1
 59,polarity,@USER has passed @USER as the world 's most valuable #startup ! #growth #nyc HTTPURL,0,0
 60,polarity,@USER heh as if @USER and average work in the same sentence ! ,1,1
@@ -65,7 +65,7 @@ index,dataset,tweet,label,prediction
 64,polarity,I love the meaningful messages of automake . ,1,0
 65,polarity,well today is gonna be a great day :OK_hand: ,1,1
 66,polarity,Love waking up early in the morning  #HockeyTournament #RefLife #Zebras,1,1
-67,polarity,Finals week plus hearing that my grandma is in the ICU = amazing  #letmegohome,1,1
+67,polarity,Finals week plus hearing that my grandma is in the ICU = amazing  #letmegohome,1,0
 68,polarity,"#Forever #Young , Forever  #Out , Forever in #our #hearts . | #RIP #PhillipJoelHughes . @USER @USER",0,0
 69,polarity,last day of classes #trill except finals whoop ,1,0
 70,polarity,@USER oh man . You will have to get everyone singing ready for when I 'm in :face_with_tears_of_joy:,0,0
@@ -76,7 +76,7 @@ index,dataset,tweet,label,prediction
 75,polarity, #adanisJet lol @USER : Irony committed suicide jumping from Adani 's jet ! #LoveJihad & #Gharwapsi orphaned ! HTTPURL,0,1
 76,polarity,If we could stop losing planes that would be great .,0,1
 77,polarity,7 am . Pilates Now I get to go home and get ready for work ! AMAZING ! ,1,1
-78,polarity,"My coach is so supportive . "" tighten your belt , pick up the weight and just do it . ""  #ithinkhehatesmesomedays #itsmostlylove",1,1
+78,polarity,"My coach is so supportive . "" tighten your belt , pick up the weight and just do it . ""  #ithinkhehatesmesomedays #itsmostlylove",1,0
 79,polarity,That was a very rememberable new years kiss :face_with_tears_of_joy: :kiss_mark: :red_heart: #lovemyrelationship,0,1
 80,polarity,@USER this is my new fave thing on facebook  #sexpest HTTPURL,1,0
 81,polarity,Having to be up in four hours sounds great ,1,1
@@ -101,10 +101,10 @@ index,dataset,tweet,label,prediction
 100,polarity,hope  better #hope #tokyo by nic_kill HTTPURL HTTPURL,0,0
 101,polarity,"@USER @USER The link says "" The requested page could not be found . "" | | Was the  intentional ?",0,1
 102,polarity,I just love being ignored :smiling_face_with_smiling_eyes: |  :unamused_face:,1,1
-103,polarity,@USER @USER @USER @USER | Ha ha ! Christmas cat looks well impressed ,1,0
+103,polarity,@USER @USER @USER @USER | Ha ha ! Christmas cat looks well impressed ,1,1
 104,polarity,Youve got to just love the efficiency @USER two-day service !  #7DayService #prioritymail #hahahaha HTTPURL,1,1
 105,polarity,@USER that 's totally obscure ... ,1,1
-106,polarity,"My whole life is just "" oh ok "" .",0,0
+106,polarity,"My whole life is just "" oh ok "" .",0,1
 107,polarity,I #may or may  be #watching #Rockos #Modern #Life ... #ForeverA90sKid #ImNotTheWallabyIusedToBe,0,0
 108,polarity,Good to see Tomas Rosicky playing tdae #ARSvQPR,0,0
 109,polarity,Drinking an Imperial IPA ( 2014 - ) by @USER - HTTPURL #photo,0,0
@@ -114,13 +114,13 @@ index,dataset,tweet,label,prediction
 113,polarity,@USER huge congrats on signing ! Could n't be happier for you & the fam . | | How 's the view from Everest ? | #OriginalPatNeshekFanClubMember,0,0
 114,polarity,How dare Charles Barkley have an intelligent conversation about race .  #CharlesBarkley,1,1
 115,polarity,Lol RT @USER : Would n't surprise me if Soldado bangs in a hatrick and we win 0-3 against Chelsea tonight .. The legend is back,0,1
-116,polarity,@USER that 's some bullshit that 's a complete rip off for those items . And I bet some of u idiots really that 's a good sale . ,1,1
+116,polarity,@USER that 's some bullshit that 's a complete rip off for those items . And I bet some of u idiots really that 's a good sale . ,1,0
 117,polarity," I do n't know why it 's so fun , but it is . cx I could probably think and find out , but yeah . No . xD",0,0
 118,polarity,Happy 2nd anniversary to me in SGV . Happy OT here in client . Woohoo . I loooooove my job . Super . More years to go ! ! ! ,1,0
 119,polarity,because learning for the finals is fucking amazing . ,1,1
 120,polarity, does n't convey what I want though . #twitterproblemsforme,0,0
-121,polarity,@USER My entire body sends sympathies too - I was diagnosed with Rheumatoid Arthritis 11 yrs ago - yay flare-ups ! ! ,1,0
-122,polarity,@USER @USER I keep seeing noon ... Is it 1PM eastern or noon eastern ? Need to plan my morning accordingly . Please advise .,0,0
+121,polarity,@USER My entire body sends sympathies too - I was diagnosed with Rheumatoid Arthritis 11 yrs ago - yay flare-ups ! ! ,1,1
+122,polarity,@USER @USER I keep seeing noon ... Is it 1PM eastern or noon eastern ? Need to plan my morning accordingly . Please advise .,0,1
 123,polarity,Best Christmas Eve news : I have a half sister . :face_with_tears_of_joy: :thumbs_up:  #thanksdad,1,1
 124,polarity,Feels like we been playing against the refs most games . That was a clean Wall block that the refs took away . Ugh .,0,0
 125,polarity,Can always #countonmother to impart #wordsofkindness . Especially on a special day !  ! !,1,0
@@ -128,7 +128,7 @@ index,dataset,tweet,label,prediction
 127,polarity,Next day makeup just looks so hawt :kiss_mark: ,1,0
 128,polarity,"The fun part about 4 am drives in the winter , is no one has cleaned the snow yet ",1,1
 129,polarity,"love , love , love how the left side of my face is swollen .  :enraged_face: :loudly_crying_face:",1,1
-130,polarity,@USER Prepare to get mucked  #imissedu,1,0
+130,polarity,@USER Prepare to get mucked  #imissedu,1,1
 131,polarity,@USER Saturday at 11:00 ? Damn ... there goes my secret news paraphernalia ...  telling,0,1
 132,polarity,@USER @USER @USER Well done . You have more Twitter followers than me . You have succeeded in life ,1,1
 133,polarity,#Israel #freezes #funds to #Palestinians #over #ICC #approach . HTTPURL via @USER,0,0
@@ -145,8 +145,8 @@ index,dataset,tweet,label,prediction
 144,polarity,"If #PMHarper gets reelected , these r the possibilities : he & #CPC cheated ( again ); #Canada has a collective #StockholmSyndrome ; we 're doomed",0,0
 145,polarity,How do I make more money now in my business ? Loral Langemeire 's best seller The Millionaire Maker . Get your copy HTTPURL,0,0
 146,polarity,Why am I wide awake right now .. :face_without_mouth:,0,0
-147,polarity,@USER I know it was you Fredo . You broke my heart !,0,1
-148,polarity,@USER @USER I wo n't be pledging anytime soon ... why are these GROWN women competing .. AKA vs DELTA ... crabs in a barrel .. SAD,0,0
+147,polarity,@USER I know it was you Fredo . You broke my heart !,0,0
+148,polarity,@USER @USER I wo n't be pledging anytime soon ... why are these GROWN women competing .. AKA vs DELTA ... crabs in a barrel .. SAD,0,1
 149,polarity,@USER @USER @USER @USER @USER @USER,0,0
 150,polarity,:party_popper: It 's Monday ! :party_popper: ,1,0
 151,polarity,Abraham was actually from modern day Iraq ( Ur of the Chaldea ) @USER @USER,0,0
@@ -154,7 +154,7 @@ index,dataset,tweet,label,prediction
 153,polarity,"@USER @USER  of course , Not !",0,1
 154,polarity,I really need to get my nails and eyebrows done tomorrow :beaming_face_with_smiling_eyes: been slacking on that  #cool :nail_polish: :person_gesturing_NO: :person_tipping_hand:,0,0
 155,polarity,you 're so sweet ,1,1
-156,polarity,tramp shit #youoweme #follow  HTTPURL,1,0
+156,polarity,tramp shit #youoweme #follow  HTTPURL,1,1
 157,polarity,"dressing gown on , turkey and buffalo sauce sandwich in hand and big fat quiz of the year  #moving #ever #again",0,0
 158,polarity,That 's nice . ,1,1
 159,polarity,The ever so caring @USER gets to see the siege ending first . Great journalism . ,1,1
@@ -175,7 +175,7 @@ index,dataset,tweet,label,prediction
 174,polarity,"Well done @USER , you 're doing a great job  "" @USER : A & E Waiting Times Worst Since Records Began HTTPURL """,1,1
 175,polarity,THE WORLD'S BIGGEST ONLINE JOB Click and Get Started Now ! HTTPURL,0,0
 176,polarity,"Sad I do n't have a Christmas jumper , thanks @USER for your super fast delivery :thumbs_up: ",1,1
-177,polarity,Fun night with these girls . It may look like we are eating dessert but its just for show  ... HTTPURL,1,0
+177,polarity,Fun night with these girls . It may look like we are eating dessert but its just for show  ... HTTPURL,1,1
 178,polarity,"#Twitter pushes people to read , while #Facebook pushes people to breed . | #TrueFact ",1,1
 179,polarity,cies #eu End to fish discards delayed - End to fish discards delayed Copyright EP 2013 . From : Eu Reporter Vie ... HTTPURL,0,0
 180,polarity,@USER You can afford stocks ? Teachers make SO MUCH money it 's crazy ! ,1,1
@@ -190,30 +190,30 @@ index,dataset,tweet,label,prediction
 189,polarity,@USER ooh I can probably watch a replay or the #orion launch at some point ? Oh wonderful . That 's sooo exciting  hanks,1,0
 190,polarity,@USER see HTTPURL | #FOLLOWME | #FOLLOWNGAIN | #TEAMTOFOLLOW | #TEAMFOLLOWBACK | | RETWEET & GAIN FOLLOWERS .,0,0
 191,polarity,What a great start to my morning  #smh,1,1
-192,polarity,"@USER @USER Really ? ! This is absolutely below the belt , especially towards Tom Boon ... #DeepRespect ... ",1,0
+192,polarity,"@USER @USER Really ? ! This is absolutely below the belt , especially towards Tom Boon ... #DeepRespect ... ",1,1
 193,polarity,Today should be fun ,1,1
 194,polarity,Just a friendly reminder ! #motto #advice #you #are  #defined #by #your #past HTTPURL,0,0
-195,polarity,Gotta baps that hoe thou,0,0
+195,polarity,Gotta baps that hoe thou,0,1
 196,polarity,"Sony got hacked again ? Oh man , big surprise ...  : HTTPURL",1,1
 197,polarity,@USER @USER @USER but would you be willing to purchase from a vending machine ?,0,1
 198,polarity,@USER HTTPURL #CHRISTMAS #GIFT GET STARTED AT MAKING MONEY IN SOCIAL MEDIA @USER HTTPURL,0,0
 199,polarity,You know it 's going to be a great day when you 're Garmin resets itself and you spill some cinnamon down yourself  #slowclap,1,1
 200,polarity,Getting my shit together in 2015 like ... #2015isthenewturnup #myboos #funtimes #makingmemories ... HTTPURL,0,0
 201,polarity,"Got nothing against Muslims , but fuck these Islamic Cunts are disgusting :/ #sydneysiege",0,0
-202,polarity,@USER A cool look and a cool mind is all you need to party all night . | #QuiksilverGoesSupersonic HTTPURL,0,0
+202,polarity,@USER A cool look and a cool mind is all you need to party all night . | #QuiksilverGoesSupersonic HTTPURL,0,1
 203,polarity,"@USER @USER Everybody just keeps saying "" Gronk and large contingent of Patriots . "" Who else is there with Rob ?",0,0
 204,polarity,One more all nighter and the semester is done,0,0
-205,polarity,ruling party in power #central #state #misusing their power #PM speaking only in foreign parliment #pm  to visit out side india during session,0,0
+205,polarity,ruling party in power #central #state #misusing their power #PM speaking only in foreign parliment #pm  to visit out side india during session,0,1
 206,polarity,Been at the ER now since 10 ... #yay ,1,1
 207,polarity,"@USER WOW , so now things are going to change ? Never heard that before from the opposition . Please vote , it works so well ",1,1
 208,polarity,Oversleeping is the bestttt . ,1,1
-209,polarity,MVP goes to Concordia Wifi . ,1,1
+209,polarity,MVP goes to Concordia Wifi . ,1,0
 210,polarity,Christmas music on the stair master #SundayFunday ,1,0
 211,polarity,"decided to do a really fun thing , left myself 15 hours to sit an exam and write 3 x min . 1000 word essays ",1,1
-212,polarity,@USER hahaha such a 1 % town,0,0
+212,polarity,@USER hahaha such a 1 % town,0,1
 213,polarity,My dogs like to be nice and toasty while relaxing at home #adorable #puppy #socute #icant HTTPURL,0,0
 214,polarity,Casual stroll with lauralobaugh  Rochester #FunInTheSun @USER Key West Islands - Florida ( U . S . A . ) HTTPURL,1,0
-215,polarity,With no forwards . #confused  sure,0,1
+215,polarity,With no forwards . #confused  sure,0,0
 216,polarity,Woke up crying because of the nightmare I had ... gonna be a great day ,1,1
 217,polarity,@USER yay ! ! ! It works  #HateWhenThingsDontWorkRight,1,1
 218,polarity,wow what great banter from @USER ,1,1
@@ -223,7 +223,7 @@ index,dataset,tweet,label,prediction
 222,polarity,@USER Thanks . I 'll have to check out another store in Calgary .,0,0
 223,polarity,@USER was just about to say that :face_with_tears_of_joy:,0,0
 224,polarity,So glad all that voting was put to good use ! ,1,1
-225,polarity,8ams are just so lovely . ,1,0
+225,polarity,8ams are just so lovely . ,1,1
 226,polarity,Done to much again  HTTPURL,1,0
 227,polarity,That 's always the solution ...  . Does n't fix anything !,1,1
 228,polarity,@USER fan-freakin-tastic ! Ca n't wait ,1,0
@@ -233,7 +233,7 @@ index,dataset,tweet,label,prediction
 232,polarity,"@USER I know , but in the big spot ( the only time I 've watched him ) he choked ! Haha ! Must mean he sucks , right ? ",1,1
 233,polarity,@USER if @USER exclude BF3 maps from the poll ... I am going to RIOT ! ! I really want Seine Crossing back :loudly_crying_face: :loudly_crying_face: | I would pay for it ! !,0,0
 234,polarity,@USER @USER @USER Missed off the  hashtag ?,0,1
-235,polarity,@USER @USER yeah I 'm avoiding you by waking up at 6 AM my time so by 10 PM I 'm exhausted .  #sucksimissedyou <3,1,1
+235,polarity,@USER @USER yeah I 'm avoiding you by waking up at 6 AM my time so by 10 PM I 'm exhausted .  #sucksimissedyou <3,1,0
 236,polarity,@USER That 'll work ...  #HellBeFiredinElevenMonths,1,1
 237,polarity,girl #beautiful #short #nose  #tall #but  #toshort #selfieeee <3 : * HTTPURL,0,0
 238,polarity,@USER @USER better bust out my aluminum hat ! ! !  #chemtrailsdontexist #growup,1,1
@@ -243,7 +243,7 @@ index,dataset,tweet,label,prediction
 242,polarity,Love the trust i get from people :OK_hand: ,1,1
 243,polarity,S / O to the Bengals for sucking it up yesterday . Totally made it worth me staying up 24 hours yesterday and coming to work this am . ,1,1
 244,polarity,Thank God that the wait for an appointment is only until February . ,1,1
-245,polarity,I love how sometimes I am skipped over so the greeting replies are just towards Odin but not me . ,1,1
+245,polarity,I love how sometimes I am skipped over so the greeting replies are just towards Odin but not me . ,1,0
 246,polarity,I have to say that Misty with Johnny Mathis is one of my favourites HTTPURL,0,0
 247,polarity,@USER anytime ! Cash is acceptable every where . And can be used toward whatever they want / need .,0,0
 248,polarity,Finally 2015 will be a worry free year for me . ,1,0
@@ -258,15 +258,15 @@ index,dataset,tweet,label,prediction
 257,polarity,cies #eu Moscovici quizzed on extra time for three EU countries to hit eurozone targets HTTPURL,0,0
 258,polarity,@USER hope you had a nice Xmas babes X,0,0
 259,polarity,Always nice when a 40 year old man you do n't know calls you pretty ,1,1
-260,polarity,It 's gonna be a great day :grinning_face_with_big_eyes: ,1,0
+260,polarity,It 's gonna be a great day :grinning_face_with_big_eyes: ,1,1
 261,polarity,"Walking down the mall in front of a group of guys and hear "" even the momma got it "" Jesus lol everyone loves polly",0,0
-262,polarity,"Is it wrong of me to not want to read about horrible things in this world , just for one day ?",0,0
+262,polarity,"Is it wrong of me to not want to read about horrible things in this world , just for one day ?",0,1
 263,polarity,Drinking a Mercury : The Winged Messenger ( Planet Series ) by @USER - HTTPURL #photo,0,0
-264,polarity,Everything You 've Been Told About Copywriting is BS .  HTTPURL,1,1
+264,polarity,Everything You 've Been Told About Copywriting is BS .  HTTPURL,1,0
 265,polarity,So far today I burned my tongue on my coffee . Saw a dead guy on the freeway and chipped the windshield in the truck #gonnahaveagoodday ,1,0
 266,polarity,"@USER @USER Would you have said in the 1800s , "" Why is GOP against Africans being brought here ? Do any of them want to pick cotton ? """,0,1
 267,polarity,"@USER : @USER It did get yo lazy butt outta bed , did n't it now . Thanks for proving my point !",0,1
-268,polarity,True  HTTPURL,1,1
+268,polarity,True  HTTPURL,1,0
 269,polarity,A 21 year old ( whatever age you are IDGAF ) acting like an immature little @USER # $ % & in public ? Yup you 're a classy one .  #SoNotClassy,1,1
 270,polarity,Fear & Loathing in Las Ukras : HTTPURL . #Politics #Russia #Ukraine ,0,0
 271,polarity,I have three test and a two dance performances tomorrow ! ! :books: :open_book: :woman_dancing: :woman_dancing: :people_with_bunny_ears: #EasyDay ,1,0
@@ -274,7 +274,7 @@ index,dataset,tweet,label,prediction
 273,polarity,Someone stop Obama ! USA only should have relations with human rights loving nations like Saudi Arabia . Not terrorist Cuba ! #Cuba ,1,0
 274,polarity,It 's beginning to look a lot like Christmas ! #timetodecorate #tistheseason HTTPURL,0,0
 275,polarity,#MIley #Cyrus #Is  #The #Bad #Influence – Sources Say Patrick Schwarzenegger Is ! : Miley Cyrus has been dating ... HTTPURL,0,0
-276,polarity,"OK , OK , GEEZ ! I KNOW ALREADY ! @USER @USER @USER #totally  #repetetive HTTPURL",0,0
+276,polarity,"OK , OK , GEEZ ! I KNOW ALREADY ! @USER @USER @USER #totally  #repetetive HTTPURL",0,1
 277,polarity,Oh how I missed middle school drama : ~ ) ,1,1
 278,polarity,50 mph winds make a great hair fan for a photo shoot . :grinning_face_with_big_eyes: ,1,1
 279,polarity,"@USER Jonah hill is funny , kevin hart , will smith , jim carrey , Sacha Baron Cohen ,",0,0
@@ -309,20 +309,20 @@ index,dataset,tweet,label,prediction
 308,polarity,Hope everyone is having a lovely Marxist Christmas ,1,0
 309,polarity,I am so glad that I woke up early for this office visit to have to the mother not show up ! ,1,1
 310,polarity,#marleyandme RT @USER : Sources tell @USER and me that Dodgers are showing serious interest in Jon Lester .,0,0
-311,polarity,I always look super cute when guys come to fix stuff in the condo ,1,0
+311,polarity,I always look super cute when guys come to fix stuff in the condo ,1,1
 312,polarity,Tamir Rice 's Memorial is today . His family had plans of seeing him grow up . Not gunned down by police . Police ?  HTTPURL,0,0
-313,polarity,"@USER what 's the law for parking on a residential street , on the opposite side of the road facing the wrong direction ? #curiosity",0,0
+313,polarity,"@USER what 's the law for parking on a residential street , on the opposite side of the road facing the wrong direction ? #curiosity",0,1
 314,polarity,@USER Loving how Fulham looks like a playoff team . Really ,1,1
 315,polarity,4 days left to enter @USER & @USER @USER planner #giveaway HTTPURL Enter to win ! #bbloggers #lbloggers,0,0
 316,polarity,Just found the picture of lisazamorano trying to kill me #bff at our #seniorbrunch @USER Moutain Meadows HTTPURL,0,0
 317,polarity,"Alright y'all , back to binge watching Legend of Korra like a muthafukn gangster .",0,0
-318,polarity,Horses are just hornless unicorns : O | | #enlightened #mystical #wow  #on #drugs,0,0
+318,polarity,Horses are just hornless unicorns : O | | #enlightened #mystical #wow  #on #drugs,0,1
 319,polarity,People who do n't get  : you are THE BEST !,1,0
 320,polarity,"@USER : Gas below $ 1 per litre in Ottawa . Happy holidays . HTTPURL ... Yes , crisis averted ",1,1
-321,polarity,My dream is to celebrate Christmas with you :smiling_face_with_heart-eyes:,0,0
+321,polarity,My dream is to celebrate Christmas with you :smiling_face_with_heart-eyes:,0,1
 322,polarity,Do you want more period related post or do you like how I post some personal things here on Instagram ? HTTPURL,0,0
 323,polarity,@USER I think you should go get checked out,0,1
-324,polarity,@USER absolutely ! I have no life so that should n't be a hard thing to do . Haha,0,1
+324,polarity,@USER absolutely ! I have no life so that should n't be a hard thing to do . Haha,0,0
 325,polarity,@USER no u dnt hav to .. bt sme ppl do ... evn whn they do shit .. :-P,0,0
 326,polarity,"Damn I lost a lot of followers , probs cuz I do n't tweet much related to @USER anymore",0,0
 327,polarity,I love waking up five minutes before I have to be at school ... ,1,1
@@ -345,9 +345,9 @@ index,dataset,tweet,label,prediction
 344,polarity,I love when my mornings start off like this . ,1,1
 345,polarity,"So now its Hamilton on a Monday night ? Thanks @USER for all those evening games you give us , saturday football is overrated ! ",1,1
 346,polarity,doing mental calculations and realizing that your chances of passing a module are slim to none is fantastic ,1,1
-347,polarity,Everyone is broken . Some of ' em are so good to hide it . So good until I want to punch them in the face . ,1,1
+347,polarity,Everyone is broken . Some of ' em are so good to hide it . So good until I want to punch them in the face . ,1,0
 348,polarity,@USER @USER an e-reader would definitely help save my life if someone broke into my house . Good call ,1,1
-349,polarity,I can already tell today is going to be a wonderful day ,1,0
+349,polarity,I can already tell today is going to be a wonderful day ,1,1
 350,polarity,i just loove when my guy friends give me thorough descriptions of their bowel movements ...  #WHY #STOPTHIS,1,1
 351,polarity,@USER How do you score on someone ?,0,1
 352,polarity,that fits @USER @USER @USER @USER,0,0
@@ -359,9 +359,9 @@ index,dataset,tweet,label,prediction
 358,polarity,@USER sounds like soooo much fun ! ,1,0
 359,polarity,"@USER she went from a faded orange mess to a dark brown with red streaks . I , of course , forgot to take pictures .",0,0
 360,polarity,@USER the police turned it violent . ( - _ - ) I so LOVE the truth in headlines ! ! ( - _ - ) ,1,1
-361,polarity,Thank god she does n't get me to do this anymore ! ! ! ellielippitt #barber  #hairdresser #blondie ... HTTPURL,0,1
+361,polarity,Thank god she does n't get me to do this anymore ! ! ! ellielippitt #barber  #hairdresser #blondie ... HTTPURL,0,0
 362,polarity,@USER Thank you for staying Tom !,0,0
-363,polarity,i feel like whole life is about waiting waiting and waiting,0,0
+363,polarity,i feel like whole life is about waiting waiting and waiting,0,1
 364,polarity,working on my birthday #yay  #sucks,1,1
 365,polarity,Getting sick just in time for finals is so great ,1,1
 366,polarity,@USER Not passing judgment . Been in many binds before and actually love the creativity . Vodka is a versatile liquor .,0,0
@@ -379,7 +379,7 @@ index,dataset,tweet,label,prediction
 378,polarity,"Join @USER PromoTeam 's Official Fan List and receive news , events , and more ! HTTPURL",0,0
 379,polarity,SmartPhone APP PAYS you ! | see - HTTPURL #Verizon #folloback #tcot | Go 2 : HTTPURL HTTPURL,0,0
 380,polarity,I really need to shoot something soon .,0,0
-381,polarity,Had a nice 3 hour nap . Picking up my Chinese take-out and set to watch #GuardiansOfTheGalaxy @USER I added water chestnuts to my dinner,0,0
+381,polarity,Had a nice 3 hour nap . Picking up my Chinese take-out and set to watch #GuardiansOfTheGalaxy @USER I added water chestnuts to my dinner,0,1
 382,polarity,"Murdered baby , black man in US , kids in Thailand and a woman 's body in Avon gorge . It 's a jolly day for news today ",1,1
 383,polarity,Girls who put their area code in their instagram about me ... so clever !  #stupidsauce #mymomcoulddobetter,1,1
 384,polarity,I love seeing what you guys got ,1,0
@@ -390,20 +390,20 @@ index,dataset,tweet,label,prediction
 389,polarity,It 's just SUPER to be ignored when you put out a desperate plea . ,1,1
 390,polarity,SCRATCHING THE NIGHT OFF MY EYES,0,0
 391,polarity,I 'm pretty sure I have a snowman problem .,0,0
-392,polarity,2v4 S & D matches are just so fun ... ,1,0
+392,polarity,2v4 S & D matches are just so fun ... ,1,1
 393,polarity,I 'll do it tomorrow is a dangerous way to live,0,1
 394,polarity,Last day in #Riga ! #self #finnishgirl #businesswoman  @USER PK Riga Hotel HTTPURL,0,0
 395,polarity,Love it when your typing at work and a spider comes out from the keyboard and hangs out between your fingers ...  :see-no-evil_monkey:,1,1
 396,polarity,@USER ooooo touching myself to ODB he is the greatest Giants player to ever play the game ... Screw that the best player ever ! ! ,1,1
 397,polarity,@USER but if we all hold hands and sing Kumbaya they wo n't hate us ! ,1,1
-398,polarity,"Yoga pants , a sweatshirt , and nikes , am I @USER yet ? :face_with_tears_of_joy:",0,1
+398,polarity,"Yoga pants , a sweatshirt , and nikes , am I @USER yet ? :face_with_tears_of_joy:",0,0
 399,polarity,The mouse 's first incepted memory was just the sound : BRAAAAAAWWWWWWWWWP !,0,0
 400,polarity,Check out my latest blog post on MyFairDaily : Pins That Really Work ! ! ! HTTPURL #lbloggers #lifestyle #pinterest #triedandtrue,0,0
 401,polarity,"@USER no im not mate , yea good pretty much there so shud b gd nxt week bit sore to kneel down still and twinges sumtimes but ok",0,0
 402,polarity,@USER @USER @USER @USER @USER nice to see the ambulance service is so important to OUR mps ,1,1
 403,polarity,"EXO COMING SOON 2015 | | Better pray this is better with 10 members * sighs * But either way , obssessed fans would still be obssesed . _ .",0,0
 404,polarity,cies #eu Foreign Affairs Committee MEPs to discuss Lebanon with prime minister HTTPURL,0,0
-405,polarity,Knock knock #sketchy #dignity #smile #funtimes #brotherskeeper #whosonfirst #holiday #shenanigans ... HTTPURL,0,0
+405,polarity,Knock knock #sketchy #dignity #smile #funtimes #brotherskeeper #whosonfirst #holiday #shenanigans ... HTTPURL,0,1
 406,polarity,@USER @USER The number 2 play was awesome . ,1,0
 407,polarity,well .. that was a nice text to wake up to  .,1,1
 408,polarity,#phillhughes #63  #out we will miss u always respect for u HTTPURL,0,0
@@ -420,21 +420,21 @@ index,dataset,tweet,label,prediction
 419,polarity,My boy has another cold and spent the night coughing and sneezing all over me #sexy ,1,1
 420,polarity,It 's nice to see continuity in our gender struggles . ,1,1
 421,polarity,Meh ... i do n't think I 'm a suit person . | ~ Neil Caffrey |  | #TvQuotes | #WhiteCollar,0,0
-422,polarity,"Oh crap , Mac shutdown corrupted iPhoto so hours of rebuild ahead , so might as well eat and drink ! #FestiveFattyBumBum",0,0
+422,polarity,"Oh crap , Mac shutdown corrupted iPhoto so hours of rebuild ahead , so might as well eat and drink ! #FestiveFattyBumBum",0,1
 423,polarity,#np #NowPlaying #NowListening #Music  Of Dying On Your Birthday by #Senses Fail from the #album : #Let It E ... HTTPURL,0,0
 424,polarity,Being used is such a great feeling ... ,1,1
 425,polarity,Pretty much the real deal  #thanksmom HTTPURL,1,0
 426,polarity,What a great way to start the day ! !  :angry_face:,1,1
 427,polarity,"Comcast , greatest customer service on the planet  #comcastistheworst HTTPURL",1,1
-428,polarity,NYPD blog : HTTPURL Do n't you feel safe and protected ?  #ICantBreathe,1,0
+428,polarity,NYPD blog : HTTPURL Do n't you feel safe and protected ?  #ICantBreathe,1,1
 429,polarity,Too blessed to be stressed . So hype for next year ! #HAILSTATE HTTPURL,0,0
-430,polarity,"Stop trying to make me post my location , twitter . I do n't want to post my location . Stop .",0,0
+430,polarity,"Stop trying to make me post my location , twitter . I do n't want to post my location . Stop .",0,1
 431,polarity,@USER Haha go to Icelands x,0,1
 432,polarity,Loving how dominant the SEC is #Pause ... ,1,1
 433,polarity,@USER @USER No reply . What a surprise . ,1,1
 434,polarity,"@USER @USER @USER whenever I write anything with the word "" immigration "" in it , I 'm happy if there 's back-and-forth .",0,0
-435,polarity,I hope we get an ice palace and an invisible car #SPECTRE ,1,0
-436,polarity,Dog for dinner anyone ? #Cultivo #Letchworth not bringing my kid here again,0,0
+435,polarity,I hope we get an ice palace and an invisible car #SPECTRE ,1,1
+436,polarity,Dog for dinner anyone ? #Cultivo #Letchworth not bringing my kid here again,0,1
 437,polarity,! ! @USER #2n1Edition @USER @USER @USER HTTPURL,0,0
 438,polarity,Just submitted my final paper of the semester . It 's only a make-it or break-it on whether I pass the class . No big deal . :expressionless_face: :thumbs_down: ,1,0
 439,polarity,"Im aware that NYE celebrations are usually laiden with false expectations , I 'll just be happy to close the door and kick 2014 ' s arse thru it .",0,1
@@ -446,9 +446,9 @@ index,dataset,tweet,label,prediction
 445,polarity,idk what I love more how cold my western civ class is or western civ . ,1,1
 446,polarity,"Being on #socialmedia is already pretty good , but they also master  of irony ... Do we tell them ? HTTPURL",0,1
 447,polarity,"The funky taste of chocolate with the Chunky Monkey all just in a cup . | |  George of the Jungle , Cup and a Lick",0,0
-448,polarity,@USER I 'll be a bit sweaty by the time I get to you !,0,1
+448,polarity,@USER I 'll be a bit sweaty by the time I get to you !,0,0
 449,polarity,I love it when people ignore me . ,1,1
-450,polarity,Let 's just not pretend for once . .,0,1
+450,polarity,Let 's just not pretend for once . .,0,0
 451,polarity,Exactly 1 year ago today ! ( via @USER ) HTTPURL HTTPURL,0,0
 452,polarity,"see , that MIGHT show up on a background check , and you 'd be denied its a catch 22 we have the right to self protection @USER",0,1
 453,polarity,Do you like quality #dancemusic ? Go to HTTPURL for some great FREE downloads #UK #NightClub > @USER,0,0
@@ -461,7 +461,7 @@ index,dataset,tweet,label,prediction
 460,polarity,The power went out in Delano . #blackout in some parts . :smiling_face: :party_popper: Still #HappyNewYear everyone . #besafe #goodnight,0,0
 461,polarity,@USER what is it with whales this morning  HTTPURL,0,0
 462,polarity,I 'm absolutely positive that Coaches love it when parents tell them how to coach and run their program .   #sticktoparenting,1,1
-463,polarity,@USER hmmm interesting ' jury 's out ' but edging towards the right side of ' favourable ' ! ! #hopethathelps,0,0
+463,polarity,@USER hmmm interesting ' jury 's out ' but edging towards the right side of ' favourable ' ! ! #hopethathelps,0,1
 464,polarity,How does #bigdata and #analytics look compared to the #cynefin cause / effect decision framework ? HTTPURL,0,0
 465,polarity,@USER People who are drinking and driving  now please,0,1
 466,polarity,@USER @USER Pulled by White Van Man by the looks of it . Yuk .. so naff . That keeps the magic of xmas alive .. ,1,1
@@ -470,24 +470,24 @@ index,dataset,tweet,label,prediction
 469,polarity,Gotta go back to work tonight,0,0
 470,polarity,Imagine an imaginary menagerie manager managing an imaginary menagerie .,0,0
 471,polarity,Ca n't believe @USER is even considering renaming the Academic Building after Perry ... b / c he did so much great stuff for public educ ? ,1,1
-472,polarity,I like listening to dads truck drivers tell me about them going to the strip joint and their old lady getting mad at them over it  :face_with_tears_of_joy:,1,1
+472,polarity,I like listening to dads truck drivers tell me about them going to the strip joint and their old lady getting mad at them over it  :face_with_tears_of_joy:,1,0
 473,polarity,Dang my selfie game is on point when I 'm drinking  #actuallysorry,1,0
 474,polarity,Finals Week is draining my body so much that it 's ruining my life in other places . Lovely ... ,1,1
 475,polarity, RT @USER : Should be great watching Miami try to block Sweat and Featherstone off the edge next two years . Real fun stuff,1,1
 476,polarity,"Great , I 've got a lung infection . This is fun . :/ |  fun #miserable",1,1
 477,polarity,"I liked a @USER video from @USER HTTPURL WWE 2K15 ( PS4 ) My Career Mode Ep : #12 : "" TRIPLE THREAT "" | WWE 2K15",0,0
-478,polarity,@USER yeah me !  | I should get a more active social life and get away from the internet ...,0,1
+478,polarity,@USER yeah me !  | I should get a more active social life and get away from the internet ...,0,0
 479,polarity,"#If we 're  #careful , #literacy #will #become # a #historical #blip : It 's a summer ... HTTPURL",0,0
 480,polarity,"I like how people freak out when they hear I 'm still getting paid while I 'm off for over 2 weeks . Join the military , duh .",0,1
 481,polarity,"He looks a decent bowler . Not really a 5th bowler , but , in a balanced side potentially 6th bowler Styris on HSohail . #pakvnz ",0,0
-482,polarity,"Crime figures : true picture may be worse than feared , says think-tank report | via @USER HTTPURL Surprised ? ",1,0
+482,polarity,"Crime figures : true picture may be worse than feared , says think-tank report | via @USER HTTPURL Surprised ? ",1,1
 483,polarity,"@USER @USER good old JK landing people in trouble again , ffs William i thought you were more savvy than that ",1,1
 484,polarity,Nothing like the 24hr swing back to being a day walker to make you feel like a million bucks ...  #shiftworkerlife,1,1
 485,polarity,I need my own pillow to fall asleep mymalsh,0,0
 486,polarity,"Time to continue cleaning out my closet . Happy , happy , joy , joy . ",1,0
 487,polarity,Really loves dentist appointments . ,1,1
 488,polarity,@USER Wow ! I can now afford that holiday I 've always wanted ! ,1,1
-489,polarity,This is a song ? ? ? Awful ! ! HTTPURL,0,1
+489,polarity,This is a song ? ? ? Awful ! ! HTTPURL,0,0
 490,polarity,Sports rock so hard sometimes . ,1,0
 491,polarity,@USER a day or two after .,0,0
 492,polarity,Watch father and not his daughter FUCK HTTPURL #Old + Young #father #and ,0,0
@@ -515,17 +515,17 @@ index,dataset,tweet,label,prediction
 514,polarity,Shawn still has n't follow me ... and I 'm okay with it ,1,0
 515,polarity,"The answers often lay right infront of you , the problem is you seek in the distance , when in reality the answers are simple .",0,0
 516,polarity,You 're never too old for Footie Pajamas . HTTPURL,0,0
-517,polarity,Insanity is doing the same thing twice and expecting different results,0,1
+517,polarity,Insanity is doing the same thing twice and expecting different results,0,0
 518,polarity,"Have successfully avoided everything from season 4 - which I 've not seen and there 's an S5 one , in my timeline . Thanks Indy ! ",1,1
 519,polarity,I adapted the Snoopy comic for academic paper submission :P Reviewer 2 is the stuff of nightmares ! HTTPURL,0,0
-520,polarity,@USER @USER gotta be a joke about tootin a Horn somewhere,0,0
+520,polarity,@USER @USER gotta be a joke about tootin a Horn somewhere,0,1
 521,polarity,I 'd rather you know and be upset than hide it for you to only question things later,0,0
 522,polarity,Bridal #jewels #exciting range #hand made #high quality jewellery  on the high street #bespoke #custom HTTPURL,0,0
 523,polarity,I can't waitlove #this #is #love #and #you #cAn  #tell #me #how #much #this #is #gonna #last #beth #rip #twd #forever #bae ... HTTPURL,0,0
 524,polarity,@USER the hospital for a new allergy test ... Love it . ,1,1
 525,polarity,@USER #spinless #gutless  acceptable,0,0
 526,polarity,@USER @USER are n't most legislators ' list of legislative accomplisments the past 8 years short ?,0,1
-527,polarity,Yay for knee machines !  HTTPURL,1,0
+527,polarity,Yay for knee machines !  HTTPURL,1,1
 528,polarity,Ummm can I please have @USER for Christmas ? ! Dang he looks great tonight . Why did I not go to this thing tonight ?,0,0
 529,polarity,"pt3 .. for his family to follow , and they can talk at home . All this talk about new owners and destabilising pf the club could #mot #lufc",0,0
 530,polarity,So nice to have a final before the sun is even up :smiling_face_with_smiling_eyes: ,1,1
@@ -533,25 +533,25 @@ index,dataset,tweet,label,prediction
 532,polarity,@USER Why not ? The House Committee has been very informative thus far ! ! !  | #UniteBlue,1,1
 533,polarity,Yay yet another week with a child home from school ill ! Just a hint of  to brighten my day .,1,1
 534,polarity,"Gotta love the "" friends "" I have out here hahahah  #nosuchthing",1,1
-535,polarity,"can the next person who wants to educate me on any point please be very bloody educates before they speak to me , getting bored now",0,0
+535,polarity,"can the next person who wants to educate me on any point please be very bloody educates before they speak to me , getting bored now",0,1
 536,polarity,Cannot wait to go to the dentist later ! ,1,0
 537,polarity,saturday class wee ,1,0
-538,polarity,@USER Ben were you going to pick up your pizzas today ?,0,0
+538,polarity,@USER Ben were you going to pick up your pizzas today ?,0,1
 539,polarity,@USER what for ? waste of time ... :),0,1
 540,polarity,Our physics exam was quite fun ...  #Prelim,1,1
-541,polarity,@USER Even you have to think the Religious Freedom Restoration Act in Michigan is ridiculous .,0,0
+541,polarity,@USER Even you have to think the Religious Freedom Restoration Act in Michigan is ridiculous .,0,1
 542,polarity,"@USER Well since he 's basically an employee of the oil & gas sector , it would make sense that he operates this way .",0,1
 543,polarity,@USER @USER Did n't Carolina beat Tampa Bay ? the picks sheet has TB winning .,0,1
-544,polarity,today is just starting out fabulous ,1,0
+544,polarity,today is just starting out fabulous ,1,1
 545,polarity,just one of those nights :pensive_face:,0,0
 546,polarity,I see Toledo made a good name for itself last night ,1,1
 547,polarity,Boooooom 2 goals in 2 minutes ! ! ! #ThatsArsenal 4 you,0,0
-548,polarity,Fuse blown in the media room ! Too much hallway vacuuming . Chaos about to break loose . #CanCup ,1,1
+548,polarity,Fuse blown in the media room ! Too much hallway vacuuming . Chaos about to break loose . #CanCup ,1,0
 549,polarity,2014 can't end fast enough ! Stupid dead battery .,0,0
 550,polarity," # A #TERROR #ORGANIZATION ... #Hamas man killed , 3 injured in "" suspicious explosion "" in #Gaza HTTPURL #Israel",0,0
-551,polarity,@USER Please give me a Follow Back .,0,1
-552,polarity,"#Daesh , #Taliban all need to become part of ' The religion of "" PIECES "" | My heart goes out to all the of the victims of #PeshawarAttack",0,0
-553,polarity,@USER thats not weird at all ,1,1
+551,polarity,@USER Please give me a Follow Back .,0,0
+552,polarity,"#Daesh , #Taliban all need to become part of ' The religion of "" PIECES "" | My heart goes out to all the of the victims of #PeshawarAttack",0,1
+553,polarity,@USER thats not weird at all ,1,0
 554,polarity,"Wrapping up CROTCHED MOUNTAIN commercial tonight , and packing everything up to head up to Loon Mountain Resort ... HTTPURL",0,0
 555,polarity,"cies #eu Liverpool workers "" miscarriage of justice "" victims HTTPURL",0,0
 556,polarity,have n't talked to you in days . that 's cool I guess . ,1,1
@@ -560,12 +560,12 @@ index,dataset,tweet,label,prediction
 559,polarity,"Christmas Day , Boxing Day and New years day off just is n't enough ! So much to do for me & others this month  #enough #hours #in #the #day",0,0
 560,polarity,@USER @USER Shit ! I better shut my stupid girly mouth because im so concerned about what men might think of me . ,1,1
 561,polarity,I 'm not staring at your boobs hun .. I 'm looking at your heart #relax,0,1
-562,polarity, to be an Ass but ohh Yeaa ! ! ! HTTPURL,0,0
+562,polarity, to be an Ass but ohh Yeaa ! ! ! HTTPURL,0,1
 563,polarity,Rocking the Christmas socks at work . It 's the little things like this that make me happy . #essentialservice :Santa_Claus: :Christmas_tree: HTTPURL,0,0
 564,polarity,@USER buuuut fast iteration and prototyping to production-ready code ! ,1,0
 565,polarity,"Peshawar school massacre : Pak must know their greater enemy is terrorism , not India . #Peshawarattack",0,0
 566,polarity,#LRT - - Gee . Good thing there 's no #WarOnWomen . ,1,1
-567,polarity,@USER yup .. Few weeks in NZ mucking about then some time in Fiji dodging sharks .,0,1
+567,polarity,@USER yup .. Few weeks in NZ mucking about then some time in Fiji dodging sharks .,0,0
 568,polarity,@USER hahahah Donna being inspirational and shit :face_with_tears_of_joy: that 's great,0,1
 569,polarity,#Michigan RT @USER : Rich Rodriguez not available for the photo op . He 's at the Fiesta Bowl .,0,1
 570,polarity,Days when you just want everyone to leave you alone  #in # a #good #mood #noHunting,0,0
@@ -581,16 +581,16 @@ index,dataset,tweet,label,prediction
 580,polarity,"wait for it "" city-data "" will become a Fox News site soon @USER @USER @USER @USER",0,1
 581,polarity,HTTPURL What Day is the Sabbath ? #follow #Jesus #Christ #FBC #FBCJAX HTTPURL,0,0
 582,polarity,"@USER @USER What on earth does that mean "" Cloud vs Mobile "" ? It 's Cloud-Mobile - or basically Client-Server 2.0",0,0
-583,polarity,"All I want for Christmas is .. the complimentary coaster offered by the title insurance company if I generate a "" Quick Quote "" to myself . ",1,0
+583,polarity,"All I want for Christmas is .. the complimentary coaster offered by the title insurance company if I generate a "" Quick Quote "" to myself . ",1,1
 584,polarity,I love how when I 'm stressed my body decides to react by causing me massive pain . ,1,1
 585,polarity,@USER One could hope . ,1,1
 586,polarity,"My professors moustache is so uneven , Mohstash would be ashamed right now",0,1
 587,polarity,"Of course I 'm not nervous , I 'm hyperventilating for fun . ",1,1
 588,polarity,Your friends will bring you down because they fucked up what they had males & females  me fool !,0,0
-589,polarity,Gavaskar is a freakin ' genius .  HTTPURL,1,0
+589,polarity,Gavaskar is a freakin ' genius .  HTTPURL,1,1
 590,polarity,First day of Christmas shopping tomorrow . Can not wait . ,1,0
 591,polarity,"@USER getting power from wind is so outdated and unsightly , we should be siphoning it directly from the sun by now . ",1,1
-592,polarity,@USER but it has to be fake ! ! Where are all the stars ? ? ,1,0
+592,polarity,@USER but it has to be fake ! ! Where are all the stars ? ? ,1,1
 593,polarity,@USER get ready for another one on Saturday ,1,0
 594,polarity,Are n't you just loving the snow ? #Stockport  HTTPURL,1,1
 595,polarity,Day 39 & 40  3 #Novel Train . #comfortzone #christmastree #nextlevel #buzzkillington #familyguy ... HTTPURL via @USER,0,0
@@ -612,8 +612,8 @@ index,dataset,tweet,label,prediction
 611,polarity,Good crowd at the Independence Bowl ... ,1,1
 612,polarity,My stomach is a Wonderland for gas inducing bacteria . #blessed ,1,1
 613,polarity,@USER tis the season for unwanted gifts !,0,1
-614,polarity,Seems as if @USER wants to endorse me on LinkedIn for  - any thoughts on this from the #OMCchat crowd ?,0,0
-615,polarity,Sad that when someone drinks they treat you like shit and wo n't talk to you .,0,1
+614,polarity,Seems as if @USER wants to endorse me on LinkedIn for  - any thoughts on this from the #OMCchat crowd ?,0,1
+615,polarity,Sad that when someone drinks they treat you like shit and wo n't talk to you .,0,0
 616,polarity,Jordan fan here | |  :face_with_tongue: - not a hater . HTTPURL,1,0
 617,polarity,"[ Alaska #HipHop ] Flowtronics : What 's This World Coming To ( Rizzle P , Boone Pratt , Token R ... : HTTPURL via > @USER",0,0
 618,polarity,So fucking excited to be the 5th wheel for another New Year 's Eve ! ! ! Ca n't blame anybody but myself for being super picky re : men ,1,1
