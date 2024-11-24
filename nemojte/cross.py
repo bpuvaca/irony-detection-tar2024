@@ -16,9 +16,9 @@ from transformer_main import train_and_cross_validate, cross_validate
 #                                return_all_preds=True, folds=5)#, fold_test_dataset=test_ds.endswith("crossval"))
                 
 
-for model in ['bert']:
-    for ds in ["sarcasm_mix", "irony_mix", "polarity", "sarcasm"]:
-        train_and_cross_validate(ds, model, return_all_preds=True, folds=5, save_params=True, epochs=5)	
+#for model in ['bert']:
+#    for ds in ["sarcasm_mix", "irony_mix", "polarity", "sarcasm"]:
+#        train_and_cross_validate(ds, model, return_all_preds=True, folds=5, save_params=True, epochs=5)	
 
 
 for model in ['bertweet', 'roberta', 'bert']:            

@@ -45,7 +45,7 @@ def true_negatives(df, threshold_tn):
         print(f"Dataset: {tn.dataset}, Tweet: {tn.tweet}")
     print()
 
-false_positives(df, 11)
+#false_positives(df, 11)
 #false_negatives(df, 11)
-#true_positives(df, 11)
+true_positives(df, 11)
 #true_negatives(df, 11)

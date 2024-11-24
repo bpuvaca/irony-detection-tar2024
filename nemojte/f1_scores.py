@@ -3,18 +3,11 @@ from sklearn.metrics import f1_score
 import numpy as np
 import os
 
-data = {
-    'Name': ['John', 'Anna', 'Peter', 'Linda'],
-    'Age': [28, 24, 35, 32],
-    'City': ['New York', 'Paris', 'Berlin', 'London']
-}
-
-
 for model in ['bertweet', 'roberta', 'bert']:  
     data = {'trained_on': []}          
-    for train_ds in ["sarcasm_crossval", "polarity_crossval", "sarcasm_mix_crossval", "irony_mix_crossval"]:
+    for train_ds in ["sarcasm", "polarity", "sarcasm_mix", "irony_mix"]:
         data['trained_on'].append(train_ds)
-        for test_ds in ["sarcasm_crossval", "polarity_crossval", "irony_crossval", "other_crossval", "sarcasm_mix_crossval", "irony_mix_crossval"]:
+        for test_ds in ["sarcasm", "polarity", "irony", "other", "sarcasm_mix", "irony_mix"]:
             if test_ds not in data.keys():
                 data[test_ds] = []
             if "mix" not in test_ds or test_ds == train_ds:
@@ -28,12 +21,12 @@ for model in ['bertweet', 'roberta', 'bert']:
             elif test_ds.startswith("irony"):
                 f1s = []
                 for k in range(1, 6):
-                    results1 = pd.read_csv(f"../preds/crossval/{model}/{train_ds}/{'polarity_crossval'}/{model}_trained_on_{train_ds}_evaluated_on_polarity_crossval_fold_{k}.csv")
-                    results2 = pd.read_csv(f"../preds/crossval/{model}/{train_ds}/'irony_crossval'/{model}_trained_on_{train_ds}_evaluated_on_irony_crossval_fold_{k}.csv")
+                    results1 = pd.read_csv(f"../preds/crossval/{model}/{train_ds}/polarity/{model}_trained_on_{train_ds}_evaluated_on_polarity_fold_{k}.csv")
+                    results2 = pd.read_csv(f"../preds/crossval/{model}/{train_ds}/irony/{model}_trained_on_{train_ds}_evaluated_on_irony_fold_{k}.csv")
                     f1s.append(f1_score(pd.concat([results1['label'], results2['label']]), pd.concat([results1['prediction'], results2['prediction']])))
                 average_f1 = sum(f1s) / 5
                 stdev = np.std(f1s)
                 data[test_ds].append(f"{average_f1:.2f} ± {stdev:.2f}")
     df = pd.DataFrame(data)
     os.makedirs('../results', exist_ok=True)
-    df.to_csv(f'../results/output_{model}.csv', index=False)
+    df.to_csv(f'../results/output_{model}5e.csv', index=False)
