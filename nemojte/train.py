@@ -320,21 +320,11 @@ def train_cartography(model, train_dataloader, epochs=3, save_path: str = None, 
             confidence = probabilities[range(probabilities.size(0)), batch_labels]
             predictions = torch.argmax(probabilities, dim=-1)
 
-            #print("Probabilities:")
-            #print(probabilities)
-            #print("Labels:")
-            #print(batch_labels)
-            #print("Confidence:")
-            #print(confidence)
-            #print("Predictions:")
-            #print(predictions)
-            #exit(0)
-
-
             for i in range(len(batch_labels)):
+
                 data_id = f"{step * train_dataloader.batch_size + i}"
                 if data_id not in training_dynamics:
-                    training_dynamics[data_id] = {'confidence': [], 'correctness': [], 'tweet_text': batch_tweet_texts[i]}
+                    training_dynamics[data_id] = {'confidence': [], 'correctness': [], 'label': batch_labels[i].item(), 'tweet_text': batch_tweet_texts[i]}
 
                 training_dynamics[data_id]['confidence'].append(confidence[i].item())
 
