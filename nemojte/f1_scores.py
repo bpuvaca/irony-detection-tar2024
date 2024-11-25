@@ -20,11 +20,11 @@ for model in ['bertweet', 'roberta', 'bert']:
                 data[test_ds].append(f"{average_f1:.2f} ± {stdev:.2f}")
             else: 
                 if test_ds.startswith("irony"):
-                    test_ds1 = "irony_crossval"
-                    test_ds2 = "polarity_crossval"
+                    test_ds1 = "irony"
+                    test_ds2 = "polarity"
                 elif test_ds.startswith("sarcasm"):
-                    test_ds1 = "sarcasm_crossval"
-                    test_ds2 = "other_crossval"
+                    test_ds1 = "sarcasm"
+                    test_ds2 = "other"
                 else:
                     print("Error")
                     exit(0)
