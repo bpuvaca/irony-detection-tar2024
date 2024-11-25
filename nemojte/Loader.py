@@ -13,12 +13,12 @@ BALANCED_TEST_VALID_1S = 173
 BALANCED_TEST_VALID_0S = 287
 
 file_path_dict = {
-    "train_sarcasm": "../datasets/sarcasm/sarcasm_train.csv",
-    "test_sarcasm": "../datasets/sarcasm/sarcasm_test.csv",
-    "valid_sarcasm": "../datasets/sarcasm/sarcasm_valid.csv",
-    "train_irony": "../datasets/irony/irony_train.csv",
-    "test_irony": "../datasets/irony/irony_test.csv",
-    "valid_irony": "../datasets/irony/irony_valid.csv",
+    #"train_sarcasm": "../datasets/sarcasm/sarcasm_train.csv",
+    #"test_sarcasm": "../datasets/sarcasm/sarcasm_test.csv",
+    #"valid_sarcasm": "../datasets/sarcasm/sarcasm_valid.csv",
+    #"train_irony": "../datasets/irony/irony_train.csv",
+    #"test_irony": "../datasets/irony/irony_test.csv",
+    #"valid_irony": "../datasets/irony/irony_valid.csv",
     "train_mix": "../datasets/mix/mix_train.csv",
     "test_mix": "../datasets/mix/mix_test.csv",
     "valid_mix": "../datasets/mix/mix_valid.csv",
@@ -35,16 +35,20 @@ file_path_dict = {
     "valid_semeval_polarity": "../datasets/SemEval2018/polarity_valid.csv",
     "test_semeval_polarity": "../datasets/SemEval2018/polarity_test.csv",
     "test_semeval_other": "../datasets/SemEval2018/other_test.csv",
-    "train_polarity_crossval": "../datasets/crossval/polarity.csv",
-    "train_sarcasm_crossval": "../datasets/crossval/sarcasm.csv",
-    "train_sarcasm_mix_crossval": "../datasets/crossval/sarcasm_mix.csv",
-    "train_irony_mix_crossval": "../datasets/crossval/irony_mix.csv",
-    "train_other_crossval": "../datasets/crossval/other.csv",
-    "train_irony_crossval": "../datasets/crossval/irony.csv",
-    "valid_semeval_polarity_crossval": "../datasets/crossval/polarity.csv",
-    "test_semeval_polarity_crossval": "../datasets/crossval/polarity.csv",
-    "valid_isarcasm_sarc_crossval": "../datasets/crossval/sarcasm.csv",
-    "test_isarcasm_sarc_crossval": "../datasets/crossval/sarcasm.csv"
+    "train_polarity": "../datasets/crossval/polarity.csv",
+    "train_sarcasm": "../datasets/crossval/sarcasm.csv",
+    "train_sarcasm_mix": "../datasets/crossval/sarcasm_mix.csv",
+    "train_irony_mix": "../datasets/crossval/irony_mix.csv",
+    "train_other": "../datasets/crossval/other.csv",
+    "train_irony": "../datasets/crossval/irony.csv",
+    "valid_semeval_polarity": "../datasets/crossval/polarity.csv",
+    "test_semeval_polarity": "../datasets/crossval/polarity.csv",
+    "valid_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
+    "test_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
+    "valid_polarity": "../datasets/crossval/polarity.csv",
+    "test_polarity": "../datasets/crossval/polarity.csv",
+    "valid_sarcasm": "../datasets/crossval/sarcasm.csv",
+    "test_sarcasm": "../datasets/crossval/sarcasm.csv"
     
     
 }

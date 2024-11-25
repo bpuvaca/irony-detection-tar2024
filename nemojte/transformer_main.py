@@ -114,6 +114,8 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
     
     f1_score = 0
     
+    dataset_short_name = dataset.split('_')[0]
+
     for i in range(folds):
         # Create DataLoaders
         print("\nFold: ", i)
@@ -137,9 +139,9 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
             fullpath = filepath + filename
             with open(fullpath, "w", encoding="utf-8", newline='') as csvfile:
                 csvwriter = csv.writer(csvfile)
-                csvwriter.writerow(["index", "tweet", "label", "prediction"])
+                csvwriter.writerow(["index", "dataset", "tweet", "label", "prediction"])
                 for pred in all_preds:
-                    csvwriter.writerow([pred[0], pred[1], pred[2], pred[3]])
+                    csvwriter.writerow([pred[0], dataset_short_name, pred[1], pred[2], pred[3]])
                 
             print(f"Check {filepath} for all preds")
 

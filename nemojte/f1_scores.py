@@ -3,18 +3,11 @@ from sklearn.metrics import f1_score
 import numpy as np
 import os
 
-data = {
-    'Name': ['John', 'Anna', 'Peter', 'Linda'],
-    'Age': [28, 24, 35, 32],
-    'City': ['New York', 'Paris', 'Berlin', 'London']
-}
-
-
 for model in ['bertweet', 'roberta', 'bert']:  
     data = {'trained_on': []}          
-    for train_ds in ["sarcasm_crossval", "polarity_crossval", "sarcasm_mix_crossval", "irony_mix_crossval"]:
+    for train_ds in ["sarcasm", "polarity", "sarcasm_mix", "irony_mix"]:
         data['trained_on'].append(train_ds)
-        for test_ds in ["sarcasm_crossval", "polarity_crossval", "irony_crossval", "other_crossval", "sarcasm_mix_crossval", "irony_mix_crossval"]:
+        for test_ds in ["sarcasm", "polarity", "irony", "other", "sarcasm_mix", "irony_mix"]:
             if test_ds not in data.keys():
                 data[test_ds] = []
             if "mix" not in test_ds or test_ds == train_ds:
@@ -45,4 +38,4 @@ for model in ['bertweet', 'roberta', 'bert']:
                 data[test_ds].append(f"{average_f1:.2f} ± {stdev:.2f}")
     df = pd.DataFrame(data)
     os.makedirs('../results', exist_ok=True)
-    df.to_csv(f'../results/output_{model}.csv', index=False)
+    df.to_csv(f'../results/output_{model}5e.csv', index=False)
