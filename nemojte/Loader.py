@@ -36,7 +36,11 @@ file_path_dict = {
     "test_semeval_polarity": "../datasets/SemEval2018/polarity_test.csv",
     "test_semeval_other": "../datasets/SemEval2018/other_test.csv",
     "train_polarity": "../datasets/crossval/polarity.csv",
+    "valid_polarity": "../datasets/crossval/polarity.csv",
+    "test_polarity": "../datasets/crossval/polarity.csv",
     "train_sarcasm": "../datasets/crossval/sarcasm.csv",
+    "valid_sarcasm": "../datasets/crossval/sarcasm.csv",
+    "test_sarcasm": "../datasets/crossval/sarcasm.csv",
     "train_sarcasm_mix": "../datasets/crossval/sarcasm_mix.csv",
     "train_irony_mix": "../datasets/crossval/irony_mix.csv",
     "train_other": "../datasets/crossval/other.csv",
@@ -45,10 +49,8 @@ file_path_dict = {
     "test_semeval_polarity": "../datasets/crossval/polarity.csv",
     "valid_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
     "test_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
-    "valid_polarity": "../datasets/crossval/polarity.csv",
-    "test_polarity": "../datasets/crossval/polarity.csv",
-    "valid_sarcasm": "../datasets/crossval/sarcasm.csv",
-    "test_sarcasm": "../datasets/crossval/sarcasm.csv"
+    "train_mix": "../datasets/crossval/mix.csv",
+    
     
     
 }
