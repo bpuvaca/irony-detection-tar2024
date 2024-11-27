@@ -83,7 +83,7 @@ File: bertweet_trainedon_mix_all_5epoch.json
 | e .                                                |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | imma still vote for vermin supreme this presidenti |       1 | 0.4623 |            0.4727 |        0.4104 |                0.4 |
-| al election :face_with_steam_from_nose:            |         |        |                   |               |                    |
+| al election :face_with_steam_from_nose:       č    |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | @USER yes , you got the point . :( it 's like , as |       0 | 0.4719 |            0.4021 |        0.3303 |                0.4 |
 |  the time passes we 're growing into some kind of  |         |        |                   |               |                    |
@@ -168,7 +168,7 @@ File: bertweet_trainedon_polarity_5epoch.json
 | | | Flattery will get me everywhere  [ @USER ]     |       1 | 0.4943 |            0.4904 |        0.3961 |                0.4 |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | #great  # A #All #Burst #Christmas #diy #crafts |  |       1 | 0.5601 |            0.5376 |        0.3776 |                0.4 |
-| Please RT : HTTPURL HTTPURL                        |         |        |                   |               |                    |
+| Please RT : HTTPURL HTTPURL       č                |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | @USER public hammering the Steelers all week . Jui |       0 | 0.5679 |            0.5378 |        0.3699 |                0.4 |
 | cy .                                               |         |        |                   |               |                    |
@@ -180,7 +180,7 @@ File: bertweet_trainedon_polarity_5epoch.json
 |  us to follow our dreams .                         |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | Breaking news !  RT @USER : Mario Balotelli is n't |       1 | 0.5977 |            0.5587 |        0.3611 |                0.4 |
-|  a team player , according to Adel Taarabt HTTPURL |         |        |                   |               |                    |
+|  a team player , according to Adel Taarabt HTTPURLč|         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | 67 is such a beauty :unamused_face:  #manitibaprob |       1 | 0.6107 |            0.5442 |        0.3335 |                0.4 |
 | s                                                  |         |        |                   |               |                    |
@@ -255,7 +255,7 @@ File: bertweet_trainedon_sarcasm_10epoch.json
 | nd Jordyn Woods                                    |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | getting stopped by tesco security is the highlight |       1 | 0.8081 |            0.5763 |        0.2682 |                0.5 |
-|  of my day                                         |         |        |                   |               |                    |
+|  of my day                           č             |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 
 File: bertweet_trainedon_sarcasm_5epoch.json
@@ -271,7 +271,7 @@ File: bertweet_trainedon_sarcasm_5epoch.json
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | excited to start my new hobby of standing in the l |       0 | 0.348  |            0.4327 |        0.0847 |                  0 |
 | gbtq section of the feminist bookstore and look ho |         |        |                   |               |                    |
-| t and mysterious until I get noticed               |         |        |                   |               |                    |
+| t and mysterious until I get noticed         č     |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | Love how Kingston just ripped the buckle pad off # |       0 | 0.3492 |            0.4119 |        0.0626 |                  0 |
 | AEWAllOut                                          |         |        |                   |               |                    |
@@ -308,7 +308,7 @@ File: bertweet_trainedon_sarcasm_5epoch.json
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | Fascinating article about the Vatican 's finances  |       0 | 0.4218 |            0.4499 |        0.0281 |                  0 |
 | in these challenging days #catholic #finance #cath |         |        |                   |               |                    |
-| olicism HTTPURL                                    |         |        |                   |               |                    |
+| olicism HTTPURL                 č                  |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 
 File: bert_trainedon_mix_all_10epoch.json
@@ -438,7 +438,7 @@ File: bert_trainedon_polarity_10epoch.json
 | Gael ' pro at presentations ' Anderson  #choke     |       1 | 1.0564 |            0.719  |        0.3626 |                0.7 |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | Breaking news !  RT @USER : Mario Balotelli is n't |       1 | 1.0758 |            0.7497 |        0.374  |                0.7 |
-|  a team player , according to Adel Taarabt HTTPURL |         |        |                   |               |                    |
+|  a team player , according to Adel Taarabt HTTPURLč|         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | Check out some things I 've been really loving rec |       0 | 1.0798 |            0.7575 |        0.3777 |                0.7 |
 | ently during the holiday season ! HTTPURL          |         |        |                   |               |                    |
@@ -627,7 +627,7 @@ File: bert_trainedon_sarcasm_5epoch.json
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | excited to start my new hobby of standing in the l |       0 | 0.6427 |            0.5636 |        0.3208 |                0.4 |
 | gbtq section of the feminist bookstore and look ho |         |        |                   |               |                    |
-| t and mysterious until I get noticed               |         |        |                   |               |                    |
+| t and mysterious until I get noticed     č         |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 
 File: roberta_trainedon_mix_all_10epoch.json
@@ -636,7 +636,7 @@ File: roberta_trainedon_mix_all_10epoch.json
 +====================================================+=========+========+===================+===============+====================+
 | Fascinating article about the Vatican 's finances  |       0 | 0.7178 |            0.5325 |        0.3147 |                0.5 |
 | in these challenging days #catholic #finance #cath |         |        |                   |               |                    |
-| olicism HTTPURL                                    |         |        |                   |               |                    |
+| olicism HTTPURL                     č              |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | Everybody 's Talking about Snow and I 'm just Sitt |       0 | 0.7182 |            0.6056 |        0.3874 |                0.5 |
 | ing Here and the only Snow around is on our Cars . |         |        |                   |               |                    |
@@ -709,7 +709,7 @@ File: roberta_trainedon_mix_all_5epoch.json
 |  .                                                 |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | #great  # A #All #Burst #Christmas #diy #crafts |  |       1 | 0.4114 |            0.4471 |        0.2356 |                0.2 |
-| Please RT : HTTPURL HTTPURL                        |         |        |                   |               |                    |
+| Please RT : HTTPURL HTTPURL               č        |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | @USER With some pastel green flare leggings a Chuc |       0 | 0.4265 |            0.4926 |        0.2661 |                0.2 |
 | ky white boot and a hot pink shoulder bag :orange_ |         |        |                   |               |                    |
@@ -886,7 +886,7 @@ File: roberta_trainedon_sarcasm_10epoch.json
 | versionary tactic .                                |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | imma still vote for vermin supreme this presidenti |       1 | 1.0778 |            0.7359 |        0.3582 |                0.7 |
-| al election :face_with_steam_from_nose:            |         |        |                   |               |                    |
+| al election :face_with_steam_from_nose:       č    |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | my favorite gay drama is the social network        |       1 | 1.083  |            0.7656 |        0.2826 |                0.6 |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
@@ -897,7 +897,7 @@ File: roberta_trainedon_sarcasm_10epoch.json
 |  :crying_face:                                     |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | getting stopped by tesco security is the highlight |       1 | 1.089  |            0.7608 |        0.3718 |                0.7 |
-|  of my day                                         |         |        |                   |               |                    |
+|  of my day                             č           |         |        |                   |               |                    |
 +----------------------------------------------------+---------+--------+-------------------+---------------+--------------------+
 | Best performance in a while . Absolute cracker tod |       0 | 1.0977 |            0.7575 |        0.3598 |                0.7 |
 | ay . Think @USER deserved mom #NFFC                |         |        |                   |               |                    |
