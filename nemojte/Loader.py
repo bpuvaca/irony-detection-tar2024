@@ -49,8 +49,15 @@ file_path_dict = {
     "test_semeval_polarity": "../datasets/crossval/polarity.csv",
     "valid_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
     "test_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
-    "train_mix": "../datasets/crossval/mix.csv",
+    "valid_polarity": "../datasets/crossval/polarity.csv",
+    "test_polarity": "../datasets/crossval/polarity.csv",
+    "valid_sarcasm": "../datasets/crossval/sarcasm.csv",
+    "test_sarcasm": "../datasets/crossval/sarcasm.csv",
+    "train_mix_all": "../datasets/crossval/mix.csv",
+    "valid_mix_all": "../datasets/crossval/mix.csv",
+    "test_mix_all": "../datasets/crossval/mix.csv",
     
+
     
     
 }
