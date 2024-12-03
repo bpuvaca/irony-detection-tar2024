@@ -53,4 +53,4 @@ for model in ['bertweet', 'roberta', 'bert']:
                 data[test_ds].append(f"{average_f1:.2f} ± {stdev:.2f}")
     df = pd.DataFrame(data)
     os.makedirs('../results', exist_ok=True)
-    df.to_csv(f'../results/output_{model}5e.csv', index=False)
+    df.to_csv(f'../results/output_{model}5e_with_mix.csv', index=False)
