@@ -85,7 +85,7 @@ def scatter_it(dataframe, hue_metric='correct.', title='', model='RoBERTa', show
         plot2.set_ylabel('')
 
     fig.tight_layout()
-    filename = f'figures_final/{title}_{model}_10epoch.png' if show_hist else f'figures_final/compact_{title}_{model}.png'
+    filename = f'figures_4epochs/{title}_{model}_10epoch.png' if show_hist else f'figures_4epochs/compact_{title}_{model}.png'
     fig.savefig(filename, dpi=300)
 
-scatter_it("training_dynamics/roberta_trainedon_mix_all_10epoch.csv", title='trained on mix', show_hist=True)
+scatter_it("training_dynamics_4epochs/roberta_trainedon_mix_all_10epoch.csv", title='trained on mix', show_hist=True)
