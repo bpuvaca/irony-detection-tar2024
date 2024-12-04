@@ -19,9 +19,9 @@ file_path_dict = {
     #"train_irony": "../datasets/irony/irony_train.csv",
     #"test_irony": "../datasets/irony/irony_test.csv",
     #"valid_irony": "../datasets/irony/irony_valid.csv",
-    "train_mix": "../datasets/mix/mix_train.csv",
-    "test_mix": "../datasets/mix/mix_test.csv",
-    "valid_mix": "../datasets/mix/mix_valid.csv",
+    # "train_mix": "../datasets/mix/mix_train.csv",
+    # "test_mix": "../datasets/mix/mix_test.csv",
+    # "valid_mix": "../datasets/mix/mix_valid.csv",
     "train_task_a": "../datasets/taskA/taskA_train.csv",
     "test_task_a": "../datasets/taskA/taskA_test.csv",
     "valid_task_a": "../datasets/taskA/taskA_valid.csv",
@@ -35,31 +35,46 @@ file_path_dict = {
     "valid_semeval_polarity": "../datasets/SemEval2018/polarity_valid.csv",
     "test_semeval_polarity": "../datasets/SemEval2018/polarity_test.csv",
     "test_semeval_other": "../datasets/SemEval2018/other_test.csv",
-    "train_polarity": "../datasets/crossval/polarity.csv",
-    "valid_polarity": "../datasets/crossval/polarity.csv",
-    "test_polarity": "../datasets/crossval/polarity.csv",
-    "train_sarcasm": "../datasets/crossval/sarcasm.csv",
-    "valid_sarcasm": "../datasets/crossval/sarcasm.csv",
-    "test_sarcasm": "../datasets/crossval/sarcasm.csv",
-    "train_sarcasm_mix": "../datasets/crossval/sarcasm_mix.csv",
-    "train_irony_mix": "../datasets/crossval/irony_mix.csv",
-    "train_other": "../datasets/crossval/other.csv",
-    "train_irony": "../datasets/crossval/irony.csv",
+    
+    
     "valid_semeval_polarity": "../datasets/crossval/polarity.csv",
     "test_semeval_polarity": "../datasets/crossval/polarity.csv",
     "valid_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
     "test_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
+    
+    
+    #crossval
+    "train_polarity": "../datasets/crossval/polarity.csv",
     "valid_polarity": "../datasets/crossval/polarity.csv",
     "test_polarity": "../datasets/crossval/polarity.csv",
+    
+    "train_sarcasm": "../datasets/crossval/sarcasm.csv",
     "valid_sarcasm": "../datasets/crossval/sarcasm.csv",
     "test_sarcasm": "../datasets/crossval/sarcasm.csv",
-    "train_mix_all": "../datasets/crossval/mix.csv",
-    "valid_mix_all": "../datasets/crossval/mix.csv",
-    "test_mix_all": "../datasets/crossval/mix.csv",
     
+    "train_other": "../datasets/crossval/other.csv",
+    
+    "train_irony": "../datasets/crossval/irony.csv",
+    
+    
+    "train_sarcasm_mix": "../datasets/crossval/sarcasm_mix.csv",
+    
+    "train_irony_mix": "../datasets/crossval/irony_mix.csv",
+    
+    "train_mix": "../datasets/crossval/mix.csv",
+    "valid_mix": "../datasets/crossval/mix.csv",
+    "test_mix": "../datasets/crossval/mix.csv",
+    
+}
 
-    
-    
+fold_size_dict = {
+    "irony": 70,
+    "polarity": 618,
+    "sarcasm": 357,
+    "other": 105,
+    "sarcasm_mix": 357 + 105,
+    "irony_mix": 70 + 618,
+    "mix": 70 + 618 + 357 + 105
 }
 
 def reduce_dataset(corpus, labels, num_1s, num_0s, shuffle = True):
@@ -199,8 +214,8 @@ class TransformerLoader():
         self.train_datasets = [None for _ in range(k)]
         self.valid_datasets = [None for _ in range(k)]
         self.test_texts = [None for _ in range(k)]
+        fold_size = fold_size_dict[self.task]
         for i in range(k):
-            fold_size = int(len(corpus) / k)
             train_corpus = corpus[0:i*fold_size] + (corpus[(i+1)*fold_size:] if i < k-1 else [])
             train_labels = labels[0:i*fold_size] + (labels[(i+1)*fold_size:] if i < k-1 else [])
             self.train_datasets[i] = TransformerDataset(train_corpus, train_labels, tokenizer)
