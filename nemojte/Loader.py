@@ -19,9 +19,9 @@ file_path_dict = {
     #"train_irony": "../datasets/irony/irony_train.csv",
     #"test_irony": "../datasets/irony/irony_test.csv",
     #"valid_irony": "../datasets/irony/irony_valid.csv",
-    "train_mix": "../datasets/mix/mix_train.csv",
-    "test_mix": "../datasets/mix/mix_test.csv",
-    "valid_mix": "../datasets/mix/mix_valid.csv",
+    # "train_mix": "../datasets/mix/mix_train.csv",
+    # "test_mix": "../datasets/mix/mix_test.csv",
+    # "valid_mix": "../datasets/mix/mix_valid.csv",
     "train_task_a": "../datasets/taskA/taskA_train.csv",
     "test_task_a": "../datasets/taskA/taskA_test.csv",
     "valid_task_a": "../datasets/taskA/taskA_valid.csv",
@@ -61,9 +61,9 @@ file_path_dict = {
     
     "train_irony_mix": "../datasets/crossval/irony_mix.csv",
     
-    "train_mix_all": "../datasets/crossval/mix.csv",
-    "valid_mix_all": "../datasets/crossval/mix.csv",
-    "test_mix_all": "../datasets/crossval/mix.csv",
+    "train_mix": "../datasets/crossval/mix.csv",
+    "valid_mix": "../datasets/crossval/mix.csv",
+    "test_mix": "../datasets/crossval/mix.csv",
     
 }
 
