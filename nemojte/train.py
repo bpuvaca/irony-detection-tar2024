@@ -123,6 +123,7 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
         print(f"Epoch {epoch + 1}, Average Training Loss: {avg_train_loss}")
 
         # Evaluation phase
+        if epoch != epochs - 1: continue
         model.eval()
         total_eval_loss = 0
         all_preds = []

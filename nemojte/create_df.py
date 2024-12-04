@@ -3,7 +3,7 @@ import pandas as pd
 import math
 
 
-filename = "bert_trainedon_sarcasm_5epoch"
+filename = "roberta_trainedon_mix_all_10epoch"
 
 
 with open(f'training_dynamics/{filename}.json', 'r') as f:

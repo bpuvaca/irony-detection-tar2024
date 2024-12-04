@@ -31,3 +31,15 @@ train_and_cross_validate("polarity", "bert", return_all_preds=True, folds=5, sav
 #                     load_from=f"crossval/{model}/{train_ds}", 
 #                     return_all_preds=True, folds=5)#, fold_test_dataset=test_ds.endswith("crossval"))
 
+for model in ['bertweet', 'roberta', 'bert']:            
+   for ds in ["mix"]:
+       train_and_cross_validate(ds, model, return_all_preds=True, folds=5, save_params=True, epochs=5)	
+
+
+for model in ['bertweet', 'roberta', 'bert']:            
+    for train_ds in ["mix"]:
+        for test_ds in ["sarcasm", "polarity", "irony", "other"]:
+            if train_ds != test_ds:
+                cross_validate(dataset=test_ds, model_name=model, trained_on=train_ds, 
+                    load_from=f"crossval/{model}/{train_ds}", 
+                    return_all_preds=True, folds=5)#, fold_test_dataset=test_ds.endswith("crossval"))
