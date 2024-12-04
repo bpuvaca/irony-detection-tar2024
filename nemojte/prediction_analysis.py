@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('ALL_PREDICTIONS.csv')
+df = pd.read_csv('ALL_PREDICTIONS_5.csv')
 
 def false_positives(df, threshold_fp):
     column_names = df.columns[3:]
@@ -46,6 +46,6 @@ def true_negatives(df, threshold_tn):
     print()
 
 #false_positives(df, 11)
-#false_negatives(df, 11)
-true_positives(df, 11)
+false_negatives(df, 11)
+#true_positives(df, 11)
 #true_negatives(df, 11)

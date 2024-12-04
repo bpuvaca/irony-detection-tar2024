@@ -122,7 +122,7 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
         model = load_model(transformer_model, None)    
         train_dataloader = DataLoader(loader.train_datasets[i], batch_size=batch_size, shuffle=True)
         valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
-        result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=epochs, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, cartography=True)
+        result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=epochs, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, fold_num=i)
         if save_params:
             filepath = f"../params/crossval/{model_name}/{dataset}/"
             filename = f"{model_name}_{dataset}_fold_{i+1}.pt"
@@ -156,7 +156,6 @@ def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=
     print(f"Evaluating {model_name} trained on {trained_on} on {dataset}")
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
-    #iskoristi save_to
 
     loader = TransformerLoader(dataset)
     # if fold_test_dataset:
@@ -202,11 +201,33 @@ def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=
         f1_score += f1
             
     print(f"Average F1 score: {f1_score/folds}")
-    
         
+#probabilities that x is sarcastic/ironic
+def save_probabilities_for_folds(dataset, model_name, trained_on, folds=5):
+    print(f"Evaluating {model_name} trained on {trained_on} on {dataset}")
+    transformer_model = map_model_name(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(transformer_model)
 
-
+    loader = TransformerLoader(dataset)
+    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
     
+    probabilities = {}
+    texts = {}
+
+    for i in range(folds):
+        model = load_model(transformer_model, f"../params/crossval/{model_name}/{trained_on}/{model_name}_{trained_on}_fold_{i+1}")
+        valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
+        dataset_texts=loader.test_texts[i]
+
+        probabilities = evaluate.get_probabilities(model, valid_dataloader, dataset_texts=dataset_texts)
+        for j, prob in enumerate(probabilities):
+            probabilities[j] = prob
+            texts[j] = dataset_texts[j]
+    
+    text_probs = [(i, texts[i], probabilities[i]) for i in range(len(texts))]
+    df = pd.DataFrame(text_probs, columns=['index', 'tweet', 'probabilities'])
+    df.to_csv(f'{model_name}_{trained_on}_on_{dataset}.csv', index=False)
+
 if __name__ == "__main__":
     args = parse_args()
     if args.load_from and args.save_to:
