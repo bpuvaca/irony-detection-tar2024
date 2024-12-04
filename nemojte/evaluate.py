@@ -120,6 +120,40 @@ def evaluate_transformer(model, test_dataloader, model_name="", trained_on="", e
     if all_preds_saver:
         return all_preds_saver, (test_f1_score, test_accuracy, test_precision, test_recall)
 
+
+def get_probabilities(model, test_dataloader):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model.to(device)
+    model.eval()
+    probabilities = []
+
+    for batch in test_dataloader:
+        batch_input_ids = batch['input_ids'].to(device)
+        batch_attention_masks = batch['attention_mask'].to(device)
+        batch_labels = batch['labels'].to(device)
+        
+        with torch.no_grad():
+            outputs = model(
+                batch_input_ids,
+                token_type_ids=None,
+                attention_mask=batch_attention_masks,
+                labels=batch_labels
+            )
+
+            loss = outputs.loss
+            logits = outputs.logits
+
+        total_test_loss += loss.item()
+
+        logits = logits.detach().cpu().numpy()
+
+        for i, logit in enumerate(logits):
+            prob_1 = torch.softmax(torch.tensor(logit), dim=-1).numpy()[1]
+            probabilities.append((batch['ids'][i].item(), prob_1))
+    
+    return probabilities
+
+
 def evaluate_transformer_deep(model, test_dataloader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.to(device)

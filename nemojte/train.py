@@ -12,6 +12,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 import os
 import json
             
+#import weave
+import wandb
+#weave.init('irony-detection')
+
 def train_baseline(device, model, learning_rate, batch_size, num_epochs, train_dataset, val_dataset, criterion):
 
     optimizer = optim.Adam(model.parameters(), lr=learning_rate, )
@@ -74,7 +78,10 @@ def save_model(model, path):
     torch.save(model.state_dict(), full_path)
     print(f"Model parameters saved to {full_path}")
     
-def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None, model_name="", trained_on="", cartography=False, return_all_preds=None, dataset_texts=None):
+#@weave.op()
+def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None, model_name="", trained_on="", return_all_preds=None, dataset_texts=None, fold_num=1):
+    run = wandb.init(project='irony-detection', name=f"{model_name}_{trained_on}_{fold_num+1}", group=f"{model_name}_{trained_on}", job_type='train')
+
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
@@ -82,9 +89,7 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
     prev_params = model.state_dict()
     prev_val_f1 = 0
     all_preds_saver = []
-
-
-
+    
     for epoch in range(epochs):
         # Training phase
         model.train()
@@ -165,6 +170,12 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
         print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
         print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
 
+        run.log({
+            "epoch": epoch + 1,
+            "f1": val_f1_score,
+            "accuracy": val_accuracy,
+        })
+
         if early_stopping:
             if val_f1_score < prev_val_f1:
                 print("F1 on validation set is declining, early stopping is activated")
@@ -175,6 +186,8 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
 
     if early_stopping:
         model.load_state_dict(prev_params)
+
+    run.finish(1)
 
     if save_path is not None:
         save_model(model, save_path)
