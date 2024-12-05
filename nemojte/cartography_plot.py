@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_colwidth', None)
 sns.set(style='whitegrid', font_scale=1.6, font='Georgia', context='paper')
 
-def scatter_it(dataframe, hue_metric='correct.', title='', model='RoBERTa', show_hist=False):
+def scatter_it(dataframe, hue_metric='correct.', title='', model='BERTweet', show_hist=False):
     dataframe = pd.read_csv(dataframe)
 
     os.makedirs('figures_final', exist_ok=True)
@@ -85,7 +85,7 @@ def scatter_it(dataframe, hue_metric='correct.', title='', model='RoBERTa', show
         plot2.set_ylabel('')
 
     fig.tight_layout()
-    filename = f'figures_4epochs/{title}_{model}_10epoch.png' if show_hist else f'figures_4epochs/compact_{title}_{model}.png'
+    filename = f'figures_4epochs/{title}_{model}_4epoch.png' if show_hist else f'figures_4epochs/compact_{title}_{model}.png'
     fig.savefig(filename, dpi=300)
 
-scatter_it("training_dynamics_4epochs/roberta_trainedon_mix_all_10epoch.csv", title='trained on mix', show_hist=True)
+scatter_it("training_dynamics_4epochs/bertweet_trainedon_polarity_4epoch.csv", title='trained on polarity', show_hist=True)

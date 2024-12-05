@@ -300,7 +300,7 @@ def train_cartography(model, train_dataloader, epochs=3, save_path: str = None, 
     total_steps = len(train_dataloader) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
 
-    dynamics_output_dir = "./training_dynamics"
+    dynamics_output_dir = "./training_dynamics_4epochs"
     os.makedirs(dynamics_output_dir, exist_ok=True)
     training_dynamics = {}
 
