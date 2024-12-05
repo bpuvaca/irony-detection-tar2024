@@ -1,0 +1,8 @@
+{"time":"2024-12-04T21:24:48.4880064+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-04T21:24:48.4880064+01:00","level":"INFO","msg":"created symlink","path":"C:\\irony-detection-tar2024\\nemojte\\wandb\\run-20241204_212448-dao8kzkq\\logs\\debug-core.log"}
+{"time":"2024-12-04T21:24:48.5998501+01:00","level":"INFO","msg":"created new stream","id":"dao8kzkq"}
+{"time":"2024-12-04T21:24:48.6004183+01:00","level":"INFO","msg":"stream: started","id":"dao8kzkq"}
+{"time":"2024-12-04T21:24:48.6004183+01:00","level":"INFO","msg":"sender: started","stream_id":"dao8kzkq"}
+{"time":"2024-12-04T21:24:48.6004183+01:00","level":"INFO","msg":"handler: started","stream_id":"dao8kzkq"}
+{"time":"2024-12-04T21:24:48.6004183+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dao8kzkq"}
+{"time":"2024-12-04T21:24:48.9330857+01:00","level":"INFO","msg":"Starting system monitor"}

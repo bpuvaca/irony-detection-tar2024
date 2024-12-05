@@ -13,7 +13,7 @@ import os
 import json
             
 #import weave
-import wandb
+#import wandb
 #weave.init('irony-detection')
 
 def train_baseline(device, model, learning_rate, batch_size, num_epochs, train_dataset, val_dataset, criterion):
@@ -80,7 +80,7 @@ def save_model(model, path):
     
 #@weave.op()
 def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_stopping=False, save_path: str = None, model_name="", trained_on="", return_all_preds=None, dataset_texts=None, fold_num=1):
-    run = wandb.init(project='irony-detection', name=f"{model_name}_{trained_on}_{fold_num+1}", group=f"{model_name}_{trained_on}", job_type='train')
+    #run = wandb.init(project='irony-detection', name=f"{model_name}_{trained_on}_{fold_num+1}", group=f"{model_name}_{trained_on}", job_type='train')
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
@@ -170,11 +170,11 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
         print(f"Epoch {epoch + 1}, Validation Precision: {val_precision}")
         print(f"Epoch {epoch + 1}, Validation Recall: {val_recall}")
 
-        run.log({
-            "epoch": epoch + 1,
-            "f1": val_f1_score,
-            "accuracy": val_accuracy,
-        })
+        #run.log({
+        #    "epoch": epoch + 1,
+        #    "f1": val_f1_score,
+        #    "accuracy": val_accuracy,
+        #})
 
         if early_stopping:
             if val_f1_score < prev_val_f1:
@@ -187,7 +187,7 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
     if early_stopping:
         model.load_state_dict(prev_params)
 
-    run.finish(1)
+    #run.finish()
 
     if save_path is not None:
         save_model(model, save_path)
