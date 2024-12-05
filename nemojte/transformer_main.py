@@ -133,13 +133,13 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
     
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
-            filepath = f'../preds/crossval/{model_name}/{dataset}/{dataset}/'
+            filepath = f'../preds/crossval4/{model_name}/{dataset}/{dataset}/'
             filename = f'{model_name}_trained_on_{dataset}_evaluated_on_{dataset}_fold_{i+1}.csv' 
             os.makedirs(filepath, exist_ok=True)
             fullpath = filepath + filename
             with open(fullpath, "w", encoding="utf-8", newline='') as csvfile:
                 csvwriter = csv.writer(csvfile)
-                csvwriter.writerow(["index", "dataset", "tweet", "label", "prediction"])
+                csvwriter.writerow(["index", "dataset", "tweet", "label", "prediction", "probability"])	
                 for pred in all_preds:
                     csvwriter.writerow([pred[0], dataset_short_name, pred[1], pred[2], pred[3]])
                 
@@ -184,15 +184,15 @@ def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=
         
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
-            filepath = f'../preds/crossval/{model_name}/{trained_on}/{dataset}/'
+            filepath = f'../preds/crossval4/{model_name}/{trained_on}/{dataset}/'
             filename = f'{model_name}_trained_on_{trained_on}_evaluated_on_{dataset}_fold_{i+1}.csv' 
             os.makedirs(filepath, exist_ok=True)
             fullpath = filepath + filename
             with open(fullpath, "w", encoding="utf-8", newline='') as csvfile:
                 csvwriter = csv.writer(csvfile)
-                csvwriter.writerow(["index", "dataset", "tweet", "label", "prediction"])
+                csvwriter.writerow(["index", "dataset", "tweet", "label", "prediction", "probability"])
                 for pred in all_preds:
-                    csvwriter.writerow([pred[0], dataset_short_name, pred[1], pred[2], pred[3]])
+                    csvwriter.writerow([pred[0], dataset_short_name, pred[1], pred[2], pred[3], pred[4]])
                 
             print(f"Check {filepath} for all preds")
 
@@ -201,32 +201,6 @@ def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=
         f1_score += f1
             
     print(f"Average F1 score: {f1_score/folds}")
-        
-#probabilities that x is sarcastic/ironic
-def save_probabilities_for_folds(dataset, model_name, trained_on, folds=5):
-    print(f"Evaluating {model_name} trained on {trained_on} on {dataset}")
-    transformer_model = map_model_name(model_name)
-    tokenizer = AutoTokenizer.from_pretrained(transformer_model)
-
-    loader = TransformerLoader(dataset)
-    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
-    
-    probabilities = {}
-    texts = {}
-
-    for i in range(folds):
-        model = load_model(transformer_model, f"../params/crossval/{model_name}/{trained_on}/{model_name}_{trained_on}_fold_{i+1}")
-        valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
-        dataset_texts=loader.test_texts[i]
-
-        probabilities = evaluate.get_probabilities(model, valid_dataloader, dataset_texts=dataset_texts)
-        for j, prob in enumerate(probabilities):
-            probabilities[j] = prob
-            texts[j] = dataset_texts[j]
-    
-    text_probs = [(i, texts[i], probabilities[i]) for i in range(len(texts))]
-    df = pd.DataFrame(text_probs, columns=['index', 'tweet', 'probabilities'])
-    df.to_csv(f'{model_name}_{trained_on}_on_{dataset}.csv', index=False)
 
 if __name__ == "__main__":
     args = parse_args()
