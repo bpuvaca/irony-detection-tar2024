@@ -1,0 +1,5 @@
+tweet,label,mean_confidence_mix,variability_mix,mean_correctness_mix,p_s,mean_confidence_x,variability_x,mean_correctness_x
+@USER thats not weird at all ,1,0.4123637918382883,0.3236592747773833,0.25,0,0.5050112530589104,0.262215789206574,0.25
+Who 's bored at home ?,0,0.4678694680333137,0.2368091577765262,0.25,1,0.5049874931573868,0.2603419676407982,0.25
+"to be completely honest , my ego is MASSIVE and i 'm not even sorry abt it :) )",0,0.5426252782344818,0.2625746134027691,0.25,1,0.4313462954014539,0.2681875870597683,0.25
+"@USER are basically thieves , quoting it 's in the small print so you can't have a refund . Dates moved from summer , to a 4 hour slot on a Friday evening in November which is about as much use as a telescopic sight on a knife . #WeWantARefund @USER",1,0.5062387064099312,0.1695453421320358,0.25,1,0.4725252613425255,0.1713244967333222,0.25

@@ -34,7 +34,7 @@ for filename in os.listdir(folder_path):
             })
 
         df = pd.DataFrame(results)
-        lowest_correctness = df.nsmallest(50, 'mean_correctness')
+        lowest_correctness = df.nsmallest(100, 'mean_correctness')
 
         output_csv_path = os.path.join(f"lowest_correctness/{filename.replace('.json', '.csv')}")
         lowest_correctness.to_csv(output_csv_path, index=False, encoding='utf-8')
