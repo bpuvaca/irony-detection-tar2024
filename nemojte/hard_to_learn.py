@@ -21,6 +21,7 @@ for filename in os.listdir(folder_path):
             tweet = dynamics['tweet_text']
             label = dynamics['label']
 
+
             mean_confidence = sum(confidences) / len(confidences)
             variability = math.sqrt(sum((c - mean_confidence) ** 2 for c in confidences) / len(confidences))
             mean_correctness = sum(correctnesses) / len(correctnesses)
@@ -30,7 +31,8 @@ for filename in os.listdir(folder_path):
                 'label': label,
                 'mean_confidence': mean_confidence,
                 'variability': variability,
-                'mean_correctness': mean_correctness
+                'mean_correctness': mean_correctness,
+                'correctnesses': correctnesses
             })
 
         df = pd.DataFrame(results)
