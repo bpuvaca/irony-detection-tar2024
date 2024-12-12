@@ -28,7 +28,7 @@ def get_ece(data, n_bins=5):
     return ece
 
 
-
+n_bins = 5
 for model in ['bertweet', 'roberta', 'bert']:     
     eces = {}
     eces['trained_on'] = []       
@@ -43,6 +43,6 @@ for model in ['bertweet', 'roberta', 'bert']:
             ece = get_ece(data, n_bins=5)
             eces[test_ds].append(ece)
     df = pd.DataFrame(eces)
-    os.makedirs('../results/eces', exist_ok=True)
-    df.to_csv(f'../results/ece_{model}4e.csv', index=False)
+    os.makedirs(f'../results/eces/{n_bins}', exist_ok=True)
+    df.to_csv(f'../results/eces/{n_bins}/ece_{model}_4e_{n_bins}bins.csv', index=False)
             
