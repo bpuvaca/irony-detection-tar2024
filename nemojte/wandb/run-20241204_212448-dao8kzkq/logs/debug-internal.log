@@ -6,3 +6,11 @@
 {"time":"2024-12-04T21:24:48.6004183+01:00","level":"INFO","msg":"handler: started","stream_id":"dao8kzkq"}
 {"time":"2024-12-04T21:24:48.6004183+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dao8kzkq"}
 {"time":"2024-12-04T21:24:48.9330857+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T21:24:58.9332018+01:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2024-12-04T21:24:58.9532+01:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 19308"}
+{"time":"2024-12-05T13:59:33.9088129+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bpuvaca-university-of-zagreb/irony-detection/dao8kzkq/file_stream\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-12-05T13:59:36.2800705+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bpuvaca-university-of-zagreb/irony-detection/dao8kzkq/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-05T13:59:40.8508728+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bpuvaca-university-of-zagreb/irony-detection/dao8kzkq/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-05T21:11:29.5147151+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bpuvaca-university-of-zagreb/irony-detection/dao8kzkq/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-07T13:44:09.5889891+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bpuvaca-university-of-zagreb/irony-detection/dao8kzkq/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-07T13:44:11.6599237+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bpuvaca-university-of-zagreb/irony-detection/dao8kzkq/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
