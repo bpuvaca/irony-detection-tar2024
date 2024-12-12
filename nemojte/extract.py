@@ -4,7 +4,6 @@ import os
 models = ['bert', 'bertweet', 'roberta']
 base_dir = 'lowest_correctness'
 
-# Process each model
 for model in models:
     mix_file = pd.read_csv(os.path.join(base_dir, f'{model}_trainedon_mix_4epoch.csv'))
     polarity_file = pd.read_csv(os.path.join(base_dir, f'{model}_trainedon_polarity_4epoch.csv'))
@@ -49,7 +48,7 @@ for model in models:
     ]
     final_df = pd.DataFrame(result_rows, columns=columns)
 
-    output_file_path = os.path.join(base_dir, f'{model}_overlap_with_metrics.csv')
+    output_file_path = os.path.join(f'{base_dir}/overlaps', f'{model}_overlap_with_metrics.csv')
     final_df.to_csv(output_file_path, index=False)
 
     print(f"File saved for {model}: {output_file_path}")
