@@ -81,7 +81,13 @@ fold_size_dict = {
     "other": 105,
     "sarcasm_mix": 357 + 105,
     "irony_mix": 70 + 618,
-    "mix": 70 + 618 + 357 + 105
+    "mix": 70 + 618 + 357 + 105,
+    "irony_sarcasm": 70,
+    "irony_polarity": 70,
+    "irony_other": 70,
+    "sarcasm_polarity": 357,
+    "sarcasm_other": 105,
+    "polarity_other": 105
 }
 
 def reduce_dataset(corpus, labels, num_1s, num_0s, shuffle = True):
