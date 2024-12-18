@@ -65,6 +65,13 @@ file_path_dict = {
     "valid_mix": "../datasets/crossval/mix.csv",
     "test_mix": "../datasets/crossval/mix.csv",
     
+    "train_irony_sarcasm": "../datasets/no_negatives/irony_sarcasm.csv",
+    "train_irony_polarity": "../datasets/no_negatives/irony_polarity.csv",
+    "train_irony_other": "../datasets/no_negatives/irony_other.csv",
+    "train_sarcasm_polarity": "../datasets/no_negatives/sarcasm_polarity.csv",
+    "train_sarcasm_other": "../datasets/no_negatives/sarcasm_other.csv",
+    "train_polarity_other": "../datasets/no_negatives/polarity_other.csv",
+    
 }
 
 fold_size_dict = {
