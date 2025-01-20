@@ -9,10 +9,10 @@ import os
 
 
 def get_ece(data, n_bins=5):
+
     data['probability'] = np.maximum(data["probability"], 1 - data["probability"])
 
     data['bin'] = pd.cut(data['probability'], bins=np.linspace(0, 1, n_bins + 1), labels=range(1, n_bins + 1))
-    print(data)
 
     ece = 0
     for bin in range(1, n_bins + 1):
@@ -27,22 +27,23 @@ def get_ece(data, n_bins=5):
 
     return ece
 
-
-n_bins = 5
-for model in ['bertweet', 'roberta', 'bert']:     
-    eces = {}
-    eces['trained_on'] = []       
-    for train_ds in ["polarity", "sarcasm", "mix", "sarcasm_mix", "irony_mix"]:
-        eces['trained_on'].append(train_ds)
-        for test_ds in ["sarcasm", "polarity", "irony", "other"]:
-            if test_ds not in eces.keys():
-                eces[test_ds] = []
-            data = pd.read_csv(f"../preds/crossval4/{model}/{train_ds}/{test_ds}/{model}_trained_on_{train_ds}_evaluated_on_{test_ds}_fold_1.csv")
-            for i in range(2, 6):
-                data = pd.concat([data, pd.read_csv(f"../preds/crossval4/{model}/{train_ds}/{test_ds}/{model}_trained_on_{train_ds}_evaluated_on_{test_ds}_fold_{i}.csv")])
-            ece = get_ece(data, n_bins=5)
-            eces[test_ds].append(ece)
-    df = pd.DataFrame(eces)
-    os.makedirs(f'../results/eces/{n_bins}', exist_ok=True)
-    df.to_csv(f'../results/eces/{n_bins}/ece_{model}_4e_{n_bins}bins.csv', index=False)
-            
+if __name__ == "__main__":
+    print("blabla")
+    n_bins = 5
+    for model in ['bertweet', 'roberta', 'bert']:     
+        eces = {}
+        eces['trained_on'] = []       
+        for train_ds in ["polarity", "sarcasm", "mix", "sarcasm_mix", "irony_mix"]:
+            eces['trained_on'].append(train_ds)
+            for test_ds in ["sarcasm", "polarity", "irony", "other"]:
+                if test_ds not in eces.keys():
+                    eces[test_ds] = []
+                data = pd.read_csv(f"../preds/crossval4/{model}/{train_ds}/{test_ds}/{model}_trained_on_{train_ds}_evaluated_on_{test_ds}_fold_1.csv")
+                for i in range(2, 6):
+                    data = pd.concat([data, pd.read_csv(f"../preds/crossval4/{model}/{train_ds}/{test_ds}/{model}_trained_on_{train_ds}_evaluated_on_{test_ds}_fold_{i}.csv")])
+                ece = get_ece(data, n_bins=5)
+                eces[test_ds].append(ece)
+        df = pd.DataFrame(eces)
+        os.makedirs(f'../results/eces/{n_bins}', exist_ok=True)
+        df.to_csv(f'../results/eces/{n_bins}/ece_{model}_4e_{n_bins}bins.csv', index=False)
+                

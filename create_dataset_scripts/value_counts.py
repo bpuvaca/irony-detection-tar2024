@@ -1,28 +1,40 @@
 import pandas as pd
 
-print("MIX TRAIN")
+irony = pd.read_csv('../datasets/crossval/irony.csv')
+polarity = pd.read_csv('../datasets/crossval/polarity.csv')
+sarcasm = pd.read_csv('../datasets/crossval/sarcasm.csv')
+other = pd.read_csv('../datasets/crossval/other.csv')
+mix_sarcasm = pd.read_csv("../datasets/crossval/sarcasm_mix.csv")
+mix_irony = pd.read_csv("../datasets/crossval/irony_mix.csv")
+mix_ = pd.read_csv("../datasets/crossval/mix.csv")
 
-df = pd.read_csv('../datasets/mix/mix_train.csv')
 
-label_counts = df['label'].value_counts()
+print("Irony")
+print(f"Size = {len(irony)}")
+print(irony['label'].value_counts())
+print()
+print("Polarity")
+print(f"Size = {len(polarity)}")
+print(polarity['label'].value_counts())
+print()
+print("Sarcasm")
+print(f"Size = {len(sarcasm)}")
+print(sarcasm['label'].value_counts())
+print()
+print("Other")
+print(f"Size = {len(other)}")
+print(other['label'].value_counts())
+print()
+print("Mix Sarcasm")
+print(f"Size = {len(mix_sarcasm)}")
+print(mix_sarcasm['label'].value_counts())
+print()
+print("Mix Irony")
+print(f"Size = {len(mix_irony)}")
+print(mix_irony['label'].value_counts())
+print()
+print("Mix")
+print(f"Size = {len(mix_)}")
+print(mix_['label'].value_counts())
+print()
 
-print(f"Number of 0s: {label_counts.get(0, 0)}")
-print(f"Number of 1s: {label_counts.get(1, 0)}")
-
-print("MIX VALID")
-
-df = pd.read_csv('../datasets/mix/mix_valid.csv')
-
-label_counts = df['label'].value_counts()
-
-print(f"Number of 0s: {label_counts.get(0, 0)}")
-print(f"Number of 1s: {label_counts.get(1, 0)}")
-
-print("MIX TEST")
-
-df = pd.read_csv('../datasets/mix/mix_test.csv')
-
-label_counts = df['label'].value_counts()
-
-print(f"Number of 0s: {label_counts.get(0, 0)}")
-print(f"Number of 1s: {label_counts.get(1, 0)}")

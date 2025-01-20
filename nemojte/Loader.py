@@ -1,3 +1,4 @@
+import math
 import torch
 from torch.nn.utils.rnn import pad_sequence
 import pandas as pd
@@ -222,20 +223,40 @@ class TransformerLoader():
         #self.test_texts = test_corpus
         self.test_texts = list(zip(test_corpus, test_labels))
         
-    def load_crossval_dataset(self, tokenizer, remove_hashtags=True, k=5):
+    def load_crossval_dataset(self, tokenizer, remove_hashtags=True, k=5, downscale_size=None):
         corpus, labels = parse_dataset(self.train_fp, remove_hashtags=remove_hashtags, balance=False, dataset_type='train')
         self.train_datasets = [None for _ in range(k)]
         self.valid_datasets = [None for _ in range(k)]
         self.test_texts = [None for _ in range(k)]
-        fold_size = fold_size_dict[self.task]
-        for i in range(k):
-            train_corpus = corpus[0:i*fold_size] + (corpus[(i+1)*fold_size:] if i < k-1 else [])
-            train_labels = labels[0:i*fold_size] + (labels[(i+1)*fold_size:] if i < k-1 else [])
-            self.train_datasets[i] = TransformerDataset(train_corpus, train_labels, tokenizer)
-            valid_corpus = corpus[i*fold_size:(i+1)*fold_size] if i < k-1 else corpus[i*fold_size:]
-            valid_labels = labels[i*fold_size:(i+1)*fold_size] if i < k-1 else labels[i*fold_size:]
-            self.valid_datasets[i] = TransformerDataset(valid_corpus, valid_labels, tokenizer)
-            self.test_texts[i] = list(zip(valid_corpus, valid_labels))
-        
+        if not downscale_size:
+            fold_size = fold_size_dict[self.task]
+            for i in range(k):
+                train_corpus = corpus[0:i*fold_size] + (corpus[(i+1)*fold_size:] if i < k-1 else [])
+                train_labels = labels[0:i*fold_size] + (labels[(i+1)*fold_size:] if i < k-1 else [])
+                self.train_datasets[i] = TransformerDataset(train_corpus, train_labels, tokenizer)
+                valid_corpus = corpus[i*fold_size:(i+1)*fold_size] if i < k-1 else corpus[i*fold_size:]
+                valid_labels = labels[i*fold_size:(i+1)*fold_size] if i < k-1 else labels[i*fold_size:]
+                self.valid_datasets[i] = TransformerDataset(valid_corpus, valid_labels, tokenizer)
+                self.test_texts[i] = list(zip(valid_corpus, valid_labels))
+        else:
+            fold_size = downscale_size // k
+            j_range = len(corpus) // downscale_size
+            i_range = math.ceil(k / j_range)
+            segments = [(corpus[j*downscale_size:(j+1)*downscale_size], labels[j*downscale_size:(j+1)*downscale_size]) for j in range(j_range)]
+            total_cnt = 0
+            for i in range(i_range):
+                for j in range(j_range):
+                    if total_cnt >= k:
+                        break
+                    start_index = j * downscale_size
+                    train_corpus = segments[j][0][:i*fold_size] + (segments[j][0][(i+1)*fold_size:] if i < k-1 else [])
+                    train_labels = segments[j][1][:i*fold_size] + (segments[j][1][(i+1)*fold_size:] if i < k-1 else [])
+                    self.train_datasets[total_cnt] = TransformerDataset(train_corpus, train_labels, tokenizer)
+                    valid_corpus = segments[j][0][i*fold_size:(i+1)*fold_size] if i < k-1 else corpus[i*fold_size:]
+                    valid_labels = segments[j][1][i*fold_size:(i+1)*fold_size] if i < k-1 else labels[i*fold_size:]
+                    self.valid_datasets[total_cnt] = TransformerDataset(valid_corpus, valid_labels, tokenizer)
+                    self.test_texts[total_cnt] = list(zip(valid_corpus, valid_labels))
+                    total_cnt += 1
+                
         
     
