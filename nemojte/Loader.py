@@ -59,6 +59,8 @@ file_path_dict = {
     "valid_irony": "../datasets/crossval/irony.csv",
     "test_irony": "../datasets/crossval/irony.csv",
     
+    "train_semeval_mix": "../datasets/crossval/semeval_mix.csv",
+    
     
     "train_sarcasm_mix": "../datasets/crossval/sarcasm_mix.csv",
     
