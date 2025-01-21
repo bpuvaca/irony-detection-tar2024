@@ -158,6 +158,7 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
 
 def cross_validate(dataset, model_name, trained_on, load_from, epochs, return_all_preds=True, folds=5, downscale_size=False):
     print(f"Evaluating {model_name} trained on {trained_on} on {dataset}")
+    load_from=f"crossval{epochs}/{model_name}/{trained_on}"
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
 
