@@ -1,0 +1,12 @@
+'bertweet',
+Best fold for irony_ds is 4
+Best fold for sarcasm_ds is 0
+Best fold for semeval_mix_ds is 2
+ 'roberta',
+ Best fold for irony_ds is 1
+Best fold for sarcasm_ds is 1
+Best fold for semeval_mix_ds is 0
+ 'bert',
+ Best fold for irony_ds is 1
+Best fold for sarcasm_ds is 2
+Best fold for semeval_mix_ds is 1

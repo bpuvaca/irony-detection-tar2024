@@ -22,5 +22,5 @@ for model in ['bertweet', 'roberta', 'bert']:
             stdev = np.std(f1s)
             data[test_ds].append(f"{average_f1:.2f} ± {stdev:.2f}")
     df = pd.DataFrame(data)
-    os.makedirs('../results', exist_ok=True)
+    os.makedirs('../results/ds', exist_ok=True)
     df.to_csv(f'../results/ds/output_{model}4e.csv', index=False)

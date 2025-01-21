@@ -1,0 +1,4 @@
+trained_on,irony_ds,sarcasm_ds,semeval_mix_ds
+irony_ds,0.64 ± 0.04,0.42 ± 0.04,0.50 ± 0.06
+sarcasm_ds,0.55 ± 0.08,0.58 ± 0.08,0.57 ± 0.09
+semeval_mix_ds,0.62 ± 0.06,0.58 ± 0.13,0.62 ± 0.08
