@@ -35,9 +35,10 @@ from transformer_main import train_and_cross_validate, cross_validate
 
 
 for model in ['bertweet', 'roberta', 'bert']:            
-    for train_ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds"]:
+    for train_ds in ["irony", "sarcasm", "semeval_mix"]:
         for test_ds in ["irony", "sarcasm", "semeval_mix"]:
             if train_ds != test_ds:
+                train_ds = f"{train_ds}_ds"
                 cross_validate(dataset=test_ds, model_name=model, trained_on=train_ds, 
                     load_from=f"crossval4/{model}/{train_ds}", 
                     return_all_preds=True, folds=5, epochs=4, downscale_size=350)

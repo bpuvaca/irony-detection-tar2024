@@ -5,8 +5,9 @@ import seaborn as sns
 import os
 
 models = ["bert", "bertweet", "roberta"]
-datasets = ["sarcasm", "polarity"]
-mix_suffix = "_trained_on_mix_whole_4epoch.csv"
+#datasets = ["sarcasm", "polarity"]
+datasets = ["irony"]
+mix_suffix = "_trained_on_irony_4epoch.csv"
 single_suffix = "_trainedon_{}_4epoch.csv"
 folder_path = "lowest_correctness/all_predictions"
 output_folder = "heatmaps"
