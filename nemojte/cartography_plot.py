@@ -85,7 +85,7 @@ def scatter_it(dataframe, hue_metric='correct.', title='', model='BERTweet', sho
         plot2.set_ylabel('')
 
     fig.tight_layout()
-    filename = f'figures_4epochs/{title}_{model}_4epoch.png' if show_hist else f'figures_4epochs/compact_{title}_{model}.png'
+    filename = f'figures_final/{title}_{model}_10epoch.png' if show_hist else f'figures_4epochs/compact_{title}_{model}.png'
     fig.savefig(filename, dpi=300)
 
-scatter_it("training_dynamics_4epochs/bertweet_trainedon_polarity_4epoch.csv", title='trained on polarity', show_hist=True)
+scatter_it("training_dynamics_5_10_epochs/bertweet_trainedon_irony_10epoch.csv", title='trained on irony', show_hist=True)
