@@ -101,20 +101,24 @@ def evaluate_only(model_name, load_from, eval_on=None, return_wrong_preds=True, 
         evaluate.evaluate_transformer(model, test_dataloader, model_name=model_name, trained_on=dataset, eval_on=dataset,
                                 return_wrong_preds=return_wrong_preds, return_all_preds=return_all_preds, dataset_texts=tweets, load_from=load_from)
 
-def train_and_cross_validate(dataset, model_name, save_params=False, return_all_preds=True, folds=5, epochs=10):
+def train_and_cross_validate(dataset, model_name, save_params=False, return_all_preds=True, folds=5, epochs=10, downscale_size=False):
     print(f"Training {model_name} on {dataset}")
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
     #iskoristi save_to
 
     loader = TransformerLoader(dataset)
-    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
+    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds, downscale_size=downscale_size)
     
     batch_size = 16
     
     f1_score = 0
     
     dataset_short_name = dataset.split('_')[0]
+    
+    if downscale_size: 
+        dataset = f"{dataset}_ds"
+        dataset_short_name = f"{dataset_short_name}_ds"
 
     for i in range(folds):
         # Create DataLoaders
@@ -124,7 +128,7 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
         valid_dataloader = DataLoader(loader.valid_datasets[i], batch_size=128, shuffle=False)
         result = train.train_transformer(model, train_dataloader, valid_dataloader, epochs=epochs, early_stopping=False, return_all_preds=return_all_preds, dataset_texts=loader.test_texts[i], model_name=model_name, trained_on=dataset, fold_num=i)
         if save_params:
-            filepath = f"../params/crossval/{model_name}/{dataset}/"
+            filepath = f"../params/crossval{epochs}/{model_name}/{dataset}/"
             filename = f"{model_name}_{dataset}_fold_{i+1}.pt"
             os.makedirs(filepath, exist_ok=True)
             fullpath = filepath + filename
@@ -133,7 +137,7 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
     
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
-            filepath = f'../preds/crossval4/{model_name}/{dataset}/{dataset}/'
+            filepath = f'../preds/crossval{epochs}/{model_name}/{dataset}/{dataset}/'
             filename = f'{model_name}_trained_on_{dataset}_evaluated_on_{dataset}_fold_{i+1}.csv' 
             os.makedirs(filepath, exist_ok=True)
             fullpath = filepath + filename
@@ -152,14 +156,14 @@ def train_and_cross_validate(dataset, model_name, save_params=False, return_all_
     print(f"Average F1 score: {f1_score/folds}")
 
 
-def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=True, folds=5):
+def cross_validate(dataset, model_name, trained_on, load_from, epochs, return_all_preds=True, folds=5, downscale_size=False):
     print(f"Evaluating {model_name} trained on {trained_on} on {dataset}")
     transformer_model = map_model_name(model_name)
     tokenizer = AutoTokenizer.from_pretrained(transformer_model)
 
     loader = TransformerLoader(dataset)
     # if fold_test_dataset:
-    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds)
+    loader.load_crossval_dataset(tokenizer, remove_hashtags=True, k=folds, downscale_size=downscale_size)
     # else:
     #     loader.load_test_dataset(tokenizer, remove_hashtags=True)
     
@@ -168,6 +172,10 @@ def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=
     f1_score = 0
     
     dataset_short_name = dataset.split('_')[0]
+    
+    if downscale_size: 
+        dataset = f"{dataset}_ds"
+        dataset_short_name = f"{dataset_short_name}_ds"
 
     for i in range(folds):
         # Create DataLoaders
@@ -180,11 +188,11 @@ def cross_validate(dataset, model_name, trained_on, load_from, return_all_preds=
         # else:
         #     valid_dataloader = DataLoader(loader.test_dataset, batch_size=128, shuffle=False)
         #     dataset_texts=loader.test_texts
-        result = evaluate.evaluate_transformer(model, valid_dataloader, model_name=model_name, trained_on=trained_on, eval_on=dataset, return_all_preds=return_all_preds, dataset_texts=dataset_texts)
+        result = evaluate.evaluate_transformer(model, valid_dataloader, return_all_preds=return_all_preds, dataset_texts=dataset_texts)
         
         if return_all_preds:
             all_preds, (f1, acc, prec, rec) = result
-            filepath = f'../preds/crossval4/{model_name}/{trained_on}/{dataset}/'
+            filepath = f'../preds/crossval{epochs}/{model_name}/{trained_on}/{dataset}/'
             filename = f'{model_name}_trained_on_{trained_on}_evaluated_on_{dataset}_fold_{i+1}.csv' 
             os.makedirs(filepath, exist_ok=True)
             fullpath = filepath + filename
