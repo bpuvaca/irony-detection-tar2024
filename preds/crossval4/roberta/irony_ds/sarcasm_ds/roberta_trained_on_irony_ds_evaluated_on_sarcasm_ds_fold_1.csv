@@ -1,0 +1,71 @@
+index,dataset,tweet,label,prediction,probability
+1,sarcasm_ds,Broke : doing assignments in order of due date Woke : doing assignments in order of priority Wired : spending 20 minutes on each class at a time and just go down the list,1,1,0.5191343
+2,sarcasm_ds,"I 'd like to thank middle aged men watching the Olympics for solving the mental health crisis . Getting someone to shout "" get some perspective "" at every athlete struggling with anxiety will definitely solve their problem .",1,0,0.45594403
+3,sarcasm_ds,yeah your girl is fine but does she pass out while giving blood,1,1,0.50799876
+4,sarcasm_ds,Sleep ? What 's that ... I 've never heard of it ?,1,0,0.45155972
+5,sarcasm_ds,my favorite gay drama is the social network,1,0,0.4769018
+6,sarcasm_ds,"not to brag , but my thesis topic was so good that someone else published on it three months ago :upside-down_face:",1,0,0.47845456
+7,sarcasm_ds,@USER But what were the ratings ? ? ( Replied to his Tweet with the same thing . ),1,0,0.4170974
+8,sarcasm_ds,i want tech to be banned for use in work relationships . i do n't ever want my bosses asking me why im missing optional shit . just write me up at that point .,0,0,0.42144504
+9,sarcasm_ds,i 've never had protected sex,1,0,0.4328824
+10,sarcasm_ds,"Well , I had hoped the election would be called in time for my quarter-century birthday two days ago , but I 'll accept this belated present from my fellow Americans . #BidenHarris2020 #election",0,0,0.4487829
+11,sarcasm_ds,"The Drew Barrymore Show is an absolute trainwreck . Like The Tony Danza Show , every two minutes is a clip for The Soup .",1,0,0.47448435
+12,sarcasm_ds,"I see Dettol , Toilet Duck and Zoflora are all trending on Twitter . Now why could that be ... #TrumpPressBriefing",1,1,0.53544396
+13,sarcasm_ds,"@USER imagine your delivery being 2 hours late , and imagine calling up your service team only for them to hang up at 10pm , coincidentally the same time the office closes . But it 's okay , my £ 3 delivery fee is being refunded though 👊🏻",0,0,0.46067318
+14,sarcasm_ds,"I 'm not sure what the guys in The Chainsmokers look like , but everyone in this Phoenix crowd looks like they 're in The Chainsmokers .",0,0,0.4494947
+15,sarcasm_ds,The contract extension with James Franklin will absolutely work out in Penn State 's favor .,1,0,0.46103787
+16,sarcasm_ds,As a woman I dont need hobbies dreams or goals cause I can spend all my time wondering why he didnt text back crying into a bag of doughnuts,1,0,0.45719627
+17,sarcasm_ds,@USER @USER Yes NEU ! :clapping_hands: :clapping_hands: :clapping_hands:,0,0,0.49924633
+18,sarcasm_ds,"Sometimes I lay in bed and think about how today will be the day I make my life better . Exercise , drinking water , eating healthy . Then I wake up .",1,0,0.49581295
+19,sarcasm_ds,Why are toddlers allowed in public spaces,1,0,0.4956189
+20,sarcasm_ds,"Knocked on a door to deliver a parcel , waited 30secs then I see the parcel had a safeplace so went to the neighbour . Then this moody 20yr old answered the door in a Spurs shirt talking shit , so I laugh and say was u crying about Harry Kane , is that why u took so long to answer :rolling_on_the_floor_laughing:",0,0,0.4809153
+21,sarcasm_ds,"make it illegal to say / write "" Dems in disarray "" on account of it being stupid as fuck",1,0,0.42534798
+22,sarcasm_ds,Hands up who remembers when EVERY blogger and their dog was a brand ambassador for Coconut Lane :face_with_tears_of_joy:,1,1,0.50670713
+23,sarcasm_ds,:yin_yang: & :white_heart: HTTPURL,0,1,0.51927733
+24,sarcasm_ds,"I find it hilarious that ‘ black and white ' or ‘ all or nothing ' thinking is considered a cognitive distortion and is a symptom of several disorders , and yet it remains a pillar of American ( and Western ) culture . It 's almost like ... our culture is toxic :thinking_face:",1,0,0.45212156
+25,sarcasm_ds,Love it when the milk is out of date when you buy it,1,1,0.512067
+26,sarcasm_ds,I finished my MBio in Biomedical science this week and today I found out I 'm graduating with a final mark of 77 % ( distinction ) :partying_face: so proud of myself,0,1,0.5106341
+27,sarcasm_ds,"For anyone with Three network , you can upgrade or pre order over the phone , online has n't been updated .",0,1,0.50089115
+28,sarcasm_ds,Yes you can break all the rules for Christmas and risk serious fines and killing your loved ones with a deadly virus OR you could :sparkles: stay at home :sparkles:,1,1,0.5485917
+29,sarcasm_ds,My life has gone from ‘ drive it like you stole it ' to ‘ drive it like your toddler needs the toilet ' .,1,0,0.4509618
+30,sarcasm_ds,If a dude says “ females ” I automatically do n't trust him,0,0,0.42415765
+31,sarcasm_ds,happy birthday gorgeous ! have an amazing day i love you ! ! :beating_heart: :beating_heart: @USER,0,0,0.4760167
+32,sarcasm_ds,"Climate change is n't real . How could it be with us having the most hurricanes in recorded history , deadly tornados , and wildfires :face_with_rolling_eyes:",1,1,0.5740401
+33,sarcasm_ds,"Boy , I sure do love being constantly misgendered by my cis relatives at family gatherings :upside-down_face:",1,1,0.5265777
+34,sarcasm_ds,I need Trisha as a guest on red scare,0,0,0.44737476
+35,sarcasm_ds,Only yelled at one person while biking home this evening . Improvement !,1,1,0.52665424
+36,sarcasm_ds,"AT & T is truly amazing They think my lg g7 is 3g only to the point where they sent us Walmart Altec phones and said they 'd shut off service . We called them , they told us to not worry and if the phones are fine they would n't be shut off Guess what got shut off this morning ? LOL",1,1,0.5164923
+37,sarcasm_ds,i gotta get out of this city . i made $ 18 doordashing for an hour and a half :loudly_crying_face: 3 orders and only one tipped lmfao he was the sweetest tho he gave me a cash tip + a 3.00 tip on the app <3 i miss him,0,0,0.451841
+38,sarcasm_ds,"Bruh how do people manage dozens of healthy , fun and equitable friendships over a long period of time ? I can hardly handle like 3 :confounded_face:",0,0,0.48360145
+39,sarcasm_ds,Omg my dog just scrolled through my emails with his nose and I 've never seen anything CUTERRRRR :weary_face: :smiling_face_with_heart-eyes:,0,1,0.5049449
+40,sarcasm_ds,I love how they blur out Tristan 's face in this season of the kardashians LMAO like hmmmm I wonder who that mysterious man is,1,0,0.45055535
+41,sarcasm_ds,"I think the corn should be part of the game , let the players chase balls into the corn field ! #FieldOfDreamsGame :ear_of_corn: :ear_of_corn: :ear_of_corn:",0,1,0.5997086
+42,sarcasm_ds,i love acknowledging the other twinks on campus hi friends ! !,0,0,0.49030837
+43,sarcasm_ds,"@USER @USER The old phrase that says , if you are in the middle of the road you will be run over . Starmer is stuck like a record that is stuck in the same groove and nobody wants to hear that . Also where are the policies ?",0,0,0.40411663
+44,sarcasm_ds,"@USER @USER Ahh yes , quick peek at your page and you obviously know everything . Thank you for the enlightenment . :face_with_tears_of_joy:",1,0,0.4156489
+45,sarcasm_ds,Ca n't wait to sit at my desk for 7 and half hours . Back working harder than me ...,1,1,0.53973174
+46,sarcasm_ds,The littles and I had a fun day today :revolving_hearts: HTTPURL,0,1,0.5972548
+47,sarcasm_ds,It 's so weird how I look ugly in photos but I also look ugly in the mirror,1,0,0.45274702
+48,sarcasm_ds,Mnet girls planet 999 top 9 choices literally all horrific forgettable girls not charming or enjoyable to watch clearly biased to k group I 'm literally going to take action,0,0,0.4542864
+49,sarcasm_ds,I never feel more empowered than when I 'm listening to ‘ this is me ' from camp rock,1,0,0.47231156
+50,sarcasm_ds,I too enjoy making shit up and pretending like I understand basic economic principles HTTPURL,1,0,0.4653845
+51,sarcasm_ds,wow this growth spurt is really taking longer than i thought haha,1,0,0.46213335
+52,sarcasm_ds,"Aye these vaccines are dangerous to your health like . But see the charlie that you put up your nose at weekends , totally fine .",1,1,0.521929
+53,sarcasm_ds,@USER Very nice . We 're now briefly up to date . Hopefully does n't take you so long to do the English release of the new pixie after we get 9.10 .,1,0,0.4643323
+54,sarcasm_ds,yall ever chip your tooth from accidentally biting your tongue ring,0,0,0.4584741
+55,sarcasm_ds,"I 'm glad I downloaded tiktok , it brings me back to the good ol days of vine :smiling_face_with_hearts:",0,1,0.5489721
+56,sarcasm_ds,"Using an educator discount , I receive 20 % off Manga at B & N . This is the only reason I am a teacher .",1,0,0.46111688
+57,sarcasm_ds,There is nothing new in an oliver james publication that can't be found elsewhere for free . He 's a leftist living a straight bourgeois life,1,0,0.46269006
+58,sarcasm_ds,Might just fuck around and take some horse dewormer for the thrill of if . Maybe I 'll feel something,1,1,0.5292163
+59,sarcasm_ds,I am so fucking tired of living in the UK .,0,0,0.4655526
+60,sarcasm_ds,@USER @USER Have you tried Steve Wilson at UCL ?,0,0,0.4002868
+61,sarcasm_ds,How bout you dont use a gazillion filters on your pictures,1,0,0.45467052
+62,sarcasm_ds,friendship is such a beautiful thing and deserves more credit than it gets,0,0,0.45971006
+63,sarcasm_ds,Not telling anyone how I voted in case it does n't come true #EUref,1,0,0.4474989
+64,sarcasm_ds,"@USER @USER If you say grâce like "" gra "" , you actually end up saying coup de gras which means blow / stroke / hit of fat",0,0,0.48546037
+65,sarcasm_ds,Best performance in a while . Absolute cracker today . Think @USER deserved mom #NFFC,0,1,0.5260599
+66,sarcasm_ds,@USER I stayed home sick from elementary school and watched it at my grandma 's house . I do n't think I understood exactly what happened and that it was such a tragedy .,0,0,0.40957737
+67,sarcasm_ds,also that jacket he wore yesterday i 'm gonna rip my eyes out :/,1,0,0.47004214
+68,sarcasm_ds,Sitting next to the world 's loudest mouth-breather on the first day of class did a really good job of demystifying grad school for me today,1,1,0.52184343
+69,sarcasm_ds,Drop in Center to let people get the 1st or 2nd Vaccine open today . I went thinking I was able to get my 2nd one . Wait in the que 30 mins . sits down arm ready to get ! Sorry your 12hrs to early ! ! ! We can not vacinate you till 56 days ! ! ! @USER #Seriously,1,1,0.50523907
+70,sarcasm_ds,"So I have an exam tomorrow , but likeee if the country is about to turn into a war zone does it really matter ? ?",1,0,0.4987317

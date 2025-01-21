@@ -1,0 +1,71 @@
+index,dataset,tweet,label,prediction,probability
+1,semeval_ds,Westbrook 16 points on 42 shots ok ok I see you working ,1,1,0.593374
+2,semeval_ds,Left my lunch at home . Swansea canteen outdoing themselves with this generous and well priced portion of food  HTTPURL,1,1,0.55920595
+3,semeval_ds,We hold these kids back ...  #RUT340,1,1,0.5336019
+4,semeval_ds,#But #Buy #Couch #Enveloppe #If #Its  #HomeDecor | Please RT : HTTPURL HTTPURL,0,0,0.19487749
+5,semeval_ds,Yay jury duty :unamused_face: ,1,1,0.63668066
+6,semeval_ds,That was a great 3 hours of sleep ,1,1,0.7284726
+7,semeval_ds,Good morning hank its saturday im starving,0,1,0.6006489
+8,semeval_ds,Absolutely love waking up to snow ,1,1,0.74470353
+9,semeval_ds,"@USER Marvellous ! Sounds nothing like any jingle bells song i 've ever heard ! I can see you in mismatched socks , tights & cricket gear :-)",0,1,0.50166494
+10,semeval_ds,Youve got to just love the efficiency @USER two-day service !  #7DayService #prioritymail #hahahaha HTTPURL,1,0,0.38509676
+11,semeval_ds,Photo : Abstract Tribal Bubble Jumpsuit Size : s-xl Cost : $ 39.99 HTTPURL,0,0,0.4267547
+12,semeval_ds,MT Darth Vader is polling higher than all potential 2016 US presidential candidates HTTPURL you surprised ? ,1,1,0.5528439
+13,semeval_ds,Good thing y days not ruined ... ,1,1,0.72161037
+14,semeval_ds,I 'm going to Finnish all my homework and get caught up on everything over the break  HTTPURL,1,1,0.71105933
+15,semeval_ds,Got to play w dogs last night ! HTTPURL,0,1,0.62938887
+16,semeval_ds,"@USER @USER I thought it was , what I call , the wet look lol",0,1,0.5960675
+17,semeval_ds,walking in this was fun  HTTPURL,1,1,0.70176125
+18,semeval_ds,Who 's eating everything on the table for Noche buena ? :person_raising_hand: :person_raising_hand: :person_raising_hand:,0,1,0.6172151
+19,semeval_ds,"Mike Smith and Brian Hoyer walk into a bar . They sit down and at the same time say "" I told you it was n't all my fault "" #Coyotes #Browns",0,0,0.4629065
+20,semeval_ds,thanks for clearing everything up Koenig  #serialbrady,1,1,0.59454393
+21,semeval_ds,@USER : Stay faithful or stay single,0,1,0.5771982
+22,semeval_ds,"Coin ! erraji : "" ZeeGingaNinja : because it seems that some people here need this clarification #sydneysiege  ... HTTPURL """,0,0,0.40051085
+23,semeval_ds,To all u #deadbeatdads ur not worth a hair on our #kids heads .. Tough being a #singlemom but at least my #beautiful #daughter is loved by Me,0,0,0.39443946
+24,semeval_ds,way to prove that women are more than just breasts & an ass ...  :unamused_face:,1,1,0.60745203
+25,semeval_ds,Please snow let us get out of dance early,0,1,0.7050757
+26,semeval_ds,@USER this Friday  lit,0,1,0.59631026
+27,semeval_ds,@USER that 's my Saturday night entertainment ...,0,1,0.68476164
+28,semeval_ds,"@USER @USER @USER whenever I write anything with the word "" immigration "" in it , I 'm happy if there 's back-and-forth .",0,1,0.5495624
+29,semeval_ds,Oh look at me ! I 'm making people happy ! I 'm a magical man from happy land ! Who lives in a gumdrop house on lolly pop lane ! | | ,1,1,0.51218307
+30,semeval_ds,The long commute to work ;  for this #KeyboardCowboy #anyonecancode @USER HTTPURL,0,0,0.3350516
+31,semeval_ds,@USER great story about the student trying to get the teacher fired ! !  #moron #storywasstupid,1,1,0.6240372
+32,semeval_ds,"Take me to church ... , . ",0,1,0.5667136
+33,semeval_ds,@USER @USER What does PTI do apart from whining ?  #Youthiacrasy,1,1,0.5492605
+34,semeval_ds,@USER Players are penalized for not playing defense as you 're aware . David Ortiz barely above average in ' 14 based on WAR .,0,0,0.48871732
+35,semeval_ds,I am so happy that Thad ( the Lead Multiplayer Designer for Hardline ) followed me XD,0,1,0.58152896
+36,semeval_ds,stl.You Will Never Win Again RT @USER : New Manager ? New Striker ? New Transfer Committee ? ( cont ) HTTPURL,0,0,0.45847845
+37,semeval_ds,@USER @USER an e-reader would definitely help save my life if someone broke into my house . Good call ,1,1,0.660376
+38,semeval_ds,Oregon marching band playing @USER music . #awesome #OregonDucks #OregonvsFloridaState #RoseBowl2015,0,0,0.35244092
+39,semeval_ds,They done worked me so hard,0,1,0.64780265
+40,semeval_ds, just our problem - The Express Tribune HTTPURL,0,1,0.5335629
+41,semeval_ds,Why is n't there a playoff legend Romo ? @USER ,1,1,0.54324675
+42,semeval_ds,@USER are actually going to contact me rather than just apologising via Twitter ?,0,1,0.5650095
+43,semeval_ds,I do n't wanna hate religious people . Cos i am one of them . I 'm so religious in music . #ahaa ,1,1,0.57243955
+44,semeval_ds,of course the day that it 's a monsoon outside i have classes on and off from 10 AM to 8 PM #ilovelife ,1,1,0.68478763
+45,semeval_ds,"Thanks to #TeamIpswich ED for making the news crew and I so welcome this morning , as they always do . #BlackFriday filming #ItWasQuiet ",1,1,0.5670598
+46,semeval_ds,@USER why would you do this ... @USER #superman  #childagain HTTPURL,1,0,0.46248913
+47,semeval_ds,"@USER Hi ! I have just received a photo of my dear parcel from China , amazing he is travelling around the world ! ! ",1,0,0.46549702
+48,semeval_ds,@USER this is not real life . believe me .,0,1,0.63760936
+49,semeval_ds,Such a great damn day . ,1,1,0.7176634
+50,semeval_ds,@USER nice to see you admit your errors  slightly different from your earlier stats for 2014 ! @USER,1,1,0.5545335
+51,semeval_ds,Remember Black Friday was a bust ... ,1,1,0.65456384
+52,semeval_ds,Just a friendly reminder ! #motto #advice #you #are  #defined #by #your #past HTTPURL,0,0,0.23635773
+53,semeval_ds,"If you wanna look like a badass , have drama on social media ",1,1,0.6425638
+54,semeval_ds,Oh how I love that my ass is too big to fit into my jeans anymore .  #bigbootybitches,1,1,0.68809474
+55,semeval_ds,@USER The day one of him minions was carrying a sign saying my mother was fat was one of mine . ,1,1,0.5402066
+56,semeval_ds,@USER @USER I love how JoJo has kept it classy ... ,1,1,0.6589832
+57,semeval_ds,@USER @USER @USER problem solved no more reading out at FMQ what someone at WM wrote ,0,1,0.54619294
+58,semeval_ds,@USER wow .. she really touched them with that tweet . ,1,1,0.67272276
+59,semeval_ds,@USER funny joke there bae ... ,1,1,0.65897405
+60,semeval_ds,"Sony got hacked again ? Oh man , big surprise ...  : HTTPURL",1,1,0.6492869
+61,semeval_ds,"None of the big , disruptive innovations in our lives have come out of brainstorming . - Bruce Nussbaum HTTPURL",0,1,0.5010334
+62,semeval_ds,"@USER : Two years ago i got binoculars from my parents cause I needed to look to the future , I was like cool :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: tweet of the year",0,1,0.56473
+63,semeval_ds,"@USER the hostel is fine actually but I 've probs caught like 1000 germs walking around London , thanks for wishing me better ",1,1,0.6647744
+64,semeval_ds,@USER :) ) thank you so much . Such a generous display of kindness from your side .,0,1,0.5954995
+65,semeval_ds,I 'm so afraid . ,1,1,0.6322405
+66,semeval_ds,HTTPURL #AnalScreen #Exotic Exotic brunette gets her little tight butt nailed right on the office desk,0,0,0.38797387
+67,semeval_ds,"Heh , and fat , too . #ShotsFired ",1,1,0.583942
+68,semeval_ds,"There 's millions of autobot & troll accounts on Twitter that post dumb sh * t for RT 's , then people call them stupid & naive . | | ",1,0,0.4615713
+69,semeval_ds,Stay tuned for drunk videos of my mom,0,1,0.6935578
+70,semeval_ds,"@USER @USER @USER @USER @USER Come on lads , you 're fucking better than this shite you keep showing",0,1,0.5320148

@@ -1,0 +1,71 @@
+index,dataset,tweet,label,prediction,probability
+1,sarcasm_ds,"My first tweet ! Hello twitter , let 's see what you can do ... #newbie",0,0,0.062654346
+2,sarcasm_ds,So you think the vaccine is a bad idea then . Glad you have that PHD in immunology !,1,0,0.18439052
+3,sarcasm_ds,Definitely the best #WWERaw match in a long ass time . Glad Damien Priest is getting some shine .,0,0,0.0971915
+4,sarcasm_ds,"In desperate need of 1 final spoon code . Been searching shops desperately for the last few weeks without luck . Please , please send me a code",0,0,0.07702169
+5,sarcasm_ds,Lol at my life :),1,0,0.48537293
+6,sarcasm_ds,Lil Pump is the Nelson Mandela of our generation,1,0,0.21544084
+7,sarcasm_ds,It 's frustrating that the moment in my scientific career where I have the MOST discoveries & insights to share is also the time when I can't attend conferences ... I can't afford the costs now that I 've graduated ! Anyone else feel the same ? #AcademicTwitter @USER,0,0,0.06477822
+8,sarcasm_ds,I 'm on a serious treat myself kick and I 'm not mad about it,0,0,0.21555483
+9,sarcasm_ds,flew into a rage this morning bc i couldnt find my karaoke mic so yeah i would say things are going well for me,1,0,0.13423863
+10,sarcasm_ds,"#EconTwitter I 'm working with bizreg data and there 's a noticeable spike in Indiana in 2015 , anyone have a sense as to what 's going on ? @USER ? HTTPURL",0,0,0.024433555
+11,sarcasm_ds,Just ordered the ' Sea-Lover 's Sharing menu ' for a family celebration next week - looks amazing ! HTTPURL,0,0,0.043150138
+12,sarcasm_ds,Happy to be part of the team ! HTTPURL,0,0,0.037586827
+13,sarcasm_ds,"Philosophers idolize Socrates . Some see themselves as emulating him , defending unpopular positions against mobs and the powerful . But often they 're just lazy contrarians who refuse to do their homework .",0,0,0.09865084
+14,sarcasm_ds,Man I miss my friends :(,0,0,0.30259356
+15,sarcasm_ds,"Oh ? You 're a real anime fan ? Name all the Boku no Pico characters , I 'll wait .",1,0,0.06816786
+16,sarcasm_ds,I claimed spy . Was I ? I was a spy the whole time . And I never lied .,0,0,0.08284159
+17,sarcasm_ds,"My favourite thing driving to work in the morning is how peaceful and slow everyone is . I love when people do n't know where they 're going , like they are just out for a stroll at 8: 30 in the morning . It makes me so happy .",1,0,0.15173864
+18,sarcasm_ds,i just sewed through my finger and my brain is just like ' how annoying is it that i just broke another needle and i 'm going to have to buy some more ' instead of OW I have 2 holes in my finger . can i swap brains,0,0,0.07657385
+19,sarcasm_ds,i love shoegaze sm,0,0,0.23255993
+20,sarcasm_ds,because my neighbours are just so unbelievably loud as of recent I 'm whacking out my speaker and blasting Harry Styles . modern problems require modern solutions,0,0,0.09136861
+21,sarcasm_ds,"Why do I always say yes to events where it 's just going to be me + D , no Josh to help chase my wild child toddler around the cookout with me :slightly_smiling_face:",0,0,0.049641762
+22,sarcasm_ds,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,0,0.025397293
+23,sarcasm_ds,Last night I wanted a quesadilla so bad but I ate salad . Now though ? ? ? My time has come . I am eating a quesadilla .,0,0,0.07126683
+24,sarcasm_ds,"I just read , "" oftenly "" and threw up in my mouth a little .",1,0,0.08979393
+25,sarcasm_ds,Putting the toilet paper roll on so that it hangs under instead of over is a crime worthy of the death penalty,1,0,0.16414519
+26,sarcasm_ds,started telling my dutch friends about how i 've not really tried much liquorice while watching this fundy and 5up sweet tasting stream and they 're now planning on potentially sending me some over to try which is very sweet of them,0,0,0.0784555
+27,sarcasm_ds,@USER @USER @USER @USER @USER variety is good . If I can be a 15 year old Canadian farmer who happened to make the WHL why can't I be a top level women 's player,0,0,0.020779608
+28,sarcasm_ds,Someone in Walmart asked my mom if I was a boy or a girl ( in front of my FaCe ) so that 's how I 've been,0,0,0.07513057
+29,sarcasm_ds,I wish Facebook would introduce a ‘ rude ' option on its ‘ like ' panel . I feel ‘ wow ' does n't cover it . Maybe it could be a middle finger .,0,0,0.052932784
+30,sarcasm_ds,Passed my PhD @USER today and I could not be happier ! ! HTTPURL,0,0,0.041847862
+31,sarcasm_ds,Wow really loving this new job I mean constantly being shouted at and barely earing a fiver an hour why did I not sign up earlier ! ! !,1,0,0.23461762
+32,sarcasm_ds,Ahhh I get to listen to a cement mixer all day . Awesome .,1,0,0.26003963
+33,sarcasm_ds,"My dad just said to me , “ Hey , you 're kinda skinny , can you slip behind the fridge to look at something ? ” and it might be the nicest compliment I 've ever gotten . So guys , go tell your girl you think she 's kinda skinny :smiling_face_with_hearts:",1,0,0.060383566
+34,sarcasm_ds,"Oh , no , totally , do n't wear a mask and cough and splutter around me . COVID 'll be a fun little time ..",1,0,0.076822296
+35,sarcasm_ds,Replace Pelosi #Nancy,1,0,0.05304055
+36,sarcasm_ds,Nice to be compared to a brick wall :face_with_tears_of_joy:,1,0,0.057536807
+37,sarcasm_ds,I just love falling up the stairs :expressionless_face:,1,0,0.05372877
+38,sarcasm_ds,@USER @USER @USER Surely you 're not suggesting that their own thorough investigation of their own suspected <fraud> ( which found no evidence for said <fraud> ) was carried out with anything but the very highest levels of integrity ? Seems completely legit to me ...,1,0,0.025510307
+39,sarcasm_ds,"It 's been so lovely to see the world in blue and green and gold again this afternoon after a week or more of endless grey . Sunshine , I have missed you .",0,0,0.12763521
+40,sarcasm_ds,Wow ... the universe gave me the task of a potty training a whole human ? the audacity .,1,0,0.10221429
+41,sarcasm_ds,@USER Neighbours,1,0,0.02424642
+42,sarcasm_ds,Refs dashing out yellows to united players for jokes,0,0,0.10786544
+43,sarcasm_ds,First proper Coffee in 4 months .,0,0,0.17030591
+44,sarcasm_ds,"Every once in a while , I still forget that Tatiana Maslany is n't multiple people . #OrphanBlack",0,0,0.07539291
+45,sarcasm_ds,i 'm going to cut off contact with every single person i know and emerge in a few months o a year from now having lost the ability to physically speak but be able to play the meanest fucking accordion you 've ever heard in your pathetic little life,1,0,0.13009268
+46,sarcasm_ds,Please please please show your support for my dad and his charity event . 7 sprint triathlons in 7 days - HTTPURL,0,0,0.03336986
+47,sarcasm_ds,Fun fact : I sing I Morgan ar en annan dag to my daughter to get her to sleep and it works a charm . #eurovisionagain,0,0,0.062213305
+48,sarcasm_ds,NEW MUSIC TOMORROW ! !,0,0,0.12234754
+49,sarcasm_ds,This is so good HTTPURL,0,0,0.0413541
+50,sarcasm_ds,cant wait to dance with harry styles and the delta variant at their concert in november ! !,1,0,0.22493389
+51,sarcasm_ds,Oh my goodness . It 's the first week of the summer holidays and Harrison has found his recorder . Give . Me . Strength .,1,0,0.055750098
+52,sarcasm_ds,The @USER talks benefits of universal basic income #COVID19 #coronavirus #catholic #EasterSunday HTTPURL,0,0,0.021647645
+53,sarcasm_ds,men are so grimey,0,0,0.14940478
+54,sarcasm_ds,"hello to all three of my followers , this is my big return to twitter",1,0,0.09905496
+55,sarcasm_ds,its 3 30 am and I have decided the only redeeming quality of a male is that I can put my freezing cold toes on him and leach his warmth,1,0,0.297046
+56,sarcasm_ds,have n't written in months cuz there are no male teachers to impress :persevering_face:,1,0,0.05317302
+57,sarcasm_ds,I 'm at a weird point in my life where I 'm on etsy looking for cute reusable tote bags,0,0,0.13935766
+58,sarcasm_ds,. @USER anyway you 'd want to come to the Jazz ?,0,0,0.061366227
+59,sarcasm_ds,love living in a capitalist society where i look forward to getting a surgery where i 'm legit GETTING AN INTERNAL BODY PART REMOVED bc it means i 'll get a few days off from work xoxo,1,0,0.3214248
+60,sarcasm_ds,I think we might want to worry a little more about the risks posed by the Omicron variant than fretting over a Zoom quiz that took place a year ago . Just a thought .,1,0,0.09969237
+61,sarcasm_ds,Someone should 've had me committed the day I decided to buy a pair of non-stretch denim jeans,1,0,0.19994007
+62,sarcasm_ds,Help raise £ 2000 to help provide food and essentials to disadvantaged child .. Please #donate on @USER and RT HTTPURL,0,0,0.022951072
+63,sarcasm_ds,Just won 3 cents on HQ words ... early retirement here I come :smiling_face_with_heart-eyes:,1,0,0.04107845
+64,sarcasm_ds,"Cool guy in a big truck honked really long at the garbage truck because it slowed down to turn ; I felt he wanted everyone to know how cool he is , so I decided to tweet about it on his behalf .",1,0,0.1578444
+65,sarcasm_ds,@USER After I hurt my back I found out I 'd been getting out of bed wrong . I 'd literally be better off staying in bed,0,0,0.030342314
+66,sarcasm_ds,I was only in Taylor Swift 's top 0.10 % of listeners on Spotify but last year but yeah totally sound that Swiftogeddan in Glasgow is sold out,1,0,0.067700975
+67,sarcasm_ds,"Forgive them for you , not for them",0,0,0.11636807
+68,sarcasm_ds,Always glad to live in Kent :see-no-evil_monkey: :see-no-evil_monkey:,1,0,0.040023237
+69,sarcasm_ds,"You guys , how cool would a British version of Breaking Bad be ? Lol jk , they have universal health care so Walter White would never have to resort to cooking meth in a trailer to be able to fund his cancer treatment .",1,0,0.26259214
+70,sarcasm_ds,I deeply regret downloading tiktok ... yet not at the same time,0,0,0.11382684

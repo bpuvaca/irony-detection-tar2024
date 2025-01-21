@@ -1,0 +1,71 @@
+index,dataset,tweet,label,prediction,probability
+1,sarcasm_ds,"I 'm heading out to snag my COVID - 19 inoculation ! Thanks government mandate ! Super pleased to be doing my part even though the vaccines do not stop one from getting the disease , they do not stop the spread , and it leads to a life of non-stop useless boosters ! Woo-hoo !",1,1,0.55592114
+2,sarcasm_ds,it 's always the girls I do n't even know that wanna talk about me 24/7 :) I love my fans :),1,0,0.38792124
+3,sarcasm_ds,not enough essays about hozier saying “ i slithered here from eden just to sit outside your door ” and all of the implications that go along w it,0,1,0.60915035
+4,sarcasm_ds,Imagine going to university for 4 years when you could just follow Elon Musk on twitter for free,1,0,0.49427655
+5,sarcasm_ds,"every Tom Holland movie i 've seen is a masterpiece , i do n't think it 's coincidence . anyways watch Cherry on apple TV and The Devil All The Time on Netflix",0,0,0.1999853
+6,sarcasm_ds,. @USER The wearing and non-wearing of face masks by support team and family of players at ATP events is shockingly bad and setting a really poor example to anyone watching . Is it within your remit to encourage or enforce better adherence to effective face mask wearing ?,0,0,0.28149396
+7,sarcasm_ds,@USER Mr Shatner whilst you were sleeping you asked me to join Facebook messenger and then after a polite conversation you then offered me gold necklaces and a singed ( sic ) tee-shirt - you made my Friday night sir ... just awaiting your instructions so I can wire the money ...,1,0,0.35809016
+8,sarcasm_ds,Ca n't wait to get a kebab,0,1,0.55119747
+9,sarcasm_ds,"Tonight @USER dinner I sat by & chatted w / the former chancellor of Ole Miss , a former Miss MS , & the owner of the Miss America pageant Casual .",1,0,0.38242912
+10,sarcasm_ds,"Ya know , I missed a lot of things during Covid , but movie theater popcorn might top the list .",0,1,0.5581517
+11,sarcasm_ds,It was the jerseys,1,0,0.4923564
+12,sarcasm_ds,"@USER @USER He 's right , not enough to warrant resubbing and at this point people are already talking about the next expansion because they 're completely over this one .",0,0,0.24360907
+13,sarcasm_ds,5 star personality 4.8 star uber rating,0,0,0.476869
+14,sarcasm_ds,going to be running on three hours of sleep at work tonight ! so excited ! ! !,1,1,0.6274934
+15,sarcasm_ds,HTTPURL,0,1,0.5827401
+16,sarcasm_ds,"Wow , can't wait to go into ANOTHER lockdown :face_with_rolling_eyes:",1,1,0.7047859
+17,sarcasm_ds,"If u watch the game at my house & u talk during Cal 's halftime interviews , my dad will frantically shush u and say "" God is talking ! """,0,0,0.3288167
+18,sarcasm_ds,Semester has n't even started and I 've already had two breakdowns :) this is gonna be a fun one !,1,0,0.4956396
+19,sarcasm_ds,Two goals caused by two awful goalkeepers #Capitalonecup,0,1,0.54277194
+20,sarcasm_ds,excited to start my new hobby of standing in the lgbtq section of the feminist bookstore and look hot and mysterious until I get noticed,0,0,0.4536114
+21,sarcasm_ds,why was suite life on deck not called zack and cody on a boaty ? ? ? missed opportunity,0,1,0.6098507
+22,sarcasm_ds,people in london are always asking me for directions ! ! i am as lost as you ! ! !,0,0,0.48866975
+23,sarcasm_ds,Bit odd for someone to resign over a party that did n't happen * eye roll *,1,0,0.48487496
+24,sarcasm_ds,I 've been laid off ! ! Nice :) ),1,1,0.6075167
+25,sarcasm_ds,How nice of tonsillitis to join me on my holiday 🖕🏻 🖕🏻 🖕🏻 🖕🏻,1,1,0.58992046
+26,sarcasm_ds,me not turning up to work is a feminist movement actually,1,0,0.41138965
+27,sarcasm_ds,can't believe the covid vaccine made me lose a limb . i thought being tracked was the only side effect,1,0,0.4158659
+28,sarcasm_ds,As if we 're all actually going back to the footy tomorrow literally gonna be epic,0,1,0.61304146
+29,sarcasm_ds,Is there a zombie apocalypse going on upper street,1,1,0.54864925
+30,sarcasm_ds,Am I the only one who thinks burrata is boring af ?,0,0,0.44764924
+31,sarcasm_ds,""" Do a PhD , it 'll be fun and rewarding , "" said no clinically sane person . Ever . I repeat . Ever .",1,1,0.5014736
+32,sarcasm_ds,thinking of getting a tattoo that says “ enough ” both affirming that I am enough while also suggesting I 've had enough,0,0,0.4246759
+33,sarcasm_ds,Love it when I forget to transfer my rent money over from my savings :woozy_face:,1,1,0.68258786
+34,sarcasm_ds,"Sometimes I lay in bed and think of all the ppl on tik tok who shaved their heads to go viral and did n't and now are just bald , no clout . Wish I knew who they were so I could throw em a like :crying_face:",0,0,0.27414954
+35,sarcasm_ds,"wow , ok , unfollowing now . Was a big fan of putting your left leg in , but just heard about taking your left leg out",1,0,0.30385953
+36,sarcasm_ds,mentally I 'm hiding in the walk-in,1,1,0.53017807
+37,sarcasm_ds,"If the sound of the rain outside was n't bad enough I 've now got my neighbours climbing onto their roof and shouting ‘ I love blowjobs ' , perfect background noise for me trying to study 👍🏻",1,0,0.3913762
+38,sarcasm_ds,Ca n't wait until I live to be 110 years old and I have people asking me how I 've lived for such a long time so that I can make up some hyper-specific secret to longevity that people will inevitably follow,1,0,0.25449955
+39,sarcasm_ds,""" I 'm concerned about the environmental impact of my contact lenses , "" says the occasional daily wearer , throwing their Starbucks cup in the test room bin .",1,0,0.32875794
+40,sarcasm_ds,If Nick Lachey wins TMS I will be so bitter .,0,0,0.48310477
+41,sarcasm_ds,every date I go on I get a little scared will be phone swap,1,0,0.40108413
+42,sarcasm_ds,The omicron variant has decided to give us all a wonderful gift for Christmas . For that one day it has chosen to not be spread between people at all . This gift will make me feel a lot better about being around loved ones who still refuse to get the vaccine or to wear a mask at the very least .,1,0,0.25344482
+43,sarcasm_ds,@USER Would love a cheeky McDonald 's breakfast before a busy day at work would set the day off on the right foot ! :beating_heart: #FancyAMcDonalds,1,1,0.69066393
+44,sarcasm_ds,I love it when someone criticses my parenting then their adult son cuts his finger off with a knife and breaks his leg by falling off a bike,1,0,0.3465812
+45,sarcasm_ds,I entered @USER HUGE BACK TO SCHOOL GIVEAWAY to win a macbook pro & tons of other prizes ! CHECK IT OUT HERE ! HTTPURL #grav3yardgirl,0,1,0.6040843
+46,sarcasm_ds,Football is a rollercoaster . And all those losses and heartbreaks are all worth it for nights like this . #AVFC #AVLARS,0,1,0.649647
+47,sarcasm_ds,Target just brings me too much joy,0,1,0.55528533
+48,sarcasm_ds,"Vaccine mandates are obviously great things for the good of the people , cause nothing bad has ever happened by forcing people into things .",1,0,0.25710252
+49,sarcasm_ds,All the shade i have been hearing about Ben Platt being unbelievable as a teenager in the @USER movie boggles me . Does nobody have any memories of Grease ? ? ? Name 1 actor on that film who believably looked high school age !,1,0,0.35912675
+50,sarcasm_ds,Come on Tom Ford ! #snooker #WelshOpen,0,1,0.61239845
+51,sarcasm_ds,@USER @USER @USER shit healer,0,1,0.60747457
+52,sarcasm_ds,Perfect afternoon chilling HTTPURL,0,1,0.6820982
+53,sarcasm_ds,I accidentally made butter when trying to whip cream this morning and I think that 's a great representation of how I 've reached my capacity for working from home,1,0,0.4119555
+54,sarcasm_ds,My dad is bringing me home Spider-Man Vans from Spain I can not wait 🙌🏼,0,1,0.6189967
+55,sarcasm_ds,"At the point in my life where my body keeps developing new allergies . My metabolism has slowed , hangovers are no joke anymore , and now I can't eat several of my favorite fruits . Screw wrinkles , this is the reason why people are afraid of getting old",0,0,0.34645465
+56,sarcasm_ds,Beautician and the Beast ( 1997 ) . Best Timothy Dalton film of all time .,1,0,0.42027378
+57,sarcasm_ds,"Lucky for @USER , only MVPs get tossed for those kinds of fouls #76ers #ATLvsPHI #hawks #NBAPlayoffs",1,1,0.50529295
+58,sarcasm_ds,Hailey convinced Tayler that putting a spoon in the microwave to scoop ice cream faster was a good idea,1,0,0.34424564
+59,sarcasm_ds,I love when I start choking on my water in my 8 person class,1,1,0.6133998
+60,sarcasm_ds,For so long Americans condemned greedy businessmen but made that their sole reason to elect #Trump . #POTUS #Greed,0,0,0.48350656
+61,sarcasm_ds,Mental shoot out ends . Silent pause . Sirens start :police_car_light: Always so perfectly timed :oncoming_police_car: :police_car: 👍🏽 #LineOfDuty #LineofDuty6 #LOD6 #LOD,1,1,0.63396394
+62,sarcasm_ds,I just wanna have the same love for life as Phil from Modern Family is that too much to ask,0,0,0.40069175
+63,sarcasm_ds,I love online shopping because if I am physically in a store and an employee even looks at me I will immediately leave .,1,0,0.30355272
+64,sarcasm_ds,thinking about quitting the path im on to become a college advisor so i can be wrong and do nothing for the rest of my life,1,0,0.37566844
+65,sarcasm_ds,yo ima hott mess but at least i 'm hott,0,1,0.5328302
+66,sarcasm_ds,The joys of academia ; spending 2 whole weeks to be working on an application to be told in feedback that it scored strongly ( but did n't get it ),1,0,0.3116392
+67,sarcasm_ds,@USER thx for the play by play,1,1,0.62679416
+68,sarcasm_ds,"I unsubscribe from being an adult , its not for me",1,0,0.45206165
+69,sarcasm_ds,i 'm gonna be real i voted weeks ago and i 'm lowkey sad i do n't get a sticker :disappointed_face:,0,0,0.42143837
+70,sarcasm_ds,"@USER @USER @USER Does he order 11 at once and drink each one at just over 5 minutes , OR do we have to take into account going to the bar ? Either way it 's a disgrace and not what we should be promoting to the kids .",0,0,0.23120767
