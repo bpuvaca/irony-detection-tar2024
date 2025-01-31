@@ -12,7 +12,7 @@ sns.set(style='whitegrid', font_scale=1.6, font='Georgia', context='paper')
 def scatter_it(dataframe, hue_metric='correct.', title='', model='BERTweet', show_hist=False):
     dataframe = pd.read_csv(dataframe)
 
-    os.makedirs('figures_final', exist_ok=True)
+    os.makedirs('figures_bf', exist_ok=True)
     dataframe = dataframe.sample(n=25000 if dataframe.shape[0] > 25000 else len(dataframe))
     dataframe = dataframe.assign(corr_frac=lambda d: d.correctness / d.correctness.max())
     dataframe['correct.'] = [f"{x:.1f}" for x in dataframe['corr_frac']]
@@ -85,7 +85,7 @@ def scatter_it(dataframe, hue_metric='correct.', title='', model='BERTweet', sho
         plot2.set_ylabel('')
 
     fig.tight_layout()
-    filename = f'figures_final/{title}_{model}_10epoch.png' if show_hist else f'figures_4epochs/compact_{title}_{model}.png'
+    filename = f'figures_4epochs/{title}_{model}_4epoch.png' if show_hist else f'figures_bf/compact_{title}_{model}.png'
     fig.savefig(filename, dpi=300)
 
-scatter_it("training_dynamics_5_10_epochs/bertweet_trainedon_irony_10epoch.csv", title='trained on irony', show_hist=True)
+scatter_it("training_dynamics_4epochs/bertweet_trainedon_semeval_mix_4epoch.csv", title='trained on semeval_mix', show_hist=True)

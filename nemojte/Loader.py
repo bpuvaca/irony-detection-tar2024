@@ -60,6 +60,8 @@ file_path_dict = {
     "test_irony": "../datasets/crossval/irony.csv",
     
     "train_semeval_mix": "../datasets/crossval/semeval_mix.csv",
+    "valid_semeval_mix": "../datasets/crossval/semeval_mix.csv",
+    "test_semeval_mix": "../datasets/crossval/semeval_mix.csv",
     
     
     "train_sarcasm_mix": "../datasets/crossval/sarcasm_mix.csv",
@@ -76,7 +78,43 @@ file_path_dict = {
     "train_sarcasm_polarity": "../datasets/crossval/sarcasm_polarity.csv",
     "train_sarcasm_other": "../datasets/crossval/sarcasm_other.csv",
     "train_polarity_other": "../datasets/crossval/polarity_other.csv",
-    
+
+    "train_bf_sarcasm_bert": "../datasets/cartography/ds_best_folds/bert_sarcasm_ds_fold2.csv",
+    "valid_bf_sarcasm_bert": "../datasets/cartography/ds_best_folds/bert_sarcasm_ds_fold2.csv",
+    "test_bf_sarcasm_bert": "../datasets/cartography/ds_best_folds/bert_sarcasm_ds_fold2.csv",
+
+    "train_bf_sarcasm_bertweet": "../datasets/cartography/ds_best_folds/bertweet_sarcasm_ds_fold0.csv",
+    "valid_bf_sarcasm_bertweet": "../datasets/cartography/ds_best_folds/bertweet_sarcasm_ds_fold0.csv",
+    "test_bf_sarcasm_bertweet": "../datasets/cartography/ds_best_folds/bertweet_sarcasm_ds_fold0.csv",
+
+    "train_bf_sarcasm_roberta": "../datasets/cartography/ds_best_folds/roberta_sarcasm_ds_fold1.csv",
+    "valid_bf_sarcasm_roberta": "../datasets/cartography/ds_best_folds/roberta_sarcasm_ds_fold1.csv",
+    "test_bf_sarcasm_roberta": "../datasets/cartography/ds_best_folds/roberta_sarcasm_ds_fold1.csv",
+
+    "train_bf_irony_bert": "../datasets/cartography/ds_best_folds/bert_irony_ds_fold1.csv",
+    "valid_bf_irony_bert": "../datasets/cartography/ds_best_folds/bert_irony_ds_fold1.csv",
+    "test_bf_irony_bert": "../datasets/cartography/ds_best_folds/bert_irony_ds_fold1.csv",
+
+    "train_bf_irony_bertweet": "../datasets/cartography/ds_best_folds/bertweet_irony_ds_fold4.csv",
+    "valid_bf_irony_bertweet": "../datasets/cartography/ds_best_folds/bertweet_irony_ds_fold4.csv",
+    "test_bf_irony_bertweet": "../datasets/cartography/ds_best_folds/bertweet_irony_ds_fold4.csv",
+
+    "train_bf_irony_roberta": "../datasets/cartography/ds_best_folds/roberta_irony_ds_fold1.csv",
+    "valid_bf_irony_roberta": "../datasets/cartography/ds_best_folds/roberta_irony_ds_fold1.csv",
+    "test_bf_irony_roberta": "../datasets/cartography/ds_best_folds/roberta_irony_ds_fold1.csv",
+
+    "train_bf_semeval_mix_bert": "../datasets/cartography/ds_best_folds/bert_semeval_mix_ds_fold1.csv",
+    "valid_bf_semeval_mix_bert": "../datasets/cartography/ds_best_folds/bert_semeval_mix_ds_fold1.csv",
+    "test_bf_semeval_mix_bert": "../datasets/cartography/ds_best_folds/bert_semeval_mix_ds_fold1.csv",
+
+    "train_bf_semeval_mix_bertweet": "../datasets/cartography/ds_best_folds/bertweet_semeval_mix_ds_fold2.csv",
+    "valid_bf_semeval_mix_bertweet": "../datasets/cartography/ds_best_folds/bertweet_semeval_mix_ds_fold2.csv",
+    "test_bf_semeval_mix_bertweet": "../datasets/cartography/ds_best_folds/bertweet_semeval_mix_ds_fold2.csv",
+
+    "train_bf_semeval_mix_roberta": "../datasets/cartography/ds_best_folds/roberta_semeval_mix_ds_fold0.csv",
+    "valid_bf_semeval_mix_roberta": "../datasets/cartography/ds_best_folds/roberta_semeval_mix_ds_fold0.csv",
+    "test_bf_semeval_mix_roberta": "../datasets/cartography/ds_best_folds/roberta_semeval_mix_ds_fold0.csv",
+
 }
 
 fold_size_dict = {

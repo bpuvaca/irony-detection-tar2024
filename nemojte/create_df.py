@@ -3,10 +3,10 @@ import pandas as pd
 import math
 
 
-filename = "bertweet_trainedon_irony_10epoch"
+filename = "bertweet_trainedon_semeval_mix_4epoch"
 
 
-with open(f'training_dynamics_5_10_epochs/{filename}.json', 'r') as f:
+with open(f'training_dynamics_4epochs/{filename}.json', 'r') as f:
     data = json.load(f)
 
 
@@ -35,4 +35,4 @@ df = pd.DataFrame({
     'correctness': all_correctnesses
 })
 
-df.to_csv(f'training_dynamics_5_10_epochs/{filename}.csv', index=False)
+df.to_csv(f'training_dynamics_4epochs/{filename}.csv', index=False)

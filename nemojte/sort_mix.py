@@ -3,8 +3,8 @@ import pandas as pd
 import math
 import os
 
-json_file_path = "training_dynamics_4epochs/bertweet_trainedon_irony_4epoch.json"
-output_csv_path = "lowest_correctness/bertweet_trained_on_irony_4epoch.csv"
+json_file_path = "training_dynamics_4epochs/bertweet_trainedon_semeval_mix_4epoch.json"
+output_csv_path = "lowest_correctness/all_predictions/bertweet_trained_on_semeval_mix_4epoch.csv"
 
 with open(json_file_path, 'r', encoding='utf-8') as f:
     data = json.load(f)
