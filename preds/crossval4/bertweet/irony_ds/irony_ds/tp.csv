@@ -1,0 +1,114 @@
+index,dataset,tweet,label,prediction,probability
+6,irony_ds,what i love about mine and summers work schedules is that she will finish at 8p m and then i 'll start work at 9pm and then when i get home at 7am she 'll start work at 8am :red_heart:,1,1,0.5535913
+10,irony_ds,My work email is n't working so I can just log off for the day right ? :face_with_rolling_eyes:,1,1,0.5472021
+12,irony_ds,yeah i enjoy some oregano on a nice pasta dinner ( dumps oregano on mac n cheese ),1,1,0.5293181
+14,irony_ds,Got a bloody screening invitation for a massive film - YES THAT ONE YOURE THINKING OF - and both screenings are on school days :loudly_crying_face: tempted to quit teaching tbh,1,1,0.5654592
+16,irony_ds,The fact I nearly froze on my way to work this morning is definitely a sign it 's not summer anymore #freezing,1,1,0.6269735
+20,irony_ds,"Incredible scenes in Nottingham , as it begins to rain for the first time this hour .",1,1,0.58710605
+23,irony_ds,I 'm just living off salads and yogurt and loving it tbh,1,1,0.5112884
+30,irony_ds,In sunny spain at the moment ! ! ! Hows it all in england ?,1,1,0.595256
+43,irony_ds,absolutely love waking up to the fire alarm at 7 am :smiling_face_with_heart-eyes:,1,1,0.61943316
+44,irony_ds,Ca n't wait for those $ 2000 checks to go out immediately,1,1,0.54345864
+45,irony_ds,Hot dog eating contest as a form of assisted suicide,1,1,0.51752126
+46,irony_ds,Ah gotta love that Friday morning burnt out feeling :sunrise_over_mountains:,1,1,0.63820934
+48,irony_ds,6 more hours and then a whoppingly massive 2days off work ! wowzers !,1,1,0.5649885
+52,irony_ds,Taxes are just the best and I can not wait to pay more :smiling_face_with_halo: :smiling_face_with_hearts: :pleading_face:,1,1,0.52053714
+53,irony_ds,Really happy that the weather has stayed like this for the whole weekend,1,1,0.596734
+54,irony_ds,Good news : Played out of my mind from the sand traps today . Bad news : Was in the sand traps a lot today .,1,1,0.5223878
+59,irony_ds,when the toilet seat is warmed up for you > > >,1,1,0.5383526
+61,irony_ds,"5:30 banshee-like kitten zoomies are definitely my all-time favorite alarm clock , and the sound of jewelry boxes flipping over and burnouts on the wood floor make for the calmest , most enjoyable start to any workday .",1,1,0.56536573
+65,irony_ds,Life is about eating chicken finger and getting drunk,1,1,0.5257024
+67,irony_ds,My living room feels really lively now . I 'm recklessly sipping tea absorbing choons #TaeSup,1,1,0.5247165
+68,irony_ds,I love a Monday morning so glad the weekends over !,1,1,0.6258188
+69,irony_ds,wearing a cute jumpsuit is all fun and games until you have to go to the bathroom,1,1,0.55743074
+70,irony_ds,Good morning September ... Hello tonsillitis :(,1,1,0.58628404
+4,irony_ds,I just absolutely LOVE how I 've got to work outside for the next 3 days in the heatwave . #sweatingmyballsoff,1,1,0.7540594
+7,irony_ds,"This weather is really making me want to put shorts on , flock to the beach and get the deck chair out ... Yeah right ! ! !",1,1,0.70846456
+8,irony_ds,"It was almost 70 degrees today but no , global warming does n't exist :unamused_face:",1,1,0.6312384
+10,irony_ds,"Ah yes , back spasms when I take a deep breath . This is :sparkles: 28 :sparkles: .",1,1,0.69540256
+11,irony_ds,Hey what 's the weather like today ? Am I going to need an umbrella ?,1,1,0.6458051
+16,irony_ds,Anyone else hear some like thunder or something ?,1,1,0.5144324
+27,irony_ds,"Day 55 of Lockdown . Finally bought some jigsaw puzzles . Absolutely can not wait for them to come , highlight of my day ( maybe even year )",1,1,0.5359918
+28,irony_ds,NOT OLIVIA RODRIGO TRAITOR IN THE BACKGROUND #LoveIsland,1,1,0.5254589
+29,irony_ds,I just love going out in the rain . It is so nice going to the park when it is pouring with rain . It is so cool to get mud in your hair and your socks drenched . I love it .,1,1,0.7251107
+30,irony_ds,"You know what makes a 15 minute wait for the bus even better , rum leaking all over the contents of your bag :see-no-evil_monkey: :tired_face:",1,1,0.6966006
+32,irony_ds,Another gorgeous day in sunny Accrington !,1,1,0.6115767
+33,irony_ds,Overthinking everything in life really takes a toll on you,1,1,0.5058007
+38,irony_ds,Everybody loves Christmas ! It such a great time to be jolly !,1,1,0.55349034
+40,irony_ds,"My poo is green , how festive .",1,1,0.65776247
+43,irony_ds,"Oh good , it 's time for the bi-monthly random power outage .",1,1,0.7177712
+44,irony_ds,"I really loved the drive into work today in the dark , wet , heavy rain",1,1,0.74755186
+47,irony_ds,High stakes legos,1,1,0.54426736
+49,irony_ds,Weathers wonderful today ! :closed_umbrella: :closed_umbrella: :closed_umbrella:,1,1,0.690719
+51,irony_ds,I love when you go to shop for plus size clothing and it 's always just shoved under women 's and it does n't have any subcategories so u just have to wade thru everything like a pig being thrown slop,1,1,0.55394167
+55,irony_ds,""" coping strategies to help with tinnitus and hearing loss : see a doctor ! "" Wow thanks internet",1,1,0.54293615
+59,irony_ds,love it when R gives me the 500th error code of the day,1,1,0.68987805
+60,irony_ds,Corsodyl failing to consider i like being a person who spits blood when they brush their teeth,1,1,0.5510917
+63,irony_ds,They really said you can't have nice weather AND no lockdown for your bday this year huh,1,1,0.6064649
+67,irony_ds,What a wonderful time to have your AC go out HTTPURL,1,1,0.694096
+1,irony_ds,"North Dakota : * has one decent week of weather * Mother Nature : NOW I SHALL CAST OUT THE SUN AND BRING THE COLDEST OF RAINS UPON THY SUPER , DUPER FLAT LAND .",1,1,0.5477706
+9,irony_ds,A fun musical mashup is the country music playing at the gym with the one guy playing old Eminem on his phone at full volume in the locker room shower :musical_notes: :musical_notes: :musical_notes:,1,1,0.5246873
+11,irony_ds,Avoid mass gatherings .. does this mean that I can stay home tomorrow as I work at a school ? No I thought not . #schoolclosure,1,1,0.54232705
+16,irony_ds,Well . That went well . #BelgianGP,1,1,0.5062812
+19,irony_ds,Been looking forward to today all weekend . Mondays are the best . I feel fresh and ready to start the week . SAID NO ONE EVER ! !,1,1,0.51421857
+20,irony_ds,Who 's ready for monsoon storms allllll weekend ? ! ? !,1,1,0.53939885
+31,irony_ds,why is the weather having a mid life crisis,1,1,0.53996074
+33,irony_ds,a level tudor history can do one,1,1,0.5368637
+40,irony_ds,Petition to call erections social dickstanding,1,1,0.53040695
+41,irony_ds,I absolutely love it when its pouring down with rain on a Monday morning and I forget my umbrella !,1,1,0.5912176
+46,irony_ds,"love island is ending , law school is starting again ... summer is really over",1,1,0.5115988
+47,irony_ds,Just getting some WD40 on my letter box to help the poor postman with his delivery today #valentinesday2021 #WD40,1,1,0.53394204
+55,irony_ds,considering crowd surfing the next time the hallways are too packed,1,1,0.50521845
+61,irony_ds,omg there 's a sheet of ice in front of my school . should I slip and fall ?,1,1,0.5561691
+63,irony_ds,"me : revises cells + other general biology stuff edexcel : "" i want a fit summer bod , get them to tell me how i get one "" #EdexcelBiology #Gcses2018",1,1,0.50501645
+64,irony_ds,The high tomorrow is 45 ! Anyone wanna go to the pool ?,1,1,0.53061765
+65,irony_ds,Having morning sickness when you 're not actually pregnant is all the fun,1,1,0.5011577
+2,irony_ds,First day of school and spectrum internet has already shit itself . Amazing,1,1,0.6143986
+5,irony_ds,Just nearly cried in the tesco express because they did n't have the cheese pizza or the back up pizza I wanted . My mental stability is strong today .,1,1,0.5711977
+6,irony_ds,teams is down what a shame I can't do my assignments 👉🏽 👈🏽,1,1,0.57949847
+10,irony_ds,"Ah yes , another afternoon with the WiFi down ... really makes working from home that extra bit more enjoyable :)",1,1,0.69838244
+12,irony_ds,my computer does this fun thing now where it shakes in a way that exactly replicates what happens to my vision when i forget my meds so that 's exciting !,1,1,0.5008812
+15,irony_ds,My eldest is having a wild Friday night out . She 's going to bingo . :face_with_tears_of_joy:,1,1,0.58919185
+20,irony_ds,love waking up in a panic :woozy_face: :woozy_face:,1,1,0.6419813
+23,irony_ds,I 've just got up at five forty five on a Sunday to watch the Japanese Grand Prix as a Ferrari fan and saw Vettel jump ( and then fuck up ) the start and Leclerc tangle with Verstappen on turn 2 . Lovely stuff .,1,1,0.57916105
+24,irony_ds,Entry level jobs that require 3 years prior experience :two_hearts: :two_hearts: ly :two_hearts: :two_hearts:,1,1,0.54598886
+27,irony_ds,I 'm the highest I 'll ever be on 420 in my life ! I 'm on an airplane duh,1,1,0.5486759
+33,irony_ds,I 'm literally out here trading eggs for potatoes Day 1 in our new dystopian society is going well #coronavirusUK #coronavirus,1,1,0.64486265
+34,irony_ds,hey quick question is it fall or spring ? ? ?,1,1,0.5497388
+45,irony_ds,Funny how my phone starts turning into a piece of shit when the new iPhone comes out :thinking_face:,1,1,0.53878146
+49,irony_ds,What a Race ! #sarcastic #WTF1 HTTPURL,1,1,0.53795564
+52,irony_ds,"Goodness my parents are actually watching something on Apple TV + , brilliant , yet another streaming service ! :sleepy_face:",1,1,0.5215863
+53,irony_ds,I would like to dedicate my hot girl summer to the Eastpointe Chick-Fil-A . Thank you !,1,1,0.57068425
+55,irony_ds,2 minutes into the book and I already hate the main character . Lovely,1,1,0.5090208
+56,irony_ds,Is spunk a slur ?,1,1,0.5115939
+62,irony_ds,"Stimulus checks should come with hand lotion , a face mask , and a bonus for every Instagram bingos you do",1,1,0.5859001
+63,irony_ds,I live for the great British weather !,1,1,0.6533663
+65,irony_ds,it 's so rude that i 'm not at the beach right now,1,1,0.504754
+66,irony_ds,You know the wolves match is boring when you 're talking with your mate about the best way to wire up his new shed !,1,1,0.6198359
+1,irony_ds,if trees would simply stop producing flammable leaves climate change would not be an issue,1,1,0.5111823
+4,irony_ds,I woke this morning to another Monday of fine bright warm sunshine here in Norfolk . Just what you need to put you in the right frame of mind for the week .,1,1,0.572091
+5,irony_ds,nothing quite says hello 2020 like hypothermia :partying_face:,1,1,0.5481032
+8,irony_ds,Oh what a surprise BBC weather says it 's raining in Manchester ! in Manchester !,1,1,0.5757567
+9,irony_ds,cold queso is so much better than warm queso HTTPURL,1,1,0.5140984
+13,irony_ds,good evening sharks . hooters but for feet .,1,1,0.51985
+16,irony_ds,See Brexit is going well,1,1,0.5454299
+17,irony_ds,It 's so fantastic when you pay £ 800 a month to live in London in a fully refurbished house and wake up with water dripping on you from the upstairs en suite XXXXXX,1,1,0.56841606
+18,irony_ds,there 's no better way to wake up than having one dog jump directly on your stomach and knock the wind out of you while the other drop a dead rodent on the end of the bed . :expressionless_face:,1,1,0.5025552
+20,irony_ds,:dizzy: jsc bonding nights :dizzy: :smiling_face_with_hearts: :partying_face:,1,1,0.5565164
+23,irony_ds,alright I 'm ready for some march madness :basketball: :fire:,1,1,0.5064659
+25,irony_ds,When you get woken up at 3am because of aftershocks from an earthquake :thumbs_up: :weary_face:,1,1,0.5495553
+26,irony_ds,"Ah yes , it really is wood-burning stoves in sub-Saharan Africa thats driving the climate crisis :brain: HTTPURL",1,1,0.5307014
+27,irony_ds,I wish that grilled cheese helped you get that summer bod,1,1,0.52570635
+28,irony_ds,"Turned out nice again , I see [ insert photo of flooded house ]",1,1,0.5568053
+29,irony_ds,I picked next year 's musical already ... Electro City . Obvious choice .,1,1,0.5195978
+31,irony_ds,"ah yes , of the course the summer rain pours when im on foot .",1,1,0.60296637
+34,irony_ds,I am just loving life in Covid times . Long may it last !,1,1,0.51340824
+36,irony_ds,The numbers talking to me !,1,1,0.5051163
+38,irony_ds,I just love the weather in Edinburgh have to dress for every season peeing with rain this morning now beautiful blue skys ! ! Just love getting soaked :face_with_steam_from_nose:,1,1,0.5975264
+40,irony_ds,wow . i left on time today and the airport connector is all the way backed up . love that,1,1,0.5116434
+43,irony_ds,Just disposed of a dead opossum . Good morning !,1,1,0.5565675
+49,irony_ds,i would rather be outside reed timmers car in f3 tornado winds than go to work today,1,1,0.5396597
+51,irony_ds,"Do n't you just love Monday mornings , they are even better when its freezing cold and you have an uncooperative child too !",1,1,0.5734471
+52,irony_ds,Woke up at 3 am with a MAD craving for pickles . I guess that means I 'm expecting !,1,1,0.5041782
+67,irony_ds,Big day in the Mumford house #sports day,1,1,0.5481542
+70,irony_ds,"Not got one lynx Africa for Christmas Day this year , shocked and outraged . #RuinedChristmas",1,1,0.54659694

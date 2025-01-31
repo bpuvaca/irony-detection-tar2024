@@ -1,0 +1,70 @@
+index,dataset,tweet,label,prediction,probability
+10,sarcasm_ds,"Well , I had hoped the election would be called in time for my quarter-century birthday two days ago , but I 'll accept this belated present from my fellow Americans . #BidenHarris2020 #election",0,1,0.5394301
+17,sarcasm_ds,@USER @USER Yes NEU ! :clapping_hands: :clapping_hands: :clapping_hands:,0,1,0.6005265
+20,sarcasm_ds,"Knocked on a door to deliver a parcel , waited 30secs then I see the parcel had a safeplace so went to the neighbour . Then this moody 20yr old answered the door in a Spurs shirt talking shit , so I laugh and say was u crying about Harry Kane , is that why u took so long to answer :rolling_on_the_floor_laughing:",0,1,0.5138375
+26,sarcasm_ds,I finished my MBio in Biomedical science this week and today I found out I 'm graduating with a final mark of 77 % ( distinction ) :partying_face: so proud of myself,0,1,0.52457637
+31,sarcasm_ds,happy birthday gorgeous ! have an amazing day i love you ! ! :beating_heart: :beating_heart: @USER,0,1,0.6548757
+34,sarcasm_ds,I need Trisha as a guest on red scare,0,1,0.51174533
+37,sarcasm_ds,i gotta get out of this city . i made $ 18 doordashing for an hour and a half :loudly_crying_face: 3 orders and only one tipped lmfao he was the sweetest tho he gave me a cash tip + a 3.00 tip on the app <3 i miss him,0,1,0.6742016
+38,sarcasm_ds,"Bruh how do people manage dozens of healthy , fun and equitable friendships over a long period of time ? I can hardly handle like 3 :confounded_face:",0,1,0.6047347
+39,sarcasm_ds,Omg my dog just scrolled through my emails with his nose and I 've never seen anything CUTERRRRR :weary_face: :smiling_face_with_heart-eyes:,0,1,0.6595379
+41,sarcasm_ds,"I think the corn should be part of the game , let the players chase balls into the corn field ! #FieldOfDreamsGame :ear_of_corn: :ear_of_corn: :ear_of_corn:",0,1,0.6190746
+42,sarcasm_ds,i love acknowledging the other twinks on campus hi friends ! !,0,1,0.66220385
+46,sarcasm_ds,The littles and I had a fun day today :revolving_hearts: HTTPURL,0,1,0.5937106
+54,sarcasm_ds,yall ever chip your tooth from accidentally biting your tongue ring,0,1,0.5184657
+55,sarcasm_ds,"I 'm glad I downloaded tiktok , it brings me back to the good ol days of vine :smiling_face_with_hearts:",0,1,0.6362165
+3,sarcasm_ds,not enough essays about hozier saying “ i slithered here from eden just to sit outside your door ” and all of the implications that go along w it,0,1,0.60915035
+8,sarcasm_ds,Ca n't wait to get a kebab,0,1,0.55119747
+10,sarcasm_ds,"Ya know , I missed a lot of things during Covid , but movie theater popcorn might top the list .",0,1,0.5581517
+15,sarcasm_ds,HTTPURL,0,1,0.5827401
+19,sarcasm_ds,Two goals caused by two awful goalkeepers #Capitalonecup,0,1,0.54277194
+21,sarcasm_ds,why was suite life on deck not called zack and cody on a boaty ? ? ? missed opportunity,0,1,0.6098507
+28,sarcasm_ds,As if we 're all actually going back to the footy tomorrow literally gonna be epic,0,1,0.61304146
+45,sarcasm_ds,I entered @USER HUGE BACK TO SCHOOL GIVEAWAY to win a macbook pro & tons of other prizes ! CHECK IT OUT HERE ! HTTPURL #grav3yardgirl,0,1,0.6040843
+46,sarcasm_ds,Football is a rollercoaster . And all those losses and heartbreaks are all worth it for nights like this . #AVFC #AVLARS,0,1,0.649647
+47,sarcasm_ds,Target just brings me too much joy,0,1,0.55528533
+50,sarcasm_ds,Come on Tom Ford ! #snooker #WelshOpen,0,1,0.61239845
+51,sarcasm_ds,@USER @USER @USER shit healer,0,1,0.60747457
+52,sarcasm_ds,Perfect afternoon chilling HTTPURL,0,1,0.6820982
+54,sarcasm_ds,My dad is bringing me home Spider-Man Vans from Spain I can not wait 🙌🏼,0,1,0.6189967
+65,sarcasm_ds,yo ima hott mess but at least i 'm hott,0,1,0.5328302
+11,sarcasm_ds,Just ordered the ' Sea-Lover 's Sharing menu ' for a family celebration next week - looks amazing ! HTTPURL,0,1,0.7196068
+12,sarcasm_ds,Happy to be part of the team ! HTTPURL,0,1,0.5147308
+14,sarcasm_ds,Man I miss my friends :(,0,1,0.64898896
+18,sarcasm_ds,i just sewed through my finger and my brain is just like ' how annoying is it that i just broke another needle and i 'm going to have to buy some more ' instead of OW I have 2 holes in my finger . can i swap brains,0,1,0.6526323
+19,sarcasm_ds,i love shoegaze sm,0,1,0.6014188
+20,sarcasm_ds,because my neighbours are just so unbelievably loud as of recent I 'm whacking out my speaker and blasting Harry Styles . modern problems require modern solutions,0,1,0.59163624
+21,sarcasm_ds,"Why do I always say yes to events where it 's just going to be me + D , no Josh to help chase my wild child toddler around the cookout with me :slightly_smiling_face:",0,1,0.58675915
+26,sarcasm_ds,started telling my dutch friends about how i 've not really tried much liquorice while watching this fundy and 5up sweet tasting stream and they 're now planning on potentially sending me some over to try which is very sweet of them,0,1,0.5579225
+30,sarcasm_ds,Passed my PhD @USER today and I could not be happier ! ! HTTPURL,0,1,0.64863425
+39,sarcasm_ds,"It 's been so lovely to see the world in blue and green and gold again this afternoon after a week or more of endless grey . Sunshine , I have missed you .",0,1,0.65567106
+47,sarcasm_ds,Fun fact : I sing I Morgan ar en annan dag to my daughter to get her to sleep and it works a charm . #eurovisionagain,0,1,0.64216334
+48,sarcasm_ds,NEW MUSIC TOMORROW ! !,0,1,0.68696225
+67,sarcasm_ds,"Forgive them for you , not for them",0,1,0.5322084
+5,sarcasm_ds,It 's sad .. guys make me want to stay single more and more everyday . Guys Respect your ladies please . Stay out of my dms especially if your married or just had a kid :exploding_head:,0,1,0.5489146
+8,sarcasm_ds,i want thai food Right Now :(,0,1,0.61821437
+13,sarcasm_ds,the waitress at waffle house handed the check to me instead of noah . :relieved_face: #girlboss,0,1,0.56902057
+16,sarcasm_ds,i like starting conversations with “ also ” even though there was no proceeding sentence,0,1,0.5803861
+25,sarcasm_ds,🤙🏼 HTTPURL,0,1,0.508023
+27,sarcasm_ds,the thought of one of my siblings getting my room when i go to uni makes me sad af :pensive_face:,0,1,0.5613931
+28,sarcasm_ds,youve heard of coffee enemas now get ready for coffee bidets,0,1,0.5742109
+44,sarcasm_ds,evERYTHING IS NOT A COMPETITION OF WHO HAD / HAS IT WORSE OK BYEEE,0,1,0.67104626
+55,sarcasm_ds,THAT'S MY BEST FRIEND :heart_suit: :heart_suit: HTTPURL,0,1,0.5815073
+57,sarcasm_ds,I just had to hide all ads from Crumbl cookies cause I 'm fat and can't resist temptation :tired_face:,0,1,0.5649732
+59,sarcasm_ds,Fascinating article about the Vatican 's finances in these challenging days #catholic #finance #catholicism HTTPURL,0,1,0.50786716
+62,sarcasm_ds,being a head nodder in zoom university is a curse,0,1,0.6132805
+65,sarcasm_ds,"Follow us at @USER for updates on the @USER Care-A-Thon today ! Listen in for interviews with Jaguars , families and more ! :beaming_face_with_smiling_eyes:",0,1,0.52027434
+68,sarcasm_ds,The sign of spinelessness : complaining to someone having a call on a bus as they 're getting off . Was the person on the phone a woman alone ? Of course she was . Was the person complaining an older man ? Of course he was . Did I yell at him ? Of course I did . Speak out for justice . :raised_fist:,0,1,0.5276292
+4,sarcasm_ds,Pub crawl pub crawl pub crawl pub crawl pub crawl . There are pubs and I am crawling too them,0,1,0.7128044
+19,sarcasm_ds,oh cool I drive to school in less than 12 hours and I 'm frantically looking up fun facts about the final destination franchise for absolutely no reason it 's fine everything 's fiNE,0,1,0.76894337
+20,sarcasm_ds,"Left a chai tea in my car last night , baked all day in there today & just now I thought it would be a good idea to take a sip . Someone come get me bc I 'm clearly not ok",0,1,0.7047912
+21,sarcasm_ds,Can a burrito change the world ? Do n't miss Chipotle 's first Game Day commercial HTTPURL #bonuspoints,0,1,0.5260073
+24,sarcasm_ds,Wow how do y'all watch basketball just a bunch of dudes running around and bouncing a ball what a snore fest,0,1,0.7872323
+29,sarcasm_ds,that before the gym nap makes hitting the gym so much better,0,1,0.6337738
+33,sarcasm_ds,"woke up from a dream this morning that my high school best friend was pregnant . we do n't talk anymore . she posted an announcement this afternoon . oh august , you will be funnn :cloud: ∞ :crystal_ball:",0,1,0.5058274
+40,sarcasm_ds,"why do i get ripped to shreds about shopping in primark , their crop tops are stunning and cheap so why not ? ! I do n't earn money to waste it :upside-down_face:",0,1,0.7754088
+46,sarcasm_ds,i need human stimulation in order to be productive ... anyone who 's down to find a space to co-work from “ home ” together pls hmu ! !,0,1,0.54386157
+49,sarcasm_ds,18 yr olds : * literally in the olympics * me : * just melted the bread bag onto the toaster *,0,1,0.6925521
+55,sarcasm_ds,Sometimes I think I 'm ready to live in an apartment either with the homies or by myself but then someone rings the doorbell and I get into a full blown anxiety attack because I think it 's someone trying to kill me lmao,0,1,0.5221365
+60,sarcasm_ds,why am I so tired and also why is the answer always chronic pain ? ? ? ! ? ? ?,0,1,0.7509389
+62,sarcasm_ds,happy one year vegetarian to me :red_heart: :seedling:,0,1,0.75132847

@@ -1,0 +1,75 @@
+index,dataset,tweet,label,prediction,probability
+1,sarcasm_ds,Broke : doing assignments in order of due date Woke : doing assignments in order of priority Wired : spending 20 minutes on each class at a time and just go down the list,1,0,0.49427035
+2,sarcasm_ds,"I 'd like to thank middle aged men watching the Olympics for solving the mental health crisis . Getting someone to shout "" get some perspective "" at every athlete struggling with anxiety will definitely solve their problem .",1,0,0.4940624
+3,sarcasm_ds,yeah your girl is fine but does she pass out while giving blood,1,0,0.47492406
+4,sarcasm_ds,Sleep ? What 's that ... I 've never heard of it ?,1,0,0.48832673
+5,sarcasm_ds,my favorite gay drama is the social network,1,0,0.46008918
+7,sarcasm_ds,@USER But what were the ratings ? ? ( Replied to his Tweet with the same thing . ),1,0,0.4990458
+9,sarcasm_ds,i 've never had protected sex,1,0,0.46420643
+11,sarcasm_ds,"The Drew Barrymore Show is an absolute trainwreck . Like The Tony Danza Show , every two minutes is a clip for The Soup .",1,0,0.47923085
+12,sarcasm_ds,"I see Dettol , Toilet Duck and Zoflora are all trending on Twitter . Now why could that be ... #TrumpPressBriefing",1,0,0.4874997
+15,sarcasm_ds,The contract extension with James Franklin will absolutely work out in Penn State 's favor .,1,0,0.48097885
+16,sarcasm_ds,As a woman I dont need hobbies dreams or goals cause I can spend all my time wondering why he didnt text back crying into a bag of doughnuts,1,0,0.48176122
+18,sarcasm_ds,"Sometimes I lay in bed and think about how today will be the day I make my life better . Exercise , drinking water , eating healthy . Then I wake up .",1,0,0.48462793
+19,sarcasm_ds,Why are toddlers allowed in public spaces,1,0,0.47176972
+21,sarcasm_ds,"make it illegal to say / write "" Dems in disarray "" on account of it being stupid as fuck",1,0,0.48055863
+25,sarcasm_ds,Love it when the milk is out of date when you buy it,1,0,0.46746305
+29,sarcasm_ds,My life has gone from ‘ drive it like you stole it ' to ‘ drive it like your toddler needs the toilet ' .,1,0,0.49525133
+35,sarcasm_ds,Only yelled at one person while biking home this evening . Improvement !,1,0,0.47811374
+36,sarcasm_ds,"AT & T is truly amazing They think my lg g7 is 3g only to the point where they sent us Walmart Altec phones and said they 'd shut off service . We called them , they told us to not worry and if the phones are fine they would n't be shut off Guess what got shut off this morning ? LOL",1,0,0.49064258
+40,sarcasm_ds,I love how they blur out Tristan 's face in this season of the kardashians LMAO like hmmmm I wonder who that mysterious man is,1,0,0.48207113
+45,sarcasm_ds,Ca n't wait to sit at my desk for 7 and half hours . Back working harder than me ...,1,0,0.49818563
+47,sarcasm_ds,It 's so weird how I look ugly in photos but I also look ugly in the mirror,1,0,0.4751786
+49,sarcasm_ds,I never feel more empowered than when I 'm listening to ‘ this is me ' from camp rock,1,0,0.46379074
+50,sarcasm_ds,I too enjoy making shit up and pretending like I understand basic economic principles HTTPURL,1,0,0.47354877
+51,sarcasm_ds,wow this growth spurt is really taking longer than i thought haha,1,0,0.47122896
+52,sarcasm_ds,"Aye these vaccines are dangerous to your health like . But see the charlie that you put up your nose at weekends , totally fine .",1,0,0.49666995
+53,sarcasm_ds,@USER Very nice . We 're now briefly up to date . Hopefully does n't take you so long to do the English release of the new pixie after we get 9.10 .,1,0,0.49674135
+56,sarcasm_ds,"Using an educator discount , I receive 20 % off Manga at B & N . This is the only reason I am a teacher .",1,0,0.48321775
+57,sarcasm_ds,There is nothing new in an oliver james publication that can't be found elsewhere for free . He 's a leftist living a straight bourgeois life,1,0,0.48473367
+58,sarcasm_ds,Might just fuck around and take some horse dewormer for the thrill of if . Maybe I 'll feel something,1,0,0.47103074
+61,sarcasm_ds,How bout you dont use a gazillion filters on your pictures,1,0,0.47343928
+63,sarcasm_ds,Not telling anyone how I voted in case it does n't come true #EUref,1,0,0.47481167
+67,sarcasm_ds,also that jacket he wore yesterday i 'm gonna rip my eyes out :/,1,0,0.48233575
+68,sarcasm_ds,Sitting next to the world 's loudest mouth-breather on the first day of class did a really good job of demystifying grad school for me today,1,0,0.48118624
+69,sarcasm_ds,Drop in Center to let people get the 1st or 2nd Vaccine open today . I went thinking I was able to get my 2nd one . Wait in the que 30 mins . sits down arm ready to get ! Sorry your 12hrs to early ! ! ! We can not vacinate you till 56 days ! ! ! @USER #Seriously,1,0,0.49813223
+70,sarcasm_ds,"So I have an exam tomorrow , but likeee if the country is about to turn into a war zone does it really matter ? ?",1,0,0.48871592
+7,sarcasm_ds,@USER Mr Shatner whilst you were sleeping you asked me to join Facebook messenger and then after a polite conversation you then offered me gold necklaces and a singed ( sic ) tee-shirt - you made my Friday night sir ... just awaiting your instructions so I can wire the money ...,1,0,0.4854687
+9,sarcasm_ds,"Tonight @USER dinner I sat by & chatted w / the former chancellor of Ole Miss , a former Miss MS , & the owner of the Miss America pageant Casual .",1,0,0.47935137
+11,sarcasm_ds,It was the jerseys,1,0,0.46904227
+16,sarcasm_ds,"Wow , can't wait to go into ANOTHER lockdown :face_with_rolling_eyes:",1,0,0.47389627
+18,sarcasm_ds,Semester has n't even started and I 've already had two breakdowns :) this is gonna be a fun one !,1,0,0.48306352
+24,sarcasm_ds,I 've been laid off ! ! Nice :) ),1,0,0.4742095
+29,sarcasm_ds,Is there a zombie apocalypse going on upper street,1,0,0.47766265
+35,sarcasm_ds,"wow , ok , unfollowing now . Was a big fan of putting your left leg in , but just heard about taking your left leg out",1,0,0.45067298
+36,sarcasm_ds,mentally I 'm hiding in the walk-in,1,0,0.49216393
+39,sarcasm_ds,""" I 'm concerned about the environmental impact of my contact lenses , "" says the occasional daily wearer , throwing their Starbucks cup in the test room bin .",1,0,0.47688562
+41,sarcasm_ds,every date I go on I get a little scared will be phone swap,1,0,0.49396524
+43,sarcasm_ds,@USER Would love a cheeky McDonald 's breakfast before a busy day at work would set the day off on the right foot ! :beating_heart: #FancyAMcDonalds,1,0,0.44351342
+53,sarcasm_ds,I accidentally made butter when trying to whip cream this morning and I think that 's a great representation of how I 've reached my capacity for working from home,1,0,0.49705216
+56,sarcasm_ds,Beautician and the Beast ( 1997 ) . Best Timothy Dalton film of all time .,1,0,0.44623786
+58,sarcasm_ds,Hailey convinced Tayler that putting a spoon in the microwave to scoop ice cream faster was a good idea,1,0,0.45805326
+61,sarcasm_ds,Mental shoot out ends . Silent pause . Sirens start :police_car_light: Always so perfectly timed :oncoming_police_car: :police_car: 👍🏽 #LineOfDuty #LineofDuty6 #LOD6 #LOD,1,0,0.47865206
+67,sarcasm_ds,@USER thx for the play by play,1,0,0.36434725
+68,sarcasm_ds,"I unsubscribe from being an adult , its not for me",1,0,0.46516398
+22,sarcasm_ds,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,0,0.4266968
+35,sarcasm_ds,Replace Pelosi #Nancy,1,0,0.4866048
+36,sarcasm_ds,Nice to be compared to a brick wall :face_with_tears_of_joy:,1,0,0.4859766
+37,sarcasm_ds,I just love falling up the stairs :expressionless_face:,1,0,0.46436292
+41,sarcasm_ds,@USER Neighbours,1,0,0.48083615
+63,sarcasm_ds,Just won 3 cents on HQ words ... early retirement here I come :smiling_face_with_heart-eyes:,1,0,0.45613384
+68,sarcasm_ds,Always glad to live in Kent :see-no-evil_monkey: :see-no-evil_monkey:,1,0,0.39709947
+2,sarcasm_ds,tanning in this heat is an extreme sport,1,0,0.49701306
+3,sarcasm_ds,Did you know ? Abuse and alcoholism and depression will just :sparkles: disappear :sparkles: if the country is opened completely during a pandemic ? #trumpisanidiot #bidenharris2020,1,0,0.49092212
+6,sarcasm_ds,breaking my strict buying hiatus to get lisa 's album ? it 's much more likely than you 'd think,1,0,0.47566968
+8,sarcasm_ds,@USER @USER @USER @USER Aware she was not a tennis player when she left Canada at 2 yrs old ? ? aware she did not pick up a tennis racket until 6 years old ? ? . aware last 12 years trained at the same tennis club in Bromley Kent England ? ? the girl is British no haters or doubters will take that away from her,1,0,0.49948213
+10,sarcasm_ds,"I recovered a repressed memory today of working at @USER in high school 13 years ago & having to answer the phone as “ we go all out at Kum & Go , this is Shelby . How can I help you ? ” And the prank calls that led to . Pretty sure K & G owe me therapy .",1,0,0.47544208
+15,sarcasm_ds,@USER Only joking ... keep it real . HR professionals have a life too ... :thinking_face:,1,0,0.4959034
+32,sarcasm_ds,just your casual reminder that #AllBirthdaysMatter and I can't stress this enough :sparkles: fuck trump :sparkles:,1,0,0.4960357
+35,sarcasm_ds,you would think the odds of me sitting next to the exact same stinky man three bus trips in a row is highly unlikely . alas I seem to be a lucky gal,1,0,0.49027982
+36,sarcasm_ds,also if u met dream on hypixel .. congrats ! im not jealous at all haha im totally normal haha Good For You .. haha,1,0,0.49467856
+42,sarcasm_ds,"You were given the option to be born into a more financially stable family at conception , but chose not to avail yourself of the opportunity provided ; perhaps you should now take personal responsibility for that decision , and deal with the consequences ? ' :top_hat:",1,0,0.48882008
+56,sarcasm_ds,it 's too bad i forgot how to play my clarinet so close to my recital,1,0,0.49141094
+58,sarcasm_ds,"So my Twitter feed has to show me what tweets people I follow like . ... :neutral_face: If I unfollowed you , just know I 'm tired of seeing porn",1,0,0.49169275
+61,sarcasm_ds,it 's been 20 hours and i want another chai latte with pumpkin cold foam i can't afford this !,1,0,0.4961949
+66,sarcasm_ds,"Thinking about that time Blizzard had the brilliant idea to change everyone 's name on their forums to their real names . God , what an idea that was .",1,0,0.4777306

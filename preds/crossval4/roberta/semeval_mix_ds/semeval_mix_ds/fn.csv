@@ -1,0 +1,5 @@
+index,dataset,tweet,label,prediction,probability
+5,semeval_ds,First day skiing #killedit  #iwasshit #tignes #seasonlife HTTPURL,1,0,0.018903697
+33,semeval_ds,Oh yess Dean Smith is ref  on the plus side we have thompson #improved,1,0,0.068171784
+50,semeval_ds,@USER nice to see you admit your errors  slightly different from your earlier stats for 2014 ! @USER,1,0,0.019299336
+5,semeval_ds,Lol boy i just wanted a fuck not a relationship  trying to sound like a hoe .,1,0,0.2795024

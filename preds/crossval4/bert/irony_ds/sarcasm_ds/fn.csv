@@ -1,0 +1,107 @@
+index,dataset,tweet,label,prediction,probability
+2,sarcasm_ds,"I 'd like to thank middle aged men watching the Olympics for solving the mental health crisis . Getting someone to shout "" get some perspective "" at every athlete struggling with anxiety will definitely solve their problem .",1,0,0.33966213
+4,sarcasm_ds,Sleep ? What 's that ... I 've never heard of it ?,1,0,0.41865033
+5,sarcasm_ds,my favorite gay drama is the social network,1,0,0.43060213
+6,sarcasm_ds,"not to brag , but my thesis topic was so good that someone else published on it three months ago :upside-down_face:",1,0,0.44708246
+7,sarcasm_ds,@USER But what were the ratings ? ? ( Replied to his Tweet with the same thing . ),1,0,0.36814758
+9,sarcasm_ds,i 've never had protected sex,1,0,0.36929196
+11,sarcasm_ds,"The Drew Barrymore Show is an absolute trainwreck . Like The Tony Danza Show , every two minutes is a clip for The Soup .",1,0,0.3199729
+12,sarcasm_ds,"I see Dettol , Toilet Duck and Zoflora are all trending on Twitter . Now why could that be ... #TrumpPressBriefing",1,0,0.46182165
+15,sarcasm_ds,The contract extension with James Franklin will absolutely work out in Penn State 's favor .,1,0,0.37174302
+16,sarcasm_ds,As a woman I dont need hobbies dreams or goals cause I can spend all my time wondering why he didnt text back crying into a bag of doughnuts,1,0,0.4971127
+18,sarcasm_ds,"Sometimes I lay in bed and think about how today will be the day I make my life better . Exercise , drinking water , eating healthy . Then I wake up .",1,0,0.41582888
+19,sarcasm_ds,Why are toddlers allowed in public spaces,1,0,0.31035298
+21,sarcasm_ds,"make it illegal to say / write "" Dems in disarray "" on account of it being stupid as fuck",1,0,0.33007506
+22,sarcasm_ds,Hands up who remembers when EVERY blogger and their dog was a brand ambassador for Coconut Lane :face_with_tears_of_joy:,1,0,0.48310047
+24,sarcasm_ds,"I find it hilarious that ‘ black and white ' or ‘ all or nothing ' thinking is considered a cognitive distortion and is a symptom of several disorders , and yet it remains a pillar of American ( and Western ) culture . It 's almost like ... our culture is toxic :thinking_face:",1,0,0.2974939
+29,sarcasm_ds,My life has gone from ‘ drive it like you stole it ' to ‘ drive it like your toddler needs the toilet ' .,1,0,0.38879666
+32,sarcasm_ds,"Climate change is n't real . How could it be with us having the most hurricanes in recorded history , deadly tornados , and wildfires :face_with_rolling_eyes:",1,0,0.47117162
+36,sarcasm_ds,"AT & T is truly amazing They think my lg g7 is 3g only to the point where they sent us Walmart Altec phones and said they 'd shut off service . We called them , they told us to not worry and if the phones are fine they would n't be shut off Guess what got shut off this morning ? LOL",1,0,0.41140178
+44,sarcasm_ds,"@USER @USER Ahh yes , quick peek at your page and you obviously know everything . Thank you for the enlightenment . :face_with_tears_of_joy:",1,0,0.48847732
+47,sarcasm_ds,It 's so weird how I look ugly in photos but I also look ugly in the mirror,1,0,0.3929723
+49,sarcasm_ds,I never feel more empowered than when I 'm listening to ‘ this is me ' from camp rock,1,0,0.41301033
+50,sarcasm_ds,I too enjoy making shit up and pretending like I understand basic economic principles HTTPURL,1,0,0.29683906
+53,sarcasm_ds,@USER Very nice . We 're now briefly up to date . Hopefully does n't take you so long to do the English release of the new pixie after we get 9.10 .,1,0,0.45169505
+56,sarcasm_ds,"Using an educator discount , I receive 20 % off Manga at B & N . This is the only reason I am a teacher .",1,0,0.28993064
+57,sarcasm_ds,There is nothing new in an oliver james publication that can't be found elsewhere for free . He 's a leftist living a straight bourgeois life,1,0,0.30348185
+58,sarcasm_ds,Might just fuck around and take some horse dewormer for the thrill of if . Maybe I 'll feel something,1,0,0.34213805
+61,sarcasm_ds,How bout you dont use a gazillion filters on your pictures,1,0,0.42270696
+63,sarcasm_ds,Not telling anyone how I voted in case it does n't come true #EUref,1,0,0.34941027
+67,sarcasm_ds,also that jacket he wore yesterday i 'm gonna rip my eyes out :/,1,0,0.47032282
+70,sarcasm_ds,"So I have an exam tomorrow , but likeee if the country is about to turn into a war zone does it really matter ? ?",1,0,0.4649883
+2,sarcasm_ds,it 's always the girls I do n't even know that wanna talk about me 24/7 :) I love my fans :),1,0,0.38792124
+4,sarcasm_ds,Imagine going to university for 4 years when you could just follow Elon Musk on twitter for free,1,0,0.49427655
+7,sarcasm_ds,@USER Mr Shatner whilst you were sleeping you asked me to join Facebook messenger and then after a polite conversation you then offered me gold necklaces and a singed ( sic ) tee-shirt - you made my Friday night sir ... just awaiting your instructions so I can wire the money ...,1,0,0.35809016
+9,sarcasm_ds,"Tonight @USER dinner I sat by & chatted w / the former chancellor of Ole Miss , a former Miss MS , & the owner of the Miss America pageant Casual .",1,0,0.38242912
+11,sarcasm_ds,It was the jerseys,1,0,0.4923564
+18,sarcasm_ds,Semester has n't even started and I 've already had two breakdowns :) this is gonna be a fun one !,1,0,0.4956396
+23,sarcasm_ds,Bit odd for someone to resign over a party that did n't happen * eye roll *,1,0,0.48487496
+26,sarcasm_ds,me not turning up to work is a feminist movement actually,1,0,0.41138965
+27,sarcasm_ds,can't believe the covid vaccine made me lose a limb . i thought being tracked was the only side effect,1,0,0.4158659
+35,sarcasm_ds,"wow , ok , unfollowing now . Was a big fan of putting your left leg in , but just heard about taking your left leg out",1,0,0.30385953
+37,sarcasm_ds,"If the sound of the rain outside was n't bad enough I 've now got my neighbours climbing onto their roof and shouting ‘ I love blowjobs ' , perfect background noise for me trying to study 👍🏻",1,0,0.3913762
+38,sarcasm_ds,Ca n't wait until I live to be 110 years old and I have people asking me how I 've lived for such a long time so that I can make up some hyper-specific secret to longevity that people will inevitably follow,1,0,0.25449955
+39,sarcasm_ds,""" I 'm concerned about the environmental impact of my contact lenses , "" says the occasional daily wearer , throwing their Starbucks cup in the test room bin .",1,0,0.32875794
+41,sarcasm_ds,every date I go on I get a little scared will be phone swap,1,0,0.40108413
+42,sarcasm_ds,The omicron variant has decided to give us all a wonderful gift for Christmas . For that one day it has chosen to not be spread between people at all . This gift will make me feel a lot better about being around loved ones who still refuse to get the vaccine or to wear a mask at the very least .,1,0,0.25344482
+44,sarcasm_ds,I love it when someone criticses my parenting then their adult son cuts his finger off with a knife and breaks his leg by falling off a bike,1,0,0.3465812
+48,sarcasm_ds,"Vaccine mandates are obviously great things for the good of the people , cause nothing bad has ever happened by forcing people into things .",1,0,0.25710252
+49,sarcasm_ds,All the shade i have been hearing about Ben Platt being unbelievable as a teenager in the @USER movie boggles me . Does nobody have any memories of Grease ? ? ? Name 1 actor on that film who believably looked high school age !,1,0,0.35912675
+53,sarcasm_ds,I accidentally made butter when trying to whip cream this morning and I think that 's a great representation of how I 've reached my capacity for working from home,1,0,0.4119555
+56,sarcasm_ds,Beautician and the Beast ( 1997 ) . Best Timothy Dalton film of all time .,1,0,0.42027378
+58,sarcasm_ds,Hailey convinced Tayler that putting a spoon in the microwave to scoop ice cream faster was a good idea,1,0,0.34424564
+63,sarcasm_ds,I love online shopping because if I am physically in a store and an employee even looks at me I will immediately leave .,1,0,0.30355272
+64,sarcasm_ds,thinking about quitting the path im on to become a college advisor so i can be wrong and do nothing for the rest of my life,1,0,0.37566844
+66,sarcasm_ds,The joys of academia ; spending 2 whole weeks to be working on an application to be told in feedback that it scored strongly ( but did n't get it ),1,0,0.3116392
+68,sarcasm_ds,"I unsubscribe from being an adult , its not for me",1,0,0.45206165
+6,sarcasm_ds,Lil Pump is the Nelson Mandela of our generation,1,0,0.37786847
+15,sarcasm_ds,"Oh ? You 're a real anime fan ? Name all the Boku no Pico characters , I 'll wait .",1,0,0.49975616
+17,sarcasm_ds,"My favourite thing driving to work in the morning is how peaceful and slow everyone is . I love when people do n't know where they 're going , like they are just out for a stroll at 8: 30 in the morning . It makes me so happy .",1,0,0.39469975
+22,sarcasm_ds,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,0,0.4778299
+24,sarcasm_ds,"I just read , "" oftenly "" and threw up in my mouth a little .",1,0,0.345031
+25,sarcasm_ds,Putting the toilet paper roll on so that it hangs under instead of over is a crime worthy of the death penalty,1,0,0.37798563
+33,sarcasm_ds,"My dad just said to me , “ Hey , you 're kinda skinny , can you slip behind the fridge to look at something ? ” and it might be the nicest compliment I 've ever gotten . So guys , go tell your girl you think she 's kinda skinny :smiling_face_with_hearts:",1,0,0.4239083
+35,sarcasm_ds,Replace Pelosi #Nancy,1,0,0.41867304
+37,sarcasm_ds,I just love falling up the stairs :expressionless_face:,1,0,0.49854553
+38,sarcasm_ds,@USER @USER @USER Surely you 're not suggesting that their own thorough investigation of their own suspected <fraud> ( which found no evidence for said <fraud> ) was carried out with anything but the very highest levels of integrity ? Seems completely legit to me ...,1,0,0.4049845
+41,sarcasm_ds,@USER Neighbours,1,0,0.3900496
+45,sarcasm_ds,i 'm going to cut off contact with every single person i know and emerge in a few months o a year from now having lost the ability to physically speak but be able to play the meanest fucking accordion you 've ever heard in your pathetic little life,1,0,0.35529193
+51,sarcasm_ds,Oh my goodness . It 's the first week of the summer holidays and Harrison has found his recorder . Give . Me . Strength .,1,0,0.35663503
+56,sarcasm_ds,have n't written in months cuz there are no male teachers to impress :persevering_face:,1,0,0.46441802
+60,sarcasm_ds,I think we might want to worry a little more about the risks posed by the Omicron variant than fretting over a Zoom quiz that took place a year ago . Just a thought .,1,0,0.33504006
+61,sarcasm_ds,Someone should 've had me committed the day I decided to buy a pair of non-stretch denim jeans,1,0,0.3711769
+64,sarcasm_ds,"Cool guy in a big truck honked really long at the garbage truck because it slowed down to turn ; I felt he wanted everyone to know how cool he is , so I decided to tweet about it on his behalf .",1,0,0.34098238
+69,sarcasm_ds,"You guys , how cool would a British version of Breaking Bad be ? Lol jk , they have universal health care so Walter White would never have to resort to cooking meth in a trailer to be able to fund his cancer treatment .",1,0,0.3831609
+3,sarcasm_ds,Top 3 ranked video games of all time : 1 . Minecraft 2 . Roblox Paintball 3 . Every single Just Dance,1,0,0.45456424
+7,sarcasm_ds,2 things I love : 1 . Being woken up by construction work an hour before my alarm . 2 . Sarcasm .,1,0,0.47554958
+30,sarcasm_ds,"Dear @USER , I see your enticing #Thanksgiving offer that ends on 2 Dec . I wanted to ask if you 're aware that #Chanukah starts on 10 Dec , continues for 8 days & that traditional Chanukah fare is actually #DOUGHNUTS ? ? :doughnut: :doughnut: #justsaying #AskingForAFriend #opportunity",1,0,0.41956386
+33,sarcasm_ds,I love how men know they have a baby on the way in one month and they decide to go out and buy a brand new mustang wow,1,0,0.33802146
+35,sarcasm_ds,I got called ugly on Twitter by an uneducated teen who refuses to show his face :( I 'm gonna cry myself to sleep :loudly_crying_face: I 'm in gut wrenching pain !,1,0,0.49554592
+38,sarcasm_ds,So the PM has finally given his verdict on his COVID NHS stay in hospital . Do n't understand why nurses would not want his pay recomendation .,1,0,0.24209283
+41,sarcasm_ds,@USER if i think you would have a chance against fury i mean its easy for some broken bodied old boy to beat the best in the world,1,0,0.3013674
+45,sarcasm_ds,"our lord and savior , frank ocean , has saved us all once again .",1,0,0.26268342
+47,sarcasm_ds,Let 's cut funding to social services . What could possibly go wrong,1,0,0.33841544
+48,sarcasm_ds,did you know there is a direct correlation with how cool someone is and how high they cuff their pants ?,1,0,0.2436217
+51,sarcasm_ds,employer : so what are your strengths me : i 'm smart i 'm funny i 'm nice i 'm cool i 'm creative i 'm hardworking i 'm made of wood i 'm honest i 'm fast i 'm awesome i 'm hot i 'm chronically ill i 'm little i 'm in demand i'm,1,0,0.29682785
+53,sarcasm_ds,"I 'd like to thank my current employer for making me feel accepted and valued . It 's particularly nice that , whenever I have some suggestions for them , that they seriously consider them and do n't just automatically put their fingers in their ears and shout ' I CAN'T HEAR YOU ' . Metaphorically .",1,0,0.16983084
+56,sarcasm_ds,Love it wen people try and stop my friends seeing me ! Looooolll .,1,0,0.49635562
+58,sarcasm_ds,"I suppose though , we did sign one for the future so , you know , not all gloom and doom ... we might be good in 6 years time .",1,0,0.2729298
+63,sarcasm_ds,@USER @USER Well I doubt they 're trying to smash the doors in to change the regulation of cough medicine .,1,0,0.19591302
+69,sarcasm_ds,@USER Actually I 've extrapolated based on the last daily candle and it turns out BTC will be sub-zero by December . The math does n't lie .,1,0,0.2454566
+6,sarcasm_ds,breaking my strict buying hiatus to get lisa 's album ? it 's much more likely than you 'd think,1,0,0.27524412
+8,sarcasm_ds,@USER @USER @USER @USER Aware she was not a tennis player when she left Canada at 2 yrs old ? ? aware she did not pick up a tennis racket until 6 years old ? ? . aware last 12 years trained at the same tennis club in Bromley Kent England ? ? the girl is British no haters or doubters will take that away from her,1,0,0.45554632
+10,sarcasm_ds,"I recovered a repressed memory today of working at @USER in high school 13 years ago & having to answer the phone as “ we go all out at Kum & Go , this is Shelby . How can I help you ? ” And the prank calls that led to . Pretty sure K & G owe me therapy .",1,0,0.35249856
+14,sarcasm_ds,i 'm dying,1,0,0.33297014
+15,sarcasm_ds,@USER Only joking ... keep it real . HR professionals have a life too ... :thinking_face:,1,0,0.32345766
+18,sarcasm_ds,Not at all concerning that a man 's just been round to fiddle with the boiler and now he 's left the carbon monoxide alarm wo n't stop beeping,1,0,0.48699582
+27,sarcasm_ds,@USER And you said Donald trump was racist :expressionless_face:,1,0,0.3603446
+32,sarcasm_ds,just your casual reminder that #AllBirthdaysMatter and I can't stress this enough :sparkles: fuck trump :sparkles:,1,0,0.33962357
+35,sarcasm_ds,you would think the odds of me sitting next to the exact same stinky man three bus trips in a row is highly unlikely . alas I seem to be a lucky gal,1,0,0.36194518
+36,sarcasm_ds,also if u met dream on hypixel .. congrats ! im not jealous at all haha im totally normal haha Good For You .. haha,1,0,0.47405314
+42,sarcasm_ds,"You were given the option to be born into a more financially stable family at conception , but chose not to avail yourself of the opportunity provided ; perhaps you should now take personal responsibility for that decision , and deal with the consequences ? ' :top_hat:",1,0,0.46000987
+47,sarcasm_ds,Today my pop-pop told me I was not “ forced ” to go to college :upside-down_face: okay sure sureeee,1,0,0.44766968
+56,sarcasm_ds,it 's too bad i forgot how to play my clarinet so close to my recital,1,0,0.36473826
+58,sarcasm_ds,"So my Twitter feed has to show me what tweets people I follow like . ... :neutral_face: If I unfollowed you , just know I 'm tired of seeing porn",1,0,0.29584107
+64,sarcasm_ds,@USER Do you know of any good chippies in the Crewe area ?,1,0,0.34069687
+66,sarcasm_ds,"Thinking about that time Blizzard had the brilliant idea to change everyone 's name on their forums to their real names . God , what an idea that was .",1,0,0.34568182
+69,sarcasm_ds,@USER @USER worst timeline,1,0,0.34488326

@@ -28,14 +28,33 @@ def get_ece(data, n_bins=5):
     return ece
 
 if __name__ == "__main__":
-    print("blabla")
+    # print("blabla")
+    # n_bins = 5
+    # for model in ['bertweet', 'roberta', 'bert']:     
+    #     eces = {}
+    #     eces['trained_on'] = []       
+    #     for train_ds in ["polarity", "sarcasm", "mix", "sarcasm_mix", "irony_mix"]:
+    #         eces['trained_on'].append(train_ds)
+    #         for test_ds in ["sarcasm", "polarity", "irony", "other"]:
+    #             if test_ds not in eces.keys():
+    #                 eces[test_ds] = []
+    #             data = pd.read_csv(f"../preds/crossval4/{model}/{train_ds}/{test_ds}/{model}_trained_on_{train_ds}_evaluated_on_{test_ds}_fold_1.csv")
+    #             for i in range(2, 6):
+    #                 data = pd.concat([data, pd.read_csv(f"../preds/crossval4/{model}/{train_ds}/{test_ds}/{model}_trained_on_{train_ds}_evaluated_on_{test_ds}_fold_{i}.csv")])
+    #             ece = get_ece(data, n_bins=5)
+    #             eces[test_ds].append(ece)
+    #     df = pd.DataFrame(eces)
+    #     os.makedirs(f'../results/eces/{n_bins}', exist_ok=True)
+    #     df.to_csv(f'../results/eces/{n_bins}/ece_{model}_4e_{n_bins}bins.csv', index=False)
+                
+
     n_bins = 5
     for model in ['bertweet', 'roberta', 'bert']:     
         eces = {}
         eces['trained_on'] = []       
-        for train_ds in ["polarity", "sarcasm", "mix", "sarcasm_mix", "irony_mix"]:
+        for train_ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds"]:
             eces['trained_on'].append(train_ds)
-            for test_ds in ["sarcasm", "polarity", "irony", "other"]:
+            for test_ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds"]:
                 if test_ds not in eces.keys():
                     eces[test_ds] = []
                 data = pd.read_csv(f"../preds/crossval4/{model}/{train_ds}/{test_ds}/{model}_trained_on_{train_ds}_evaluated_on_{test_ds}_fold_1.csv")
@@ -44,6 +63,6 @@ if __name__ == "__main__":
                 ece = get_ece(data, n_bins=5)
                 eces[test_ds].append(ece)
         df = pd.DataFrame(eces)
-        os.makedirs(f'../results/eces/{n_bins}', exist_ok=True)
-        df.to_csv(f'../results/eces/{n_bins}/ece_{model}_4e_{n_bins}bins.csv', index=False)
+        os.makedirs(f'../results/eces/ds/{n_bins}', exist_ok=True)
+        df.to_csv(f'../results/eces/ds/{n_bins}/ece_{model}_4e_{n_bins}bins.csv', index=False)
                 

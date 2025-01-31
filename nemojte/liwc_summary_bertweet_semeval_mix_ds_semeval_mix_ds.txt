@@ -1,0 +1,85 @@
+../preds/crossval4/bertweet/semeval_mix_ds/semeval_mix_ds
+for fp size = 95
+average word count = 13.494736842105263
+average wps = 10.075368421052632
+Analytic = 45.585052631578954
+Clout = 46.47156626506024
+Authentic = 59.54483146067417
+Tone = 64.10244897959184
+top 10 features in other columns by average:
+('Dic', 81.24915789473684)
+('Linguistic', 61.880210526315786)
+('function', 46.15726315789474)
+('AllPunc', 29.51726315789474)
+('Cognition', 21.39242105263158)
+('BigWords', 17.63642105263158)
+('OtherP', 15.729473684210525)
+('pronoun', 15.446631578947366)
+('verb', 15.441684210526319)
+('Social', 12.383473684210527)
+
+
+
+for fn size = 39
+average word count = 14.435897435897436
+average wps = 9.619230769230768
+Analytic = 58.96756756756757
+Clout = 57.724705882352936
+Authentic = 30.426176470588235
+Tone = 76.87227272727273
+top 10 features in other columns by average:
+('Dic', 68.37333333333333)
+('AllPunc', 50.39179487179487)
+('Linguistic', 48.56051282051282)
+('function', 36.15948717948718)
+('OtherP', 30.51666666666667)
+('BigWords', 21.580000000000002)
+('Social', 13.799999999999999)
+('Cognition', 13.236923076923077)
+('pronoun', 11.473333333333334)
+('verb', 10.697692307692305)
+
+
+
+for tp size = 133
+average word count = 12.842105263157896
+average wps = 8.943233082706767
+Analytic = 58.16290076335878
+Clout = 42.979000000000006
+Authentic = 52.08725806451613
+Tone = 77.63048543689321
+top 10 features in other columns by average:
+('Dic', 81.7972932330827)
+('Linguistic', 61.5572932330827)
+('function', 42.295639097744356)
+('AllPunc', 30.342631578947373)
+('Cognition', 18.498195488721805)
+('BigWords', 17.796541353383464)
+('OtherP', 13.977142857142857)
+('verb', 12.112105263157893)
+('pronoun', 11.72857142857143)
+('Affect', 11.572330827067669)
+
+
+
+for tn size = 83
+average word count = 15.734939759036145
+average wps = 9.882168674698795
+Analytic = 64.70493506493506
+Clout = 53.52161290322581
+Authentic = 39.74541666666667
+Tone = 58.49854166666666
+top 10 features in other columns by average:
+('Dic', 72.93397590361445)
+('AllPunc', 49.99903614457831)
+('Linguistic', 47.71879518072289)
+('OtherP', 37.00265060240964)
+('function', 33.7833734939759)
+('BigWords', 23.972168674698793)
+('Cognition', 15.693855421686749)
+('Social', 11.366024096385543)
+('verb', 9.631807228915662)
+('det', 9.447951807228913)
+
+
+

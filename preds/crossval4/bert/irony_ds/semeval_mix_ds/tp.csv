@@ -1,0 +1,83 @@
+index,dataset,tweet,label,prediction,probability
+3,semeval_ds,"Woke up with my foot the size of a balloon , that 's just what I needed ..  #ouch",1,1,0.61579347
+5,semeval_ds,The American justice system :thumbs_up: :raising_hands: :clapping_hands: ,1,1,0.60033196
+12,semeval_ds,@USER : You want to see something Irish ! ! Of all the reasons to be closed :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: HTTPURL ,1,1,0.5653307
+16,semeval_ds,I doubt this week could get any better . ,1,1,0.5149315
+19,semeval_ds,Babysitting is what I like to do on a Saturday :unamused_face: ,1,1,0.6327168
+25,semeval_ds,Love that my buses are every half an hour :angry_face: :enraged_face: :face_with_steam_from_nose: ,1,1,0.6709543
+27,semeval_ds,Wheres the rodgers in brigade ,1,1,0.51447415
+29,semeval_ds,Tomorrow three test signature . | Thank you . | #school ,1,1,0.59901905
+36,semeval_ds,We 'll that was a great way to start off my morning :grinning_face: ,1,1,0.6330739
+41,semeval_ds,Being awake since 3AM is always so much fun ,1,1,0.6286539
+45,semeval_ds,3 hours sleep yay loving life ,1,1,0.68513143
+63,semeval_ds,Ouch that hurt :face_with_tears_of_joy: ,1,1,0.6278385
+65,semeval_ds,Yay for getting pink eye again !  #whyme,1,1,0.6282166
+67,semeval_ds,Nice weekend off but back at work tonight . Over the fucking moon ,1,1,0.68880635
+68,semeval_ds,Christmas shopping on 2hrs sleep is going to be fun ! ! ! ,1,1,0.6821269
+1,semeval_ds,Going to sleep a solid 30 minutes earlier than last night ! ! ! #success #justwhatiwanted ,1,1,0.6769728
+2,semeval_ds,Yay for knee machines !  HTTPURL,1,1,0.6363945
+5,semeval_ds,First day skiing #killedit  #iwasshit #tignes #seasonlife HTTPURL,1,1,0.6798368
+8,semeval_ds,Love the fact that I turned off my alarm this morning and slept till so freaking late ,1,1,0.60080063
+14,semeval_ds,@USER thanks for the wake up wrap and coffee this morning ! ! #CheapBastard ,1,1,0.62980235
+18,semeval_ds,@USER I was only clarifying for my LEGION of other followers .  ForTheIntellectuals #DrHandsomeDennis,1,1,0.5012704
+19,semeval_ds,This long drive home later in the snow is gonna be shweeeet ,1,1,0.62584317
+21,semeval_ds,@USER this is my new fave thing on facebook  #sexpest HTTPURL,1,1,0.5743582
+31,semeval_ds,Working on Boxing Day is so fun ,1,1,0.5974391
+32,semeval_ds,Love these cold winter mornings :grimacing_face: best feeling everrrrrrr  !,1,1,0.6747006
+36,semeval_ds,@USER my favourite day of the year ! ! !  HTTPURL,1,1,0.64288336
+39,semeval_ds,I love when I wake up grumpy  #effroommates #yourtooloud #personalalarmclock necessary #bequieter #ugh,1,1,0.6826843
+40,semeval_ds,"#13CABS apparently this guy only does city-airport . If not , swears & drives off . Even from a taxi rank #goodguy  HTTPURL",1,1,0.6031566
+44,semeval_ds,Lol ... That 's real cute :unamused_face: ,1,1,0.6345166
+46,semeval_ds,"dude said I better think hard , so he can take me to cheddars lmao ! ",1,1,0.5663242
+47,semeval_ds,@USER @USER @USER @USER @USER we get it right for business the trickle down fairy will do the rest ,1,1,0.51975834
+52,semeval_ds,About to fuck up this Media exam  #actuallyihopeso,1,1,0.6313503
+53,semeval_ds,"@USER : Arizona Coyotes forge deal with BMW HTTPURL But , relocation ! ! ! ",1,1,0.5580634
+55,semeval_ds,@USER @USER Pulled by White Van Man by the looks of it . Yuk .. so naff . That keeps the magic of xmas alive .. ,1,1,0.5226268
+59,semeval_ds,"@USER Wow , that is just so funny ... ",1,1,0.55730397
+60,semeval_ds,The BOLD BAKERY by Sarah-Brockett #bakery  HTTPURL,1,1,0.63056654
+63,semeval_ds,love studying for anatomy :beating_heart: ,1,1,0.6978948
+67,semeval_ds,"@USER @USER @USER You are kidding , right ?  #poortaste",1,1,0.5352069
+69,semeval_ds,"Migrains , , throwing up are always fun ",1,1,0.570605
+7,semeval_ds,doing mental calculations and realizing that your chances of passing a module are slim to none is fantastic ,1,1,0.74919975
+32,semeval_ds,"Dear Manila , I 'm with your traffic twin - Bangkok ! yahooo  @USER Sirat Express way HTTPURL",1,1,0.5349371
+33,semeval_ds,Oh yess Dean Smith is ref  on the plus side we have thompson #improved,1,1,0.64572525
+38,semeval_ds,@USER : This year 's class picture is so awesome . Really awesome !  :oncoming_fist: hahahahaha :face_with_tears_of_joy:,1,1,0.64859223
+40,semeval_ds,Love working and be exhausted all the time ,1,1,0.64834684
+44,semeval_ds,@USER and he can't find himself a pair that would fit  :see-no-evil_monkey: :speak-no-evil_monkey: :speak-no-evil_monkey: :face_with_tears_of_joy:,1,1,0.5026035
+48,semeval_ds,"@USER @USER @USER Yes , and conventional taxis drive verrrry safely . #pfft ",1,1,0.7334679
+51,semeval_ds,I 've changed gazilion times the #java configuration NOT to check for updates . It 's nice that every five minutes asks me for an update ! ,1,1,0.6530866
+52,semeval_ds,Another fantastic day ,1,1,0.64687806
+53,semeval_ds,Ca n't wait for next year when it 's a Cyber Month Sale . ,1,1,0.6932596
+56,semeval_ds,#Fact : #StarTrek adult onesie meets clothing requirements 4 Walmart employee . Just put on yr vest & a smile .  HTTPURL,1,1,0.67759097
+59,semeval_ds,"Have successfully avoided everything from season 4 - which I 've not seen and there 's an S5 one , in my timeline . Thanks Indy ! ",1,1,0.7334685
+64,semeval_ds,Great start to the day ,1,1,0.6621487
+68,semeval_ds,Welp . There goes 50 bucks down the drain . Thanks KU Student Housing .  Get . Me . OUT .,1,1,0.7450954
+69,semeval_ds,probably going to fail tomorrow yayy  #GlobalArtistHMA #MTVStars One Direction,1,1,0.5670637
+1,semeval_ds,Westbrook 16 points on 42 shots ok ok I see you working ,1,1,0.54638124
+5,semeval_ds,Yay jury duty :unamused_face: ,1,1,0.6704957
+6,semeval_ds,That was a great 3 hours of sleep ,1,1,0.6966211
+8,semeval_ds,Absolutely love waking up to snow ,1,1,0.71289265
+10,semeval_ds,Youve got to just love the efficiency @USER two-day service !  #7DayService #prioritymail #hahahaha HTTPURL,1,1,0.5953533
+13,semeval_ds,Good thing y days not ruined ... ,1,1,0.50560415
+17,semeval_ds,walking in this was fun  HTTPURL,1,1,0.73358583
+20,semeval_ds,thanks for clearing everything up Koenig  #serialbrady,1,1,0.6397784
+24,semeval_ds,way to prove that women are more than just breasts & an ass ...  :unamused_face:,1,1,0.54391384
+31,semeval_ds,@USER great story about the student trying to get the teacher fired ! !  #moron #storywasstupid,1,1,0.6498367
+33,semeval_ds,@USER @USER What does PTI do apart from whining ?  #Youthiacrasy,1,1,0.5048609
+41,semeval_ds,Why is n't there a playoff legend Romo ? @USER ,1,1,0.53803474
+44,semeval_ds,of course the day that it 's a monsoon outside i have classes on and off from 10 AM to 8 PM #ilovelife ,1,1,0.7424519
+45,semeval_ds,"Thanks to #TeamIpswich ED for making the news crew and I so welcome this morning , as they always do . #BlackFriday filming #ItWasQuiet ",1,1,0.68255925
+49,semeval_ds,Such a great damn day . ,1,1,0.53215593
+54,semeval_ds,Oh how I love that my ass is too big to fit into my jeans anymore .  #bigbootybitches,1,1,0.71015847
+67,semeval_ds,"Heh , and fat , too . #ShotsFired ",1,1,0.7074104
+3,semeval_ds,Woke up to find out my vehicle insurance went up $ 22 a month ! ! Merry Christmas to me ...  :unamused_face:,1,1,0.60358196
+5,semeval_ds,Lol boy i just wanted a fuck not a relationship  trying to sound like a hoe .,1,1,0.50837797
+11,semeval_ds,Everyones full of ruddy xmas cheer here ,1,1,0.6781863
+18,semeval_ds,waking up congested / not being able to breathe is a great feeling .  :expressionless_face:,1,1,0.58648664
+26,semeval_ds,Merry Christmas love Instagram HTTPURL :face_with_tears_of_joy: #gifts  #spam,1,1,0.6587882
+28,semeval_ds,Many of the best ideas come from having fingers too fat for your keyboard .  #nimble  #agile,1,1,0.5936367
+38,semeval_ds,My boy has another cold and spent the night coughing and sneezing all over me #sexy ,1,1,0.80168176
+39,semeval_ds,Sending best wishes to all my coworkers at the 9AM this morning ,1,1,0.6725592
+56,semeval_ds,What a great start to my morning  #smh,1,1,0.70849216
+63,semeval_ds,"If BJPee hv balls , do dare to lift ristrictions 2mro ahead of Modi 's #Kashmir visit , Kashmiris wl show u how much thy love #Modi . | ",1,1,0.7084897
+66,semeval_ds,A whole day at NS w / clients . YAY . ,1,1,0.51742595

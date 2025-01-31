@@ -1,0 +1,12 @@
+index,dataset,tweet,label,prediction,probability
+15,sarcasm_ds,The contract extension with James Franklin will absolutely work out in Penn State 's favor .,1,0,0.2683189
+59,sarcasm_ds,I am so fucking tired of living in the UK .,0,0,0.26960644
+14,sarcasm_ds,going to be running on three hours of sleep at work tonight ! so excited ! ! !,1,0,0.28478825
+23,sarcasm_ds,Bit odd for someone to resign over a party that did n't happen * eye roll *,1,0,0.2549086
+24,sarcasm_ds,I 've been laid off ! ! Nice :) ),1,0,0.28386673
+5,sarcasm_ds,Lol at my life :),1,0,0.48537293
+14,sarcasm_ds,Man I miss my friends :(,0,0,0.30259356
+32,sarcasm_ds,Ahhh I get to listen to a cement mixer all day . Awesome .,1,0,0.26003963
+55,sarcasm_ds,its 3 30 am and I have decided the only redeeming quality of a male is that I can put my freezing cold toes on him and leach his warmth,1,0,0.297046
+59,sarcasm_ds,love living in a capitalist society where i look forward to getting a surgery where i 'm legit GETTING AN INTERNAL BODY PART REMOVED bc it means i 'll get a few days off from work xoxo,1,0,0.3214248
+69,sarcasm_ds,"You guys , how cool would a British version of Breaking Bad be ? Lol jk , they have universal health care so Walter White would never have to resort to cooking meth in a trailer to be able to fund his cancer treatment .",1,0,0.26259214

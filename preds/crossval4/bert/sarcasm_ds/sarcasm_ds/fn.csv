@@ -1,0 +1,59 @@
+index,dataset,tweet,label,prediction,probability
+2,sarcasm_ds,"I 'd like to thank middle aged men watching the Olympics for solving the mental health crisis . Getting someone to shout "" get some perspective "" at every athlete struggling with anxiety will definitely solve their problem .",1,0,0.4661079
+3,sarcasm_ds,yeah your girl is fine but does she pass out while giving blood,1,0,0.4202968
+5,sarcasm_ds,my favorite gay drama is the social network,1,0,0.39622074
+6,sarcasm_ds,"not to brag , but my thesis topic was so good that someone else published on it three months ago :upside-down_face:",1,0,0.46155822
+9,sarcasm_ds,i 've never had protected sex,1,0,0.4541317
+15,sarcasm_ds,The contract extension with James Franklin will absolutely work out in Penn State 's favor .,1,0,0.43928185
+16,sarcasm_ds,As a woman I dont need hobbies dreams or goals cause I can spend all my time wondering why he didnt text back crying into a bag of doughnuts,1,0,0.42219475
+18,sarcasm_ds,"Sometimes I lay in bed and think about how today will be the day I make my life better . Exercise , drinking water , eating healthy . Then I wake up .",1,0,0.42421106
+19,sarcasm_ds,Why are toddlers allowed in public spaces,1,0,0.4175286
+21,sarcasm_ds,"make it illegal to say / write "" Dems in disarray "" on account of it being stupid as fuck",1,0,0.43106404
+25,sarcasm_ds,Love it when the milk is out of date when you buy it,1,0,0.4397105
+29,sarcasm_ds,My life has gone from ‘ drive it like you stole it ' to ‘ drive it like your toddler needs the toilet ' .,1,0,0.43662006
+35,sarcasm_ds,Only yelled at one person while biking home this evening . Improvement !,1,0,0.47064593
+40,sarcasm_ds,I love how they blur out Tristan 's face in this season of the kardashians LMAO like hmmmm I wonder who that mysterious man is,1,0,0.46035197
+47,sarcasm_ds,It 's so weird how I look ugly in photos but I also look ugly in the mirror,1,0,0.39262575
+49,sarcasm_ds,I never feel more empowered than when I 'm listening to ‘ this is me ' from camp rock,1,0,0.41224995
+50,sarcasm_ds,I too enjoy making shit up and pretending like I understand basic economic principles HTTPURL,1,0,0.37732533
+51,sarcasm_ds,wow this growth spurt is really taking longer than i thought haha,1,0,0.44042113
+52,sarcasm_ds,"Aye these vaccines are dangerous to your health like . But see the charlie that you put up your nose at weekends , totally fine .",1,0,0.49374703
+56,sarcasm_ds,"Using an educator discount , I receive 20 % off Manga at B & N . This is the only reason I am a teacher .",1,0,0.42374283
+57,sarcasm_ds,There is nothing new in an oliver james publication that can't be found elsewhere for free . He 's a leftist living a straight bourgeois life,1,0,0.48411605
+58,sarcasm_ds,Might just fuck around and take some horse dewormer for the thrill of if . Maybe I 'll feel something,1,0,0.4405375
+61,sarcasm_ds,How bout you dont use a gazillion filters on your pictures,1,0,0.43755212
+63,sarcasm_ds,Not telling anyone how I voted in case it does n't come true #EUref,1,0,0.45240036
+68,sarcasm_ds,Sitting next to the world 's loudest mouth-breather on the first day of class did a really good job of demystifying grad school for me today,1,0,0.42988154
+70,sarcasm_ds,"So I have an exam tomorrow , but likeee if the country is about to turn into a war zone does it really matter ? ?",1,0,0.46245927
+2,sarcasm_ds,it 's always the girls I do n't even know that wanna talk about me 24/7 :) I love my fans :),1,0,0.4091979
+7,sarcasm_ds,@USER Mr Shatner whilst you were sleeping you asked me to join Facebook messenger and then after a polite conversation you then offered me gold necklaces and a singed ( sic ) tee-shirt - you made my Friday night sir ... just awaiting your instructions so I can wire the money ...,1,0,0.44197106
+9,sarcasm_ds,"Tonight @USER dinner I sat by & chatted w / the former chancellor of Ole Miss , a former Miss MS , & the owner of the Miss America pageant Casual .",1,0,0.35308343
+24,sarcasm_ds,I 've been laid off ! ! Nice :) ),1,0,0.44673136
+36,sarcasm_ds,mentally I 'm hiding in the walk-in,1,0,0.39183366
+39,sarcasm_ds,""" I 'm concerned about the environmental impact of my contact lenses , "" says the occasional daily wearer , throwing their Starbucks cup in the test room bin .",1,0,0.42933387
+41,sarcasm_ds,every date I go on I get a little scared will be phone swap,1,0,0.40286314
+43,sarcasm_ds,@USER Would love a cheeky McDonald 's breakfast before a busy day at work would set the day off on the right foot ! :beating_heart: #FancyAMcDonalds,1,0,0.394881
+53,sarcasm_ds,I accidentally made butter when trying to whip cream this morning and I think that 's a great representation of how I 've reached my capacity for working from home,1,0,0.44290435
+58,sarcasm_ds,Hailey convinced Tayler that putting a spoon in the microwave to scoop ice cream faster was a good idea,1,0,0.45771468
+64,sarcasm_ds,thinking about quitting the path im on to become a college advisor so i can be wrong and do nothing for the rest of my life,1,0,0.413704
+67,sarcasm_ds,@USER thx for the play by play,1,0,0.36798742
+5,sarcasm_ds,Lol at my life :),1,0,0.3994895
+22,sarcasm_ds,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,0,0.42806813
+35,sarcasm_ds,Replace Pelosi #Nancy,1,0,0.3120394
+41,sarcasm_ds,@USER Neighbours,1,0,0.44739297
+56,sarcasm_ds,have n't written in months cuz there are no male teachers to impress :persevering_face:,1,0,0.46100938
+2,sarcasm_ds,tanning in this heat is an extreme sport,1,0,0.27851155
+3,sarcasm_ds,Top 3 ranked video games of all time : 1 . Minecraft 2 . Roblox Paintball 3 . Every single Just Dance,1,0,0.49152395
+10,sarcasm_ds,went to check out the bios of the ( exclusively ) hipster dudes that work in a rival boutique goods store and found out they all traveled internationally during the pandemic :upside-down_face: :upside-down_face: :upside-down_face:,1,0,0.38324043
+29,sarcasm_ds,Cheers @USER delivery lady for dropping my parcel off covered in coffee :unamused_face: 👌🏼 HTTPURL,1,0,0.20245062
+30,sarcasm_ds,"Dear @USER , I see your enticing #Thanksgiving offer that ends on 2 Dec . I wanted to ask if you 're aware that #Chanukah starts on 10 Dec , continues for 8 days & that traditional Chanukah fare is actually #DOUGHNUTS ? ? :doughnut: :doughnut: #justsaying #AskingForAFriend #opportunity",1,0,0.30552012
+6,sarcasm_ds,breaking my strict buying hiatus to get lisa 's album ? it 's much more likely than you 'd think,1,0,0.4436161
+10,sarcasm_ds,"I recovered a repressed memory today of working at @USER in high school 13 years ago & having to answer the phone as “ we go all out at Kum & Go , this is Shelby . How can I help you ? ” And the prank calls that led to . Pretty sure K & G owe me therapy .",1,0,0.36355385
+14,sarcasm_ds,i 'm dying,1,0,0.28076077
+52,sarcasm_ds,2 busy working 2 care,1,0,0.4515879
+56,sarcasm_ds,it 's too bad i forgot how to play my clarinet so close to my recital,1,0,0.23608273
+58,sarcasm_ds,"So my Twitter feed has to show me what tweets people I follow like . ... :neutral_face: If I unfollowed you , just know I 'm tired of seeing porn",1,0,0.33262882
+59,sarcasm_ds,came home to realize my family found and read my quarantine journal lmao lucky I did n't get involuntarily committed wtf,1,0,0.4996312
+61,sarcasm_ds,it 's been 20 hours and i want another chai latte with pumpkin cold foam i can't afford this !,1,0,0.44446886
+64,sarcasm_ds,@USER Do you know of any good chippies in the Crewe area ?,1,0,0.4208491
+66,sarcasm_ds,"Thinking about that time Blizzard had the brilliant idea to change everyone 's name on their forums to their real names . God , what an idea that was .",1,0,0.49260482

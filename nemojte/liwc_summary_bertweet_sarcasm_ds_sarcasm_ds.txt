@@ -1,0 +1,85 @@
+../preds/crossval4/bertweet/sarcasm_ds/sarcasm_ds
+for fp size = 107
+average word count = 25.682242990654206
+average wps = 16.344205607476635
+Analytic = 51.25207547169813
+Clout = 36.69846153846154
+Authentic = 61.244666666666674
+Tone = 54.06814285714286
+top 10 features in other columns by average:
+('Dic', 82.54971962616823)
+('Linguistic', 63.96261682242991)
+('function', 49.16046728971963)
+('AllPunc', 21.76766355140187)
+('Cognition', 20.757850467289717)
+('BigWords', 16.51514018691589)
+('verb', 14.66607476635514)
+('pronoun', 13.882336448598132)
+('det', 11.815700934579437)
+('prep', 11.762149532710282)
+
+
+
+for fn size = 40
+average word count = 14.25
+average wps = 10.481
+Analytic = 55.92777777777778
+Clout = 27.432592592592595
+Authentic = 64.44742857142857
+Tone = 55.99300000000001
+top 10 features in other columns by average:
+('Dic', 76.04100000000001)
+('Linguistic', 55.3505)
+('function', 40.83200000000001)
+('AllPunc', 26.471000000000004)
+('BigWords', 17.695500000000003)
+('OtherP', 17.548250000000003)
+('Cognition', 17.3405)
+('verb', 13.588)
+('pronoun', 11.92675)
+('det', 11.462)
+
+
+
+for tp size = 128
+average word count = 24.28125
+average wps = 16.741953125000002
+Analytic = 54.719921875
+Clout = 37.30842975206611
+Authentic = 65.91700787401574
+Tone = 67.74122448979591
+top 10 features in other columns by average:
+('Dic', 85.85914062500001)
+('Linguistic', 66.48484375000001)
+('function', 50.143828125)
+('Cognition', 21.134687500000002)
+('AllPunc', 21.014687499999997)
+('BigWords', 16.173125)
+('verb', 15.043046875)
+('pronoun', 13.757890625000002)
+('prep', 13.03953125)
+('det', 12.24203125)
+
+
+
+for tn size = 75
+average word count = 15.973333333333333
+average wps = 11.482266666666666
+Analytic = 49.58867647058824
+Clout = 34.11857142857143
+Authentic = 55.354375000000005
+Tone = 59.24441860465116
+top 10 features in other columns by average:
+('Dic', 80.8328)
+('Linguistic', 56.29986666666667)
+('function', 42.151466666666664)
+('AllPunc', 27.283866666666665)
+('BigWords', 21.571066666666667)
+('Cognition', 17.536266666666666)
+('OtherP', 16.998)
+('pronoun', 11.753333333333332)
+('verb', 11.527466666666665)
+('det', 10.8508)
+
+
+
