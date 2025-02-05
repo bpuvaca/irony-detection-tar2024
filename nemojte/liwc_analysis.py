@@ -87,6 +87,18 @@ def find_useful_features(path, to_keep=to_keep):
     else:
         print(f'Useful features found in {path}: {useful}')
 
+def get_most_discriminatory_features(paths, to_keep=to_keep, n_best=5):
+    features_dict = {}
+    for path in paths:
+        features_dict[path] = get_features(path, to_keep)
+    
+    sorted_features = sorted(to_keep, key=lambda x: np.std([features[x]['pos_mean'] for features in features_dict.values()]), reverse=True)
+    
+    print(f'\nTop {n_best} most discriminatory features:')
+    for i in range(n_best):
+        print(f'{i + 1}. {sorted_features[i]}')
+    
+    return sorted_features[:n_best]
             
 def get_lowest_std_features(path, to_keep=to_keep, n_best=5):
     features = get_features(path, to_keep)

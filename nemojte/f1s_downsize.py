@@ -4,11 +4,11 @@ import numpy as np
 import os
 
 for model in ['bertweet', 'roberta', 'bert']:  
-    data = {'trained_on': []}          
-    train_dsets = ["irony_ds", "sarcasm_ds", "semeval_mix_ds"]
+    data = {'trained_on\\tested_on': []}          
+    train_dsets = ["irony_ds", "sarcasm_ds", "semeval_mix_ds", "isarcasm_mix_ds", "mix_ds"]
     for train_ds in train_dsets:
-        data['trained_on'].append(train_ds)
-        for test_ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds"]:
+        data['trained_on\\tested_on'].append(train_ds)
+        for test_ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds", "isarcasm_mix_ds", "mix_ds"]:
             if test_ds not in data.keys():
                 data[test_ds] = []
             f1s = []
@@ -23,4 +23,4 @@ for model in ['bertweet', 'roberta', 'bert']:
             data[test_ds].append(f"{average_f1:.2f} ± {stdev:.2f}")
     df = pd.DataFrame(data)
     os.makedirs('../results/ds', exist_ok=True)
-    df.to_csv(f'../results/ds/output_{model}4e.csv', index=False)
+    df.to_csv(f'../results/ds/output_all_{model}4e.csv', index=False)
