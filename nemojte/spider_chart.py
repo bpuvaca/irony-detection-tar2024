@@ -182,7 +182,7 @@ if __name__ == '__main__':
     theta = radar_factory(N, frame='polygon')
     features = get_most_discriminatory_features(list(ds_to_path.values()), n_best=N)
     data = []
-    data.append('A', )
+    data.append('A', list(features.keys()), 
 
     # data = example_data()
 
