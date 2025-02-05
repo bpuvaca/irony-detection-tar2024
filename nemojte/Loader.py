@@ -78,6 +78,12 @@ file_path_dict = {
     "train_sarcasm_polarity": "../datasets/crossval/sarcasm_polarity.csv",
     "train_sarcasm_other": "../datasets/crossval/sarcasm_other.csv",
     "train_polarity_other": "../datasets/crossval/polarity_other.csv",
+    
+    "train_irony_ds": "../datasets/crossval/irony.csv",
+    "train_sarcasm_ds": "../datasets/crossval/sarcasm_ds.csv",
+    "train_semeval_mix_ds": "../datasets/crossval/semeval_mix_ds.csv",
+    "train_isarcasm_mix_ds": "../datasets/crossval/isarcasm_mix_ds.csv",
+    "train_mix_ds": "../datasets/crossval/mix_ds.csv",
 
     "train_bf_sarcasm_bert": "../datasets/cartography/ds_best_folds/bert_sarcasm_ds_fold2.csv",
     "valid_bf_sarcasm_bert": "../datasets/cartography/ds_best_folds/bert_sarcasm_ds_fold2.csv",
@@ -130,7 +136,12 @@ fold_size_dict = {
     "irony_other": 70,
     "sarcasm_polarity": 357,
     "sarcasm_other": 105,
-    "polarity_other": 105
+    "polarity_other": 105,
+    "irony_ds": 70,
+    "sarcasm_ds": 70,
+    "semeval_mix_ds": 70,
+    "isarcasm_mix_ds": 70,
+    "mix_ds": 70,
 }
 
 def reduce_dataset(corpus, labels, num_1s, num_0s, shuffle = True):

@@ -46,16 +46,28 @@ from transformer_main import train_and_cross_validate, cross_validate
 #/>
 
 
-for model in ['bertweet', 'roberta', 'bert']:            
-    for ds in ["semeval_mix"]:
-        train_and_cross_validate(ds, model, return_all_preds=True, folds=5, save_params=True, epochs=4)	
+# for model in ['bertweet', 'roberta', 'bert']:            
+#     for ds in ["semeval_mix"]:
+#         train_and_cross_validate(ds, model, return_all_preds=True, folds=5, save_params=True, epochs=4)	
 
 
+# for model in ['bertweet', 'roberta', 'bert']:            
+#     for train_ds in ["semeval_mix"]:
+#         for test_ds in ["irony", "sarcasm", "semeval_mix"]:
+#             if train_ds != test_ds:
+#                 train_ds = f"{train_ds}_ds"
+#                 cross_validate(dataset=test_ds, model_name=model, trained_on=train_ds, 
+#                     load_from=f"crossval4/{model}/{train_ds}", 
+#                     return_all_preds=True, folds=5, epochs=4)
+
 for model in ['bertweet', 'roberta', 'bert']:            
-    for train_ds in ["semeval_mix"]:
-        for test_ds in ["irony", "sarcasm", "semeval_mix"]:
+    for ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds", "isarcasm_mix_ds", "mix_ds"]:
+        train_and_cross_validate(ds, model, return_all_preds=True, folds=5, save_params=True, epochs=4)
+
+for model in ['bertweet', 'roberta', 'bert']:            
+    for train_ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds", "isarcasm_mix_ds", "mix_ds"]:
+        for test_ds in ["irony_ds", "sarcasm_ds", "semeval_mix_ds", "isarcasm_mix_ds", "mix_ds"]:
             if train_ds != test_ds:
-                train_ds = f"{train_ds}_ds"
                 cross_validate(dataset=test_ds, model_name=model, trained_on=train_ds, 
                     load_from=f"crossval4/{model}/{train_ds}", 
                     return_all_preds=True, folds=5, epochs=4)
