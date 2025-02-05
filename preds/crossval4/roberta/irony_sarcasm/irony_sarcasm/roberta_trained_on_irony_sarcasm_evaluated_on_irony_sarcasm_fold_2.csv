@@ -1,7 +1,7 @@
 index,dataset,tweet,label,prediction,probability
 1,irony,"Man-spider . The story of a spider who 's bitten by a human and now has the powers of a human . Working in an office , wasting money on artisan coffee , and giving up his bus seat to a woman who turns out not to be pregnant , but just "" likes sandwiches you a-h * le "" . #IntoTheSpiderVerse",1,0
 2,irony,Good morning September ... Hello tonsillitis :(,1,0
-3,irony,Happy birthday to me . I got pinged and can't leave the house :smiling_face_with_3_hearts: :clown_face:,0,0
+3,irony,Happy birthday to me . I got pinged and can't leave the house :smiling_face_with_hearts: :clown_face:,0,0
 4,irony,"You know what makes a 15 minute wait for the bus even better , rum leaking all over the contents of your bag :see-no-evil_monkey: :tired_face:",1,0
 5,irony,First day of school and spectrum internet has already shit itself . Amazing,1,0
 6,irony,"My sisters kid , when we were playing in the living room , told me that I look like ghoul due to my baggy eyes . I love children so much , they make me feel so appreciated and loved , always say the kindest things !",0,0
@@ -20,7 +20,7 @@ index,dataset,tweet,label,prediction,probability
 19,irony,Big day in the Mumford house #sports day,1,0
 20,irony,Really impressed at human evolution - Covid has made our bodies adapt so we breathe out our chins . Darwin would be so proud .,0,0
 21,irony,I woke this morning to another Monday of fine bright warm sunshine here in Norfolk . Just what you need to put you in the right frame of mind for the week .,1,0
-22,irony,this just in : phobias CAN be chosen and you CAN get rid of them by just not being scared ! :smiling_face_with_3_hearts: / s,1,0
+22,irony,this just in : phobias CAN be chosen and you CAN get rid of them by just not being scared ! :smiling_face_with_hearts: / s,1,0
 23,irony,when the toilet seat is warmed up for you > > >,1,0
 24,irony,I wish that grilled cheese helped you get that summer bod,1,0
 25,irony,I love it when someone criticses my parenting then their adult son cuts his finger off with a knife and breaks his leg by falling off a bike,0,0
@@ -39,7 +39,7 @@ index,dataset,tweet,label,prediction,probability
 38,irony,I LOVE paying so much for gas . Really feels good to help out big oil .,0,0
 39,irony,Hands up who remembers when EVERY blogger and their dog was a brand ambassador for Coconut Lane :face_with_tears_of_joy:,0,0
 40,irony,Anyone else hear some like thunder or something ?,1,0
-41,irony,:dizzy: jsc bonding nights :dizzy: :smiling_face_with_3_hearts: :partying_face:,1,0
+41,irony,:dizzy: jsc bonding nights :dizzy: :smiling_face_with_hearts: :partying_face:,1,0
 42,irony,would n't it be cool if i could spontaneously combust,0,0
 43,irony,Another gorgeous day in sunny Accrington !,1,0
 44,irony,Avoid mass gatherings .. does this mean that I can stay home tomorrow as I work at a school ? No I thought not . #schoolclosure,1,0
@@ -60,7 +60,7 @@ index,dataset,tweet,label,prediction,probability
 59,irony,"@USER agreed , this is ridiculous , gotta cop a pair",0,0
 60,irony,It 's really very selfish of Silverstone to be saying the 2022 Grand Prix is 1/7- 3/7 cause my holiday year starts on 1/7 and I would have to use a day of this years holiday allowance to go . I should have been consulted really 😵‍💫 😵‍💫 😵‍💫,0,0
 61,irony,Matt Hancock is a top shagger,0,0
-62,irony,"Packing to move house , and currently wondering why I had to pick such a heavy hobby ? Like , why did I have to pick reading ? Books are so heavy , my back hurts . Why could n't I have picked knitting ? Yarn is light 🥲",1,0
+62,irony,"Packing to move house , and currently wondering why I had to pick such a heavy hobby ? Like , why did I have to pick reading ? Books are so heavy , my back hurts . Why could n't I have picked knitting ? Yarn is light :smiling_face_with_tear:",1,0
 63,irony,Just won 3 cents on HQ words ... early retirement here I come :smiling_face_with_heart-eyes:,0,0
 64,irony,"ah yes , of the course the summer rain pours when im on foot .",1,0
 65,irony,"Sometimes I lay in bed and think about how today will be the day I make my life better . Exercise , drinking water , eating healthy . Then I wake up .",0,0

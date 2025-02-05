@@ -1,71 +1,71 @@
 index,dataset,tweet,label,prediction,probability
-1,sarcasm_ds,I 'm gonna have a breakdown .,0,1,0.5180423
-2,sarcasm_ds,tanning in this heat is an extreme sport,1,1,0.6200136
-3,sarcasm_ds,Top 3 ranked video games of all time : 1 . Minecraft 2 . Roblox Paintball 3 . Every single Just Dance,1,1,0.5205341
-4,sarcasm_ds,So pleased to have another December day in the office with the AC blowing . How many coats will I need today ? :cold_face: :snowman_without_snow:,1,1,0.70607233
-5,sarcasm_ds,It 's sad .. guys make me want to stay single more and more everyday . Guys Respect your ladies please . Stay out of my dms especially if your married or just had a kid :exploding_head:,0,0,0.44048858
-6,sarcasm_ds,It 's so cold that I tried to open my banana and it snapped it half,0,1,0.5668749
-7,sarcasm_ds,2 things I love : 1 . Being woken up by construction work an hour before my alarm . 2 . Sarcasm .,1,1,0.68260247
-8,sarcasm_ds,i want thai food Right Now :(,0,1,0.503264
-9,sarcasm_ds,I want to join @USER to become a validator of the first Proof-Of-Person Blockchain #idenainvite,0,0,0.46700925
-10,sarcasm_ds,went to check out the bios of the ( exclusively ) hipster dudes that work in a rival boutique goods store and found out they all traveled internationally during the pandemic :upside-down_face: :upside-down_face: :upside-down_face:,1,0,0.47694156
-11,sarcasm_ds,@USER I thing you might be on to somethink ! :face_with_rolling_eyes:,1,1,0.51333046
-12,sarcasm_ds,"The rate at which I go between thinking : ‘ it 's fine , I 've still got 3 weeks to write my dissertation ' and ‘ shit I 've only got three weeks to write my dissertation ' is causing some serious procrastination whiplash .",0,1,0.55880606
-13,sarcasm_ds,the waitress at waffle house handed the check to me instead of noah . :relieved_face: #girlboss,0,0,0.4607568
-14,sarcasm_ds,"@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Yeah just a coincidence that infection rates go up and down dependent on when students are in the area or not , also tallies in with the parties being attended by up to 3 times the amount of allowed attendees . Definitely not students :thinking_face: 🤦🏽‍♀ :face_with_rolling_eyes:",1,0,0.45280024
-15,sarcasm_ds,Thank you to my apartment complex for consistently cutting the grass at 8 am every Thursday for ~ 5 hours . It 's definitely not super obnoxious or bothersome :smiling_face: :smiling_face:,1,1,0.6469893
-16,sarcasm_ds,i like starting conversations with “ also ” even though there was no proceeding sentence,0,0,0.47477207
-17,sarcasm_ds,@USER @USER Congratulations to you both . A happy life together ...,0,0,0.4825497
-18,sarcasm_ds,1 in 1000 men will develop breast cancer in their lifetime . It has a higher mortality rate for men because they have n't been taught the early signs and that they can get it too ! ! Breast cancer awareness is n't just for women ! !,0,0,0.43871453
-19,sarcasm_ds,"@USER @USER It was n't a million people . It was estimated to be between 312,000 and 400,000 . HTTPURL #facts",0,0,0.39133677
-20,sarcasm_ds,"one time i lost a tooth in a bowl of lucky charms and then thought it was a marshmellow , bit into it , and cracked another tooth",0,0,0.4279762
-21,sarcasm_ds,"Mom : Jack , do you have a a lot of homework tonight ? Jack : I finished it all in school God I miss those days",0,1,0.5600105
-22,sarcasm_ds,Uh oh Ben Simmons will also have a Steph Curry type season 76ers better not trade him now HTTPURL,1,1,0.5134855
-23,sarcasm_ds,"I 've spent a thousand dollars in four days and the vet has given me an estimate that it will be an additional thousand over the next couple months for treatment Your generosity has been so helpful , I appreciate everyone who 's helped however they can !",0,0,0.4017893
-24,sarcasm_ds,"Few of us who are in "" low classed jobs "" who are still in work as we are classed as essential workers are the same people who were claiming UC over the past few years & got scrutinised for it . #UniversalCredit is trending because now people see how UC is n't just for "" lower class "" .",0,0,0.4320562
-25,sarcasm_ds,🤙🏼 HTTPURL,0,1,0.5456344
-26,sarcasm_ds,yesterday 4 dinner I just had rice w / sriracha sauce on it and it was arguably the best meal I 've had in a while,0,0,0.47861788
-27,sarcasm_ds,the thought of one of my siblings getting my room when i go to uni makes me sad af :pensive_face:,0,1,0.5049638
-28,sarcasm_ds,youve heard of coffee enemas now get ready for coffee bidets,0,1,0.56436276
-29,sarcasm_ds,Cheers @USER delivery lady for dropping my parcel off covered in coffee :unamused_face: 👌🏼 HTTPURL,1,1,0.63838273
-30,sarcasm_ds,"Dear @USER , I see your enticing #Thanksgiving offer that ends on 2 Dec . I wanted to ask if you 're aware that #Chanukah starts on 10 Dec , continues for 8 days & that traditional Chanukah fare is actually #DOUGHNUTS ? ? :doughnut: :doughnut: #justsaying #AskingForAFriend #opportunity",1,1,0.5728727
-31,sarcasm_ds,Why has Murray not already thrown this set ? No way he comes back from 5-0 and just tires himself out for no apparent reason .,0,0,0.49504277
-32,sarcasm_ds,You 're all sickos for being mean to Trump so much for the tolerant left :face_with_rolling_eyes: anyways George Floyd had it coming,1,0,0.45798492
-33,sarcasm_ds,I love how men know they have a baby on the way in one month and they decide to go out and buy a brand new mustang wow,1,0,0.4932171
-34,sarcasm_ds,Perk of doing a newborn hearing screening on an SLP 's baby : not having to discuss speech and language milestones,0,1,0.5967776
-35,sarcasm_ds,I got called ugly on Twitter by an uneducated teen who refuses to show his face :( I 'm gonna cry myself to sleep :loudly_crying_face: I 'm in gut wrenching pain !,1,0,0.47384095
-36,sarcasm_ds,"I keep getting dramatic , anime style cowlicks in the morning and I 'm thinking one day I 'll just go out without brushing it down to let everyone know I 'm the main protagonist .",0,1,0.56664574
-37,sarcasm_ds,my grandpa has covid so i made a lil care package with his fave snacks and a big blanket . he 's vaccinated and it 's still hitting him hard . i 'm really sick and tired of the my body my choice mentality behind anti vaxxers bc it 's not just your body you 're making a choice for . god .,0,0,0.4226242
-38,sarcasm_ds,So the PM has finally given his verdict on his COVID NHS stay in hospital . Do n't understand why nurses would not want his pay recomendation .,1,0,0.46229398
-39,sarcasm_ds,Do the #Hokies really have to play 5 against 6 tonight ? Come on stripes,1,1,0.5477492
-40,sarcasm_ds,i know i did n't just read a 40 page sex scene . my god,0,1,0.5057177
-41,sarcasm_ds,@USER if i think you would have a chance against fury i mean its easy for some broken bodied old boy to beat the best in the world,1,0,0.4543448
-42,sarcasm_ds,did you actually fly on a plane if you did n't post a picture of the view from your window ?,1,0,0.48789707
-43,sarcasm_ds,@USER How * often * ? ? ?,0,1,0.5171517
-44,sarcasm_ds,evERYTHING IS NOT A COMPETITION OF WHO HAD / HAS IT WORSE OK BYEEE,0,1,0.50305045
-45,sarcasm_ds,"our lord and savior , frank ocean , has saved us all once again .",1,0,0.45350352
-46,sarcasm_ds,when I was younger I used to think that time zones also could change by minutes and people in other towns could be in 12:56 while I was in 1:14,0,1,0.5037151
-47,sarcasm_ds,Let 's cut funding to social services . What could possibly go wrong,1,1,0.5304802
-48,sarcasm_ds,did you know there is a direct correlation with how cool someone is and how high they cuff their pants ?,1,0,0.4795736
-49,sarcasm_ds,"The #PostOffice KNEW there were bugs in the system ! "" Not remotely reliable "" . Innocent lives were completely ruined and SOMEONE is to blame . Not fit for purpose . An utter disgrace . I 'm oddly livid over this #bbcpn",0,0,0.43965897
-50,sarcasm_ds,Amazing ! Simply amazing . Well done Sky Brown . You are an inspiration to all of us . HTTPURL,0,0,0.43622643
-51,sarcasm_ds,employer : so what are your strengths me : i 'm smart i 'm funny i 'm nice i 'm cool i 'm creative i 'm hardworking i 'm made of wood i 'm honest i 'm fast i 'm awesome i 'm hot i 'm chronically ill i 'm little i 'm in demand i'm,1,0,0.46635836
-52,sarcasm_ds,"How this is n't just Cowboy Bark listed 100000 times , I 'll never know . Nevertheless , an A + + + thread HTTPURL",0,0,0.45314664
-53,sarcasm_ds,"I 'd like to thank my current employer for making me feel accepted and valued . It 's particularly nice that , whenever I have some suggestions for them , that they seriously consider them and do n't just automatically put their fingers in their ears and shout ' I CAN'T HEAR YOU ' . Metaphorically .",1,0,0.435356
-54,sarcasm_ds,"@USER Hi there , I 'm told by the staff at fellowship square on this hot day that there is no cold water provision to full up reusable bottles unless I want to fill up "" from the toilet "" , is that actually my only option ?",0,1,0.5752376
-55,sarcasm_ds,THAT'S MY BEST FRIEND :heart_suit: :heart_suit: HTTPURL,0,1,0.52736616
-56,sarcasm_ds,Love it wen people try and stop my friends seeing me ! Looooolll .,1,1,0.5341381
-57,sarcasm_ds,I just had to hide all ads from Crumbl cookies cause I 'm fat and can't resist temptation :tired_face:,0,1,0.5005685
-58,sarcasm_ds,"I suppose though , we did sign one for the future so , you know , not all gloom and doom ... we might be good in 6 years time .",1,0,0.4521068
-59,sarcasm_ds,Fascinating article about the Vatican 's finances in these challenging days #catholic #finance #catholicism HTTPURL,0,0,0.48849946
-60,sarcasm_ds,i 've come to the conclusion i do n't rly like strawberries & i think they 're overrated,0,0,0.40869704
-61,sarcasm_ds,"The first paper @USER and I accepted as part of our special issue on intergroup conflict @USER is now online ! Check it out at HTTPURL and kudos Sam Whitt , @USER and @USER !",0,0,0.43611512
-62,sarcasm_ds,being a head nodder in zoom university is a curse,0,1,0.5884986
-63,sarcasm_ds,@USER @USER Well I doubt they 're trying to smash the doors in to change the regulation of cough medicine .,1,1,0.5075196
-64,sarcasm_ds,"Your family just escaped war , bloodshed , and devastation . #Trump 's bigotry sent you back to face persecution . #US HTTPURL",0,0,0.49077153
-65,sarcasm_ds,"Follow us at @USER for updates on the @USER Care-A-Thon today ! Listen in for interviews with Jaguars , families and more ! :beaming_face_with_smiling_eyes:",0,0,0.47833297
-66,sarcasm_ds,"Happy new month to all my Mutuals and Friends on here , wishing us all good health and more financial breakthrough this month .",0,0,0.46002454
-67,sarcasm_ds,"Yes , I am taking royalties for the phrase “ Thiccle Mistress , which I definitely just made up - thanks for asking",0,1,0.5331849
-68,sarcasm_ds,The sign of spinelessness : complaining to someone having a call on a bus as they 're getting off . Was the person on the phone a woman alone ? Of course she was . Was the person complaining an older man ? Of course he was . Did I yell at him ? Of course I did . Speak out for justice . :raised_fist:,0,0,0.48673117
-69,sarcasm_ds,@USER Actually I 've extrapolated based on the last daily candle and it turns out BTC will be sub-zero by December . The math does n't lie .,1,0,0.48125172
-70,sarcasm_ds,every time i see someone named david im like ... wow ... that really IS a guy named david,0,0,0.43710345
+1,sarcasm,I have every confidence in our government 's Covid action plan this Christmas :face_with_rolling_eyes:,1,1,0.5119767
+2,sarcasm,"3 classes down , 2 more to go and then I 'm halfway finished college :flushed_face:",0,1,0.5094859
+3,sarcasm,started telling my dutch friends about how i 've not really tried much liquorice while watching this fundy and 5up sweet tasting stream and they 're now planning on potentially sending me some over to try which is very sweet of them,0,1,0.5232713
+4,sarcasm,2021 will u think about me ?,0,1,0.5060034
+5,sarcasm,the thought of one of my siblings getting my room when i go to uni makes me sad af :pensive_face:,0,1,0.5315384
+6,sarcasm,I can't count the amount of times over the years I 've just forgotten I have my nose pierced and I 've just been reminded again by a tiktok,0,1,0.51875377
+7,sarcasm,You have to love politics - all talk and no action .,1,1,0.53361326
+8,sarcasm,turning 22 next week so naturally I increased my tinder age range up to 60,1,1,0.5290951
+9,sarcasm,. @USER anyway you 'd want to come to the Jazz ?,0,1,0.5154889
+10,sarcasm,@USER Please DO YOUR JOB or resign . Enough is enough .,0,1,0.53416324
+11,sarcasm,Anyone selling a parklife weekend ticket ? ?,0,1,0.5344753
+12,sarcasm,I remember when I was a kid how I used to troll my dad . I 'd be watching a film on sky movies and then when I knew he was in the other room I would say out loud ‘ wow look at the tits on her ' He would come back in the room and nothing was there but he 'd ask questions like ...,0,1,0.5110345
+13,sarcasm,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,1,0.5114762
+14,sarcasm,Oh my what was that noise ? The dog is n't happy either ! #loudbang,0,1,0.53558916
+15,sarcasm,"New levels of desperation : sleep is now truly insignificant to me . In fact , it 's a downright annoyance .",1,1,0.5279198
+16,sarcasm,"am i the only one who gets "" tomorrow "" confused with "" tomato """,0,1,0.5171637
+17,sarcasm,"Watched 127 hours ... Kinda reminded me of this one time I got a bad splinter . Writing a book about it now , hit me up for an autographed copy",1,1,0.50997317
+18,sarcasm,"Ya know , I missed a lot of things during Covid , but movie theater popcorn might top the list .",0,1,0.51431984
+19,sarcasm,"Yay - snow day , I can work from home - oh wait ...",1,1,0.5447964
+20,sarcasm,i miss classes being online 😵‍💫,0,1,0.52574193
+21,sarcasm,IMAGINE the outcry if SNP voters went and celebrated this win that actually means something in the same way that Rangers fans ‘ celebrated ' a few weeks ago over football game .,0,1,0.5216324
+22,sarcasm,Do you think anyone on Bachelor in Paradise has seen Oscar winner Parasite ?,1,1,0.50896597
+23,sarcasm,Love it when someone with no mask chooses to sit next to me on the bus ... :expressionless_face:,1,1,0.5292964
+24,sarcasm,"Well , my vaccinated therapist tested positive for Covid . Hope she 's okay and hope my mental health hangs on for 10 extra days .",0,1,0.51791376
+25,sarcasm,My dream is to be left alone .,1,1,0.5350301
+26,sarcasm,"I unsubscribe from being an adult , its not for me",1,1,0.5113369
+27,sarcasm,"not to brag , but my thesis topic was so good that someone else published on it three months ago :upside-down_face:",1,1,0.50762016
+28,sarcasm,@USER My neice ( 4 or 5 at the time ) * loved * playing Mario Kart 8 with her dad using the acceleration and steering assists . Before that she was mostly a spectator while he played kid-friendly games like Ape Escape .,0,1,0.5328882
+29,sarcasm,i 'm dying,1,1,0.5215125
+30,sarcasm,So weird how Venmo has n't venmoed me yet really thought I was the one,1,1,0.52767015
+31,sarcasm,we love when the power goes out at 6:30 in the morning on a wednesday HTTPURL,1,1,0.5382181
+32,sarcasm,Who 's bored at home ?,0,1,0.53001213
+33,sarcasm,Was fun . Looking forward to the next one ! #podcasts HTTPURL,0,1,0.5033759
+34,sarcasm,"So we actually have to do hot girl summer without 1989 Taylor 's version . , I 'm sick",1,1,0.5261819
+35,sarcasm,"Aye these vaccines are dangerous to your health like . But see the charlie that you put up your nose at weekends , totally fine .",1,1,0.52242815
+36,sarcasm,i want to go to kings island again before summer is over,0,1,0.5204897
+37,sarcasm,‘ It 's only a game ' :woozy_face: :woozy_face:,1,1,0.5156136
+38,sarcasm,Lol i actually realized that I 've justified not working out for the past three months by telling myself that my hair was too short to fit in a ponytail .,0,1,0.515112
+39,sarcasm,We really need to remind people that universal healthcare means never needing to sit through another annual explanation of benefits meeting,1,1,0.5319168
+40,sarcasm,shoutout to the assholes at basically every gas station rn filling up multiple gas canisters when i do n't even have enough gas to get home ... :smiling_face_with_tear:,1,1,0.5216227
+41,sarcasm,It 's really very selfish of Silverstone to be saying the 2022 Grand Prix is 1/7- 3/7 cause my holiday year starts on 1/7 and I would have to use a day of this years holiday allowance to go . I should have been consulted really 😵‍💫 😵‍💫 😵‍💫,1,1,0.53168744
+42,sarcasm,"If your website still has a google plus share button , forgive me if I 'm not tripping over myself to take your information as credible or current .",1,1,0.5266258
+43,sarcasm,"@USER @USER Has n't he opened a few new hospitals ? Oh sorry , maybe it was a new first aid box .",1,1,0.53010285
+44,sarcasm,@USER Yo jim I put my life savings in $ didi at $ 16 as per your request now me and my family are eating MREs in full survival mode What should I do ?,1,1,0.50202584
+45,sarcasm,Trying to meet my friend and she 's literally lost in John Lewis omg,0,1,0.5363503
+46,sarcasm,i almost forgot to tweet about jason bateman today,0,1,0.5089818
+47,sarcasm,"@USER My mother in law says “ grandma-great ” instead of “ great-grandma . ” Among many other mispronunciations , but that one came to mind first .",0,1,0.52698594
+48,sarcasm,"Worst mistake you can ever make is not taking ur mates advice , hands down",0,1,0.51011056
+49,sarcasm,The phrase “ the white people of black people ” was coined to explain cishet black men 's privilege over other identities within the black community . Not to just throw around when y'all are annoyed / hateful :face_with_rolling_eyes:,0,1,0.5153865
+50,sarcasm,It 's been a productive last day . Maxed Out all my credit cards in preparation of my Rapture tomorrow ! ! ! #iwishwehadallbeenready,1,1,0.5032695
+51,sarcasm,idk why but my norms wr skyrockets when I solo q,0,1,0.5234124
+52,sarcasm,This is my buddy @USER . He is a deep thinker . #Nashville #BaileysfantasycampTN @USER @USER HTTPURL,0,1,0.51947504
+53,sarcasm,"Few of us who are in "" low classed jobs "" who are still in work as we are classed as essential workers are the same people who were claiming UC over the past few years & got scrutinised for it . #UniversalCredit is trending because now people see how UC is n't just for "" lower class "" .",0,1,0.5120702
+54,sarcasm,Boris Johnson is not a clown . The conservative party is not corrupt .,1,1,0.5200808
+55,sarcasm,I have n't seen my best friend in over a year I am not coping well :( (,0,1,0.51911473
+56,sarcasm,@USER @USER Well I doubt they 're trying to smash the doors in to change the regulation of cough medicine .,1,1,0.51647717
+57,sarcasm,Just rediscovered that my nose is always in my field of vision so I will unfortunately be dropping out as I can not continue my assigned readings in peace,1,1,0.52372533
+58,sarcasm,"Bart is closed rn in Oakland so I can't go to work , I 'm so upset ...",1,1,0.524077
+59,sarcasm,Really really happy to be woken up at 6:30 am again by the next door neighbour 's dog barking . Thanks a lot for that I appreciate it loads :face_with_raised_eyebrow:,1,1,0.5410292
+60,sarcasm,"@USER Yes , because we really have that sort of power . Why do brexity types always sound like they are all paranoid conspiracy therorists ?",1,1,0.53185225
+61,sarcasm,@USER Have seen better acting on Casualty :see-no-evil_monkey:,0,1,0.50873446
+62,sarcasm,"Just caught Jamie talking about me with his nan , he showed her a picture he took of me and she said "" aw she 's gorgeous is n't she "" MY HEART :pleading_face: :two_hearts:",0,1,0.52618814
+63,sarcasm,THAT'S MY BEST FRIEND :heart_suit: :heart_suit: HTTPURL,0,1,0.5345132
+64,sarcasm,I stole a book in Skyrim and somebody sent hired thugs after me,0,1,0.5188261
+65,sarcasm,I 'm going back to work exactly 8 weeks postpartum and that just does n't sit right with me,0,1,0.5131636
+66,sarcasm,you ever completely embarrass yourself on zoom and decide to drop out of college ?,1,1,0.5144719
+67,sarcasm,Nothing can ruin a summer like hayfever,0,1,0.52995914
+68,sarcasm,apparently it 's national siblings day ? idgaf :skull:,1,1,0.5225811
+69,sarcasm,"@USER Publisher , not developer .",0,1,0.5180671
+70,sarcasm,Just came online to remind y'all that Davido is still The King .,0,1,0.51813745
