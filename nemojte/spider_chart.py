@@ -170,19 +170,20 @@ if __name__ == '__main__':
     # labels = ('Pos Mean', 'Neg Mean')
         
     # compare means of summary features for each dataset postive examples
-    summary = "Analytic	Clout	Authentic	Tone".split()
-    N = len(summary)
-    theta = radar_factory(N, frame='polygon')
-    data = []
-    data.append(('A', summary, [[features[feature]['pos_mean']/100 for feature in summary] for features in [get_features(path, summary) for path in ds_to_path.values()]]))
-    labels = list(ds_to_path.keys())
+    # summary = "Analytic	Clout	Authentic	Tone".split()
+    # N = len(summary)
+    # theta = radar_factory(N, frame='polygon')
+    # data = []
+    # data.append(('A', summary, [[features[feature]['pos_mean']/100 for feature in summary] for features in [get_features(path, summary) for path in ds_to_path.values()]]))
+    # labels = list(ds_to_path.keys())
     
     #compare means between most discriminatory features of positive examples
     N = 5
     theta = radar_factory(N, frame='polygon')
     features = get_most_discriminatory_features(list(ds_to_path.values()), n_best=N)
     data = []
-    data.append('A', list(features.keys()), 
+    data.append(('A', list(features.keys()), [[features[feature][i]/100 for feature in features.keys()] for i in range(len(ds_to_path))]))
+    labels = list(ds_to_path.keys())
 
     # data = example_data()
 

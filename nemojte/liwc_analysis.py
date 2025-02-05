@@ -98,7 +98,7 @@ def get_most_discriminatory_features(paths, to_keep=to_keep, n_best=5):
     for i in range(n_best):
         print(f'{i + 1}. {sorted_features[i]}')
     
-    return sorted_features[:n_best]
+    return {key:[features_dict[path][key]['pos_mean'] for path in paths] for key in sorted_features[:n_best]}
             
 def get_lowest_std_features(path, to_keep=to_keep, n_best=5):
     features = get_features(path, to_keep)
