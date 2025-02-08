@@ -1,69 +1,69 @@
 index,dataset,tweet,label,prediction,probability
-1,mix,"After my Holland & Barrett parcel was damaged on its way to me , I had to send probably the most middle class e-mail of my life , asking them to please resend the order ASAP as I was running out of kombucha .",0,1
-2,mix,Loving season 4 of trump does America . Funniest season yet #DonaldTrump #Trump #MAGA #MAGA2020,1,1
-3,mix,Home made pizza is in the oven ! We 've made one each so there 'll be leftovers for lunch tomorrow . :face_savoring_food:,0,1
+1,mix,"After my Holland & Barrett parcel was damaged on its way to me , I had to send probably the most middle class e-mail of my life , asking them to please resend the order ASAP as I was running out of kombucha .",0,0
+2,mix,Loving season 4 of trump does America . Funniest season yet #DonaldTrump #Trump #MAGA #MAGA2020,1,0
+3,mix,Home made pizza is in the oven ! We 've made one each so there 'll be leftovers for lunch tomorrow . :face_savoring_food:,0,0
 4,mix,"This weather is really making me want to put shorts on , flock to the beach and get the deck chair out ... Yeah right ! ! !",1,1
 5,mix,"head is pounding , spent £ 25 on ubers last night and I have a 3000 word report to write :) yippee x",1,1
-6,mix,"You know what makes a 15 minute wait for the bus even better , rum leaking all over the contents of your bag :see-no-evil_monkey: :tired_face:",1,1
-7,mix,Anyone else hear some like thunder or something ?,1,1
-8,mix,Perk of doing a newborn hearing screening on an SLP 's baby : not having to discuss speech and language milestones,0,1
-9,mix,Mental shoot out ends . Silent pause . Sirens start :police_car_light: Always so perfectly timed :oncoming_police_car: :police_car: 👍🏽 #LineOfDuty #LineofDuty6 #LOD6 #LOD,1,1
-10,mix,@USER happy birthday ! !,0,1
-11,mix,"AT & T is truly amazing They think my lg g7 is 3g only to the point where they sent us Walmart Altec phones and said they 'd shut off service . We called them , they told us to not worry and if the phones are fine they would n't be shut off Guess what got shut off this morning ? LOL",1,1
-12,mix,Teachers are such precious gems,0,1
-13,mix,Hey what 's the weather like today ? Am I going to need an umbrella ?,1,1
+6,mix,"You know what makes a 15 minute wait for the bus even better , rum leaking all over the contents of your bag :see-no-evil_monkey: :tired_face:",1,0
+7,mix,Anyone else hear some like thunder or something ?,1,0
+8,mix,Perk of doing a newborn hearing screening on an SLP 's baby : not having to discuss speech and language milestones,0,0
+9,mix,Mental shoot out ends . Silent pause . Sirens start :police_car_light: Always so perfectly timed :oncoming_police_car: :police_car: 👍🏽 #LineOfDuty #LineofDuty6 #LOD6 #LOD,1,0
+10,mix,@USER happy birthday ! !,0,0
+11,mix,"AT & T is truly amazing They think my lg g7 is 3g only to the point where they sent us Walmart Altec phones and said they 'd shut off service . We called them , they told us to not worry and if the phones are fine they would n't be shut off Guess what got shut off this morning ? LOL",1,0
+12,mix,Teachers are such precious gems,0,0
+13,mix,Hey what 's the weather like today ? Am I going to need an umbrella ?,1,0
 14,mix,Gonna go cry now some no face told me to lose weight x,1,1
-15,mix,Joey the genius ! I wish i was as brainy as him #towie,1,1
-16,mix,Overthinking everything in life really takes a toll on you,1,1
-17,mix,WTF ! ! ! #billcosby conviction was just overturned by the Pennsylvania Supreme Court ! ! ! #wtf #WHY #me2 @USER,0,1
-18,mix,naming my son onickolas in honor of my love for @USER,1,1
-19,mix,NOT OLIVIA RODRIGO TRAITOR IN THE BACKGROUND #LoveIsland,1,1
-20,mix,too many dudes are wearing birks with socks on . grow up . get the fucking toes out man .,1,1
-21,mix,"Yep , the only reason I 've stayed with 3 since Ovivo disappeared was the everywhere contract . If and when this reaches me then I 'm offski . @USER HTTPURL",0,1
-22,mix,@USER @USER All / any updates are fully appreciated Mike . Many thanks,0,1
-23,mix,i love desth note go light go,0,1
-24,mix,you would think the odds of me sitting next to the exact same stinky man three bus trips in a row is highly unlikely . alas I seem to be a lucky gal,1,1
-25,mix,I hate you so much @USER,1,1
-26,mix,"I 've compiled a list to debunk the gatekeeping morons saying #StarWars is too "" male focussed "" . Leia Organa , Jyn Erso , Rey , Bastila and Satele Shan , Hera Syndulla , Padme , Iden Versio , Nightsister Merrin , Cere Junda , Asajj Ventress , Sabine Wren , Bo-Katan Kryze , Shaak Ti , ( 1 / )",0,1
-27,mix,I just absolutely LOVE how I 've got to work outside for the next 3 days in the heatwave . #sweatingmyballsoff,1,1
-28,mix,apple .. as much as i want to say ‘ abs ' . no . i am typing to type ‘ and ',0,1
-29,mix,does anyone else buy pound cake in bulk from costco,0,1
-30,mix,:two_hearts: tip for baking bread ! :bread: :croissant: :baguette_bread: you can use the yeast in your dog 's ears to substitute active dry yeast or instant yeast in a pinch ! :two_hearts:,1,1
-31,mix,"Ah yes , back spasms when I take a deep breath . This is :sparkles: 28 :sparkles: .",1,1
-32,mix,@USER @USER ya need a carry hit me up im a octane main,1,1
-33,mix,Just like to congratulate everyone on the Kop today for the fastest ever Poor Scouser Tommy . Slow the fuck down,1,1
+15,mix,Joey the genius ! I wish i was as brainy as him #towie,1,0
+16,mix,Overthinking everything in life really takes a toll on you,1,0
+17,mix,WTF ! ! ! #billcosby conviction was just overturned by the Pennsylvania Supreme Court ! ! ! #wtf #WHY #me2 @USER,0,0
+18,mix,naming my son onickolas in honor of my love for @USER,1,0
+19,mix,NOT OLIVIA RODRIGO TRAITOR IN THE BACKGROUND #LoveIsland,1,0
+20,mix,too many dudes are wearing birks with socks on . grow up . get the fucking toes out man .,1,0
+21,mix,"Yep , the only reason I 've stayed with 3 since Ovivo disappeared was the everywhere contract . If and when this reaches me then I 'm offski . @USER HTTPURL",0,0
+22,mix,@USER @USER All / any updates are fully appreciated Mike . Many thanks,0,0
+23,mix,i love desth note go light go,0,0
+24,mix,you would think the odds of me sitting next to the exact same stinky man three bus trips in a row is highly unlikely . alas I seem to be a lucky gal,1,0
+25,mix,I hate you so much @USER,1,0
+26,mix,"I 've compiled a list to debunk the gatekeeping morons saying #StarWars is too "" male focussed "" . Leia Organa , Jyn Erso , Rey , Bastila and Satele Shan , Hera Syndulla , Padme , Iden Versio , Nightsister Merrin , Cere Junda , Asajj Ventress , Sabine Wren , Bo-Katan Kryze , Shaak Ti , ( 1 / )",0,0
+27,mix,I just absolutely LOVE how I 've got to work outside for the next 3 days in the heatwave . #sweatingmyballsoff,1,0
+28,mix,apple .. as much as i want to say ‘ abs ' . no . i am typing to type ‘ and ',0,0
+29,mix,does anyone else buy pound cake in bulk from costco,0,0
+30,mix,:two_hearts: tip for baking bread ! :bread: :croissant: :baguette_bread: you can use the yeast in your dog 's ears to substitute active dry yeast or instant yeast in a pinch ! :two_hearts:,1,0
+31,mix,"Ah yes , back spasms when I take a deep breath . This is :sparkles: 28 :sparkles: .",1,0
+32,mix,@USER @USER ya need a carry hit me up im a octane main,1,0
+33,mix,Just like to congratulate everyone on the Kop today for the fastest ever Poor Scouser Tommy . Slow the fuck down,1,0
 34,mix,Just realized I do n't have more than 3 full weeks in a row at work the rest of the year . 💁🏼‍♀,0,1
-35,mix,@USER @USER Have you tried Steve Wilson at UCL ?,0,1
+35,mix,@USER @USER Have you tried Steve Wilson at UCL ?,0,0
 36,mix,way to prove that women are more than just breasts & an ass ...  :unamused_face:,1,1
 37,mix,I can be mad at you for a matter of 15 min then I can't stand not talking to you .,0,1
 38,mix,Such a good lie in ,1,1
-39,mix,@USER nah dude my buddy puked all over steak and shake,0,1
+39,mix,@USER nah dude my buddy puked all over steak and shake,0,0
 40,mix,@USER Thanks for pirating my music ! :D ,1,1
 41,mix,And the round ligament pain returns . Yay  #PregnancyProblems,1,1
 42,mix,"burger king hacking ( 07/13 and 11/13 ) was the weirdest and funniest , definetely ",1,1
 43,mix,Such a great damn day . ,1,1
 44,mix,"I guess Paul did n't have buns , hon . #EatenAlive  @USER",1,1
 45,mix,@USER @USER it 's in my Priory contract to wear those . Hugely popular with Priory Ultras #does  #count #xxx,0,1
-46,mix," is not lost . @USER @USER @USER HTTPURL """,0,1
-47,mix,Morning #monday people  long know keep working hard ! #MakeSussexSafe 01273276865,0,1
-48,mix,Merry Christmas to all my friends and family ... Santa just finished at my house ! ! HTTPURL,0,1
+46,mix," is not lost . @USER @USER @USER HTTPURL """,0,0
+47,mix,Morning #monday people  long know keep working hard ! #MakeSussexSafe 01273276865,0,0
+48,mix,Merry Christmas to all my friends and family ... Santa just finished at my house ! ! HTTPURL,0,0
 49,mix,Yay for knee machines !  HTTPURL,1,1
-50,mix,"If you know people who could talk power-dressing and social media marketing , please let me know . Thanks",0,1
+50,mix,"If you know people who could talk power-dressing and social media marketing , please let me know . Thanks",0,0
 51,mix,"If this is love i do n't wanna be loved , You pollute the room with your filthy tongue  #getscared",0,1
 52,mix,What a shock . Duke Johnson is hurt in an important game .  #canes,1,1
 53,mix,That one time I did n't feel in over my head . ,1,1
-54,mix,People are n't as beautiful as they look #people  #beautiful #look #walk #talk #personality #love #care #share HTTPURL,0,1
-55,mix,"Tax & NI on your wage slip is like Jim Bowen on bullseye goin "" look what you coulda won "" #rubbingitin #crap HTTPURL",0,1
+54,mix,People are n't as beautiful as they look #people  #beautiful #look #walk #talk #personality #love #care #share HTTPURL,0,0
+55,mix,"Tax & NI on your wage slip is like Jim Bowen on bullseye goin "" look what you coulda won "" #rubbingitin #crap HTTPURL",0,0
 56,mix,final labs coursework submitted ! ! now to treat myself by catching up with the whole semester 's lectures #winning ,1,1
-57,mix,Alright who was dreaming about me last night because I could not for the life of me fall asleep HTTPURL,0,1
+57,mix,Alright who was dreaming about me last night because I could not for the life of me fall asleep HTTPURL,0,0
 58,mix,I have plans . I feel sick . What a surprising turn of events . ,1,1
 59,mix,UK PM making sure child abusers are brought to justice . I can assume people will be brought to justice  #lies HTTPURL,1,1
 60,mix,love being able to be comfortable in my own room :grinning_face_with_big_eyes: :thumbs_up: ,1,1
 61,mix,Not everyone 's really for you no matter how long you knew them . And not everyone 's a bad person just because it 's been a short time . ,1,1
 62,mix,I just love the NHS ,1,1
-63,mix,"@USER I liked the first one . Never cared enough to watch the sequel ( s ? ) . That said , I will only watch the #reboot because of #ChrisPratt",0,1
-64,mix,#chattyman never fails to make me laugh @USER # 1 talk show on TV ! #loveit,0,1
-65,mix,HTTPURL #Science of the #GardenOfEden - #Eden #KentHovind #Christian #Jesus #Christ # c ... HTTPURL,0,1
+63,mix,"@USER I liked the first one . Never cared enough to watch the sequel ( s ? ) . That said , I will only watch the #reboot because of #ChrisPratt",0,0
+64,mix,#chattyman never fails to make me laugh @USER # 1 talk show on TV ! #loveit,0,0
+65,mix,HTTPURL #Science of the #GardenOfEden - #Eden #KentHovind #Christian #Jesus #Christ # c ... HTTPURL,0,0
 66,mix,@USER Great . Does that mean he 's also giving up hunting and killing wildlife in Europe ? ,1,1
 67,mix,I am starting to think UK has a pretty good basketball team #BBN ,1,1
 68,mix,Love working hard trying to fix other people 's fuck ups ,1,1

@@ -7,35 +7,35 @@ index,dataset,tweet,label,prediction,probability
 6,sarcasm,Learn about what we do in the Brain and Behaviour Lab at the #UniversityofPortsmouth #zebrafish HTTPURL,0,0
 7,sarcasm,Does anyone have any recommendations for over the counter topical pain relief that actually works ?,0,0
 8,sarcasm,wow this growth spurt is really taking longer than i thought haha,1,0
-9,sarcasm,Elaine Quijano exhibits roughly the same amount of control over this debate as two rabbits do on their first date .,1,0
+9,sarcasm,Elaine Quijano exhibits roughly the same amount of control over this debate as two rabbits do on their first date .,1,1
 10,sarcasm,"#bbcqt It sure would be nice if Ms May decided to answer a question , rather than dance readily around it .",1,0
-11,sarcasm,we hit 17 % of americans fully vaccinated in case anyone was wondering,0,0
+11,sarcasm,we hit 17 % of americans fully vaccinated in case anyone was wondering,0,1
 12,sarcasm,"Masks work , that 's why we do n't have to wear them in pubs but do in shops !",1,0
 13,sarcasm,hot girls have tree shaped dents in their rear bumpers :red_heart:,1,0
-14,sarcasm,Sitting next to the world 's loudest mouth-breather on the first day of class did a really good job of demystifying grad school for me today,1,0
+14,sarcasm,Sitting next to the world 's loudest mouth-breather on the first day of class did a really good job of demystifying grad school for me today,1,1
 15,sarcasm,"We 'll be giving classic , cult and trashy movies away next week at our charity horror night - HTTPURL :film_projector: :skull: :coffin: :kitchen_knife: :ogre: HTTPURL",0,0
-16,sarcasm,"Oh boy , a song I 'm gonna play on repeat until it makes me physically ill to hear it ! Thanks FOB",1,0
+16,sarcasm,"Oh boy , a song I 'm gonna play on repeat until it makes me physically ill to hear it ! Thanks FOB",1,1
 17,sarcasm,"Just signed up for Apple 's Ping , told it I like ' classical ' and it points me towards Lady Gaga . It takes a certain genius to be this crap .",1,0
 18,sarcasm,i forgot i have tickets to the disney princess broadway celebration in november um i hope that they replace laura with christy altomare,0,0
-19,sarcasm,I feel like with the pandemic and all we should now be allowed to publicly shame babies for just like coughing into the open air you know what I mean,1,0
-20,sarcasm,the only ppl who should be worried about Biden 's tax plan r the ones who get gifts for easter,1,0
+19,sarcasm,I feel like with the pandemic and all we should now be allowed to publicly shame babies for just like coughing into the open air you know what I mean,1,1
+20,sarcasm,the only ppl who should be worried about Biden 's tax plan r the ones who get gifts for easter,1,1
 21,sarcasm,Always glad to live in Kent :see-no-evil_monkey: :see-no-evil_monkey:,1,0
 22,sarcasm,There is not enough people here #ivoryrooms,1,0
 23,sarcasm,@USER yet again breaking the UK formula marketing rules . Please educate your staff . @USER HTTPURL,0,0
-24,sarcasm,"Today I learned what "" ghost nipples "" are .",0,1
+24,sarcasm,"Today I learned what "" ghost nipples "" are .",0,0
 25,sarcasm,it 's literally so hard being this hot and sexy and beautiful everyday,1,0
 26,sarcasm,"underwater uber , also known as scuber",0,0
 27,sarcasm,yo ima hott mess but at least i 'm hott,0,0
 28,sarcasm,"Submitted my application for PhD funding today , then shit myself and wanted to withdraw it :face_with_tears_of_joy: :see-no-evil_monkey:",0,0
 29,sarcasm,tanning in this heat is an extreme sport,1,1
-30,sarcasm,"So you can't really get huckleberries outside of MT / WY area because they 're hard to cultivate and need to be picked by hand at high altitudes , making them ~ $ 65 / lb . But bears love em and will go to town and eat like $ 300 of huckleberries in a sitting and I love thinking about that",0,1
+30,sarcasm,"So you can't really get huckleberries outside of MT / WY area because they 're hard to cultivate and need to be picked by hand at high altitudes , making them ~ $ 65 / lb . But bears love em and will go to town and eat like $ 300 of huckleberries in a sitting and I love thinking about that",0,0
 31,sarcasm,Liberty just went 95 yards on us with ease . Damn we 're so soft,0,0
 32,sarcasm,"Some pretty great things are happening at the call center . Listen in to 104.5 for the Care-A-Thon ! Each dollar is being matched , my friends !",0,0
 33,sarcasm,what if the next iteration of onlyfans was run by women ? ceo : @USER investors : @USER @USER @USER @USER @USER @USER @USER software engineers ( sry if incorrect terminology ): @USER @USER marketing : @USER HTTPURL,0,0
 34,sarcasm,"Ok , so @USER and I decided to record on the evening of the 6th , just as absolutely nothing newsworthy was happening ! Perfect timing as always , to go over some of the best ITSBUPs of 2020 - and how we 're settling into 2021 ! Listen : HTTPURL HTTPURL",1,0
 35,sarcasm,Amazing how fast this team can go winning from 13 straight to losing three in a row . Lol . Horrible managing tonight . I really hope this Boone experiment is over soon .,1,1
 36,sarcasm,Living with a str * ight man is like living with a four year old,0,0
-37,sarcasm,Wow great album from Kanye . v John Cage 4 ' 43 vibes x,1,0
+37,sarcasm,Wow great album from Kanye . v John Cage 4 ' 43 vibes x,1,1
 38,sarcasm,ITS COMING HOOOOOME,1,0
 39,sarcasm,"Are GoFundMe accounts a form of socialism ? I do n't have enough money to pay my bills , so let me create an account an ask for money to help pay my bills . ? ?",1,0
 40,sarcasm,Beautician and the Beast ( 1997 ) . Best Timothy Dalton film of all time .,1,0
@@ -49,17 +49,17 @@ index,dataset,tweet,label,prediction,probability
 48,sarcasm,"first day of work , and i 've already cried on the job :thumbs_up:",1,0
 49,sarcasm,@USER @USER Damn ! At my wedding we drank enough to make up for the no shows ! :thinking_face:,0,0
 50,sarcasm,"If you watch #TheCrown and do n't simultaneously wiki deep-dive on the royal family , did you even watch The Crown ?",1,0
-51,sarcasm,Lil Pump is the Nelson Mandela of our generation,1,1
+51,sarcasm,Lil Pump is the Nelson Mandela of our generation,1,0
 52,sarcasm,being sick w a nose piercing is rly annoying,0,0
 53,sarcasm,As a kid I definitely thought I 'd come into contact with quick sand way more than I have,0,0
 54,sarcasm,I wish Facebook would introduce a ‘ rude ' option on its ‘ like ' panel . I feel ‘ wow ' does n't cover it . Maybe it could be a middle finger .,0,0
 55,sarcasm,"Someone in the pub just described the England team as "" a bunch of Marxists "" . Makes you proud does n't it ?",1,1
 56,sarcasm,#Snowden Sad to see intelligent Americans fall victim to the US propaganda machine in this case . So many lies set up to discredit by the US .,0,0
 57,sarcasm,"Hear me out ... The lyrics in "" coney island "" should 've been "" lost again with no surprises , disappointments close your EYESES "" Fixed it for you @USER :winking_face: #evermorealbum @USER",1,0
-58,sarcasm,Frankie is so lucky to have some amazing people in his life . Those that have n't bothered are missing out !,0,0
+58,sarcasm,Frankie is so lucky to have some amazing people in his life . Those that have n't bothered are missing out !,0,1
 59,sarcasm,@USER Riveting news .,1,0
 60,sarcasm,my grandpa has covid so i made a lil care package with his fave snacks and a big blanket . he 's vaccinated and it 's still hitting him hard . i 'm really sick and tired of the my body my choice mentality behind anti vaxxers bc it 's not just your body you 're making a choice for . god .,0,0
-61,sarcasm,Mad how many cars they make now without indicators :upside-down_face:,1,1
+61,sarcasm,Mad how many cars they make now without indicators :upside-down_face:,1,0
 62,sarcasm,Sometimes I forget giraffes exist :flushed_face: I meannnnn ... wtf is they,0,0
 63,sarcasm,If I were the Red Sox I would simply play the Orioles more,1,0
 64,sarcasm,"how would u kiss ur gorgon gf goodnight , , , so many little snake faces to kiss , , , it would take so long",0,0
@@ -68,4 +68,4 @@ index,dataset,tweet,label,prediction,probability
 67,sarcasm,mentally I 'm hiding in the walk-in,1,0
 68,sarcasm,finding vegetarian chocolate mousse is such an annoyingly hard task to do,0,0
 69,sarcasm,"Lucky for 2nd placed Brentford that there 's no stand out team like Leeds this year , or they might have no chance of winning the league . #ncfc",1,0
-70,sarcasm,"For a good laugh , follow me over on @USER to see my best attempt at covering sports business news for class this semester .",1,1
+70,sarcasm,"For a good laugh , follow me over on @USER to see my best attempt at covering sports business news for class this semester .",1,0

@@ -34,10 +34,10 @@ index,dataset,tweet,label,prediction,probability
 33,semeval,Sick on Christmas YAYYYY ,1,1
 34,semeval,Some guy chattin shit to me on the bus saying I look like snoop dogg #KMT  #again,0,1
 35,semeval, a bad game last night . Way to go Packers ! HTTPURL,0,0
-36,semeval,Wickedly ignorant bout Black Americans see racism in everything '  a figment of their imagination #Cannot be trumped by J'can hypocrisy #NNN,0,1
+36,semeval,Wickedly ignorant bout Black Americans see racism in everything '  a figment of their imagination #Cannot be trumped by J'can hypocrisy #NNN,0,0
 37,semeval,@USER in hereford but can't leave bambino alone !,0,0
 38,semeval,We live in such a small world these days - the #LAFire is a story at the end of the Australian news @USER,0,0
-39,semeval,@USER #NoodleScene anyone ? He was so zen there .  . Oh ! wait ! But #deadHenry and #bouncebackAnnie . Silly me ! All makes sense now !,1,0
+39,semeval,@USER #NoodleScene anyone ? He was so zen there .  . Oh ! wait ! But #deadHenry and #bouncebackAnnie . Silly me ! All makes sense now !,1,1
 40,semeval,@USER good thing we had enough #whitewine and #christmastrees to survive if needed . #chardsohard #fashion  ;),1,1
 41,semeval,"@USER Nah , it 's better we all act like the North Korean govt and police people 's private thoughts . ",1,1
 42,semeval,Well this is great ..  | Illinois Passes Bill That Makes It Illegal To Record The Police HTTPURL,1,1
