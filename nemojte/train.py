@@ -83,7 +83,7 @@ def train_transformer(model, train_dataloader, val_dataloader, epochs=3, early_s
     #run = wandb.init(project='irony-detection', name=f"{model_name}_{trained_on}_{fold_num+1}", group=f"{model_name}_{trained_on}", job_type='train')
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    optimizer = torch.optim.AdamW(model.parameters(), lr=0.000005)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     total_steps = len(train_dataloader) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
     prev_params = model.state_dict()
