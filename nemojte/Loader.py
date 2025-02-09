@@ -14,15 +14,6 @@ BALANCED_TEST_VALID_1S = 173
 BALANCED_TEST_VALID_0S = 287
 
 file_path_dict = {
-    #"train_sarcasm": "../datasets/sarcasm/sarcasm_train.csv",
-    #"test_sarcasm": "../datasets/sarcasm/sarcasm_test.csv",
-    #"valid_sarcasm": "../datasets/sarcasm/sarcasm_valid.csv",
-    #"train_irony": "../datasets/irony/irony_train.csv",
-    #"test_irony": "../datasets/irony/irony_test.csv",
-    #"valid_irony": "../datasets/irony/irony_valid.csv",
-    # "train_mix": "../datasets/mix/mix_train.csv",
-    # "test_mix": "../datasets/mix/mix_test.csv",
-    # "valid_mix": "../datasets/mix/mix_valid.csv",
     "train_task_a": "../datasets/taskA/taskA_train.csv",
     "test_task_a": "../datasets/taskA/taskA_test.csv",
     "valid_task_a": "../datasets/taskA/taskA_valid.csv",
@@ -43,8 +34,6 @@ file_path_dict = {
     "valid_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
     "test_isarcasm_sarc": "../datasets/crossval/sarcasm.csv",
     
-    
-    #crossval
     "train_polarity": "../datasets/crossval/polarity.csv",
     "valid_polarity": "../datasets/crossval/polarity.csv",
     "test_polarity": "../datasets/crossval/polarity.csv",
@@ -170,6 +159,8 @@ def clean_hashtags(sentence):
     return sentence
 
 def parse_dataset(fp, remove_hashtags=False, balance=False, dataset_type='train'):
+    balance = False
+    # don't use balance pls
     df = pd.read_csv(fp)
     corpus = df['tweet'].tolist()
     corpus = [normalizeTweet(tweet) for tweet in corpus]
