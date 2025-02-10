@@ -129,7 +129,9 @@ fold_size_dict = {
     "polarity_other": 105,
     "irony_ds": 70,
     "sarcasm_ds": 70,
+    "semeval_mix": 618 + 105,
     "semeval_mix_ds": 70,
+    "isarcasm_mix": 70 + 357,
     "isarcasm_mix_ds": 70,
     "mix_ds": 70,
     "irony_sarcasm_ds": 70
