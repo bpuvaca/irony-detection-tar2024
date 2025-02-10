@@ -1,70 +1,70 @@
 index,dataset,tweet,label,prediction,probability
-1,sarcasm,dont u just love when u get ready for a cancelled date two hours early . . . yeah i wasnt excited or anything,1,0
+1,sarcasm,dont u just love when u get ready for a cancelled date two hours early . . . yeah i wasnt excited or anything,1,1
 2,sarcasm,"Hearing I love you is nice and all , but has your SO ever told you to eat shit ? :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: ugh @USER",1,0
-3,sarcasm,@USER Neighbours,1,0
+3,sarcasm,@USER Neighbours,1,1
 4,sarcasm,You can help protect Hossein and Arman . Join me and @USER in calling on Iran to halt the executions now HTTPURL,0,0
 5,sarcasm,"such a good morning , computer froze , update then crashed my laptop , just spilt a cup of coffee . Can the week honestly get any better than this ! !",1,0
 6,sarcasm,"Jacob got me sunflowers and roses , is taking me to a crab boil ... AND got me the only sims game I did n't have . :loudly_crying_face: literally all my fav things",0,0
 7,sarcasm,@USER @USER @USER shit healer,0,0
-8,sarcasm,I love that we have to always pay by cash at the barbers . Sure would be a lot easier if they took card ...,1,0
-9,sarcasm,taking a social media cleanse deuces ✌🏾,0,0
+8,sarcasm,I love that we have to always pay by cash at the barbers . Sure would be a lot easier if they took card ...,1,1
+9,sarcasm,taking a social media cleanse deuces ✌🏾,0,1
 10,sarcasm,"to be completely honest , my ego is MASSIVE and i 'm not even sorry abt it :) )",0,0
-11,sarcasm,"was not back in the states for even 5 minutes before someone ran into me at the airport with their suitcase and said “ ope , sorry ! ” I 'm home :-)",0,0
+11,sarcasm,"was not back in the states for even 5 minutes before someone ran into me at the airport with their suitcase and said “ ope , sorry ! ” I 'm home :-)",0,1
 12,sarcasm,"The rate at which I go between thinking : ‘ it 's fine , I 've still got 3 weeks to write my dissertation ' and ‘ shit I 've only got three weeks to write my dissertation ' is causing some serious procrastination whiplash .",0,0
-13,sarcasm,Oh boy I can't wait for the next general election in which a population that has been completely screwed over by the Tories somehow manages to forget all of this and keep Boris Johnson in power ! I love our smart country !,1,0
-14,sarcasm,Just gotta realize no ones interested in what I have to say :OK_hand:,1,0
-15,sarcasm,im glad we finally have a party in opposition who are committed to taking the government to task for not making mistakes fast enough,1,0
+13,sarcasm,Oh boy I can't wait for the next general election in which a population that has been completely screwed over by the Tories somehow manages to forget all of this and keep Boris Johnson in power ! I love our smart country !,1,1
+14,sarcasm,Just gotta realize no ones interested in what I have to say :OK_hand:,1,1
+15,sarcasm,im glad we finally have a party in opposition who are committed to taking the government to task for not making mistakes fast enough,1,1
 16,sarcasm,"Have the most balanced diet , a healthy balance of codeine , panadol and ibuprofen ...",1,0
 17,sarcasm,Because of #Trump I now do n't have to worry about other countries making fun of me for being fat ! :doughnut: :chocolate_bar: :shortcake: :pizza: #Thankstotrump #America,1,0
 18,sarcasm,@USER Her family should definitely not seek mental health guidance . :grimacing_face:,1,0
 19,sarcasm,i 'm gonna get a boob job so i call myself a customizable doll,1,0
-20,sarcasm,"Wow . Liam Neeson is coming across as a rational man , is n't he ! ! ?",1,0
-21,sarcasm,2 busy working 2 care,1,0
-22,sarcasm,Do n't understand the scoring on #AllStarMusicals ? How has everyone got 10s apart from Barney ? His was the best so far by quite a bit,0,0
-23,sarcasm,I want one of those ninja insects . You know the guys,0,0
+20,sarcasm,"Wow . Liam Neeson is coming across as a rational man , is n't he ! ! ?",1,1
+21,sarcasm,2 busy working 2 care,1,1
+22,sarcasm,Do n't understand the scoring on #AllStarMusicals ? How has everyone got 10s apart from Barney ? His was the best so far by quite a bit,0,1
+23,sarcasm,I want one of those ninja insects . You know the guys,0,1
 24,sarcasm,Passed my PhD @USER today and I could not be happier ! ! HTTPURL,0,0
 25,sarcasm,So now that thats over how 's your day going guys ?,0,0
 26,sarcasm,"At this time more than most , it is important to celebrate #Pride2020 No one should ever be afraid to love who they love , or to show it . #Pride",0,0
-27,sarcasm,Nice to see the sheep getting their boosters to fully protect themselves,1,0
-28,sarcasm,Imagine not liking football :rolling_on_the_floor_laughing:,1,0
+27,sarcasm,Nice to see the sheep getting their boosters to fully protect themselves,1,1
+28,sarcasm,Imagine not liking football :rolling_on_the_floor_laughing:,1,1
 29,sarcasm,aw i had a dream i bought a big book of words and their meanings and now i 'm awake and sad ( also in the dream i was wondering around the most magical library / bookstore / gift shop ? ? ? ),0,0
-30,sarcasm,"Get ready for the next big horror game this season , Slender Suburban Man",1,0
+30,sarcasm,"Get ready for the next big horror game this season , Slender Suburban Man",1,1
 31,sarcasm,My bank account when I 'm bored and online shop during work HTTPURL,0,0
-32,sarcasm,So you think the vaccine is a bad idea then . Glad you have that PHD in immunology !,1,0
+32,sarcasm,So you think the vaccine is a bad idea then . Glad you have that PHD in immunology !,1,1
 33,sarcasm,"i 've never been a runner / very fast at all , and it 's been a year or two since i 've been in what i would consider good shape , but i decided to work on that this summer . since the beginning of June i 've gone from running an 18:29 mile to running a 14:06 mile , and i am so proud",0,0
-34,sarcasm,""" I can't wait to be a piece of shit with a bachelors degree """,1,0
+34,sarcasm,""" I can't wait to be a piece of shit with a bachelors degree """,1,1
 35,sarcasm,Totall Carloss ... #WTF1 @USER HTTPURL,0,0
-36,sarcasm,@USER @USER Has he given any clarification regarding what age Harvey Elliott needs to be before you can tackle him ?,1,0
-37,sarcasm,this bruh rly told me “ Ur anger issues are my playground :smiling_face_with_hearts: ” so uhh hmu if u wana be friends bc i need new ones k thx (:,1,0
-38,sarcasm,Great start to the day Neros was shut and now I 'm going akip on the bus :sleeping_face: :face_with_crossed-out_eyes:,1,0
-39,sarcasm,“ The number one freedom white people have in America is to remain totally ignorant about the injustices committed against those who are other than white ” - Jane Elliot,0,0
-40,sarcasm,Hailey convinced Tayler that putting a spoon in the microwave to scoop ice cream faster was a good idea,1,0
+36,sarcasm,@USER @USER Has he given any clarification regarding what age Harvey Elliott needs to be before you can tackle him ?,1,1
+37,sarcasm,this bruh rly told me “ Ur anger issues are my playground :smiling_face_with_hearts: ” so uhh hmu if u wana be friends bc i need new ones k thx (:,1,1
+38,sarcasm,Great start to the day Neros was shut and now I 'm going akip on the bus :sleeping_face: :face_with_crossed-out_eyes:,1,1
+39,sarcasm,“ The number one freedom white people have in America is to remain totally ignorant about the injustices committed against those who are other than white ” - Jane Elliot,0,1
+40,sarcasm,Hailey convinced Tayler that putting a spoon in the microwave to scoop ice cream faster was a good idea,1,1
 41,sarcasm,CLB cover art makes me want to pound my knees with a hammer .,1,0
 42,sarcasm,I accidentally made butter when trying to whip cream this morning and I think that 's a great representation of how I 've reached my capacity for working from home,1,0
 43,sarcasm,@USER fashion souls ! fashion souls ! fashion souls at lunch !,0,0
-44,sarcasm,Currently bombing aces on the volleyball court and math tests in the classroom . #StudentAthlete,1,0
-45,sarcasm,I love days when Rob works short call and is only at the hospital for * checks watch * 13 hours .,1,0
-46,sarcasm,Really impressed with the clear and unified messages coming from the government re Omicron and socialising over xmas ! !,1,0
+44,sarcasm,Currently bombing aces on the volleyball court and math tests in the classroom . #StudentAthlete,1,1
+45,sarcasm,I love days when Rob works short call and is only at the hospital for * checks watch * 13 hours .,1,1
+46,sarcasm,Really impressed with the clear and unified messages coming from the government re Omicron and socialising over xmas ! !,1,1
 47,sarcasm,Do n't expect others to help you if you do n't want to help yourself :speaking_head:,0,0
-48,sarcasm,"Wow the Prime Minister is so good at the telling the truth , yet again he just can't stop telling the truth about Brexit !",1,0
+48,sarcasm,"Wow the Prime Minister is so good at the telling the truth , yet again he just can't stop telling the truth about Brexit !",1,1
 49,sarcasm,feeling v grateful ! ! !,0,0
-50,sarcasm,me not turning up to work is a feminist movement actually,1,0
+50,sarcasm,me not turning up to work is a feminist movement actually,1,1
 51,sarcasm,I 've just spent 6 hours watching minecraft streamers instead of doing my homework I have no regrets,0,0
 52,sarcasm,@USER @USER they probably filled in the ground with something too dense for the roots to get into . clay or something like that,0,0
-53,sarcasm,The Suicide Squad felt like a remake of the Watchmen movie where they actually kept the giant squid .,0,0
+53,sarcasm,The Suicide Squad felt like a remake of the Watchmen movie where they actually kept the giant squid .,0,1
 54,sarcasm,have to somehow become fluent in Spanish in these 2 weeks before school starts because i bullshit my way through my past 2 semesters in online classes . it just set in that i 'll be in class with native speakers and i am so embarrassed already,0,0
 55,sarcasm,"@USER imagine your delivery being 2 hours late , and imagine calling up your service team only for them to hang up at 10pm , coincidentally the same time the office closes . But it 's okay , my £ 3 delivery fee is being refunded though 👊🏻",0,0
 56,sarcasm,What I 'd do to be able to get the sims on my Switch :weary_face:,0,0
 57,sarcasm,This is the XI I think should start against Russia at Euro 2016 . Who would you pick ? HTTPURL #MyEnglandXI via @USER,0,0
-58,sarcasm,ate a bagel with cream cheese earlier and the impending doom immediately vanished from my mind,1,0
+58,sarcasm,ate a bagel with cream cheese earlier and the impending doom immediately vanished from my mind,1,1
 59,sarcasm,a single man directed by tom ford simultaneously resurrected me from death only to brutally murder me once more .,1,0
-60,sarcasm,elrow at ushuaïa was bloody great,0,0
-61,sarcasm,I would like to offer my complete support for the new rules as they have obviously supported the public by sticking to them at all times,1,0
-62,sarcasm,Anyone else wanna ruin me day x,1,0
-63,sarcasm,In terms of usability is there a more frustrating web site than ebay ?,0,0
-64,sarcasm,"sorry for crying about paddington , i really did n't mean to",0,0
+60,sarcasm,elrow at ushuaïa was bloody great,0,1
+61,sarcasm,I would like to offer my complete support for the new rules as they have obviously supported the public by sticking to them at all times,1,1
+62,sarcasm,Anyone else wanna ruin me day x,1,1
+63,sarcasm,In terms of usability is there a more frustrating web site than ebay ?,0,1
+64,sarcasm,"sorry for crying about paddington , i really did n't mean to",0,1
 65,sarcasm,Nothing warms my heart more than seeing everybody come together and attack Westside 's administration :red_heart: #WycoPride #YeeYee,1,0
-66,sarcasm,i have bags under my eyes because im tired of your bs :),1,0
+66,sarcasm,i have bags under my eyes because im tired of your bs :),1,1
 67,sarcasm,My president HTTPURL,0,0
 68,sarcasm,PLT slamming their brand name on everything winds me up . You 'll find something really nice but it 's got ‘ PRETTY LITTLE THING ' written in caps all over the front :weary_face:,0,0
 69,sarcasm,@USER Sorry I was so pessimistic :pensive_face:,0,0

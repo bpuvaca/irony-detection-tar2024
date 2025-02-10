@@ -1,71 +1,71 @@
 index,dataset,tweet,label,prediction,probability
-1,sarcasm,I have every confidence in our government 's Covid action plan this Christmas :face_with_rolling_eyes:,1,1,0.55254984
-2,sarcasm,"3 classes down , 2 more to go and then I 'm halfway finished college :flushed_face:",0,1,0.5546842
-3,sarcasm,started telling my dutch friends about how i 've not really tried much liquorice while watching this fundy and 5up sweet tasting stream and they 're now planning on potentially sending me some over to try which is very sweet of them,0,0,0.441208
-4,sarcasm,2021 will u think about me ?,0,1,0.52773803
-5,sarcasm,the thought of one of my siblings getting my room when i go to uni makes me sad af :pensive_face:,0,1,0.54661894
-6,sarcasm,I can't count the amount of times over the years I 've just forgotten I have my nose pierced and I 've just been reminded again by a tiktok,0,0,0.47601148
-7,sarcasm,You have to love politics - all talk and no action .,1,1,0.5787803
-8,sarcasm,turning 22 next week so naturally I increased my tinder age range up to 60,1,0,0.49137414
-9,sarcasm,. @USER anyway you 'd want to come to the Jazz ?,0,1,0.52213454
-10,sarcasm,@USER Please DO YOUR JOB or resign . Enough is enough .,0,1,0.5426069
-11,sarcasm,Anyone selling a parklife weekend ticket ? ?,0,1,0.54594886
-12,sarcasm,I remember when I was a kid how I used to troll my dad . I 'd be watching a film on sky movies and then when I knew he was in the other room I would say out loud ‘ wow look at the tits on her ' He would come back in the room and nothing was there but he 'd ask questions like ...,0,0,0.4175635
-13,sarcasm,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,1,0.5627783
-14,sarcasm,Oh my what was that noise ? The dog is n't happy either ! #loudbang,0,0,0.4536646
-15,sarcasm,"New levels of desperation : sleep is now truly insignificant to me . In fact , it 's a downright annoyance .",1,1,0.5553287
-16,sarcasm,"am i the only one who gets "" tomorrow "" confused with "" tomato """,0,0,0.47532287
-17,sarcasm,"Watched 127 hours ... Kinda reminded me of this one time I got a bad splinter . Writing a book about it now , hit me up for an autographed copy",1,0,0.48719546
-18,sarcasm,"Ya know , I missed a lot of things during Covid , but movie theater popcorn might top the list .",0,1,0.5611752
-19,sarcasm,"Yay - snow day , I can work from home - oh wait ...",1,1,0.5202385
-20,sarcasm,i miss classes being online 😵‍💫,0,1,0.568488
-21,sarcasm,IMAGINE the outcry if SNP voters went and celebrated this win that actually means something in the same way that Rangers fans ‘ celebrated ' a few weeks ago over football game .,0,0,0.46071723
-22,sarcasm,Do you think anyone on Bachelor in Paradise has seen Oscar winner Parasite ?,1,0,0.46057996
-23,sarcasm,Love it when someone with no mask chooses to sit next to me on the bus ... :expressionless_face:,1,1,0.5464031
-24,sarcasm,"Well , my vaccinated therapist tested positive for Covid . Hope she 's okay and hope my mental health hangs on for 10 extra days .",0,1,0.5426355
-25,sarcasm,My dream is to be left alone .,1,1,0.53910303
-26,sarcasm,"I unsubscribe from being an adult , its not for me",1,1,0.5059087
-27,sarcasm,"not to brag , but my thesis topic was so good that someone else published on it three months ago :upside-down_face:",1,0,0.48745558
-28,sarcasm,@USER My neice ( 4 or 5 at the time ) * loved * playing Mario Kart 8 with her dad using the acceleration and steering assists . Before that she was mostly a spectator while he played kid-friendly games like Ape Escape .,0,0,0.4426131
-29,sarcasm,i 'm dying,1,1,0.5924208
-30,sarcasm,So weird how Venmo has n't venmoed me yet really thought I was the one,1,0,0.45070267
-31,sarcasm,we love when the power goes out at 6:30 in the morning on a wednesday HTTPURL,1,1,0.55930704
-32,sarcasm,Who 's bored at home ?,0,1,0.5719871
-33,sarcasm,Was fun . Looking forward to the next one ! #podcasts HTTPURL,0,1,0.56344086
-34,sarcasm,"So we actually have to do hot girl summer without 1989 Taylor 's version . , I 'm sick",1,0,0.4889684
-35,sarcasm,"Aye these vaccines are dangerous to your health like . But see the charlie that you put up your nose at weekends , totally fine .",1,0,0.47749245
-36,sarcasm,i want to go to kings island again before summer is over,0,1,0.57536054
-37,sarcasm,‘ It 's only a game ' :woozy_face: :woozy_face:,1,1,0.5496787
-38,sarcasm,Lol i actually realized that I 've justified not working out for the past three months by telling myself that my hair was too short to fit in a ponytail .,0,0,0.44039077
-39,sarcasm,We really need to remind people that universal healthcare means never needing to sit through another annual explanation of benefits meeting,1,1,0.52897954
-40,sarcasm,shoutout to the assholes at basically every gas station rn filling up multiple gas canisters when i do n't even have enough gas to get home ... :smiling_face_with_tear:,1,1,0.5051674
-41,sarcasm,It 's really very selfish of Silverstone to be saying the 2022 Grand Prix is 1/7- 3/7 cause my holiday year starts on 1/7 and I would have to use a day of this years holiday allowance to go . I should have been consulted really 😵‍💫 😵‍💫 😵‍💫,1,0,0.46502963
-42,sarcasm,"If your website still has a google plus share button , forgive me if I 'm not tripping over myself to take your information as credible or current .",1,1,0.51116514
-43,sarcasm,"@USER @USER Has n't he opened a few new hospitals ? Oh sorry , maybe it was a new first aid box .",1,0,0.44312996
-44,sarcasm,@USER Yo jim I put my life savings in $ didi at $ 16 as per your request now me and my family are eating MREs in full survival mode What should I do ?,1,0,0.4583631
-45,sarcasm,Trying to meet my friend and she 's literally lost in John Lewis omg,0,1,0.5428756
-46,sarcasm,i almost forgot to tweet about jason bateman today,0,1,0.5387361
-47,sarcasm,"@USER My mother in law says “ grandma-great ” instead of “ great-grandma . ” Among many other mispronunciations , but that one came to mind first .",0,0,0.4647821
-48,sarcasm,"Worst mistake you can ever make is not taking ur mates advice , hands down",0,1,0.5081848
-49,sarcasm,The phrase “ the white people of black people ” was coined to explain cishet black men 's privilege over other identities within the black community . Not to just throw around when y'all are annoyed / hateful :face_with_rolling_eyes:,0,0,0.45056307
-50,sarcasm,It 's been a productive last day . Maxed Out all my credit cards in preparation of my Rapture tomorrow ! ! ! #iwishwehadallbeenready,1,1,0.531734
-51,sarcasm,idk why but my norms wr skyrockets when I solo q,0,1,0.5016317
-52,sarcasm,This is my buddy @USER . He is a deep thinker . #Nashville #BaileysfantasycampTN @USER @USER HTTPURL,0,0,0.45835057
-53,sarcasm,"Few of us who are in "" low classed jobs "" who are still in work as we are classed as essential workers are the same people who were claiming UC over the past few years & got scrutinised for it . #UniversalCredit is trending because now people see how UC is n't just for "" lower class "" .",0,0,0.39409536
-54,sarcasm,Boris Johnson is not a clown . The conservative party is not corrupt .,1,1,0.5092078
-55,sarcasm,I have n't seen my best friend in over a year I am not coping well :( (,0,0,0.47306645
-56,sarcasm,@USER @USER Well I doubt they 're trying to smash the doors in to change the regulation of cough medicine .,1,0,0.44779265
-57,sarcasm,Just rediscovered that my nose is always in my field of vision so I will unfortunately be dropping out as I can not continue my assigned readings in peace,1,0,0.46833566
-58,sarcasm,"Bart is closed rn in Oakland so I can't go to work , I 'm so upset ...",1,0,0.47623524
-59,sarcasm,Really really happy to be woken up at 6:30 am again by the next door neighbour 's dog barking . Thanks a lot for that I appreciate it loads :face_with_raised_eyebrow:,1,1,0.5236879
-60,sarcasm,"@USER Yes , because we really have that sort of power . Why do brexity types always sound like they are all paranoid conspiracy therorists ?",1,0,0.49071798
-61,sarcasm,@USER Have seen better acting on Casualty :see-no-evil_monkey:,0,1,0.5326548
-62,sarcasm,"Just caught Jamie talking about me with his nan , he showed her a picture he took of me and she said "" aw she 's gorgeous is n't she "" MY HEART :pleading_face: :two_hearts:",0,1,0.5598677
-63,sarcasm,THAT'S MY BEST FRIEND :heart_suit: :heart_suit: HTTPURL,0,1,0.5629956
-64,sarcasm,I stole a book in Skyrim and somebody sent hired thugs after me,0,0,0.45731565
-65,sarcasm,I 'm going back to work exactly 8 weeks postpartum and that just does n't sit right with me,0,0,0.4415676
-66,sarcasm,you ever completely embarrass yourself on zoom and decide to drop out of college ?,1,1,0.5270386
-67,sarcasm,Nothing can ruin a summer like hayfever,0,1,0.5934908
-68,sarcasm,apparently it 's national siblings day ? idgaf :skull:,1,1,0.53066885
-69,sarcasm,"@USER Publisher , not developer .",0,1,0.53937703
-70,sarcasm,Just came online to remind y'all that Davido is still The King .,0,0,0.49599847
+1,sarcasm,I have every confidence in our government 's Covid action plan this Christmas :face_with_rolling_eyes:,1,1,0.72938645
+2,sarcasm,"3 classes down , 2 more to go and then I 'm halfway finished college :flushed_face:",0,1,0.7790146
+3,sarcasm,started telling my dutch friends about how i 've not really tried much liquorice while watching this fundy and 5up sweet tasting stream and they 're now planning on potentially sending me some over to try which is very sweet of them,0,0,0.36328888
+4,sarcasm,2021 will u think about me ?,0,1,0.5484693
+5,sarcasm,the thought of one of my siblings getting my room when i go to uni makes me sad af :pensive_face:,0,1,0.72704965
+6,sarcasm,I can't count the amount of times over the years I 've just forgotten I have my nose pierced and I 've just been reminded again by a tiktok,0,0,0.35160813
+7,sarcasm,You have to love politics - all talk and no action .,1,1,0.5906924
+8,sarcasm,turning 22 next week so naturally I increased my tinder age range up to 60,1,1,0.52754086
+9,sarcasm,. @USER anyway you 'd want to come to the Jazz ?,0,0,0.40863082
+10,sarcasm,@USER Please DO YOUR JOB or resign . Enough is enough .,0,0,0.20832641
+11,sarcasm,Anyone selling a parklife weekend ticket ? ?,0,1,0.69023794
+12,sarcasm,I remember when I was a kid how I used to troll my dad . I 'd be watching a film on sky movies and then when I knew he was in the other room I would say out loud ‘ wow look at the tits on her ' He would come back in the room and nothing was there but he 'd ask questions like ...,0,0,0.270972
+13,sarcasm,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,1,0.72154963
+14,sarcasm,Oh my what was that noise ? The dog is n't happy either ! #loudbang,0,1,0.5034295
+15,sarcasm,"New levels of desperation : sleep is now truly insignificant to me . In fact , it 's a downright annoyance .",1,1,0.64738196
+16,sarcasm,"am i the only one who gets "" tomorrow "" confused with "" tomato """,0,0,0.4814903
+17,sarcasm,"Watched 127 hours ... Kinda reminded me of this one time I got a bad splinter . Writing a book about it now , hit me up for an autographed copy",1,1,0.5624182
+18,sarcasm,"Ya know , I missed a lot of things during Covid , but movie theater popcorn might top the list .",0,1,0.5422863
+19,sarcasm,"Yay - snow day , I can work from home - oh wait ...",1,1,0.7966331
+20,sarcasm,i miss classes being online 😵‍💫,0,1,0.6000463
+21,sarcasm,IMAGINE the outcry if SNP voters went and celebrated this win that actually means something in the same way that Rangers fans ‘ celebrated ' a few weeks ago over football game .,0,0,0.32544255
+22,sarcasm,Do you think anyone on Bachelor in Paradise has seen Oscar winner Parasite ?,1,0,0.3858888
+23,sarcasm,Love it when someone with no mask chooses to sit next to me on the bus ... :expressionless_face:,1,1,0.6603515
+24,sarcasm,"Well , my vaccinated therapist tested positive for Covid . Hope she 's okay and hope my mental health hangs on for 10 extra days .",0,0,0.40195942
+25,sarcasm,My dream is to be left alone .,1,1,0.58395386
+26,sarcasm,"I unsubscribe from being an adult , its not for me",1,0,0.43032563
+27,sarcasm,"not to brag , but my thesis topic was so good that someone else published on it three months ago :upside-down_face:",1,1,0.58035064
+28,sarcasm,@USER My neice ( 4 or 5 at the time ) * loved * playing Mario Kart 8 with her dad using the acceleration and steering assists . Before that she was mostly a spectator while he played kid-friendly games like Ape Escape .,0,0,0.3832093
+29,sarcasm,i 'm dying,1,1,0.58560354
+30,sarcasm,So weird how Venmo has n't venmoed me yet really thought I was the one,1,0,0.2860478
+31,sarcasm,we love when the power goes out at 6:30 in the morning on a wednesday HTTPURL,1,0,0.46426016
+32,sarcasm,Who 's bored at home ?,0,1,0.61880106
+33,sarcasm,Was fun . Looking forward to the next one ! #podcasts HTTPURL,0,0,0.4084661
+34,sarcasm,"So we actually have to do hot girl summer without 1989 Taylor 's version . , I 'm sick",1,1,0.57106435
+35,sarcasm,"Aye these vaccines are dangerous to your health like . But see the charlie that you put up your nose at weekends , totally fine .",1,0,0.45289114
+36,sarcasm,i want to go to kings island again before summer is over,0,1,0.6664173
+37,sarcasm,‘ It 's only a game ' :woozy_face: :woozy_face:,1,1,0.6212953
+38,sarcasm,Lol i actually realized that I 've justified not working out for the past three months by telling myself that my hair was too short to fit in a ponytail .,0,1,0.6178546
+39,sarcasm,We really need to remind people that universal healthcare means never needing to sit through another annual explanation of benefits meeting,1,0,0.32126433
+40,sarcasm,shoutout to the assholes at basically every gas station rn filling up multiple gas canisters when i do n't even have enough gas to get home ... :smiling_face_with_tear:,1,0,0.4798644
+41,sarcasm,It 's really very selfish of Silverstone to be saying the 2022 Grand Prix is 1/7- 3/7 cause my holiday year starts on 1/7 and I would have to use a day of this years holiday allowance to go . I should have been consulted really 😵‍💫 😵‍💫 😵‍💫,1,0,0.35369638
+42,sarcasm,"If your website still has a google plus share button , forgive me if I 'm not tripping over myself to take your information as credible or current .",1,0,0.21386176
+43,sarcasm,"@USER @USER Has n't he opened a few new hospitals ? Oh sorry , maybe it was a new first aid box .",1,0,0.2510022
+44,sarcasm,@USER Yo jim I put my life savings in $ didi at $ 16 as per your request now me and my family are eating MREs in full survival mode What should I do ?,1,0,0.34363252
+45,sarcasm,Trying to meet my friend and she 's literally lost in John Lewis omg,0,1,0.63130575
+46,sarcasm,i almost forgot to tweet about jason bateman today,0,1,0.53456116
+47,sarcasm,"@USER My mother in law says “ grandma-great ” instead of “ great-grandma . ” Among many other mispronunciations , but that one came to mind first .",0,0,0.3564199
+48,sarcasm,"Worst mistake you can ever make is not taking ur mates advice , hands down",0,1,0.5350641
+49,sarcasm,The phrase “ the white people of black people ” was coined to explain cishet black men 's privilege over other identities within the black community . Not to just throw around when y'all are annoyed / hateful :face_with_rolling_eyes:,0,1,0.60870373
+50,sarcasm,It 's been a productive last day . Maxed Out all my credit cards in preparation of my Rapture tomorrow ! ! ! #iwishwehadallbeenready,1,1,0.6422323
+51,sarcasm,idk why but my norms wr skyrockets when I solo q,0,1,0.51164174
+52,sarcasm,This is my buddy @USER . He is a deep thinker . #Nashville #BaileysfantasycampTN @USER @USER HTTPURL,0,0,0.24609457
+53,sarcasm,"Few of us who are in "" low classed jobs "" who are still in work as we are classed as essential workers are the same people who were claiming UC over the past few years & got scrutinised for it . #UniversalCredit is trending because now people see how UC is n't just for "" lower class "" .",0,0,0.20147529
+54,sarcasm,Boris Johnson is not a clown . The conservative party is not corrupt .,1,0,0.35027656
+55,sarcasm,I have n't seen my best friend in over a year I am not coping well :( (,0,0,0.3288672
+56,sarcasm,@USER @USER Well I doubt they 're trying to smash the doors in to change the regulation of cough medicine .,1,0,0.18927597
+57,sarcasm,Just rediscovered that my nose is always in my field of vision so I will unfortunately be dropping out as I can not continue my assigned readings in peace,1,0,0.476549
+58,sarcasm,"Bart is closed rn in Oakland so I can't go to work , I 'm so upset ...",1,0,0.23593462
+59,sarcasm,Really really happy to be woken up at 6:30 am again by the next door neighbour 's dog barking . Thanks a lot for that I appreciate it loads :face_with_raised_eyebrow:,1,1,0.7404142
+60,sarcasm,"@USER Yes , because we really have that sort of power . Why do brexity types always sound like they are all paranoid conspiracy therorists ?",1,0,0.35762948
+61,sarcasm,@USER Have seen better acting on Casualty :see-no-evil_monkey:,0,0,0.47245508
+62,sarcasm,"Just caught Jamie talking about me with his nan , he showed her a picture he took of me and she said "" aw she 's gorgeous is n't she "" MY HEART :pleading_face: :two_hearts:",0,1,0.7029596
+63,sarcasm,THAT'S MY BEST FRIEND :heart_suit: :heart_suit: HTTPURL,0,1,0.5015489
+64,sarcasm,I stole a book in Skyrim and somebody sent hired thugs after me,0,0,0.41169742
+65,sarcasm,I 'm going back to work exactly 8 weeks postpartum and that just does n't sit right with me,0,0,0.4655948
+66,sarcasm,you ever completely embarrass yourself on zoom and decide to drop out of college ?,1,0,0.47027442
+67,sarcasm,Nothing can ruin a summer like hayfever,0,1,0.7105706
+68,sarcasm,apparently it 's national siblings day ? idgaf :skull:,1,1,0.72944486
+69,sarcasm,"@USER Publisher , not developer .",0,0,0.44171837
+70,sarcasm,Just came online to remind y'all that Davido is still The King .,0,0,0.36250898

@@ -1,71 +1,71 @@
 index,dataset,tweet,label,prediction,probability
-1,sarcasm,"@USER @USER @USER I did too , and I also reported Cancun Cruz not worrying about the heartbeats of his constituents without electricity or heat when he fled to Mexico .",1,1,0.52619976
-2,sarcasm,@USER This aged well,1,1,0.5369808
-3,sarcasm,"this narrative of "" protection "" that women require is infantilising and off-base . it implies requiring smothering as opposed to freedom to occupy spaces , yknow , as people .",0,1,0.5326302
-4,sarcasm,"Lucky for @USER , only MVPs get tossed for those kinds of fouls #76ers #ATLvsPHI #hawks #NBAPlayoffs",1,1,0.53843015
-5,sarcasm,Happy to be part of the team ! HTTPURL,0,1,0.5286146
-6,sarcasm,Learn about what we do in the Brain and Behaviour Lab at the #UniversityofPortsmouth #zebrafish HTTPURL,0,1,0.52378315
-7,sarcasm,Does anyone have any recommendations for over the counter topical pain relief that actually works ?,0,1,0.5439591
-8,sarcasm,wow this growth spurt is really taking longer than i thought haha,1,1,0.54410267
-9,sarcasm,Elaine Quijano exhibits roughly the same amount of control over this debate as two rabbits do on their first date .,1,1,0.5283961
-10,sarcasm,"#bbcqt It sure would be nice if Ms May decided to answer a question , rather than dance readily around it .",1,1,0.5144479
-11,sarcasm,we hit 17 % of americans fully vaccinated in case anyone was wondering,0,1,0.52125734
-12,sarcasm,"Masks work , that 's why we do n't have to wear them in pubs but do in shops !",1,1,0.5377726
-13,sarcasm,hot girls have tree shaped dents in their rear bumpers :red_heart:,1,1,0.5389735
-14,sarcasm,Sitting next to the world 's loudest mouth-breather on the first day of class did a really good job of demystifying grad school for me today,1,1,0.5336562
-15,sarcasm,"We 'll be giving classic , cult and trashy movies away next week at our charity horror night - HTTPURL :film_projector: :skull: :coffin: :kitchen_knife: :ogre: HTTPURL",0,1,0.54111373
-16,sarcasm,"Oh boy , a song I 'm gonna play on repeat until it makes me physically ill to hear it ! Thanks FOB",1,1,0.561077
-17,sarcasm,"Just signed up for Apple 's Ping , told it I like ' classical ' and it points me towards Lady Gaga . It takes a certain genius to be this crap .",1,1,0.5405153
-18,sarcasm,i forgot i have tickets to the disney princess broadway celebration in november um i hope that they replace laura with christy altomare,0,1,0.5313934
-19,sarcasm,I feel like with the pandemic and all we should now be allowed to publicly shame babies for just like coughing into the open air you know what I mean,1,1,0.5144194
-20,sarcasm,the only ppl who should be worried about Biden 's tax plan r the ones who get gifts for easter,1,1,0.54382765
-21,sarcasm,Always glad to live in Kent :see-no-evil_monkey: :see-no-evil_monkey:,1,1,0.5341139
-22,sarcasm,There is not enough people here #ivoryrooms,1,1,0.53307444
-23,sarcasm,@USER yet again breaking the UK formula marketing rules . Please educate your staff . @USER HTTPURL,0,1,0.5227715
-24,sarcasm,"Today I learned what "" ghost nipples "" are .",0,1,0.5240263
-25,sarcasm,it 's literally so hard being this hot and sexy and beautiful everyday,1,1,0.534001
-26,sarcasm,"underwater uber , also known as scuber",0,1,0.53103817
-27,sarcasm,yo ima hott mess but at least i 'm hott,0,1,0.5306005
-28,sarcasm,"Submitted my application for PhD funding today , then shit myself and wanted to withdraw it :face_with_tears_of_joy: :see-no-evil_monkey:",0,1,0.5300413
-29,sarcasm,tanning in this heat is an extreme sport,1,1,0.52787095
-30,sarcasm,"So you can't really get huckleberries outside of MT / WY area because they 're hard to cultivate and need to be picked by hand at high altitudes , making them ~ $ 65 / lb . But bears love em and will go to town and eat like $ 300 of huckleberries in a sitting and I love thinking about that",0,1,0.5295711
-31,sarcasm,Liberty just went 95 yards on us with ease . Damn we 're so soft,0,1,0.5005805
-32,sarcasm,"Some pretty great things are happening at the call center . Listen in to 104.5 for the Care-A-Thon ! Each dollar is being matched , my friends !",0,1,0.5555292
-33,sarcasm,what if the next iteration of onlyfans was run by women ? ceo : @USER investors : @USER @USER @USER @USER @USER @USER @USER software engineers ( sry if incorrect terminology ): @USER @USER marketing : @USER HTTPURL,0,1,0.5233089
-34,sarcasm,"Ok , so @USER and I decided to record on the evening of the 6th , just as absolutely nothing newsworthy was happening ! Perfect timing as always , to go over some of the best ITSBUPs of 2020 - and how we 're settling into 2021 ! Listen : HTTPURL HTTPURL",1,1,0.5230277
-35,sarcasm,Amazing how fast this team can go winning from 13 straight to losing three in a row . Lol . Horrible managing tonight . I really hope this Boone experiment is over soon .,1,1,0.53327703
-36,sarcasm,Living with a str * ight man is like living with a four year old,0,1,0.5445686
-37,sarcasm,Wow great album from Kanye . v John Cage 4 ' 43 vibes x,1,1,0.53499436
-38,sarcasm,ITS COMING HOOOOOME,1,1,0.5473134
-39,sarcasm,"Are GoFundMe accounts a form of socialism ? I do n't have enough money to pay my bills , so let me create an account an ask for money to help pay my bills . ? ?",1,1,0.5275319
-40,sarcasm,Beautician and the Beast ( 1997 ) . Best Timothy Dalton film of all time .,1,1,0.5105867
-41,sarcasm,"Knocked on a door to deliver a parcel , waited 30secs then I see the parcel had a safeplace so went to the neighbour . Then this moody 20yr old answered the door in a Spurs shirt talking shit , so I laugh and say was u crying about Harry Kane , is that why u took so long to answer :rolling_on_the_floor_laughing:",0,1,0.5177384
-42,sarcasm,I just do n't think it 's too much to have a perfect life with absolutely no problems 🤷🏻‍♀,1,1,0.5261489
-43,sarcasm,i am sometimes one of the most blondest people out there its a pity my hair colour doesnt match which would make it the perfect combo haha,1,1,0.5339521
-44,sarcasm,i 've come to the conclusion i do n't rly like strawberries & i think they 're overrated,0,1,0.55116653
-45,sarcasm,fully vaxxed feeling very girlboss,1,1,0.5340507
-46,sarcasm,my bf took my off his lock screen which obvi means he 's cheating on me,1,1,0.5199821
-47,sarcasm,Not me seriously debating buying a singular can of monsta energy of amazon because I 'm really craving one but I 'd feel guilty if I went into Tesco just to buy one,0,1,0.51590365
-48,sarcasm,"first day of work , and i 've already cried on the job :thumbs_up:",1,1,0.53749037
-49,sarcasm,@USER @USER Damn ! At my wedding we drank enough to make up for the no shows ! :thinking_face:,0,1,0.53216636
-50,sarcasm,"If you watch #TheCrown and do n't simultaneously wiki deep-dive on the royal family , did you even watch The Crown ?",1,1,0.5299827
-51,sarcasm,Lil Pump is the Nelson Mandela of our generation,1,1,0.5336323
-52,sarcasm,being sick w a nose piercing is rly annoying,0,1,0.5388965
-53,sarcasm,As a kid I definitely thought I 'd come into contact with quick sand way more than I have,0,1,0.5344447
-54,sarcasm,I wish Facebook would introduce a ‘ rude ' option on its ‘ like ' panel . I feel ‘ wow ' does n't cover it . Maybe it could be a middle finger .,0,1,0.5226458
-55,sarcasm,"Someone in the pub just described the England team as "" a bunch of Marxists "" . Makes you proud does n't it ?",1,1,0.5196632
-56,sarcasm,#Snowden Sad to see intelligent Americans fall victim to the US propaganda machine in this case . So many lies set up to discredit by the US .,0,1,0.5209953
-57,sarcasm,"Hear me out ... The lyrics in "" coney island "" should 've been "" lost again with no surprises , disappointments close your EYESES "" Fixed it for you @USER :winking_face: #evermorealbum @USER",1,1,0.5287798
-58,sarcasm,Frankie is so lucky to have some amazing people in his life . Those that have n't bothered are missing out !,0,1,0.53525865
-59,sarcasm,@USER Riveting news .,1,1,0.532575
-60,sarcasm,my grandpa has covid so i made a lil care package with his fave snacks and a big blanket . he 's vaccinated and it 's still hitting him hard . i 'm really sick and tired of the my body my choice mentality behind anti vaxxers bc it 's not just your body you 're making a choice for . god .,0,1,0.5320199
-61,sarcasm,Mad how many cars they make now without indicators :upside-down_face:,1,1,0.52425265
-62,sarcasm,Sometimes I forget giraffes exist :flushed_face: I meannnnn ... wtf is they,0,1,0.52454126
-63,sarcasm,If I were the Red Sox I would simply play the Orioles more,1,1,0.5336513
-64,sarcasm,"how would u kiss ur gorgon gf goodnight , , , so many little snake faces to kiss , , , it would take so long",0,1,0.54241043
-65,sarcasm,"@USER Garlic has antiseptic qualities . However , a famous French dish that requires 40 cloves and wine with slow cooked chicken maybe a step too far .",0,1,0.5469488
-66,sarcasm,wish i could ctrl + f my bedroom,0,1,0.5306023
-67,sarcasm,mentally I 'm hiding in the walk-in,1,1,0.5269549
-68,sarcasm,finding vegetarian chocolate mousse is such an annoyingly hard task to do,0,1,0.53278697
-69,sarcasm,"Lucky for 2nd placed Brentford that there 's no stand out team like Leeds this year , or they might have no chance of winning the league . #ncfc",1,1,0.5323759
-70,sarcasm,"For a good laugh , follow me over on @USER to see my best attempt at covering sports business news for class this semester .",1,1,0.52586466
+1,sarcasm,"@USER @USER @USER I did too , and I also reported Cancun Cruz not worrying about the heartbeats of his constituents without electricity or heat when he fled to Mexico .",1,0,0.47526643
+2,sarcasm,@USER This aged well,1,1,0.51094604
+3,sarcasm,"this narrative of "" protection "" that women require is infantilising and off-base . it implies requiring smothering as opposed to freedom to occupy spaces , yknow , as people .",0,1,0.51047945
+4,sarcasm,"Lucky for @USER , only MVPs get tossed for those kinds of fouls #76ers #ATLvsPHI #hawks #NBAPlayoffs",1,0,0.45689073
+5,sarcasm,Happy to be part of the team ! HTTPURL,0,1,0.5427681
+6,sarcasm,Learn about what we do in the Brain and Behaviour Lab at the #UniversityofPortsmouth #zebrafish HTTPURL,0,1,0.522464
+7,sarcasm,Does anyone have any recommendations for over the counter topical pain relief that actually works ?,0,1,0.60069937
+8,sarcasm,wow this growth spurt is really taking longer than i thought haha,1,1,0.6504386
+9,sarcasm,Elaine Quijano exhibits roughly the same amount of control over this debate as two rabbits do on their first date .,1,1,0.5019041
+10,sarcasm,"#bbcqt It sure would be nice if Ms May decided to answer a question , rather than dance readily around it .",1,1,0.5737652
+11,sarcasm,we hit 17 % of americans fully vaccinated in case anyone was wondering,0,1,0.5914494
+12,sarcasm,"Masks work , that 's why we do n't have to wear them in pubs but do in shops !",1,1,0.5972762
+13,sarcasm,hot girls have tree shaped dents in their rear bumpers :red_heart:,1,1,0.6532403
+14,sarcasm,Sitting next to the world 's loudest mouth-breather on the first day of class did a really good job of demystifying grad school for me today,1,1,0.6200889
+15,sarcasm,"We 'll be giving classic , cult and trashy movies away next week at our charity horror night - HTTPURL :film_projector: :skull: :coffin: :kitchen_knife: :ogre: HTTPURL",0,0,0.4885764
+16,sarcasm,"Oh boy , a song I 'm gonna play on repeat until it makes me physically ill to hear it ! Thanks FOB",1,1,0.67611676
+17,sarcasm,"Just signed up for Apple 's Ping , told it I like ' classical ' and it points me towards Lady Gaga . It takes a certain genius to be this crap .",1,1,0.56216145
+18,sarcasm,i forgot i have tickets to the disney princess broadway celebration in november um i hope that they replace laura with christy altomare,0,1,0.5696149
+19,sarcasm,I feel like with the pandemic and all we should now be allowed to publicly shame babies for just like coughing into the open air you know what I mean,1,1,0.59030974
+20,sarcasm,the only ppl who should be worried about Biden 's tax plan r the ones who get gifts for easter,1,1,0.5675278
+21,sarcasm,Always glad to live in Kent :see-no-evil_monkey: :see-no-evil_monkey:,1,1,0.6648026
+22,sarcasm,There is not enough people here #ivoryrooms,1,1,0.54715484
+23,sarcasm,@USER yet again breaking the UK formula marketing rules . Please educate your staff . @USER HTTPURL,0,1,0.5830465
+24,sarcasm,"Today I learned what "" ghost nipples "" are .",0,1,0.56814903
+25,sarcasm,it 's literally so hard being this hot and sexy and beautiful everyday,1,1,0.59380805
+26,sarcasm,"underwater uber , also known as scuber",0,1,0.5777653
+27,sarcasm,yo ima hott mess but at least i 'm hott,0,1,0.58316684
+28,sarcasm,"Submitted my application for PhD funding today , then shit myself and wanted to withdraw it :face_with_tears_of_joy: :see-no-evil_monkey:",0,1,0.62776417
+29,sarcasm,tanning in this heat is an extreme sport,1,1,0.6427631
+30,sarcasm,"So you can't really get huckleberries outside of MT / WY area because they 're hard to cultivate and need to be picked by hand at high altitudes , making them ~ $ 65 / lb . But bears love em and will go to town and eat like $ 300 of huckleberries in a sitting and I love thinking about that",0,0,0.49162126
+31,sarcasm,Liberty just went 95 yards on us with ease . Damn we 're so soft,0,1,0.5657657
+32,sarcasm,"Some pretty great things are happening at the call center . Listen in to 104.5 for the Care-A-Thon ! Each dollar is being matched , my friends !",0,0,0.49363136
+33,sarcasm,what if the next iteration of onlyfans was run by women ? ceo : @USER investors : @USER @USER @USER @USER @USER @USER @USER software engineers ( sry if incorrect terminology ): @USER @USER marketing : @USER HTTPURL,0,0,0.4046958
+34,sarcasm,"Ok , so @USER and I decided to record on the evening of the 6th , just as absolutely nothing newsworthy was happening ! Perfect timing as always , to go over some of the best ITSBUPs of 2020 - and how we 're settling into 2021 ! Listen : HTTPURL HTTPURL",1,0,0.4903903
+35,sarcasm,Amazing how fast this team can go winning from 13 straight to losing three in a row . Lol . Horrible managing tonight . I really hope this Boone experiment is over soon .,1,1,0.5840144
+36,sarcasm,Living with a str * ight man is like living with a four year old,0,1,0.58235145
+37,sarcasm,Wow great album from Kanye . v John Cage 4 ' 43 vibes x,1,1,0.5876152
+38,sarcasm,ITS COMING HOOOOOME,1,1,0.5700476
+39,sarcasm,"Are GoFundMe accounts a form of socialism ? I do n't have enough money to pay my bills , so let me create an account an ask for money to help pay my bills . ? ?",1,1,0.61091214
+40,sarcasm,Beautician and the Beast ( 1997 ) . Best Timothy Dalton film of all time .,1,1,0.5243542
+41,sarcasm,"Knocked on a door to deliver a parcel , waited 30secs then I see the parcel had a safeplace so went to the neighbour . Then this moody 20yr old answered the door in a Spurs shirt talking shit , so I laugh and say was u crying about Harry Kane , is that why u took so long to answer :rolling_on_the_floor_laughing:",0,1,0.5052756
+42,sarcasm,I just do n't think it 's too much to have a perfect life with absolutely no problems 🤷🏻‍♀,1,1,0.60141003
+43,sarcasm,i am sometimes one of the most blondest people out there its a pity my hair colour doesnt match which would make it the perfect combo haha,1,1,0.62109625
+44,sarcasm,i 've come to the conclusion i do n't rly like strawberries & i think they 're overrated,0,1,0.565991
+45,sarcasm,fully vaxxed feeling very girlboss,1,1,0.5802645
+46,sarcasm,my bf took my off his lock screen which obvi means he 's cheating on me,1,1,0.5746892
+47,sarcasm,Not me seriously debating buying a singular can of monsta energy of amazon because I 'm really craving one but I 'd feel guilty if I went into Tesco just to buy one,0,1,0.5558038
+48,sarcasm,"first day of work , and i 've already cried on the job :thumbs_up:",1,1,0.630582
+49,sarcasm,@USER @USER Damn ! At my wedding we drank enough to make up for the no shows ! :thinking_face:,0,1,0.52167845
+50,sarcasm,"If you watch #TheCrown and do n't simultaneously wiki deep-dive on the royal family , did you even watch The Crown ?",1,1,0.52945304
+51,sarcasm,Lil Pump is the Nelson Mandela of our generation,1,1,0.534896
+52,sarcasm,being sick w a nose piercing is rly annoying,0,1,0.6469355
+53,sarcasm,As a kid I definitely thought I 'd come into contact with quick sand way more than I have,0,1,0.5650155
+54,sarcasm,I wish Facebook would introduce a ‘ rude ' option on its ‘ like ' panel . I feel ‘ wow ' does n't cover it . Maybe it could be a middle finger .,0,1,0.50680196
+55,sarcasm,"Someone in the pub just described the England team as "" a bunch of Marxists "" . Makes you proud does n't it ?",1,1,0.5945833
+56,sarcasm,#Snowden Sad to see intelligent Americans fall victim to the US propaganda machine in this case . So many lies set up to discredit by the US .,0,1,0.53857374
+57,sarcasm,"Hear me out ... The lyrics in "" coney island "" should 've been "" lost again with no surprises , disappointments close your EYESES "" Fixed it for you @USER :winking_face: #evermorealbum @USER",1,1,0.5016981
+58,sarcasm,Frankie is so lucky to have some amazing people in his life . Those that have n't bothered are missing out !,0,1,0.5610964
+59,sarcasm,@USER Riveting news .,1,0,0.49324384
+60,sarcasm,my grandpa has covid so i made a lil care package with his fave snacks and a big blanket . he 's vaccinated and it 's still hitting him hard . i 'm really sick and tired of the my body my choice mentality behind anti vaxxers bc it 's not just your body you 're making a choice for . god .,0,0,0.47779524
+61,sarcasm,Mad how many cars they make now without indicators :upside-down_face:,1,1,0.66549814
+62,sarcasm,Sometimes I forget giraffes exist :flushed_face: I meannnnn ... wtf is they,0,1,0.5929114
+63,sarcasm,If I were the Red Sox I would simply play the Orioles more,1,1,0.5284673
+64,sarcasm,"how would u kiss ur gorgon gf goodnight , , , so many little snake faces to kiss , , , it would take so long",0,1,0.56864053
+65,sarcasm,"@USER Garlic has antiseptic qualities . However , a famous French dish that requires 40 cloves and wine with slow cooked chicken maybe a step too far .",0,1,0.5472067
+66,sarcasm,wish i could ctrl + f my bedroom,0,1,0.55196023
+67,sarcasm,mentally I 'm hiding in the walk-in,1,1,0.5876565
+68,sarcasm,finding vegetarian chocolate mousse is such an annoyingly hard task to do,0,1,0.6296833
+69,sarcasm,"Lucky for 2nd placed Brentford that there 's no stand out team like Leeds this year , or they might have no chance of winning the league . #ncfc",1,1,0.5225554
+70,sarcasm,"For a good laugh , follow me over on @USER to see my best attempt at covering sports business news for class this semester .",1,1,0.5754102
