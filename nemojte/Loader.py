@@ -52,6 +52,8 @@ file_path_dict = {
     "valid_semeval_mix": "../datasets/crossval/semeval_mix.csv",
     "test_semeval_mix": "../datasets/crossval/semeval_mix.csv",
     
+    "train_isarcasm_mix": "../datasets/crossval/isarcasm_mix.csv",
+    
     
     "train_sarcasm_mix": "../datasets/crossval/sarcasm_mix.csv",
     
