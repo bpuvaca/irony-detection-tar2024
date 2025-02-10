@@ -115,26 +115,27 @@ file_path_dict = {
 
 fold_size_dict = {
     "irony": 70,
-    "polarity": 618,
+    "irony_ds": 70,
     "sarcasm": 357,
+    "sarcasm_ds": 70,
+    "mix": 70 + 618 + 357 + 105,
+    "mix_ds": 70,    
+    "semeval_mix": 618 + 105,
+    "semeval_mix_ds": 70,
+    "isarcasm_mix": 70 + 357,
+    "isarcasm_mix_ds": 70,
+    "irony_sarcasm": 216,
+    "irony_sarcasm_ds": 70,
+
     "other": 105,
+    "polarity": 618,
     "sarcasm_mix": 357 + 105,
     "irony_mix": 70 + 618,
-    "mix": 70 + 618 + 357 + 105,
-    "irony_sarcasm": 70,
     "irony_polarity": 70,
     "irony_other": 70,
     "sarcasm_polarity": 357,
     "sarcasm_other": 105,
     "polarity_other": 105,
-    "irony_ds": 70,
-    "sarcasm_ds": 70,
-    "semeval_mix": 618 + 105,
-    "semeval_mix_ds": 70,
-    "isarcasm_mix": 70 + 357,
-    "isarcasm_mix_ds": 70,
-    "mix_ds": 70,
-    "irony_sarcasm_ds": 70
 }
 
 def reduce_dataset(corpus, labels, num_1s, num_0s, shuffle = True):
