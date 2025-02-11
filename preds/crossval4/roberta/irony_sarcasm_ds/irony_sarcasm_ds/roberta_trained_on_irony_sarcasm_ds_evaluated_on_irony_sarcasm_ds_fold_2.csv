@@ -1,71 +1,71 @@
 index,dataset,tweet,label,prediction,probability
-1,irony,"Cool guy in a big truck honked really long at the garbage truck because it slowed down to turn ; I felt he wanted everyone to know how cool he is , so I decided to tweet about it on his behalf .",1,0
-2,irony,"So the Lions fans think winning one game will change anything ? Sure , and I have a bridge to sell you . :)",1,0
-3,irony,My work email is n't working so I can just log off for the day right ? :face_with_rolling_eyes:,0,0
+1,irony,"Cool guy in a big truck honked really long at the garbage truck because it slowed down to turn ; I felt he wanted everyone to know how cool he is , so I decided to tweet about it on his behalf .",1,1
+2,irony,"So the Lions fans think winning one game will change anything ? Sure , and I have a bridge to sell you . :)",1,1
+3,irony,My work email is n't working so I can just log off for the day right ? :face_with_rolling_eyes:,0,1
 4,irony,"Omicron : Cases are going up , run for the hills .",0,0
-5,irony,School psych life if fun because you can feel like complete shit but chances are you have meeting that determines changes in a student 's education that 's bound by legal timelines and took coordination of 6 different schedules and you 're the only one who can run it,0,0
-6,irony,Uh oh Ben Simmons will also have a Steph Curry type season 76ers better not trade him now HTTPURL,1,0
+5,irony,School psych life if fun because you can feel like complete shit but chances are you have meeting that determines changes in a student 's education that 's bound by legal timelines and took coordination of 6 different schedules and you 're the only one who can run it,0,1
+6,irony,Uh oh Ben Simmons will also have a Steph Curry type season 76ers better not trade him now HTTPURL,1,1
 7,irony,my neighbors taunting me outside my office window by chilling in their hot tub every remotely warm day whilst I sit here on back-to-back zooms all day every day . the audacity is astonishing .,1,0
 8,irony,being single during college must be really fun when ur nOT IN A GLOBAL PANDEMIC,1,0
 9,irony,2 minutes into the book and I already hate the main character . Lovely,0,0
 10,irony,I am just loving life in Covid times . Long may it last !,0,0
-11,irony,So weird how Venmo has n't venmoed me yet really thought I was the one,1,0
+11,irony,So weird how Venmo has n't venmoed me yet really thought I was the one,1,1
 12,irony,Good morning September ... Hello tonsillitis :(,0,0
 13,irony,"It 's spring , so that means it 's time for couples to leave the bar across the street and come fight under my window at 2 am again :red_heart:",1,0
-14,irony,Has any couple ever put furniture together and stayed together afterwards ? ? ? Asking for myself,1,1
-15,irony,Just won 3 cents on HQ words ... early retirement here I come :smiling_face_with_heart-eyes:,1,0
+14,irony,Has any couple ever put furniture together and stayed together afterwards ? ? ? Asking for myself,1,0
+15,irony,Just won 3 cents on HQ words ... early retirement here I come :smiling_face_with_heart-eyes:,1,1
 16,irony,I 'm just living off salads and yogurt and loving it tbh,0,0
 17,irony,Hey what 's the weather like today ? Am I going to need an umbrella ?,0,0
 18,irony,"Do n't you just love Monday mornings , they are even better when its freezing cold and you have an uncooperative child too !",0,0
-19,irony,How bout you dont use a gazillion filters on your pictures,1,0
-20,irony,wow . i left on time today and the airport connector is all the way backed up . love that,0,0
+19,irony,How bout you dont use a gazillion filters on your pictures,1,1
+20,irony,wow . i left on time today and the airport connector is all the way backed up . love that,0,1
 21,irony,"Day 38 of quarantine is an interesting time to get a new drum kit , neighbor",1,0
-22,irony,"I 'd like to thank middle aged men watching the Olympics for solving the mental health crisis . Getting someone to shout "" get some perspective "" at every athlete struggling with anxiety will definitely solve their problem .",1,0
+22,irony,"I 'd like to thank middle aged men watching the Olympics for solving the mental health crisis . Getting someone to shout "" get some perspective "" at every athlete struggling with anxiety will definitely solve their problem .",1,1
 23,irony,"Oh good , it 's time for the bi-monthly random power outage .",0,0
 24,irony,"finished the queen 's gambit , i loved a look into the 1960s in the american south with no racism just vibes",1,1
 25,irony,Efy is great,0,0
 26,irony,Oh what a surprise BBC weather says it 's raining in Manchester ! in Manchester !,0,0
 27,irony,Do n't you just love it when they dig up your road at 8: 30am on a Saturday :angry_face:,1,0
 28,irony,I just love the weather in Edinburgh have to dress for every season peeing with rain this morning now beautiful blue skys ! ! Just love getting soaked :face_with_steam_from_nose:,0,0
-29,irony,Just gotta realize no ones interested in what I have to say :OK_hand:,1,0
-30,irony,what i love about mine and summers work schedules is that she will finish at 8p m and then i 'll start work at 9pm and then when i get home at 7am she 'll start work at 8am :red_heart:,0,0
+29,irony,Just gotta realize no ones interested in what I have to say :OK_hand:,1,1
+30,irony,what i love about mine and summers work schedules is that she will finish at 8p m and then i 'll start work at 9pm and then when i get home at 7am she 'll start work at 8am :red_heart:,0,1
 31,irony,Big day in the Mumford house #sports day,0,0
 32,irony,:two_hearts: tip for baking bread ! :bread: :croissant: :baguette_bread: you can use the yeast in your dog 's ears to substitute active dry yeast or instant yeast in a pinch ! :two_hearts:,0,0
-33,irony,@USER Sounds like a strong contender for GOTY,0,0
+33,irony,@USER Sounds like a strong contender for GOTY,0,1
 34,irony,@USER @USER Has he given any clarification regarding what age Harvey Elliott needs to be before you can tackle him ?,1,1
 35,irony,I can't believe omicron is an anagram of no crimbo ! The government designed this covid variant just in time for christmas !,1,0
 36,irony,"5:30 banshee-like kitten zoomies are definitely my all-time favorite alarm clock , and the sound of jewelry boxes flipping over and burnouts on the wood floor make for the calmest , most enjoyable start to any workday .",0,0
-37,irony,@USER @USER can i use this chiamus for my ap lang speech about parallelism lmao,0,0
+37,irony,@USER @USER can i use this chiamus for my ap lang speech about parallelism lmao,0,1
 38,irony,They really said you can't have nice weather AND no lockdown for your bday this year huh,0,0
 39,irony,turning 22 next week so naturally I increased my tinder age range up to 60,1,0
 40,irony,My eldest is having a wild Friday night out . She 's going to bingo . :face_with_tears_of_joy:,1,1
-41,irony,"I absolutely loveee not getting a graduation ceremony after I spent 3 years on my degree and ended up over £ 50,000 in debt",1,0
+41,irony,"I absolutely loveee not getting a graduation ceremony after I spent 3 years on my degree and ended up over £ 50,000 in debt",1,1
 42,irony,"I really loved the drive into work today in the dark , wet , heavy rain",0,0
 43,irony,Ahhh I get to listen to a cement mixer all day . Awesome .,1,0
 44,irony,WHO LET THE LAUNDRY PILE UP 5 BASKETS . Goodness .,1,0
-45,irony,I can't wait for Boris to wait until after Christmas to lock us down again so that I can't go to Poland like I 've been waiting for for half a year !,1,0
-46,irony,‘ It 's only a game ' :woozy_face: :woozy_face:,1,0
+45,irony,I can't wait for Boris to wait until after Christmas to lock us down again so that I can't go to Poland like I 've been waiting for for half a year !,1,1
+46,irony,‘ It 's only a game ' :woozy_face: :woozy_face:,1,1
 47,irony,"My PS4 Pro has P . T on it , which is somewhat funny as it was taken down before the PS4 Pro was even released #konami #PT #SilentHills #Spooky #PlayableTeaser #Kojima",0,0
 48,irony,hey quick question is it fall or spring ? ? ?,0,0
 49,irony,if trees would simply stop producing flammable leaves climate change would not be an issue,0,0
-50,irony,@USER @USER Yes the racist is so cool ! ! !,1,0
+50,irony,@USER @USER Yes the racist is so cool ! ! !,1,1
 51,irony,"love island is ending , law school is starting again ... summer is really over",0,0
-52,irony,A wrong impression is once again my specialty,1,0
+52,irony,A wrong impression is once again my specialty,1,1
 53,irony,omg there 's a sheet of ice in front of my school . should I slip and fall ?,0,0
 54,irony,"Ah yes , back spasms when I take a deep breath . This is :sparkles: 28 :sparkles: .",0,0
-55,irony,@USER @USER Oh really ?,1,0
+55,irony,@USER @USER Oh really ?,1,1
 56,irony,"#bbcqt It sure would be nice if Ms May decided to answer a question , rather than dance readily around it .",1,1
-57,irony,"@USER I choose to interpret it as "" XD "" : the universal emoticon for laughing at those poor , poor folks in Ubisoft 's marketing department who have to deal with that branding until the servers quietly shut down 8 months after launch .",0,0
+57,irony,"@USER I choose to interpret it as "" XD "" : the universal emoticon for laughing at those poor , poor folks in Ubisoft 's marketing department who have to deal with that branding until the servers quietly shut down 8 months after launch .",0,1
 58,irony,I get a lot of boy who cried wolf vibes from the Red Cross and their emergency blood shortages all the time,0,0
-59,irony,tiktok 's full name is tictactoetok,0,0
-60,irony,"our lord and savior , frank ocean , has saved us all once again .",1,0
+59,irony,tiktok 's full name is tictactoetok,0,1
+60,irony,"our lord and savior , frank ocean , has saved us all once again .",1,1
 61,irony,"The Drew Barrymore Show is an absolute trainwreck . Like The Tony Danza Show , every two minutes is a clip for The Soup .",1,0
 62,irony,My eldest is having a wild Friday night out . She 's going to bingo . :face_with_tears_of_joy:,0,1
 63,irony,nothing quite says hello 2020 like hypothermia :partying_face:,0,0
-64,irony,no more instagram . we must all return to scrapbooks .,0,0
+64,irony,no more instagram . we must all return to scrapbooks .,0,1
 65,irony,Hailey convinced Tayler that putting a spoon in the microwave to scoop ice cream faster was a good idea,1,0
 66,irony,Taxes are just the best and I can not wait to pay more :smiling_face_with_halo: :smiling_face_with_hearts: :pleading_face:,0,1
-67,irony,Hahahah @USER is shutting down the entire campus for quarantine ! ! Could n't happen to a nicer group of Covid deniers ! #CovidIsNotOver #karmaisabitch #Covid_19,1,0
+67,irony,Hahahah @USER is shutting down the entire campus for quarantine ! ! Could n't happen to a nicer group of Covid deniers ! #CovidIsNotOver #karmaisabitch #Covid_19,1,1
 68,irony,I wanted to stock up on office supplies at Tesco but all I could find in the aisle was wine,1,0
-69,irony,Why are the side effects of antidepressants so :sparkles: scary :sparkles:,0,1
-70,irony,"Well , what a way to ruin Easter . Thanks @USER HTTPURL",1,0
+69,irony,Why are the side effects of antidepressants so :sparkles: scary :sparkles:,0,0
+70,irony,"Well , what a way to ruin Easter . Thanks @USER HTTPURL",1,1

@@ -1,0 +1,724 @@
+index,dataset,tweet,label,prediction,probability
+1,semeval,@USER @USER @USER #whoISshe LOLOL ! !,0,0,0.016304972
+2,semeval,"@USER we are here to fight endlessly and change the system , atleast I am not going anywhere irrespective of result #AK4Delhi",0,0,0.0077057984
+3,semeval,"Woke up with my foot the size of a balloon , that 's just what I needed ..  #ouch",1,1,0.991638
+4,semeval,@USER so pissed at 2K rn ..,0,0,0.005596426
+5,semeval,The American justice system :thumbs_up: :raising_hands: :clapping_hands: ,1,1,0.9977393
+6,semeval,"i . e . cutting gov't spending , as Harper has done w / public sector jobs , injures the economy & multiplier effect of those jobs #cdnpoli 2/2",0,0,0.033062387
+7,semeval,Just watched the last ever one tree hill . I 'm an emotional wreck and it 's not even 9 o'clock,0,0,0.05077611
+8,semeval,"@USER kids do n't need schools ! Schools just turn them into gay atheists , gaytheists , if you will . ",1,1,0.99266833
+9,semeval,@USER easiest CL group with two rubbish teams but we won only 1 CL game - even that lucky last minute pen  good enough #gutted,0,0,0.027016012
+10,semeval,Goodie bags for 2nd grade are done ! #whatsnext ?,0,0,0.11619653
+11,semeval,@USER You can afford stocks ? Teachers make SO MUCH money it 's crazy ! ,1,1,0.9968585
+12,semeval,@USER : You want to see something Irish ! ! Of all the reasons to be closed :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: HTTPURL ,1,1,0.9634978
+13,semeval,"Crime figures : true picture may be worse than feared , says think-tank report | via @USER HTTPURL Surprised ? ",1,1,0.98347926
+14,semeval,"@USER mostly LRS stores , just depends on who gets what . I 'd say I tend to split between @USER & @USER",0,0,0.011275648
+15,semeval,I 'm not staring at your boobs hun .. I 'm looking at your heart #relax,0,0,0.020492008
+16,semeval,I doubt this week could get any better . ,1,1,0.9941649
+17,semeval,#BBC #News - - #Denmark #challenges #Russia and #Canada #over #North #Pole . HTTPURL,0,0,0.0024449963
+18,semeval,@USER The Raiders are . I guess we 'll see how things play out tonight .,0,0,0.011945123
+19,semeval,Babysitting is what I like to do on a Saturday :unamused_face: ,1,1,0.9982262
+20,semeval,I already can't wait for Julia to come back .,0,1,0.5057525
+21,semeval,"@USER she went from a faded orange mess to a dark brown with red streaks . I , of course , forgot to take pictures .",0,0,0.00679237
+22,semeval,@USER @USER @USER too much of that herb . New trend of potheads contributing to society maybe ? Darn that ,1,1,0.9946396
+23,semeval,Forest Hills Drive on my playlist naw ...,0,0,0.04048969
+24,semeval,Drinking an 925 IPA by @USER @USER Ground Control - - HTTPURL #photo,0,0,0.0032028141
+25,semeval,Love that my buses are every half an hour :angry_face: :enraged_face: :face_with_steam_from_nose: ,1,1,0.9987889
+26,semeval,"@USER , @USER , women say 1 man asltd them , y so long 2 say sumtin ? & the young 1s , where the parents ? Hotel wit grn ass man ? Smh",0,0,0.0068813884
+27,semeval,Wheres the rodgers in brigade ,1,1,0.9939349
+28,semeval,They working me so hard tonite,0,0,0.38791454
+29,semeval,Tomorrow three test signature . | Thank you . | #school ,1,1,0.9912976
+30,semeval,This team would finish fourth .  #Arsenal #Afc,1,1,0.9796475
+31,semeval,Senate Just Confirmed a New Cabinet Member That Has 2nd Amendment Supporters Furious - The Senate confirme ... HTTPURL,0,0,0.008374115
+32,semeval,"@USER wait ... there 's a "" New Wii U "" ? ",1,1,0.9941049
+33,semeval,@USER heh as if @USER and average work in the same sentence ! ,1,1,0.9822234
+34,semeval,@USER @USER @USER | * Everything is crossed * | #ChristmasGift | #BassFace HTTPURL,0,0,0.0017633102
+35,semeval,@USER @USER @USER We Agree #NHSENGLAND needs to #Publish #AandE figures over #HolidayPeriod  from #JeremyHunt,0,0,0.2616228
+36,semeval,We 'll that was a great way to start off my morning :grinning_face: ,1,1,0.99860007
+37,semeval,@USER : HTTPURL  true ... you can't replace your one and only mam .,0,0,0.007136681
+38,semeval,Love watching #latenightfilms . Enjoyed #MockingjayPart1 @USER #didsbury . Ta @USER . #Grateful to have such a #goodfriend .,0,0,0.010280021
+39,semeval,"sorry for being female , I did n't mean to interrupt your perfect little man-world . :unamused_face: ",1,1,0.9979734
+40,semeval,"The whole #Misogyny thing is hanging in there with Women from the right  . A cat fight now ? , imagine pulling that on the left #pmlive",1,1,0.98265094
+41,semeval,Being awake since 3AM is always so much fun ,1,1,0.99891865
+42,semeval,Mary is not having that shit whatsoever . #done #shesdone :person_tipping_hand: HTTPURL,0,0,0.003914158
+43,semeval,We live in such a small world these days - the #LAFire is a story at the end of the Australian news @USER,0,0,0.03092866
+44,semeval,Your friends will bring you down because they fucked up what they had males & females  me fool !,0,0,0.09834133
+45,semeval,3 hours sleep yay loving life ,1,1,0.99868613
+46,semeval,I can't wait to jump in my bed tonight and sleep ! :sleeping_face: #sotired,0,0,0.3512132
+47,semeval,Bush ' fully informed ' of CIA methods HTTPURL No ? ? Really ? ? Shocking ... ,1,1,0.9964393
+48,semeval,"@USER @USER Ya , because if history has told us anything , it 's that betting on sports is a GREAT way to make money ! ",1,1,0.9967591
+49,semeval,It 's freezing out there & very hazy ... Just want to go home .,0,0,0.01166881
+50,semeval,"I THOUGHT WHAT WE HAD WAS REAL , HOW COULD YOU BE FINE ? COZ I'M NOT FINE AT ALL Oh wait . Fixed the caps lock ^ . ^  #LaughNow . o .",1,1,0.77683383
+51,semeval,you know what would make break 1000000 x times better ? | | not having practice .,0,1,0.6606543
+52,semeval,@USER Thank you ! I think i filled it out correctly,0,0,0.10621651
+53,semeval,@USER miss u I 'm leaving on 7th so ... Need to see you before I go :weary_face: :weary_face: :weary_face:,0,0,0.115573555
+54,semeval,> @USER Google Drive Review HTTPURL,0,0,0.010354172
+55,semeval,"I 've visited 19 #US #States , 2 #Canadian #Provinces , & 11 #Countries total . ( Not the most , but not bad . )",0,0,0.011256496
+56,semeval,Photo : 3pc Lace Corset Size : small - 2xl Price : $ 40.00 Leave size and email for invoice HTTPURL,0,0,0.0061317915
+57,semeval,Such quality customer service today by @USER for the Xbox One  #thisiscrap helpfulatall,1,1,0.997195
+58,semeval,"there is only 1 race , HUMAN so i dont look at things by the myth of "" races "" @USER @USER",0,0,0.018661615
+59,semeval,A #Sagittarius will always chase what they want until they get it .. | #keepgoing HTTPURL,0,0,0.0022580044
+60,semeval,"the "" 2/3 = 75 % "" is also in the top 10 LOL @USER @USER @USER @USER",0,0,0.06826551
+61,semeval,In other news i havent had a good nights sleep in a week . I feel great . ,1,1,0.9982363
+62,semeval,Taking a final then going straight to work . I 'm just peachy about it . ,1,1,0.9975038
+63,semeval,Ouch that hurt :face_with_tears_of_joy: ,1,1,0.99630713
+64,semeval,Bummer ending ... But what a fun game and season . #Gophers,0,0,0.09161666
+65,semeval,Yay for getting pink eye again !  #whyme,1,1,0.9987465
+66,semeval,"Looking for @USER practitioners ... Anyone out there , or recommendations ?",0,0,0.2687169
+67,semeval,Nice weekend off but back at work tonight . Over the fucking moon ,1,1,0.99601644
+68,semeval,Christmas shopping on 2hrs sleep is going to be fun ! ! ! ,1,1,0.99869823
+69,semeval,@USER oh so someone got in trouble for making fun of the people who behead innocent people ... nice ,1,1,0.998628
+70,semeval,@USER RT @USER : Baby name  . #dataviz | | Source : HTTPURL HTTPURL,0,1,0.645077
+71,semeval, long to wait till released CO2 turns up temperature - HTTPURL HTTPURL,0,0,0.039310735
+72,semeval,@USER @USER At least you got my joke,0,0,0.059684638
+73,semeval,HEY LOOK THERE ! ,0,1,0.9945169
+74,semeval,Baking bread and hanging with a glass of wine in leggings and a sweatshirt with football on . HEAVEN ! If only the snow had n't turned to rain .,0,1,0.9594226
+75,semeval, EBOLA | BUT GREED AKA BADMIND KILLS EASILY AND QUICKQUICK HTTPURL,0,0,0.0130320825
+76,semeval,"Standard Christmas newsfeed . Diamonds everywhere , everyone 's engaged . Congratulations . #original  #Christmas #engaged",1,1,0.9607141
+77,semeval,that fits @USER @USER @USER @USER,0,0,0.0127598075
+78,semeval,Thanks GORI-san | #djgori  for sale HTTPURL,0,0,0.034098275
+79,semeval,"If a foreign power hit Japan 's embassy in NYC with a missile , not really an attack on US . In that sense , I agree with you . @USER",0,0,0.2506098
+80,semeval,Sorry this does n't make any sense why make it even more tough ? That 's going to produce more players ..  HTTPURL,1,1,0.9943538
+81,semeval,:party_popper: It 's Monday ! :party_popper: ,1,1,0.9962071
+82,semeval,@USER You blew my mind on #AHSFREAKSHOW You 're brilliant .,0,0,0.15777084
+83,semeval, is the name of the game . HTTPURL,0,0,0.0043976447
+84,semeval,YOU blame him for everything else @USER @USER @USER @USER @USER @USER @USER,0,0,0.00929649
+85,semeval,"While we applauded ourselves on getting to the Moon , Carl Sagan spoke a truth we all denied . |  HTTPURL",1,1,0.8592068
+86,semeval,Taking Over the mansion with the Mexicans  @USER,1,1,0.995559
+87,semeval,StephenFry : @USER Oooh - busted by superior understanding ... ! Crestfallen and shamed .  HTTPURL,1,1,0.9906256
+88,semeval,Lord have mercy on us . The world 's most powerful nation is ruled by two families . #Bush #Clinton #wasps #elxn2016 HTTPURL,0,0,0.0049966536
+89,semeval,"Sad I do n't have a Christmas jumper , thanks @USER for your super fast delivery :thumbs_up: ",1,1,0.9984799
+90,semeval,Stuck in the traffic at 7.55 am . Yuppy - . -  #happytuesday,1,1,0.9978703
+91,semeval,"again , your myth of "" racist DNA "" is still only a figment of your delusional imagination @USER @USER @USER @USER",0,0,0.016456222
+92,semeval,I still love the newsroom regardless of what everyone else thinks,0,0,0.32841122
+93,semeval,"Sony Studio Bosses To Employees : Do n't Worry , We 'll Be Fine HTTPURL I know I 'd feel better .  HTTPURL",1,1,0.99698454
+94,semeval,check it out ! HTTPURL ,0,1,0.9563478
+95,semeval,#forgive #others  #because they #deserve #forgiveness #you #peace love this from @USER #words #wisdom ... HTTPURL,0,0,0.0021994002
+96,semeval,Just flossed and then ate right after #inconvenient ,1,1,0.9931598
+97,semeval,All hell is breaking loose ... Ahhhh everybody freak out ,1,1,0.9969566
+98,semeval,With no forwards . #confused  sure,0,0,0.011821901
+99,semeval,Today I do n't feel like doing anything | ,1,1,0.98725104
+100,semeval,@USER it 's finally open XD I used a youtube video to help me :) Thanks very much ;) HTTPURL,0,0,0.026835203
+101,semeval,Bae had an energy drink and wants to stay up ... but I 'm so sleeeeeepy . #love #sleep,0,0,0.020184861
+102,semeval,"Faux Leather Size Zipper Sleeveless Scoop Back Midi Dress | Size : s , m , l | Price : $ 39.99 | Leave email for ... HTTPURL",0,0,0.003968939
+103,semeval,"Sooo mad right now , great way to start my day ",1,1,0.99900264
+104,semeval,"@USER @USER good old JK landing people in trouble again , ffs William i thought you were more savvy than that ",1,1,0.9984829
+105,semeval,"Pain is inevitable , suffering is optional | #Anonymous",0,0,0.0035272576
+106,semeval,@USER how do you like that loss son ?,0,0,0.03194939
+107,semeval,@USER @USER wish I was there . maybe next year . I 'll be the one with the mad socks . no clothes . just socks .,0,0,0.39640084
+108,semeval,#Patriots #report #card : #Grades  #half bad : Tom Brady throws under pressure in the 2nd quarter during Sundays HTTPURL,0,0,0.04127057
+109,semeval,@USER sounds like the LA end of days ! ,1,1,0.994323
+110,semeval,A SMILE is a smile is a smile is a smile is a SMILE IS A MILLION PEOPLE STARING AT YOUR PISSED PANTS MANIC LAUGHTER smile,0,0,0.20094897
+111,semeval,Finals Week is draining my body so much that it 's ruining my life in other places . Lovely ... ,1,1,0.99887556
+112,semeval,"@USER add some "" Your Baby Can Read "" DVDs ... ya know ... just in case lol :smirking_face:",0,0,0.097865134
+113,semeval,Welll helllo fever . Id say 103 is feelin real good today ,1,1,0.99867404
+114,semeval,People are n't as beautiful as they look #people  #beautiful #look #walk #talk #personality #love #care #share HTTPURL,0,0,0.0022768485
+115,semeval,Sums up my week really  #NursingLife #WorkingDaysAndNights HTTPURL,1,1,0.99824405
+116,semeval,"I guess I 'll eat leftovers for breakfast AGAIN , while others get black bear .. #cuzididntwantgoodfood  #truth #hungry :unamused_face: :thumbs_up:",1,1,0.92939305
+117,semeval,Ca n't wait for my 7:30 am #dental appointment tomorrow ! | Oh time please speed through today !  !,1,1,0.98987305
+118,semeval,"Grace is a free spirited 8 yr old with the most humble heart . Aspiring model / actress , she also enjoys #piano and dance.Follow > @USER",0,0,0.009162023
+119,semeval,I 'm kinda missing summer @USER . | . | . | #summer #2o14 #bestie #alena #bestfriend #idek #we #cool  #chips #food #followme #ifoll ...,0,0,0.0043883035
+120,semeval,#All #And #For #Hot  #Rachel #style #fashion | Please RT : HTTPURL HTTPURL,0,0,0.002590409
+121,semeval,NEW #HipHop MUSIC : > @USER - Crack Music : HTTPURL #JerseyCity #NJ #NY #BirthOfAWinner,0,0,0.002058431
+122,semeval,@USER @USER it 's in my Priory contract to wear those . Hugely popular with Priory Ultras #does  #count #xxx,0,0,0.008375467
+123,semeval,@USER I liked .. Do n't regret anything that made you smile ... Ha ha,0,0,0.014808055
+124,semeval, Bad Idea When You climb on the mountain HTTPURL,0,0,0.0051970985
+125,semeval,"not that it matters , a message board thread is not an authoritative source @USER @USER",0,0,0.014588205
+126,semeval, a Bad Gift : Wall Gives Gooden $ 100K Cash ( via HTTPURL ) HTTPURL,0,0,0.028402051
+127,semeval,@USER @USER @USER @USER @USER @USER,0,0,0.017034639
+128,semeval,Abraham was actually from modern day Iraq ( Ur of the Chaldea ) @USER @USER,0,0,0.029263407
+129,semeval,@USER Scream this message : We want the security footage ! ! ! #AntonioMartin #Ferguson #EndRacism #SocialJustice #BlackLivesMatter,0,0,0.005362688
+130,semeval,Happy 2nd anniversary to me in SGV . Happy OT here in client . Woohoo . I loooooove my job . Super . More years to go ! ! ! ,1,1,0.9986089
+131,semeval,Gavaskar is a freakin ' genius .  HTTPURL,1,1,0.9975562
+132,semeval,Shitty drivers are always fun . ,1,1,0.99865204
+133,semeval,. @USER is at her best when she reports frm ' on the field ' . Not that she is bad at studio but on field she is a true story teller .,0,0,0.033316676
+134,semeval,Is Obamacare Slowing Health Care Spending ?  HTTPURL via @USER,0,1,0.9888629
+135,semeval,"Join @USER PromoTeam 's Official Fan List and receive news , events , and more ! HTTPURL",0,0,0.0031095138
+136,semeval,@USER @USER patio tumbler goodness #Mac12days,0,0,0.017941164
+137,semeval,For 9 grand a year we definitely get all of the information we need in this practical class ,1,1,0.99864835
+138,semeval,Thank God the #Knicks re-signed Carmelo .  #TheBullsCanHaveHim,1,1,0.99722207
+139,semeval,"@USER now , to remember which book ... #goodluck",0,0,0.0038505048
+140,semeval,"@USER it could have happened to anyone . Your time will come , critics . Oops , apologies . A typical  - loving #Brit .",1,0,0.018556071
+141,semeval,I just love EU servers ... ,1,1,0.9987262
+142,semeval,"Day 9 "" something your reading "" #decemberchallenge #lovehistory #lovenonfiction .. :check_mark_button: @USER Our Cosy House HTTPURL",0,0,0.0034267372
+143,semeval,@USER To the officer 's defense ... that was a very scary looking phone .  #BlackLivesMatter,1,1,0.99507797
+144,semeval,Aaaaaaaaand we 're back in the ER . Hooray for no sleep ! ,1,1,0.9985569
+145,semeval,@USER The pace of KCRoyals activity at the Winter Meetings is giving me vertigo ! ,1,1,0.9922191
+146,semeval,"@USER Hey Alex , thanks for the support . My FB page is : HTTPURL and success to you .",0,0,0.004399509
+147,semeval,@USER He 's just trying to drive Suh 's price up . ,1,1,0.9826601
+148,semeval,LoL game over Napoli win and they are better then Juve,0,0,0.17257966
+149,semeval,"Workaholics : if you 're sick , do n't let that stop you from bringing your germs into the office . We all appreciate your commitment . ",1,1,0.99810815
+150,semeval,My solo costume so far is Charcoal Grey Bottoms ... making some real progress . ,1,1,0.99775
+151,semeval,@USER @USER @USER sure that will end well ,1,1,0.9966271
+152,semeval,Let 's all do only squats and deadlifts until we hurt ourselves - - really really good trainers #fitnessmotivation ,1,1,0.99690527
+153,semeval,* gasp * The girls are at a rehearsal studio today ? You do n't say ... Hmmm wonder what on earth for ? :frog: :hot_beverage:  #MTVStars Little Mix,1,1,0.98675275
+154,semeval,Thanks for the AWESOME support on our #instagram page . Much appreciated . HTTPURL #women #motivation #rolemode,0,0,0.008110898
+155,semeval,@USER annnnddddddd your opinion is irrelevant,0,0,0.06593283
+156,semeval,Full on man flu just in time for a weekend of work ! ! #awesome  #coldandflu,1,1,0.99814546
+157,semeval,Physical therapy at 8 am is just what I want to be doing with my Friday  #iwanttosleep,1,1,0.9974952
+158,semeval,"@USER @USER @USER this is true , the Patriots , Packers , or Broncos could suddenly need a new coach  #itshappening",1,1,0.9945831
+159,semeval, just like that HTTPURL,0,0,0.0060559516
+160,semeval,@USER That 'll work ...  #HellBeFiredinElevenMonths,1,1,0.9983729
+161,semeval,Feeling like crap . And being treated horribly too . It 's a great day .  #iwanttogohome,1,1,0.997546
+162,semeval,#we are  #perfect but it is #neccesary for #us to #be the #best # version of #ourselves HTTPURL,0,0,0.0021373103
+163,semeval,@USER Damn . That would have made excellent thing to recount in autobiography ;p,0,0,0.27563265
+164,semeval,Every wondered what 's the Turkey 's take on #Thanksgiving ? HTTPURL HTTPURL,0,0,0.0056544635
+165,semeval,I love the meaningful messages of automake . ,1,1,0.99810374
+166,semeval,@USER Makes me so proud to be an American ,1,1,0.99750394
+167,semeval,@USER thanks for the spoiler ! ! ! ,1,1,0.9975299
+168,semeval,It 's snowing in Chicago #whitechristmas ,1,1,0.9972753
+169,semeval,WAIT the GA I have a crush on and emailed me and told me it was great to have me in class :smiling_face_with_heart-eyes: :red_heart: :face_blowing_a_kiss: he totally loves me ,1,1,0.99739444
+170,semeval,I just love freezing rain . ,1,1,0.9985948
+171,semeval,@USER another case of away the lads  or to put it in song tell me why we do n't do north london ! ! #TyneWeirSunday,1,1,0.98544633
+172,semeval,Decemberbessen  #fail #footprint sorry ... HTTPURL,1,0,0.049192395
+173,semeval,"@USER @USER . @USER has warned @USER about Bassem.Heck , they might already know him ! #Ferguson #NYC",0,0,0.016945213
+174,semeval,@USER Thank you for staying Tom !,0,0,0.053710528
+175,semeval,These girls can wake up people from the dead !  #worth #watching,0,1,0.99097437
+176,semeval,wow they seem to be so turnt ,1,1,0.9966704
+177,semeval,I love how when I 'm stressed my body decides to react by causing me massive pain . ,1,1,0.9988412
+178,semeval,Nothing like the 24hr swing back to being a day walker to make you feel like a million bucks ...  #shiftworkerlife,1,1,0.99884015
+179,semeval,@USER WHO LOOK SO MUCH ALIKE OMG lashwkaywiduwb ,0,1,0.9863414
+180,semeval,"@USER @USER The link says "" The requested page could not be found . "" | | Was the  intentional ?",0,0,0.0053354357
+181,semeval,I 'm pretty sure this bad boy is worth at least 6 stokes per round ! #dreamon  @USER 913 miranda place HTTPURL,1,1,0.9951173
+182,semeval,"I love math , I 'm so amped for my final like 7 hours from now . I hardly studied for it . #IBeenDoingIntegralsSinceThe5thGrade  :grinning_face_with_smiling_eyes: :winking_face_with_tongue: :face_with_tears_of_joy: :persevering_face: :anxious_face_with_sweat: :tired_face: :confounded_face:",1,1,0.9974185
+183,semeval,". @USER @USER / RBRNetwork 1 @USER @USER I think it 's your white skin . Or "" racist DNA "" . He 's a geneticist too , did ya know ? ",1,1,0.9959799
+184,semeval,@USER : hey sorry im late i didnt want to come #myperiod,0,0,0.010721341
+185,semeval,"Off in to town to get a bday prezzy , how rude to have a birthday in Xmas week #BusyBee",0,0,0.4179606
+186,semeval,Hashtags are great idk why everyone stopped using them #jk  #bye,1,1,0.9442791
+187,semeval,And then there was none . Goodbye beard ( of sorts ) #MensFashion  HTTPURL,1,1,0.98575926
+188,semeval,"Wings ? I do n't have wings ! | "" Of course not ... You 're a boy ! """,0,0,0.3305282
+189,semeval,I just love when you test my patience ! :smiling_face: ,1,1,0.99867934
+190,semeval,"In #Business , knowing ' what  to do ' is very imp . #SayNo to anything that comes b / w u n ur #dreams . Even #money . #entrepreneur #tips",0,0,0.0039168173
+191,semeval,#Germany - - #ECB 's #Weidmann #says #German #2015 #growth #may #be #better #than #expected . HTTPURL via @USER,0,0,0.0020552296
+192,semeval,So far today is going AWESOME .  #fuckoff,1,1,0.9972228
+193,semeval,@USER I am sure this has made your day . LoL ,1,1,0.99780923
+194,semeval,@USER No ! I rarely drink at all . Got a stomach bug :-(,0,0,0.015953423
+195,semeval,"@USER @USER ooh , that looks like so much fun ! ",1,1,0.9974444
+196,semeval,What 's the correct word for racism ( towards white people ) ? | There is none . | #racism | #is |  | #good | #4anyone,0,0,0.003152788
+197,semeval,My bed time stories are awesome  #theyllgiveyounightmares #ohwell #youaskedforit,1,1,0.9984884
+198,semeval,There 's nothing more intimidating than having to serve an chavvy lanky 19 year old with acne and bum fluff .  #cringe,1,1,0.870142
+199,semeval,"Looking forward to a nice and long 130km #cycle tomorrow , in the minus degree weather  #fool #festive500",1,1,0.9861314
+200,semeval,Well got the truck buried today perfect way to start a rainy Wednesday work day off  #annoyed #pissed,1,1,0.9985911
+201,semeval,@USER Things also go slowly when you are waiting for them especially !,0,0,0.004441754
+202,semeval,you are the one LYING @USER @USER @USER @USER @USER,0,0,0.004878609
+203,semeval,Lol at the #EatenAlive show . if that 's the name of the show gotta do it not quit cause the snake was hurting his arm . #goodtv  #garbage,1,1,0.99503076
+204,semeval,@USER lol of course it 's the best ! ! ,1,1,0.9976094
+205,semeval,Friday morning lecture on blood :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: ,1,1,0.99732167
+206,semeval,@USER yup it must be good to be ivy league Educated because it does alot of good ,1,1,0.9986744
+207,semeval,"@USER , You ARE pretty so I better play your "" free "" #SkinnerBox game . I 'm sure it wo n't ask for my money after a few levels . ",1,1,0.9967049
+208,semeval,Love the fact I 'm sick on my birthday ,1,1,0.9991302
+209,semeval,@USER you sound just like Jack Kerouac | ,1,1,0.9864334
+210,semeval, RT @USER : Should be great watching Miami try to block Sweat and Featherstone off the edge next two years . Real fun stuff,1,0,0.012756629
+211,semeval,You 're still shit @USER #cheater #pong,0,0,0.008731307
+212,semeval,Confucius Motivational Quotes FREE ANDROID APP HTTPURL,0,0,0.010908778
+213,semeval,Image via We Heart It HTTPURL #boy #funny #girl # K #mad  #ok HTTPURL,0,0,0.0046687396
+214,semeval,Yay for another work at 4am day :neutral_face: ,1,1,0.99890614
+215,semeval,Two hour drive this morning with the instructor . Oh yes ..  #scaredshitless #yikes,1,1,0.99819595
+216,semeval,"Love how the adverts for the woman in black 2 say "" you wo n't sleep for weeks "" ... way to sell it to me :flushed_face:  #SheNeverLeft",1,1,0.99849343
+217,semeval,Just found the picture of lisazamorano trying to kill me #bff at our #seniorbrunch @USER Moutain Meadows HTTPURL,0,0,0.0070442394
+218,semeval,"#Aussie #gunman #was  #on terrorist #watch #list , PM #says : SYDNEY – The gunman who took 17 hostages in Sydney ... HTTPURL",0,0,0.004103741
+219,semeval,"#Comptroller : #CitiBike #Stations , #Bikes  #Being #Properly #Maintained : As CitiBike gears up to expand , the ... HTTPURL",0,0,0.0027158891
+220,semeval,@USER and a strut to boot,0,0,0.056213293
+221,semeval,Just found out there are Etch A Sketch apps .  #oldschool oldschool,1,1,0.98576087
+222,semeval,@USER seriously in the clothes section F & F,0,0,0.031397536
+223,semeval,"@USER Because your "" sarcastic "" ? #Sarcastic ",1,1,0.98998535
+224,semeval,Today is awesome ,1,1,0.9980661
+225,semeval,"May be cold tomorrow , December 28 , 2014 ! A low of - 7 ℃ - dress warm !",0,0,0.108842514
+226,semeval,A #Meme for your #Monday ! #MemeMonday #Obama #Obamacare #AcidReflux  #StandUpShot #JokeoftheDay #Comedy HTTPURL,0,0,0.12496385
+227,semeval,It 's super duper fun waking up and immediately shoveling your car out of your driveway for 20 minutes  #fuckinsnow,1,1,0.99873084
+228,semeval,Those Amarillo hops make it just right #goldilocks - Drinking a Tour de Fall @USER Memphis ' Pint & Dram - HTTPURL #photo,0,0,0.00527531
+229,semeval,There is nothing I love more than listening to the black eyed peas on the way home from a Saturday night loss in petrolia #killerband ,1,1,0.9943997
+230,semeval,"Pepe 's hair RT @USER : Palacio 's hair ... "" @USER : Ronaldo hair .. "" @USER : Messy hair :heart_suit: """,0,0,0.059977192
+231,semeval,Why does sue give bonnie anxiety and stress pills ,1,1,0.9886728
+232,semeval,@USER what happens if I RT ?,0,0,0.033507917
+233,semeval,@USER @USER @USER And it starts :P | #GetEnchanted,0,0,0.002164109
+234,semeval,I have to leave for school at 9am and I 'm still in bed #fucktherain #wherearemyhunters #imgonnalooksocutetoday ,1,1,0.9803274
+235,semeval,Ooh ! Someone knows how to click the ' Unfollow ' button . I 'm impressed !  #beforeCoffee HTTPURL,1,1,0.9977763
+236,semeval,The #AdvancedWarfare campaign was only 6 hours - _ - | PS : It 's still better than BF4 ' s campaign tho ( that I did n't finish ) :p,0,0,0.025504747
+237,semeval,@USER :enraged_face: no he bloody is n't I was upstairs getting changed !,0,0,0.01181817
+238,semeval,95 % of my clothes are black . #noshame :bomb:,0,0,0.020871334
+239,semeval,Hardest parking i 've probably ever done ! #screwyousmallparkinglot,0,0,0.02506234
+240,semeval,@USER I 'll snap at you if you tell me what to do again ! | :face_with_tears_of_joy:  #funnyGuy,1,1,0.993313
+241,semeval,Everyone competing against each other for privatized goods is way better than working together as a whole to advance humanity . ,1,1,0.9980648
+242,semeval,What a joke . Thanks for the detailed response and communication with your customers .  @USER @USER,1,1,0.9984097
+243,semeval,Insanity is doing the same thing twice and expecting different results,0,0,0.077074155
+244,semeval,WOW ! ! ! Really ? ? ? Homework in the weekends ? !  #talkingabout #theteachers :enraged_face: :enraged_face:,1,1,0.9956671
+245,semeval,"What a lovely morning , #Delhi government bans #Uber - looks like rape will stop in Delhi now  #aretheyserious",1,1,0.998841
+246,semeval,Loooovvveeeeeee when my phone gets wiped - . - ,1,1,0.9935581
+247,semeval,@USER : Wenger slams referee HTTPURL ( Sky ) #saintsfc ha ha ha ha for being too blatantly bias towards them ? !,0,0,0.009154701
+248,semeval,I take blazing hot showers so I can get used to burning in the pits of hell . #ifitsreal ,1,1,0.9977139
+249,semeval,it 's International Human Rights Day ,1,1,0.99791807
+250,semeval,"I have footy socks on , trackies , a tee , a fluffy dressing gown and I 'm wrapped up in my quilt ... I sweating bean but shivering my nuds off",0,0,0.030689424
+251,semeval,"@USER Hey , he DOES have the word "" ban "" on his home page like two or three times though . #AcknowledgementIsFirstStep ",1,1,0.9929738
+252,semeval,I did n't know it 's your territory I really . .. WHAT ARE YOU DOIN - no . . Please do n't shoot at me I . .,0,0,0.030606456
+253,semeval,UK PM making sure child abusers are brought to justice . I can assume people will be brought to justice  #lies HTTPURL,1,1,0.99787974
+254,semeval,@USER a ghostwriter ? Shocked ... ,1,1,0.9963983
+255,semeval,Well today has just started off great . ,1,1,0.99817145
+256,semeval,"BJP-CONGRESS nt disclosing detail of 3600 cr . donation received , still Media / Bhakts questioning AAP  #MufflerMan HTTPURL",1,1,0.9806533
+257,semeval,Congrats still SASMVT for a good run . Ulitin nalang ulit ang 6 - peat next year :),0,0,0.17898177
+258,semeval,Is holding not a rule anymore ?,0,0,0.46816579
+259,semeval,Please dont fuck with me when I first wake up  a morning person !,0,1,0.8231058
+260,semeval,What I did for my food at the Spanish party !  HTTPURL,0,1,0.9861055
+261,semeval,I just LOVEEEE finals soooo much . And not getting any sleep is the best part about them :astonished_face: :water_pistol: ,1,1,0.99754685
+262,semeval,Suppose I best move my arse to the #gym . Anything to put off wrapping presents :confused_face: :wrapped_gift: #christmas #chore,0,0,0.03161698
+263,semeval,@USER I mean that all matter this game ,1,1,0.9968292
+264,semeval,Isabelle sends me the nicest texts  :persevering_face: :confounded_face: :broken_heart:,1,1,0.9978416
+265,semeval,I have such a wonderful gf ! ,1,1,0.9974285
+266,semeval,When u callin I 'm tappin lol  sorry,1,1,0.8888824
+267,semeval,One of my favourite things about going to fanshawe is walking to the Z building ,1,1,0.99888235
+268,semeval,So lakeside was like 7million scavengers all in 1place #hadfun  #neverboxingdayshoppingagain,1,1,0.99155855
+269,semeval,For some reason I feel the classiest when I 'm wearing $ 3 fake pearl necklaces .  ? Lol,1,1,0.99592507
+270,semeval,Xmas on the blog feat @USER and @USER * Read our story and share the LOVE :red_heart: Click the link ... HTTPURL,0,0,0.0038290315
+271,semeval,"Christmas Day , Boxing Day and New years day off just is n't enough ! So much to do for me & others this month  #enough #hours #in #the #day",0,0,0.007603404
+272,semeval,#bitch #bitchy #badass #lol #laughing #jokes #sarcastic  #funtime #funny #fun #ecards ... HTTPURL,1,0,0.021695571
+273,semeval,Next day makeup just looks so hawt :kiss_mark: ,1,1,0.9816937
+274,semeval, a bad game last night . Way to go Packers ! HTTPURL,0,0,0.016194908
+275,semeval,Overcast at Creso . #todayimloving #beachwalk #crescenthead HTTPURL,0,0,0.0060495944
+276,semeval,@USER : :raising_hands: :raising_hands: HTTPURL #fitfam #fitness #health,0,0,0.0022794553
+277,semeval, does n't convey what I want though . #twitterproblemsforme,0,0,0.003712796
+278,semeval,suddenly w-wada  HTTPURL,1,1,0.98987806
+279,semeval,A year ago | my cat was hit by | a car ... this is him | today . is a great quote,0,0,0.026335599
+280,semeval,Love waking up to my face being licked by my puppy .. ,1,1,0.9990339
+281,semeval,Cool . ,1,1,0.99141943
+282,semeval,Lol at people saying they 're turning 13 this year when did I start following kids #sorry,0,0,0.40949586
+283,semeval,I love my mom ,1,1,0.99774855
+284,semeval,"I was going 2 post my opinions on #obama #cuba but i will save it , till after his #speech . #peacemaker ",1,1,0.9870568
+285,semeval,"@USER @USER Was n't that full in the nosebleeds where I was sitting , but it was fun ! Crowd reacting to JoePa is my fav memory .",0,0,0.16523029
+286,semeval,"@USER no , not anymore . :persevering_face:",0,0,0.018051019
+287,semeval,@USER @USER @USER When / how did the ACL tear happen ?,0,0,0.02278628
+288,semeval,"@USER Would be also great if David teamed up with his old man again at the Carols , similar to a few years back . #Greatdou in both cases",0,0,0.13474764
+289,semeval,@USER : . @USER awk moment when I tweeted first #fakefan ! ! ! ,1,1,0.9738555
+290,semeval,It 's almost 1am and @USER and I are arguing on why the guy is cute or not . Really . This is our lives . Come on were adults . ,1,1,0.99760455
+291,semeval,"I actually just started crying while brushing my teeth due to lack of sleep , stress and test anxiety . Today 's gonna be a good one ... ",1,1,0.99858993
+292,semeval,New homeschool year . New Marketing business . Clickbank University . Wealthy Affiliate . Writing the book finally . #holyschedule #needanapp 0_0,0,0,0.014082318
+293,semeval,"Watching the news being like ; "" oh this totally restored my faith in humanity . "" ",1,1,0.99816954
+294,semeval,"Will #NASA go metric before it inches to Mars ? 3,600 miles is 5,794 kms by the way #OrionLaunch #NASA_Orion HTTPURL",0,0,0.013419881
+295,semeval,Tomorrow will be a great day ... ,1,1,0.99834013
+296,semeval,Tamir Rice 's Memorial is today . His family had plans of seeing him grow up . Not gunned down by police . Police ?  HTTPURL,0,1,0.9874899
+297,semeval,@USER I hate you lol,0,0,0.059821922
+298,semeval,@USER @USER @USER @USER @USER @USER @USER not now guys finals  :hundred_points:,0,1,0.98116976
+299,semeval,"Fell asleep @USER 8: 30pm , woke up at 12:00 am . Ca n't get back to #sleep . I had almost forgotten about you #insomnia - welcome back . ",1,1,0.99519736
+300,semeval,#your biggest task is to get me to look #how shall one do that ?  looking #none of them #cleverclogs #shld #know #my #nakhre too,0,0,0.003800701
+301,semeval,Glad to know my friends are supportive ,1,1,0.99894744
+302,semeval,Just gave Imperfecto a 3.5 / 5 rating on @USER HTTPURL,0,0,0.0142403655
+303,semeval,Blackpool today for an interview .  the weather for the beach,0,1,0.65727454
+304,semeval,Obama wants closer relations with a Marxist nation ... I 'm SHOCKED I tell you ! SHOCKED !  #cuba HTTPURL,1,1,0.9945667
+305,semeval,@USER All # U Can Do Beautiful Is Your #BEST Winning Is  Important Taking Part & Having Fun Is What Matter 's :-),0,0,0.0035651133
+306,semeval,But it 's time to face the truth ... I will never be with you,0,0,0.015515733
+307,semeval,#pick #up #linez  to use | Boy : When u smile its like the sun | Girl : Awe | Boy : because ur teeth are so yellow |; ),0,0,0.018244674
+308,semeval,"Sunset for January 04 , 2015 at 04:39 PM ! Temperatures : 6 ℃ . It 's Partly Cloudy .",0,0,0.025648152
+309,semeval,@USER nice . We make it in a pot with butter & Himalayan salt . Sometimes with infused salts for a change .,0,0,0.012231299
+310,semeval,cies #eu Cleaner air would offer major health benefits in the Balkans HTTPURL,0,0,0.018239493
+311,semeval,"It is so much easier for me to write how I 'm feeling than to actually speak it , I get nervous and stumble on my words if it 's on my heart .",0,0,0.47753406
+312,semeval,Pretty much the real deal  #thanksmom HTTPURL,1,1,0.9974009
+313,semeval,Shhhhhh ... nobody move ... they 're playing a NON-electronic game together ... NICELY ! ! ! ... HTTPURL,0,0,0.062030688
+314,semeval,I just love being ignored :smiling_face_with_smiling_eyes: |  :unamused_face:,1,1,0.997311
+315,semeval,have n't talked to you in days . that 's cool I guess . ,1,1,0.9970528
+316,semeval,NYPD blog : HTTPURL Do n't you feel safe and protected ?  #ICantBreathe,1,1,0.9843461
+317,semeval,"@USER @USER A thief , a liar , a vote rigger , mocks those who use food banks and an online bully ",0,1,0.9889053
+318,semeval,"If I carried on the way half the men do on here , I 'd be getting called a crank ( amongst other things ) and be asked if I had #PMT ...  :nail_polish:",1,1,0.9940404
+319,semeval,work Wednesday-Sunday .. #yay  #moneytho :weary_face: :loudly_crying_face: :money_bag: :unamused_face:,1,1,0.9956529
+320,semeval,Picked an excellent day to get my hair done :unamused_face: ,1,1,0.9980184
+321,semeval,Sometimes i just dont understand anything | #stubborn HTTPURL,0,0,0.0023388602
+322,semeval,"Yoga pants , a sweatshirt , and nikes , am I @USER yet ? :face_with_tears_of_joy:",0,1,0.8729235
+323,semeval,@USER still out w / back sprain ?,0,0,0.02305326
+324,semeval,"@USER @USER you do n't know a damned thing about baseball , do you ?",0,0,0.013381419
+325,semeval,Having to be up in four hours sounds great ,1,1,0.9990538
+326,semeval,Getting ready to ship surplus ink cartridges out to Nunavut communities - yup that 's a great use of time / resources ! #sofulfilled ,1,1,0.999012
+327,semeval,HTTPURL #TeenAnalCasting #Highway Highway 69 – Disturbed ( Dedicated to a girl raped on 16/12 / 12 ),0,0,0.0033574367
+328,semeval,I think the new sweater I bought is a maternity sweater . Oh well . Its super cozy,0,1,0.61228293
+329,semeval,"My grandma tells me she made raviolis to eat .. You know I yelled back "" fuck you I do n't want no ravioli nigga ! ! ! """,0,0,0.09476722
+330,semeval,"We rebooted the server , it seems ok now YEY ! #facepalm  #devops",1,1,0.99526066
+331,semeval,@USER absolutely shocking that the lamestream media has n't picked up on this  #mediabias @USER @USER,0,1,0.99536455
+332,semeval,@USER your #ambition is #amazing .  #saintsfc enjoy exit from #ChampionsLeague,1,1,0.99299216
+333,semeval,@USER Three minutes is better than no minutes,0,0,0.21288142
+334,semeval,@USER @USER hahaha u talk abt policies .. just check delhi dialogue page .. are u from another gola lol,0,0,0.014574906
+335,semeval,@USER : I can't stand watching a #UKvsLOU game with a Louisville fan ! They 're as bad as Steelers fans . #BBN @USER ,1,1,0.93822974
+336,semeval,Everything You 've Been Told About Copywriting is BS .  HTTPURL,1,1,0.9907933
+337,semeval,Well on a positive note if I can stay awake for another hour I can go get my blood work done ! #positivenote fun stuff ,1,1,0.9980615
+338,semeval,"I have an "" attitude "" because you think you 're hot shit at a buffet restuarant . #lifegoals  #sideworknazi",1,1,0.99418867
+339,semeval,"@USER oh joy , now i get to have even more of them in my living room !  #putyourtoysaway #badboyfriend",1,1,0.9981976
+340,semeval,"I can't stop laughing at this . The fact that they specialize in "" Viral Marketing "" is especially amusing .  ... HTTPURL",1,1,0.9974631
+341,semeval,"@USER No , voting somebody in because they 're from Latvia is way more important than voting for the best players . ",1,1,0.9943065
+342,semeval,"i would tell ya , but you just would n't understand ... :heart_with_arrow:",0,0,0.022138994
+343,semeval,Interviewed a turkey & here 's what he had to say HTTPURL #Thanksgiving,0,0,0.0026972878
+344,semeval,#Putin #says #Russia #wo n't #be #intimidated #over #Crimea . HTTPURL via @USER,0,0,0.0018892958
+345,semeval,i 'm really stoked about going abroad in the fall . and well next week but that 's for completely different reasons . #imissmyboyfriend,0,0,0.019020429
+346,semeval,@USER that 's the easy part . Giving my man money to go grab all mine tomorrow morning can't be dealing with town to stressfull,0,1,0.59047234
+347,semeval,"Hi Orgabeh , so we meet again . I think you 're my soulmate . :smiling_face_with_heart-eyes: zzzzZzz :tired_face:  #patience",1,1,0.991184
+348,semeval,That 's always the solution ...  . Does n't fix anything !,1,1,0.9975278
+349,semeval,Storm coming ! #todayimloving  HTTPURL,1,1,0.9964573
+350,semeval,@USER tis the season for unwanted gifts !,0,0,0.013265571
+351,semeval,Going to sleep a solid 30 minutes earlier than last night ! ! ! #success #justwhatiwanted ,1,1,0.9917319
+352,semeval,Yay for knee machines !  HTTPURL,1,1,0.99795544
+353,semeval,go subscribe @USER on youtube HTTPURL for good music,0,0,0.005029977
+354,semeval,If you gon ' judge people who drink and blaze FOH Go choke on some foreskin,0,0,0.28756085
+355,semeval,First day skiing #killedit  #iwasshit #tignes #seasonlife HTTPURL,1,1,0.9620776
+356,semeval,@USER haha ! ! Noo I do n't need new boob 's my old ones are just fabulous :squinting_face_with_tongue: :squinting_face_with_tongue: :squinting_face_with_tongue:,0,0,0.05733271
+357,semeval,"My whole life is just "" oh ok "" .",0,0,0.07171998
+358,semeval,Love the fact that I turned off my alarm this morning and slept till so freaking late ,1,1,0.99914896
+359,semeval,"Shopping day with Ms 15 today . Her haul included new Docs , eyeliner , bras , new issue Frankie mag , and half of Kikki K . Tired and broke now .",0,0,0.04510976
+360,semeval,"Is there a "" like "" tab on me ? I 'm not a facebook status to be liked by people ...  #RudeButTrue",1,1,0.9780604
+361,semeval,"@USER Careful , Cayce . That 's almost a racist statement .  @USER @USER @USER",1,1,0.9959422
+362,semeval,@USER Asalamoalekum ... :grinning_face_with_big_eyes: kesay mizaj ? Thank you so much . It was posted on 2nd December 2013 . Already there . :smiling_face_with_halo:,0,0,0.16489092
+363,semeval,@USER Warwick Davis is more than twice the man Tony Blair is ,1,1,0.9232095
+364,semeval,@USER thanks for the wake up wrap and coffee this morning ! ! #CheapBastard ,1,1,0.9972537
+365,semeval,@USER @USER A protest is not peaceful if its forcefully stopping me to earn my livelihood .,0,0,0.01872333
+366,semeval,@USER if @USER exclude BF3 maps from the poll ... I am going to RIOT ! ! I really want Seine Crossing back :loudly_crying_face: :loudly_crying_face: | I would pay for it ! !,0,0,0.025760625
+367,semeval,Choose your words carefully hurting someone feelings is not the right way to go .,0,0,0.019860428
+368,semeval,@USER I was only clarifying for my LEGION of other followers .  ForTheIntellectuals #DrHandsomeDennis,1,0,0.28400892
+369,semeval,This long drive home later in the snow is gonna be shweeeet ,1,1,0.99673045
+370,semeval,#and #As #But #Cake #Like #MMs #Made #Make  #Food | Please RT : HTTPURL HTTPURL,0,0,0.0016698334
+371,semeval,@USER this is my new fave thing on facebook  #sexpest HTTPURL,1,1,0.99675924
+372,semeval,@USER public hammering the Steelers all week . Juicy .,0,0,0.016090814
+373,semeval,Lagopodous - Like a rabbit 's foot ! ! | Not so easy to drop into conversation but you never know .,0,0,0.009669554
+374,semeval,I have this weird urge to buy a hamster,0,0,0.16526757
+375,semeval,@USER has the best pickup lines ,1,1,0.9966196
+376,semeval,"Today stats : 5 followers , 8 unfollowers and followed 2 people via HTTPURL",0,0,0.008286785
+377,semeval,"decided to do a really fun thing , left myself 15 hours to sit an exam and write 3 x min . 1000 word essays ",1,1,0.9983234
+378,semeval,I 'm so good at sight singing . ,1,1,0.9977423
+379,semeval,@USER : Men with shaved heads are perceived as an inch taller and 13 % stronger than men with hair . @USER,0,0,0.02769465
+380,semeval,@USER a kiss on the cheek next time is enough :),0,0,0.021581111
+381,semeval,Working on Boxing Day is so fun ,1,1,0.9988231
+382,semeval,Love these cold winter mornings :grimacing_face: best feeling everrrrrrr  !,1,1,0.99685717
+383,semeval,Thirst will make you settle for a grenade bruh,0,1,0.59330064
+384,semeval,I miss the days when all my close friends lived in the same city .,0,0,0.34689194
+385,semeval,This link will be relevant in a couple of days . HTTPURL,0,0,0.0035768426
+386,semeval,@USER my favourite day of the year ! ! !  HTTPURL,1,1,0.9941374
+387,semeval,"or have you redefined "" network "" to mean a lone moron talking to himself on youtube @USER @USER @USER @USER",0,0,0.039627604
+388,semeval,I am 100 % sure that the cereal box I just decorated is an accurate representation of how well I know the book . ,1,1,0.9982274
+389,semeval,I love when I wake up grumpy  #effroommates #yourtooloud #personalalarmclock necessary #bequieter #ugh,1,1,0.9988072
+390,semeval,"#13CABS apparently this guy only does city-airport . If not , swears & drives off . Even from a taxi rank #goodguy  HTTPURL",1,1,0.9941399
+391,semeval,Makes perfect sense to get mad about something that happen 4 + years ago . ,1,1,0.9989219
+392,semeval,Jimi Agbaje is a fine man ... in respect to public service what notable landmark has he achieved ?  Tested | Jimi ... HTTPURL,0,1,0.70969814
+393,semeval,"Is your internet a bit slow today ? Blame a thick , wet , cable : HTTPURL",0,0,0.04620312
+394,semeval,Lol ... That 's real cute :unamused_face: ,1,1,0.9976931
+395,semeval,My life on a daily basis  really #lcsbeauty #followme #lblogger HTTPURL,0,0,0.011289698
+396,semeval,"dude said I better think hard , so he can take me to cheddars lmao ! ",1,1,0.99837023
+397,semeval,@USER @USER @USER @USER @USER we get it right for business the trickle down fairy will do the rest ,1,1,0.9938905
+398,semeval,"@USER Gonna miss @USER , @USER , @USER and others , but at least we got Howie Kendrick ...  Stoked #WTF",1,1,0.8788659
+399,semeval,#America #continues to show us that it is  here for #BlackPeople even though HTTPURL,0,0,0.0037396692
+400,semeval,@USER @USER Ah ok . Well I hope things keep going well with person A x,0,0,0.21191436
+401,semeval,"We need a #Democracy  #CoPocracy ! ! ! #Police , #MorningJoe ! #BlackLivesMatter #DemocracyMatters #Ferguson #EricGarner",0,0,0.32974866
+402,semeval,About to fuck up this Media exam  #actuallyihopeso,1,1,0.99202055
+403,semeval,"@USER : Arizona Coyotes forge deal with BMW HTTPURL But , relocation ! ! ! ",1,1,0.9586791
+404,semeval,"They decided 2 change King 's trunks 2 gold , his logos 2 green & his tights to blue . How creative .  .",1,1,0.9980819
+405,semeval,@USER @USER Pulled by White Van Man by the looks of it . Yuk .. so naff . That keeps the magic of xmas alive .. ,1,1,0.9966239
+406,semeval,"there is no such thing as "" racists "" because there 's only ONE race , HUMAN @USER @USER @USER @USER @USER",0,0,0.0069571543
+407,semeval,@USER They say  #responsible and your WorthIt to offer even $ 10 #discounts for the worst #customerservice I have ever had !,0,0,0.15553926
+408,semeval,"Oh , thank GOD - our entire office email system is down ... the day of a big event . Santa , you know JUST what to get me for xmas . ",1,1,0.9989742
+409,semeval,"@USER Wow , that is just so funny ... ",1,1,0.99691015
+410,semeval,The BOLD BAKERY by Sarah-Brockett #bakery  HTTPURL,1,1,0.9590572
+411,semeval,@USER @USER | Its @USER bcoz he is so #Nasty and loves his  ... | | #GoSupersonicQuikr,0,1,0.68887657
+412,semeval,You know when you send presents to friends who live far away and they never get there .. and you handmade most of the stuff .. yay ,1,1,0.99885035
+413,semeval,love studying for anatomy :beating_heart: ,1,1,0.99800164
+414,semeval,Horses are just hornless unicorns : O | | #enlightened #mystical #wow  #on #drugs,0,0,0.009416783
+415,semeval,"EXO COMING SOON 2015 | | Better pray this is better with 10 members * sighs * But either way , obssessed fans would still be obssesed . _ .",0,0,0.094717
+416,semeval,In need of a rose winee :wine_glass: :wine_glass:,0,0,0.09034869
+417,semeval,"@USER @USER @USER You are kidding , right ?  #poortaste",1,1,0.99766076
+418,semeval,@USER @USER @USER there 's a link somewhere just can't quite put my finger on it ,1,1,0.98759174
+419,semeval,"Migrains , , throwing up are always fun ",1,1,0.9987717
+420,semeval,@USER I think you should go get checked out,0,0,0.025645353
+421,semeval,Would like to thank my nephew for giving me his horrible cold & sore throat etc .. Much appreciated ! ,1,1,0.9985513
+422,semeval,Shit just keeps getting better and better ! ! !  #ShouldOfStayedInBed,1,1,0.98063856
+423,semeval,The ones that caught me by surprise were the ones I did n't expect #duh #redundantredundant,0,0,0.007600793
+424,semeval,You know it 's going to be a great day when you 're Garmin resets itself and you spill some cinnamon down yourself  #slowclap,1,1,0.9982102
+425,semeval,i feel like whole life is about waiting waiting and waiting,0,0,0.05965259
+426,semeval,Love people that do n't act like adults . ,1,1,0.9981463
+427,semeval,"This is what  looks like , right ? HTTPURL",0,0,0.005779085
+428,semeval,"@USER thanks for sharing Mike , your opinion means a lot to us .  #orisit ?",1,1,0.99114287
+429,semeval,"@USER wow , that is some fluent finnish ",1,1,0.9978613
+430,semeval,Love hanging out with my dad,0,0,0.30815613
+431,semeval,"Went off the road this morning as did my English professor , thank you FSU for your concern for commuters  :unamused_face:",1,1,0.9987197
+432,semeval,"First final of the day done , only three more to go . #greatscheduling  #incaseyoucanttell",1,1,0.9964553
+433,semeval,"showed mom this picture of me and @USER & says "" this is grunge "" and she goes "" haha ! ! I love it ! "" #momgoals HTTPURL",0,0,0.05067698
+434,semeval,@USER true sissy well said ..  fit to live as a man ...,0,0,0.4384465
+435,semeval,am really fuckin paying for it today #tequila #is  #the #one,0,0,0.004514732
+436,semeval,Why is ISIS an acronym for words in English ? ,1,1,0.9873865
+437,semeval,"I 'll keep this smile on my face to get myself through this bullcrap , instead of breaking down like usual .",0,0,0.051983256
+438,semeval,@USER Whoa ! I hope Dione Taylor got a standing ovation for that performance . Incredible voice .,0,0,0.16229516
+439,semeval,there are things we are made to go through  to harm us but to given us a lesson to teach to someone weaker,0,0,0.09456698
+440,semeval,@USER I think that was the joke . ,1,1,0.9943447
+441,semeval,Knock knock #sketchy #dignity #smile #funtimes #brotherskeeper #whosonfirst #holiday #shenanigans ... HTTPURL,0,0,0.004060921
+442,semeval,"Thanks @USER , for nothing . All my family were flying with you from KL to attend my wedding . #everyonecanfly  #AdelaideRouteCancelled",1,1,0.9977465
+443,semeval,Gripping new ebook not for the fainthearted or politically correct . Please visit site HTTPURL,0,0,0.007544431
+444,semeval,Ummm can I please have @USER for Christmas ? ! Dang he looks great tonight . Why did I not go to this thing tonight ?,0,1,0.7081902
+445,semeval,@USER who does n't ? ? ,1,1,0.9877037
+446,semeval,Sessions ! ! #why  #scary #canary #sydney #australia by lavin 56 HTTPURL HTTPURL,0,0,0.027045202
+447,semeval,"@USER Thanks , that 'll help loads ",1,1,0.99843735
+448,semeval,I just love working Sunday 's .  HTTPURL,1,1,0.9969029
+449,semeval,I miss how close we were . :pensive_face:,0,0,0.011154901
+450,semeval,Last day in Naples with my Emma girl ! :palm_tree: :sun: #soeasytotakeapicwithatoddler  #19wksandcounting ... HTTPURL,1,1,0.9031812
+451,semeval,"The Rondo , Ellis , Parsons , Dirk , Chandler starting line up would be one of my favorites in league . Mavs should go all out for Rondo .",0,0,0.1744665
+452,semeval,@USER Yeah no I 'm still laughing . It 's not even that funny and I 'm still laughing,0,0,0.012334852
+453,semeval,@USER @USER missing the bants at work today  #ha #ha #ha #shitbants,1,1,0.80142486
+454,semeval,@USER Prepare to get mucked  #imissedu,1,1,0.990388
+455,semeval,"See , this is why you should n't use version control !  justWordPress ... | | HTTPURL",0,1,0.94734764
+456,semeval,@USER wesay Yar her date was good :winking_face: I guess she ( in first meeting ) wanted to b seen with a girl or smth ( in hindsight I found her mashkook ),0,0,0.22289623
+457,semeval,Life requires one to be strong at different times . I wear my red briefs over my pants . U just need a lil lust to see ' em . #TooMuch ,1,1,0.99030733
+458,semeval,At one point i almost believed that the law of attraction was effective .  !,1,1,0.99844414
+459,semeval,@USER @USER #apologies * scoffs humble pie *,0,0,0.0059150853
+460,semeval,@USER one hope this gets a RT ! #recycling #roses #holly #wreath #MerryChristmas HTTPURL,0,0,0.0044200756
+461,semeval,At HTTPURL - - The sun finally decided to play #beastside #tahiti  HTTPURL,1,1,0.9851028
+462,semeval,Sunday is such a fun day to study  #ew #saywhat,1,1,0.9950722
+463,semeval,The sky looks SO beautiful today ...  HTTPURL,1,1,0.9969658
+464,semeval,Being ignored is still in my top ten things I love . tweet ,1,1,0.9985293
+465,semeval,@USER @USER @USER is this your first visit to a comment section ?,0,0,0.02115263
+466,semeval,I love being wide awake at 4am  #insomnia #nosleepdecember,1,1,0.9988182
+467,semeval,Cook and England rudderless at the death . Seven games and we 've got progressively worse ! Ca n't wait ' till they arrive here for WC ,1,1,0.99708325
+468,semeval,I had the best New Years ! ! ! Spent it with the people I love & I fucking loved it ! :smiling_face_with_heart-eyes: Such a happy camper right now ! :squinting_face_with_tongue: :green_heart: :red_heart:,0,0,0.42778322
+469,semeval,Happened in my culture competency class ... I could n't continue to argue with ignorance  <- my face in class HTTPURL,0,1,0.9430639
+470,semeval,@USER @USER I do n't think I 've ever seen Love Actually all the way through . I tried once last year . I do n't remember it .,0,0,0.006215331
+471,semeval,@USER Go you !  Home until the 1st Jan . So excited !,0,1,0.99138325
+472,semeval,She 's in Malawi and I 'm stuck in joburg  fair HTTPURL,0,0,0.026975965
+473,semeval,@USER I 'm not a Lohan anymore :beaming_face_with_smiling_eyes: detox now for 4 weeks new me ! 1 week tomorrow :face_blowing_a_kiss:,0,0,0.044075128
+474,semeval,"Tax & NI on your wage slip is like Jim Bowen on bullseye goin "" look what you coulda won "" #rubbingitin #crap HTTPURL",0,0,0.07760798
+475,semeval,"@USER its my workhorse , practically glued to my hand HTTPURL",0,0,0.006287188
+476,semeval,Coin ! WatcherOnAWall : Anyone else find it sad that we have to remind Conservative Republicans that Torture is wrong ? #TortureReport  ...,1,1,0.9654317
+477,semeval,"@USER @USER @USER @USER This has been my point all along , that TC is proving to be #ecigs best advertiser to teens . ",1,1,0.9929007
+478,semeval,"wait for it "" city-data "" will become a Fox News site soon @USER @USER @USER @USER",0,0,0.110660605
+479,semeval,What do you all think of that Salt-N-Pepa Geico commercial ? I think it 's pretty terrible .,0,0,0.080900595
+480,semeval,"Blue skies , warm air , and the royal accommodation ! #WhatMoreDoesOneNeed #Education ?  ... HTTPURL HTTPURL",1,1,0.969911
+481,semeval,Sad to hear about @USER passing . His family and friends are in my prayers today . #rip @USER,0,0,0.0041272165
+482,semeval,@USER I see your response time on your DM 's is as good as your phone lines .. just no hold music . Legendary service guys . ,1,1,0.9985055
+483,semeval,#Australia - - Eight #children #killed in Australia in #reported #mass #stabbing . HTTPURL via @USER,0,0,0.0017751475
+484,semeval,"@USER : #OneloveFestival Sat 20 Dec . Table bookings : R800 includes 1 bottle , 12 mixers ... Uh-oh I smell so much  it 's lovely !",1,1,0.9930269
+485,semeval,Rocking the Christmas socks at work . It 's the little things like this that make me happy . #essentialservice :Santa_Claus: :Christmas_tree: HTTPURL,0,0,0.016013008
+486,semeval,@USER LOOL from the guy with multiple twitter handles ,1,1,0.984426
+487,semeval,"Contemplating responding to @USER ' s tweet saying "" what remains of their pride "" but not sure how well that will go down ",1,1,0.9962458
+488,semeval,"@USER You 're on my "" People Who Antagonize Me "" list . HTTPURL via @USER ",0,1,0.9118989
+489,semeval,"Mmmm RT @USER : ! ! ! @USER : Faved . @USER : If Southampton wins , I 'll post a nude .. """,0,0,0.022747042
+490,semeval,@USER @USER Nice smile ,1,1,0.9975274
+491,semeval,@USER Aah yes rajneesh saab lol controversial figure he was,0,0,0.37143773
+492,semeval,@USER Why do n't you Tarmac all the speed humps in The Cut in 1 go instead of bit by bit as the brickwork disintegrates ! |  :rocket: Science,0,1,0.94583553
+493,semeval,Carphone Warehouse call centre employees are such classy people  @USER,1,1,0.9984749
+494,semeval,@USER No ... now someone will start a rumor of $ ABBV pricing their HCV drug same or higher than $ GILD ,1,1,0.99706763
+495,semeval,When I 'm lacking inspiration I resort to scribbling angry / pretty things . Great start to the week !  HTTPURL,1,1,0.9961085
+496,semeval,@USER We should monitor them ... ,1,1,0.9965683
+497,semeval,HAPPY BIRTHDAY BECCA . I just looked through ALL of my pictures which you know is a ton and found my ... HTTPURL,0,0,0.0031778116
+498,semeval,#DIY . Change your #MobileCover every day now . Enjoy ! HTTPURL,0,0,0.01319193
+499,semeval,They are still trying to decide if it 's terrorism ? ? OMG ! #sydneysiege,0,0,0.13676845
+500,semeval,Been at the ER now since 10 ... #yay ,1,1,0.99835557
+501,semeval,Not everyone 's really for you no matter how long you knew them . And not everyone 's a bad person just because it 's been a short time . ,1,1,0.99166965
+502,semeval,Why does Zayn look like a Spanish flamingo dancer,0,0,0.35022113
+503,semeval,. @USER I love the #gamergate concept of harassing and spamming porn at any critics as proof that you 're not a hate group . ,1,1,0.99846977
+504,semeval,Caribbean girls anthem Caribbean Girls by Stainless MOB now in stores online HTTPURL #IYON #Dancehall,0,0,0.008352429
+505,semeval,@USER He 'd be a perfect fit ... or Beachy / Medlen .,0,0,0.09237155
+506,semeval,I 'll grin or ill grin . There 's two ways to read my name .,0,0,0.022206493
+507,semeval,Might go back to bed it 's easier then making the effort @USER  #wrong :face_with_tears_of_joy: :loudly_crying_face:,0,1,0.8554687
+508,semeval,@USER reminds of me of myself when i was younger | | ,1,1,0.82292616
+509,semeval,I just saw another person wearing a heavy winter coat with a hood up  encouraging,0,0,0.3199661
+510,semeval,It 's such a joy to wake up sick again and not be able to use the one arm I do everything with . ,1,1,0.998384
+511,semeval,You 're gone and I gotta stay high ... #coldpants #offtomysteriousplaces  #bye HTTPURL,1,1,0.8786407
+512,semeval,If this year wld be filled w all these rainy days it wont be so cool  a cool way to start e year,0,1,0.9813933
+513,semeval,"Seriously tho if you need me anytime over winter break just shoot me a text . Probably wo n't respond cuz I 'll most likely be eating , but hey",0,0,0.05464463
+514,semeval,@USER @USER  sure who will take it home ?,0,0,0.028096527
+515,semeval,That moment when you have so much stuff to do but you open @USER ... #productivity  #tumblr,1,1,0.73595035
+516,semeval,Please instagram all your xmas presents I 'm dying to see them  #nobodycares,1,1,0.998147
+517,semeval,@USER @USER @USER Oh wow your talking Skype ! Cool ! ,1,1,0.9980077
+518,semeval,@USER Can you come shovel my driveway ? You owe me for helping you become the man you are today . #givingback,0,0,0.031681564
+519,semeval,@USER wants me to get hit by a bus so she can get a 4.0 #bestroomieaward ,1,1,0.99675155
+520,semeval,Lighting now setup on the #Malawi #Aquarium ... Water tomorrow ! #Cichlids #NoFilter #MarineWhite HTTPURL,0,0,0.003323363
+521,semeval,My favorite dreams are the ones where you wake up covered in tears . ,1,1,0.9979875
+522,semeval,Haha who the fuck says that to someone #TrueGentlemen ,1,1,0.99310726
+523,semeval,"@USER : So happy I got an offer from Trinity Laban , I 'd take Greenwich over Leeds any day leeds is where it 's at :woman_dancing: :raised_hand: ",1,1,0.9975442
+524,semeval,"@USER Well since he 's basically an employee of the oil & gas sector , it would make sense that he operates this way .",0,0,0.13526051
+525,semeval,"@USER draw , @USER draw , @USER going to lose , Pelle on my bench in fantasy , been a fucking shit night for me .",0,0,0.013377673
+526,semeval,I love when half the group is really committed and the other half just does n't give a crap ! #perfection ,1,1,0.9966091
+527,semeval,last day of classes #trill except finals whoop ,1,1,0.9953171
+528,semeval,@USER Being doing projects for university all day ! My life is sooooo interesting ,1,1,0.9983163
+529,semeval,just pulled up to school for the first time in my life in a good mood only to find out it doesnt start for another 2 hours  #BLESSED,0,1,0.8451235
+530,semeval,@USER @USER | We live in a world where even the neighbors look alien . ,0,1,0.8865442
+531,semeval,Grace : this is my barf bag . | Me : why do you have a barf bag ? | Grace : because sometimes when i see people i feel like vomiting .,0,0,0.15190138
+532,semeval,@USER @USER can't even bring myself to read this #rip,0,0,0.0034491853
+533,semeval,Do you like quality #dancemusic ? Go to HTTPURL for some great FREE downloads #UK #NightClub > @USER,0,0,0.005219603
+534,semeval,I love that my body can't handle school stress and makes me physically sick . ,1,1,0.9989009
+535,semeval,@USER @USER Nice to see @USER taking the time to visit a poorly fan ( in hospital Phil Jones )  #Alwaysinjured #MUFC,1,1,0.9983125
+536,semeval,"@USER @USER Spoiled , rancid food AND guns in the aisles ? Rats in @USER ? Sounds great .  #GroceriesNotGuns",1,1,0.9973289
+537,semeval,@USER you are by far the funniest prick in the world at the moment . Can you please come to Geelong ? We have a normal mayor ... ,1,1,0.9965834
+538,semeval,@USER I actually think he needs to use the youngsters in this reincarnation ,1,1,0.9970529
+539,semeval,@USER Blount also out . You would think this could be the game that White gets some action . I guess not .,0,0,0.021410212
+540,semeval,It 's adorable how this keeps on happening ,1,1,0.9989907
+541,semeval,@USER hey I seen u have followed me and I was going to ask to check out my channel and help me with a shoutout for subscribers ? ?,0,0,0.0752608
+542,semeval,@USER No reasons given . Some waited expecting a call but only found they were not chosen from media announcement,0,0,0.01147308
+543,semeval,Drudgery personified #commuterprobs #northernline #tfl HTTPURL,0,0,0.013470246
+544,semeval,Gotta love a Romanian playing an improvised version of jingle bells in a minor key . Really sets the festive mood . ,1,1,0.9987018
+545,semeval,"Dirgahayu my corps @USER 16/12 / 1986 - 26/12 / 2014 :smiling_face_with_sunglasses: :musical_score: :clapping_hands: :oncoming_fist: |  just a corps , we ... ( w / Tari , eni , & 26 others ) [ pic ] — HTTPURL",0,0,0.0047329203
+546,semeval,I guess my cat also lost 3 pounds when she went to the vet after I 've been feeding her a few times a day . | | #Eating | #food |  | #WorkingOut,0,1,0.803539
+547,semeval,I 'll do it tomorrow is a dangerous way to live,0,0,0.38387045
+548,semeval,What an amazing start to the weekend !  #ohgoditsfridayagain,1,1,0.99818724
+549,semeval,Yaaaayyy Valentine 's Day stuff is out already :two_hearts: ,1,1,0.9970413
+550,semeval,"@USER @USER "" pit players v . victims ? "" How dare the NFL put a divide between men and the women and children they beat ? ",0,1,0.98962885
+551,semeval,It 's been a great week for dictators . Congrats North Korea and Cuba . ,1,1,0.99873894
+552,semeval,@USER really showing me the fastest LTE around  #speedtest HTTPURL,1,1,0.992006
+553,semeval,@USER but talking rubbish about system on twitter can't change anything \ n  \ n Action speaks louder than words,0,1,0.973796
+554,semeval,@USER @USER @USER #WatchOutForThis | Hold the line,0,0,0.013548543
+555,semeval,Big thanks to my teachers for the FOUR tests I have to take tomorrow #woohoo ,1,1,0.99882156
+556,semeval,A very powerful statement by Rob Hustle on a growing crisis . #ICantBreathe HTTPURL,0,0,0.026181664
+557,semeval,@USER @USER I bet those fairways and greens rival the work of @USER ,1,1,0.99728584
+558,semeval,I would LOVE to touch an anaconda ! Jump on that thang and ride it like a horse ! #EatenAlive,0,0,0.36044908
+559,semeval,Someone stop Obama ! USA only should have relations with human rights loving nations like Saudi Arabia . Not terrorist Cuba ! #Cuba ,1,1,0.9810999
+560,semeval,#Warn them that your degree of  depends on them in this #funny tank top ! Order now at HTTPURL ! HTTPURL,0,0,0.057221543
+561,semeval,@USER Doubt I was the first to block you . But you pretend good .  @USER @USER @USER @USER @USER,1,1,0.9944924
+562,semeval,Did you know iOS 8 features custom keyboards ?  HTTPURL,1,1,0.99429977
+563,semeval,THEY #CAN'T BE #IDENTIFIED | #UK should  ALLOW more #SYRIAN REFUGEES #ENTRY among them will be #ISLAMISTS potential #TERRORISTS,0,0,0.007518345
+564,semeval,"@USER : Thanks to @USER . I think I backed into the playoffs ! Playoff matchup : TacoCorp v Gronkey Punch  1646 0 oh yeah , its official #im  #crazy HTTPURL 1647 1 Oh well , looks like we are back to square 1 . Batie and Bridge . This is going to go so well  #BoldandBeautiful 1648 3 @USER : @USER how the fuck are you up now ? Ho ! Saturnalia nigga "" ",0,1,0.9939492
+565,semeval,Not this room please I do n't want this,0,0,0.07588075
+566,semeval,#Israel #freezes #funds to #Palestinians #over #ICC #approach . HTTPURL via @USER,0,0,0.0029966186
+567,semeval,"they do n't sing live , but they sure are hella good looking #smh",0,0,0.009944518
+568,semeval,I feel the most comforted when the misinformed are the most vocal .  #pleasedontspeak,1,1,0.9950584
+569,semeval,#MY #Husband is  your concern #StopTxtnHim its Ok #youknowwhoyouare ! ! !,0,0,0.00408556
+570,semeval,As a little girl I would dream of shouting instructions repeatedly and being completely ignored . #motherhood ,1,1,0.9504835
+571,semeval,morelikes_app #necklace #sweet #you #running #inlove #iphoneonly #igers #russia  #sm ... HTTPURL HTTPURL,0,0,0.010838383
+572,semeval,Mondays are fine . It 's your life that sucks . | | It 's the first day of class and you see that ... Ugh ? Face ? | #UrsulaOnAMonday | #wow ,1,1,0.9797514
+573,semeval,@USER dusty as usual :electric_plug: #redbucket HTTPURL,0,0,0.004390779
+574,semeval,Small amount of lads with birds nests ' for hair cuts  #ha #3allover,1,1,0.9252709
+575,semeval,There 's nothing better than the feeling of being loved :unamused_face: lol nothing :thumbs_up: ,1,1,0.99615955
+576,semeval,If you do n't want Hall to eventually ask for a trade then hope for consistency in the message . Change too much you might as well start over,0,1,0.5136114
+577,semeval, going HTTPURL,0,0,0.0033633646
+578,semeval,@USER @USER Hates his anti-American / anti-Constitution policies and actions . Fixed it for you .,0,0,0.01907833
+579,semeval,"That 's me , the infamous pepper shaker replacer . ",1,1,0.9950382
+580,semeval,"@USER Jonah hill is funny , kevin hart , will smith , jim carrey , Sacha Baron Cohen ,",0,0,0.12634513
+581,semeval,@USER @USER @USER How dare you accuse me of being a boomer .,0,0,0.040998295
+582,semeval,Day 39 & 40  3 #Novel Train . #comfortzone #christmastree #nextlevel #buzzkillington #familyguy ... HTTPURL via @USER,0,0,0.008489697
+583,semeval,OH and now the District line has major signal failures and delays FANTASTIC ! ! ! ,1,1,0.99893683
+584,semeval,This is great ... ,1,1,0.998544
+585,semeval,@USER No clue what you were talking about ? Well that 's a first ! ,1,1,0.9976829
+586,semeval,Nothing like waiting at an airport . #youcanthearit ,1,1,0.9986656
+587,semeval,@USER @USER @USER @USER @USER @USER I 'm still going to Exeter whether they care or not,0,0,0.00945117
+588,semeval,Cats are so cute I wish I was n't allergic :loudly_crying_face: :loudly_crying_face:,0,1,0.5195752
+589,semeval,My dads letting me drywall with him for Christmas . Just what I always wanted . ,1,1,0.9978283
+590,semeval,@USER Is it on display at any given time at Ryerson ?,0,0,0.08690831
+591,semeval,"#Terror on high Seas ... | Fishing boat , allegedly from #Pakistan , blows up at sea ... HTTPURL",0,0,0.0038969151
+592,semeval,"On a good note , only 49 more days until #Scandal .  :crying_face: :crying_face:",1,1,0.99770564
+593,semeval,"#HybridCloud needs hybrid monitoring ... monitor Azure , plus apps and dbs , from SCOM HTTPURL",0,0,0.003301165
+594,semeval,Psychic Advice weekdays at 9am ( PDT ) on Psychic View Radio .. call in 347-850-1494 to ask YOUR question HTTPURL #BlogTalkRadio,0,0,0.0052218917
+595,semeval,"Read at HTTPURL the news ' #Media #Struggle #to #Save #Obama ,  #the #Country '",0,0,0.002310826
+596,semeval,"@USER : Gas below $ 1 per litre in Ottawa . Happy holidays . HTTPURL ... Yes , crisis averted ",1,1,0.99778
+597,semeval,I liked a @USER video from @USER HTTPURL 2015 Challenge ! Style By Dani,0,0,0.010618142
+598,semeval,@USER @USER @USER That is fine company !,0,0,0.03958609
+599,semeval,@USER @USER @USER because as long as she 's a victim she 'll have white knights trying to save that damsel in distress . ,1,1,0.97855616
+600,semeval,"Is Khallilah Henriques NNN all there ? She mostly sounds blonde , but this morning confirmed it #Ignorant on race relations #Articulate Minority .",0,0,0.03204916
+601,semeval,Lol hilarious pic RT @USER : What a game ! @USER win ! HTTPURL,0,0,0.030683601
+602,semeval,I love waking up and not being able to sleep anymore :) ,1,1,0.99883777
+603,semeval,HTTPURL #CHRISTMAS #GIFT #BLESSING #Santa #follow #TheInterview #BharatRatna #CallMeEva ... HTTPURL,0,0,0.0024992467
+604,semeval,I refuse to be weak ... #workout #motivation #fitfam HTTPURL,0,0,0.0034775597
+605,semeval,@USER I do n't think I 've ever even made weed brownies in my life ... idk where you get this bizarre idea from lol,0,0,0.012560168
+606,semeval,You know you love an author when you figure out how a book ends long before it does but can't wait to see how the author actually ends it,0,1,0.9590783
+607,semeval,Kisses to you bc you lose wisdom today ... from your mouth  #clever lol I love you text me when you 're able :winking_face_with_tongue: HTTPURL,0,1,0.81210846
+608,semeval,HTTPURL  so Ugly * Size SMALL * Christmas Sweater Cardi Basic Editions Holiday Vintage HTTPURL,0,0,0.0052764234
+609,semeval,"The fun part about 4 am drives in the winter , is no one has cleaned the snow yet ",1,1,0.99872524
+610,semeval,I 'm not going to survive today w / o breaking down in tears at least twice and possibly passing out . All nighter @USER library was a bad idea .,0,0,0.12897742
+611,semeval,Halfway thorough my workday ... Woooo ,1,1,0.99764425
+612,semeval,Working cart today .. gonna make that money !  . 35 golfers all day :unamused_face: :water_pistol:,1,1,0.99785787
+613,semeval,Saturday selfies miss you guys @USER @USER jessica 101xxx mark 8 :face_blowing_a_kiss: :face_blowing_a_kiss: :face_blowing_a_kiss: kiss each and one ... HTTPURL,0,0,0.009234435
+614,semeval,@USER @USER Did n't Carolina beat Tampa Bay ? the picks sheet has TB winning .,0,0,0.023353104
+615,semeval,Sweet United Nations video . Just in time for Christmas . #imagine #NoReligion  HTTPURL,1,1,0.9947619
+616,semeval,Wow writing 3 reviews on 3 concerts I did n't attend is exactly what I want to be doing right now instead of sleeping ,1,1,0.9988702
+617,semeval,comparing @USER to @USER #atlas ...,0,0,0.009290668
+618,semeval,Never has an #Australia been more dependant on govt money than we are now #Sad #socialism #Unrealistic PEOPLE we spend more than we earn ...,0,0,0.02688321
+619,semeval,@USER : AMAZING . I love this team . They scrap and always find a way ! 15-6 <-- indeed . #dcRising,0,0,0.0072568255
+620,semeval,@USER haha quite right mate ! They coonty workers have got it aff easy Al tell ye ! Oot here workin like a hamilton accie :person_wearing_turban:  :face_with_tears_of_joy: :face_with_tears_of_joy:,1,1,0.99719524
+621,semeval,Well that 's me living till I 'm 200yrs old ! ! ! #sarci  #sarcastic #wit #low #constant HTTPURL,1,0,0.02050094
+622,semeval,Sitting in this hall is fun ! ! :unamused_face: ,1,1,0.9968028
+623,semeval,@USER hold on a minute . Are you saying All blonde white women look the same ? ? ,1,1,0.9945417
+624,semeval,Why is there evidence of a stripper in my house yet I see no stripper in my house :expressionless_face: :broken_heart: HTTPURL,0,0,0.052567795
+625,semeval,"@USER looking great today Diane , it 's not fair you 're not on more .  enough Diane",1,0,0.4445267
+626,semeval,idk what I love more how cold my western civ class is or western civ . ,1,1,0.9928813
+627,semeval,NO PAİN - NO GAİN ! | #Fit #Fitness #gym | #No  #Give #Up :oncoming_fist: :flexed_biceps: HTTPURL,0,0,0.0019776332
+628,semeval,@USER the lineup is full of goals and offensive intention #LFC ,1,1,0.98249936
+629,semeval,Love working hard trying to fix other people 's fuck ups ,1,1,0.99888223
+630,semeval,@USER but if we all hold hands and sing Kumbaya they wo n't hate us ! ,1,1,0.9891713
+631,semeval,Sipping a chicken Cuppa soup and watching #Jezza how exciting ,1,1,0.99811244
+632,semeval,"@USER Ok , hope it will rain soon  :confounded_face:",1,1,0.99716884
+633,semeval,@USER try Naheed akhtar & nayyara noor too . gOLD stash .,0,0,0.037457492
+634,semeval,"studying up on narcissism . the more I read up , the more I 'm afraid I have this disorder ! ! #centeroftheuniverse ",1,1,0.9829252
+635,semeval,It is so nice knowing you have everyone 's back and yet no one has mine . ,1,1,0.9982816
+636,semeval,Ca n't even explain how excited I am for tomorrow . :hundred_points: :basketball:,0,0,0.034352336
+637,semeval,You can spit on a rose but it 's still a rose . #contempt  #mockery,0,1,0.79850745
+638,semeval,I 'm so glad I 'm sick today . |  #bullcrap,1,1,0.99589705
+639,semeval,@USER @USER I 'd prefer the slew of #Ferguson protestors across the US ... they stop traffic shut dwn bridges,0,1,0.564325
+640,semeval,Lights went off at my school so now we trying to learn with one emergency light on in the classroom how great ! ,1,1,0.9988908
+641,semeval,lol has his website been suspended again ? @USER @USER,0,0,0.05446357
+642,semeval,@USER @USER he captures the spirit of devolution so well ,1,1,0.996765
+643,semeval,"Good news ! Thanks to the #ACA , my husbands insurance premium jumped up 971.2 % in one year ! Hooray !  #ThanksObama",1,1,0.99827695
+644,semeval,@USER > matters we may exert or influence a change . But friendships are n't progressed this way . Some natural affinity is needed .,0,0,0.0022615273
+645,semeval,"Few #relations are by #chance , few are by #choice and few are by #Facebook ! ! ",1,1,0.9433715
+646,semeval,The Grinch Stole My Sanity HTTPURL via @USER #lol #fun #funny  HTTPURL,1,1,0.99554837
+647,semeval,Your Jedi mind tricks do n't work on me service guy . | Glad I dropped the car off for the oil change instead of Av .,0,0,0.11412336
+648,semeval,SEC crew doing some quality officiating in the penn state game .  . How do you miss that terrible block in the back ?,1,1,0.9975495
+649,semeval,@USER @USER and why would n't you be after THAT performance !,0,0,0.004061268
+650,semeval,@USER you wo n't get a source other than ISPR :| ,1,1,0.94681376
+651,semeval,@USER Have you guys tried unplugging the servers waiting 10 seconds and plugging them back in ?  #psndown,1,1,0.98457944
+652,semeval,@USER Ben were you going to pick up your pizzas today ?,0,0,0.062169645
+653,semeval,What do you call a Chinese millionaire ?,0,1,0.75388646
+654,semeval,Just walked #Frodo 's path from #LOTR in #LOTRO ... geek quota for the week is already met :-p Here 's the start ... HTTPURL,0,0,0.018208146
+655,semeval,Oi na how am I functioning right now #sleepdeprived,0,0,0.01380399
+656,semeval,"Lovely first day of 2015 ; friends , family swim , sort & cleanse , curry , less time on social media , more time on others #startasyoumeantogoon",0,0,0.451586
+657,semeval,Where I am  @USER Boys Town HTTPURL,0,1,0.7573335
+658,semeval,Gotta go back to work tonight,0,0,0.38806975
+659,semeval,@USER Way to lay out yesterday and put it all on the line #GoodLeader ,1,1,0.99659675
+660,semeval,@USER / / LOL ... Apparently I leave a big impression . ,1,1,0.99541473
+661,semeval,#nuffsaid  #stupidity #hadenough lols :face_with_tears_of_joy: :grinning_face_with_big_eyes: HTTPURL,0,1,0.59163094
+662,semeval,"@USER logic is an invention by the kuffar , everything makes perfect sense . (  ) Like monkeys stoning she monkeys",1,1,0.9965737
+663,semeval,okay back to studying for math final,0,0,0.43790978
+664,semeval,Last day in #Riga ! #self #finnishgirl #businesswoman  @USER PK Riga Hotel HTTPURL,0,1,0.91404194
+665,semeval,Shawn still has n't follow me ... and I 'm okay with it ,1,1,0.99734217
+666,semeval,The rain has made extra extra lazy :grinning_face_with_sweat:,0,0,0.0735823
+667,semeval,Ohhh the joy of getting pulled over :green_heart:  HTTPURL,1,1,0.99803454
+668,semeval,Days when you just want everyone to leave you alone  #in # a #good #mood #noHunting,0,0,0.020078547
+669,semeval,14 units next semester plus work yes so excited for that ! ! ! ,1,1,0.9978896
+670,semeval,"@USER gee , that 's SO hard to believe . ",1,1,0.98800534
+671,semeval,@USER Our 3 losses followed bye weeks & an FCS team . Do we get rid of those next year ? ,1,1,0.98769647
+672,semeval,"What the hell has happened to Shahid Afridi in last couple of days ? Left alone more bouncers than played , got a review right . #pakvnz",0,0,0.19158223
+673,semeval,Have you gotten your tree yet ? Xmas tree nail wraps available at HTTPURL #nailwraps #nailart  ... HTTPURL,0,1,0.9222313
+674,semeval,@USER I literally do not know,0,0,0.030264758
+675,semeval,"Oh , joy ! ' Tis the season for "" Christmas came early "" leads .  #DoBetter",1,1,0.9972729
+676,semeval,Ma thing  HTTPURL,1,1,0.98678905
+677,semeval,What a great way to start the day ! !  :angry_face:,1,1,0.9985663
+678,semeval,Si Ms . Educ hehehe clear my ignorance :smiling_face_with_heart-eyes: :face_with_tears_of_joy:,0,0,0.18976496
+679,semeval,Roman mythology gets me soooo pumped ,1,1,0.9984365
+680,semeval,Uh-oh . Better head for the hills . #storm #clouds #seekshelter HTTPURL,0,0,0.0068442086
+681,semeval,@USER @USER spawn of Larry Ellison aka World 's Worst Human,0,0,0.04197077
+682,semeval,i just loveee bein short and having my sweatpants go all the way under my feet its so fun ...  :pile_of_poo:,1,1,0.99861217
+683,semeval,Wow I really have the best luck known to man  :grinning_face_with_sweat:,1,1,0.99855727
+684,semeval,@USER was completely sensationalized . Inferring that Cubs were n't serious about winning until Wednesday is a joke .,0,0,0.01597909
+685,semeval,My prayers have been answered WE OUT,0,0,0.38886815
+686,semeval,Some guy chattin shit to me on the bus saying I look like snoop dogg #KMT  #again,0,0,0.3108379
+687,semeval,You could say after today I 'm officially necrophelic #LatinFinal #justajoke  intodeadthings,1,1,0.668196
+688,semeval,null ( 68 ! ) - How much do you know about periods ? HTTPURL via @USER,0,0,0.003535513
+689,semeval,so proud of my artwork :sparkling_heart: :smiling_face_with_halo: #proud  HTTPURL,1,1,0.9936592
+690,semeval,@USER Oh crap . Mean . What did it mean . See my last few RTs . ,0,1,0.9771179
+691,semeval,"Ostentatious "" a showy display designed to impress "" . Thats the word I immediately think of when I see a woman feeding her child !  #Idiot",1,1,0.96148616
+692,semeval,@USER @USER I 'm sure you 're all inconsolable ,1,1,0.99784696
+693,semeval,#tbt  Dedicated to those days we DONT want to throwback to . Like this evil cold November day at ... HTTPURL,0,0,0.016282829
+694,semeval,I am downloading #AdvancedWarfare now ! ! Ca n't play it until 22nd of December tho :/ #Exams,0,0,0.0062396033
+695,semeval,Why YES ! Of course I use  a lot in my day ... because violence is illegal .,1,1,0.54678965
+696,semeval,@USER did you think that only making 100 was going to be enough ? ,1,1,0.9890738
+697,semeval,@USER @USER Thx . If thry real why dont you have them ? Friend me on HTTPURL,0,0,0.0113300225
+698,semeval,. @USER @USER oh look an Audi driver breaking the law ... how strange ,1,1,0.9969591
+699,semeval,@USER ooooo touching myself to ODB he is the greatest Giants player to ever play the game ... Screw that the best player ever ! ! ,1,1,0.996759
+700,semeval,#Lebanon #detainee #is  #ISIS leader 's #wife : #Iraqi #official : BAGHDAD – An Iraqi official denied Wednesday ... HTTPURL,0,0,0.0038082914
+701,semeval,' Tis the season for tablets ! I entered the #tabletsforall contest to win a tablet gift pack . Check it out : HTTPURL,0,0,0.010159477
+702,semeval,I wish I did better in high school,0,1,0.5878768
+703,semeval,"Song of the Day : "" The Lights and Buzz "" - Jack 's Mannequin .",0,0,0.07114216
+704,semeval,"Got nothing against Muslims , but fuck these Islamic Cunts are disgusting :/ #sydneysiege",0,0,0.014150011
+705,semeval,Good crowd at the Independence Bowl ... ,1,1,0.99803406
+706,semeval,I promote #EDM why would I add jazz ? Some ppl will do anything 2b popular #SoObvious #WTF #AttentionWhore #keepitreal HTTPURL,0,0,0.006894595
+707,semeval,doing mental calculations and realizing that your chances of passing a module are slim to none is fantastic ,1,1,0.99885094
+708,semeval,Oh noes ! The night train Berlin-Malmö runs only during summer ! HTTPURL & me who was planning a long comfortable train trip :(,0,0,0.02585933
+709,semeval,@USER and yeah I set it at 130 not 150 because overworking your rookie pitchers is totally okay ,1,1,0.99842596
+710,semeval,Bet that was #limbs in the Sunderland end,0,0,0.06699769
+711,semeval,Nothing beats a surprise Tetanus shot at the doctor 's office . #blessed ,1,1,0.9986958
+712,semeval,#ff By ideiasdebolosdocesedelicias . Such a different twist to the regular #frozen cakes :) We love this one !  ... HTTPURL,1,1,0.9954774
+713,semeval,It 's all about Twitter  a clue,0,0,0.14417276
+714,semeval,@USER Even you have to think the Religious Freedom Restoration Act in Michigan is ridiculous .,0,0,0.11347238
+715,semeval,How to know when he really loves you . #tmi #imsorry #chickfila HTTPURL,0,0,0.004313664
+716,semeval,"#SteveHarvey worships #Obama b / c he does n't research , then calls every 1 else ignorant . #Fuck this guy . HTTPURL  #Idiot",0,0,0.16611654
+717,semeval,@USER @USER Shit ! I better shut my stupid girly mouth because im so concerned about what men might think of me . ,1,1,0.9826309
+718,semeval,Look behind you # Tara # Ella # Starbucks #mytopgirls @USER The Omni Santry HTTPURL,0,0,0.0035354109
+719,semeval,I feel so blessed to get ocular migraines . ,1,1,0.9986841
+720,semeval,LOL lets see if he actually READS it | @USER @USER @USER,0,0,0.009803223
+721,semeval,How does #bigdata and #analytics look compared to the #cynefin cause / effect decision framework ? HTTPURL,0,0,0.0062688505
+722,semeval,We prefer to lose the derby vs #SuC and fight for Ligna trophy . ,1,1,0.9954218
+723,semeval,Have n't been to sleep . Feeling AWESOME . ,1,1,0.9965951

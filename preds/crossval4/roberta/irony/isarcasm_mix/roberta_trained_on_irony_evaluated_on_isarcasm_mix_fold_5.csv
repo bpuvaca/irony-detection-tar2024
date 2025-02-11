@@ -1,0 +1,428 @@
+index,dataset,tweet,label,prediction,probability
+1,isarcasm,if trees would simply stop producing flammable leaves climate change would not be an issue,1,0,0.47652623
+2,isarcasm,Harder and Ji have carried this team today,0,0,0.4702072
+3,isarcasm,"As colleges begin making fall re-opening announcments , remember that if your school is reopening this fall , it 's not because it 's suddenly safe or the pandemic is over . It 's because they want your money .",0,0,0.4652077
+4,isarcasm,I woke this morning to another Monday of fine bright warm sunshine here in Norfolk . Just what you need to put you in the right frame of mind for the week .,1,0,0.49382368
+5,isarcasm,nothing quite says hello 2020 like hypothermia :partying_face:,1,0,0.48133886
+6,isarcasm,tiktok 's full name is tictactoetok,1,0,0.46681327
+7,isarcasm,STOP TREATING MARS LIKE A BACK-UP BOYFRIEND JUST FIX YOUR CURRENT RELATIONSHIP WITH EARTH BECAUSE YOU CAN'T LIVE HERE .,1,0,0.47302428
+8,isarcasm,Oh what a surprise BBC weather says it 's raining in Manchester ! in Manchester !,1,0,0.4966699
+9,isarcasm,cold queso is so much better than warm queso HTTPURL,1,0,0.48028728
+10,isarcasm,Pregnant and constantly crave KitKats . I literally have been living off of them for the past 4 months . @USER,1,0,0.46980736
+11,isarcasm,"Duodenum , Jejunum , and Ilium would be cute names for triplets , do n't @USER me",1,0,0.46668303
+12,isarcasm,Another thing lost to climate change : parents making their kids wear long sleeved shirts under their costumes bc its cold out #halloween2019,0,0,0.4905685
+13,isarcasm,good evening sharks . hooters but for feet .,1,0,0.47315687
+14,isarcasm,i think it should be illegal for the people stopped at the light outside my window to have bad music taste,0,0,0.46863067
+15,isarcasm,@USER Excited for season two :),0,0,0.4661993
+16,isarcasm,See Brexit is going well,1,0,0.48075104
+17,isarcasm,It 's so fantastic when you pay £ 800 a month to live in London in a fully refurbished house and wake up with water dripping on you from the upstairs en suite XXXXXX,1,0,0.4803602
+18,isarcasm,there 's no better way to wake up than having one dog jump directly on your stomach and knock the wind out of you while the other drop a dead rodent on the end of the bed . :expressionless_face:,1,0,0.4739668
+19,isarcasm,"@USER I choose to interpret it as "" XD "" : the universal emoticon for laughing at those poor , poor folks in Ubisoft 's marketing department who have to deal with that branding until the servers quietly shut down 8 months after launch .",1,0,0.4542503
+20,isarcasm,:dizzy: jsc bonding nights :dizzy: :smiling_face_with_hearts: :partying_face:,1,0,0.48639357
+21,isarcasm,@USER @USER Agree with all that he said with the previso that civilians and arms leave before the last of the troops left ... that was Biden 's huge error,0,0,0.4581208
+22,isarcasm,"USA is turning into the 40 - something uncle who turns up to the wedding reception , gets drunk & takes the mic from the band to sing Sweet Caroline , but gets all the words wrong . Highly entertaining but a total fucking train wreck that you 're glad you do n't have to see more often .",0,0,0.4658713
+23,isarcasm,alright I 'm ready for some march madness :basketball: :fire:,1,0,0.48283872
+24,isarcasm,"Spiritfarer is so good , I bought it several months ago but finally started it tonight #gamer",0,0,0.47450167
+25,isarcasm,When you get woken up at 3am because of aftershocks from an earthquake :thumbs_up: :weary_face:,1,0,0.48462293
+26,isarcasm,"Ah yes , it really is wood-burning stoves in sub-Saharan Africa thats driving the climate crisis :brain: HTTPURL",1,0,0.4768046
+27,isarcasm,I wish that grilled cheese helped you get that summer bod,1,0,0.4743824
+28,isarcasm,"Turned out nice again , I see [ insert photo of flooded house ]",1,0,0.48644873
+29,isarcasm,I picked next year 's musical already ... Electro City . Obvious choice .,1,0,0.4696596
+30,isarcasm,there was a bee in my house yesterday and i have n't seen it since i hope it died,0,0,0.46399283
+31,isarcasm,"ah yes , of the course the summer rain pours when im on foot .",1,0,0.48438606
+32,isarcasm,Get the Police involved . Refuse to sail until they mask up . Do n't let them on in the first place . Little point posting on twitter if you 're not going to enforce it . HTTPURL,0,0,0.46522692
+33,isarcasm,I have n't used snap in so long and my short attention span / short term memory can't keep track of what we 're talking about :weary_face:,0,0,0.46541092
+34,isarcasm,I am just loving life in Covid times . Long may it last !,1,0,0.4764814
+35,isarcasm,my car is acting up AGAIN for like the 3rd year in a row and I 'm just going to drive it into the river at the point,1,0,0.46794596
+36,isarcasm,The numbers talking to me !,1,0,0.4792111
+37,isarcasm,Toonami introduced me into anime . #BringBackToonami,0,0,0.4581938
+38,isarcasm,I just love the weather in Edinburgh have to dress for every season peeing with rain this morning now beautiful blue skys ! ! Just love getting soaked :face_with_steam_from_nose:,1,1,0.5096722
+39,isarcasm,so @USER really knocked it out of the park on this album . there are not enough words that can describe how much i love BILC . i could spend forever inside of it :black_heart:,0,0,0.45884702
+40,isarcasm,wow . i left on time today and the airport connector is all the way backed up . love that,1,0,0.4667081
+41,isarcasm,Wow Bdubs can bench press 150 kilometers,1,0,0.48032528
+42,isarcasm,it 's all about women in stem struggles . what about women in interactive media struggles : i no longer win against my friends in smash because they major in goddamn video game .,1,0,0.45145103
+43,isarcasm,Just disposed of a dead opossum . Good morning !,1,0,0.4778365
+44,isarcasm,90 % of adulthood is just refilling your Brita pitcher .,1,0,0.47263703
+45,isarcasm,Remember the hundred emails from companies when Covid started getting real ? I 've gotten three in regards to support for protests . And only @USER shared helpful links and actually said black lives matter ... we love capitalism :smiling_face_with_hearts: 🙌🏼,1,0,0.46911484
+46,isarcasm,@USER @USER The % you quote is of those eligible . This is surely misleading ?,0,0,0.4620629
+47,isarcasm,"Piers Morgan getting grief for his comments on silver and bronze medals . But , ask the average person to name 10 British Olympians and they 'll rattle off 10 gold medalists .",0,0,0.46121088
+48,isarcasm,I only watch youtubers that apologize when they mention their video sponsor,0,0,0.4619633
+49,isarcasm,i would rather be outside reed timmers car in f3 tornado winds than go to work today,1,0,0.4828745
+50,isarcasm,"Horse dancing is my new favorite Olympic sport , I have no clue what 's happening , but this is incredible",1,0,0.46483535
+51,isarcasm,"Do n't you just love Monday mornings , they are even better when its freezing cold and you have an uncooperative child too !",1,0,0.48794705
+52,isarcasm,Woke up at 3 am with a MAD craving for pickles . I guess that means I 'm expecting !,1,0,0.47961122
+53,isarcasm,"@USER @USER Hey Glenn , what is this app called ?",0,0,0.46592796
+54,isarcasm,i do n't understand jackets that do n't have side pockets ? ? ?,0,0,0.46797714
+55,isarcasm,omg text “ pew pew ” and see what happens :face_with_open_mouth:,0,0,0.48233625
+56,isarcasm,i 'm going to a butch brunch / clothes swap this weekend and i think this is the most excited i 've been to socialize in a year,0,0,0.46917558
+57,isarcasm,I want to do a puzzle while drunk again,0,0,0.47648817
+58,isarcasm,@USER @USER can i use this chiamus for my ap lang speech about parallelism lmao,1,0,0.4589196
+59,isarcasm,Day 3 of night shift : “ Can I get a triple shot puppuccinio ? ”,1,0,0.4839853
+60,isarcasm,I really hate the new TikTok voice over voice - she sound annoying af,1,0,0.47106728
+61,isarcasm,i 'm ALREADY stressed about whose pov to watch for mcc hahah,0,0,0.46747
+62,isarcasm,""" are you experiencing suicidal or homicidal ideation ? "" "" only while trying to talk to a human when I call @USER pharmacy """,1,0,0.46966308
+63,isarcasm,"I 'm so glad I know the quadratic formula from 8th grade instead of knowing how to pay taxes , get ready for college , oh OR ANYTHING ELSE USEFUL THAT INVOLVES BECOMING AND ADULT :cowboy_hat_face: :smiling_face_with_hearts:",1,0,0.47254294
+64,isarcasm,ok wow ... unfollowing now . thought he was the cool new kid from hollywood but apparently he 's a virgin who lit the black flame candle,0,0,0.4676527
+65,isarcasm,How do you figure out the guy in the office who does n't have a smartphone ? He 's the one walking into the bathroom with a book under his arm .,0,0,0.46857598
+66,isarcasm,Where does Twitter go shopping ? Went to the supermarket earlier and shelves full as usual . Only item I could n't get hold of was British : large jar of Colman 's mustard ( much better value than the smaller ones ),0,0,0.47754192
+67,isarcasm,Big day in the Mumford house #sports day,1,0,0.48429993
+68,isarcasm,@USER I think you are wonderful ! I adore you ! :bread: :people_wrestling: :roller_coaster: :smiling_face_with_sunglasses:,0,0,0.4823765
+69,isarcasm,""" You think you 're better than us because you 're vaccinated ? ? "" Uh , yeah , yeah I do",0,0,0.46315387
+70,isarcasm,"Not got one lynx Africa for Christmas Day this year , shocked and outraged . #RuinedChristmas",1,0,0.48335588
+71,isarcasm,that before the gym nap makes hitting the gym so much better,0,0,0.4937857
+72,isarcasm,Any other @USER #Rammstein fans randomly had their merch orders cancelled ? ?,0,0,0.4733244
+73,isarcasm,Tried okra for the first time from Tesco . Absolutely delicious . #TriedForLess,0,0,0.48175567
+74,isarcasm,just your casual reminder that #AllBirthdaysMatter and I can't stress this enough :sparkles: fuck trump :sparkles:,1,0,0.4759175
+75,isarcasm,"woke up from a dream this morning that my high school best friend was pregnant . we do n't talk anymore . she posted an announcement this afternoon . oh august , you will be funnn :cloud: ∞ :crystal_ball:",0,0,0.4663492
+76,isarcasm,This second jab has made me feel off the box this entire day :face_vomiting:,0,0,0.48655987
+77,isarcasm,you would think the odds of me sitting next to the exact same stinky man three bus trips in a row is highly unlikely . alas I seem to be a lucky gal,1,0,0.46689972
+78,isarcasm,also if u met dream on hypixel .. congrats ! im not jealous at all haha im totally normal haha Good For You .. haha,1,0,0.461326
+79,isarcasm,"There 's a gigantic , newly opened , posh box of chocolates in the kitchen at work marked ' for everyone ' and now I 'm wondering which one of my colleagues got dumped on Valentine 's Day",0,0,0.4641142
+80,isarcasm,@USER Nurse ! John 's been sniffing ivermectin again .,0,0,0.4698817
+81,isarcasm,do n't make me rewatch panic :face_with_raised_eyebrow:,1,0,0.47867388
+82,isarcasm,"why do i get ripped to shreds about shopping in primark , their crop tops are stunning and cheap so why not ? ! I do n't earn money to waste it :upside-down_face:",0,0,0.47051647
+83,isarcasm,Government - “ all over 40 ' s must have booster jab by end of January ! ” NHS website * rubs hands together in glee * “ oh yes ? I think not ... ! ” :face_with_rolling_eyes:,1,0,0.48373416
+84,isarcasm,"You were given the option to be born into a more financially stable family at conception , but chose not to avail yourself of the opportunity provided ; perhaps you should now take personal responsibility for that decision , and deal with the consequences ? ' :top_hat:",1,0,0.45570347
+85,isarcasm,i think everyone should get an air fryer :red_heart: good vibes only,0,0,0.4670377
+86,isarcasm,"The Drake and Josh theme song , “ I Found a Way ” , is the best Nickelodeon TV theme song and that is a fact",0,0,0.46984237
+87,isarcasm,If only we had another lockdown I 'd love to be locked in my room for another 8 months,1,0,0.4758715
+88,isarcasm,i need human stimulation in order to be productive ... anyone who 's down to find a space to co-work from “ home ” together pls hmu ! !,0,0,0.46882284
+89,isarcasm,Today my pop-pop told me I was not “ forced ” to go to college :upside-down_face: okay sure sureeee,1,0,0.47421902
+90,isarcasm,taking spanish at ut was not my best decision :neutral_face:,0,0,0.47405246
+91,isarcasm,18 yr olds : * literally in the olympics * me : * just melted the bread bag onto the toaster *,0,0,0.48309416
+92,isarcasm,"3 classes down , 2 more to go and then I 'm halfway finished college :flushed_face:",0,0,0.47761065
+93,isarcasm,my apartment is implementing a new app that lets you tattle on someone being in your parking spot smh now i actually have to pay for parking,0,0,0.46803853
+94,isarcasm,2 busy working 2 care,1,0,0.47657624
+95,isarcasm,I love it when my neighbours children block the drive because they can't cook their own meals every single day ! ! !,1,0,0.47769406
+96,isarcasm,"It 's important to note that majority of Americans voted for Hillary so if you are feeling alone and betrayed , you are wrong . We are here .",0,0,0.45542434
+97,isarcasm,Sometimes I think I 'm ready to live in an apartment either with the homies or by myself but then someone rings the doorbell and I get into a full blown anxiety attack because I think it 's someone trying to kill me lmao,0,0,0.4663944
+98,isarcasm,it 's too bad i forgot how to play my clarinet so close to my recital,1,0,0.46371529
+99,isarcasm,There are people who say there is no hope left in the world ... but those people have not just booked tickets to see Creeper ! ! ! #creeper #gigs #excited,0,0,0.47944075
+100,isarcasm,"So my Twitter feed has to show me what tweets people I follow like . ... :neutral_face: If I unfollowed you , just know I 'm tired of seeing porn",1,0,0.45780873
+101,isarcasm,came home to realize my family found and read my quarantine journal lmao lucky I did n't get involuntarily committed wtf,1,0,0.46545076
+102,isarcasm,why am I so tired and also why is the answer always chronic pain ? ? ? ! ? ? ?,0,0,0.47801393
+103,isarcasm,it 's been 20 hours and i want another chai latte with pumpkin cold foam i can't afford this !,1,0,0.46989772
+104,isarcasm,happy one year vegetarian to me :red_heart: :seedling:,0,0,0.4731864
+105,isarcasm,I just got my first spam call about my vehicle 's extended warranty ! ! ! I 'm living in a meme,0,0,0.47394833
+106,isarcasm,@USER Do you know of any good chippies in the Crewe area ?,1,0,0.46908763
+107,isarcasm,I hate when people rag on Arthur 's name without knowing the meaning behind it . Arthur was named after Mikeys great great uncle who committed suicide at the age of 30 . Grandpa says he was one of the most generous men he ever knew and was a very special guy to grandpa :yellow_heart:,0,0,0.45382646
+108,isarcasm,"Thinking about that time Blizzard had the brilliant idea to change everyone 's name on their forums to their real names . God , what an idea that was .",1,0,0.4627135
+109,isarcasm,this time tomorrow i 'll be dying at school Cannot Wait !,1,0,0.481061
+110,isarcasm,i am 21 years old and i still love harry styles as much as i did when i was 11,0,0,0.45707026
+111,isarcasm,@USER @USER worst timeline,1,0,0.4604459
+112,isarcasm,i just deleted every tweet from beyond this year because connor wouldnt stop asking for my cringy ass twitter damn,0,0,0.4572373
+113,isarcasm,“ The App Store [ is ] ... an economic miracle ” :face_with_rolling_eyes: but Apple magic not working today at #AntiTrustHearings #Apple stifles innovation that is the lifeblood of our economy . - Lucy McBath speaking some truth today #HouseJudiciary HTTPURL,1,0,0.4833569
+114,isarcasm,"Queer marriage is not allowed because it does n't follow the "" age-old customs , rituals , practices , culturla ethos and societal values "" , but all cis-men can commit infidelity with no consequences . Happy fuckin Pride people :upside-down_face: #SupremeCourtofIndia",1,0,0.4717365
+115,isarcasm,Dear No Label Academy students ... we 're still not done . Each and every one of you will receive a brand new MacBook to continue your musical journey 's . :red_heart: HTTPURL,0,0,0.46883044
+116,isarcasm,Wow great album from Kanye . v John Cage 4 ' 43 vibes x,1,0,0.47703758
+117,isarcasm,my essay was so bad that my prof is giving me a fucking extension and i did n't even ask for it GOD,0,0,0.45463136
+118,isarcasm,remember when everyone 's feeds were just retweeted giveaways looool those were the days,1,0,0.46721756
+119,isarcasm,IF ONLY PEOPLE WOULD RAKE THE FORESTS . #Debate2020,1,0,0.475909
+120,isarcasm,Owwwww stressful day .,0,0,0.4782329
+121,isarcasm,"My new favorite thing to do while teaching this insect ecology course is to make a stupid mistake , like posting the wrong zoom link or uploading the wrong assignment , and then say "" can you believe I almost have my PhD ? ? "" to my students . They can not , folks .",0,0,0.4606936
+122,isarcasm,"@USER @USER Really interesting map , you can tell a lot of love and care went into it .",0,0,0.45779765
+123,isarcasm,Wait for the car driving down the path !,0,0,0.48519996
+124,isarcasm,Love how politicians are exempt from social distancing and all other restrictions placed on the general public,1,0,0.4780072
+125,isarcasm,Love everything in my basket selling our before the sale was meant to start :unamused_face: @USER @USER,1,0,0.47422898
+126,isarcasm,let 's bring it home biden,0,0,0.4726348
+127,isarcasm,i lost the promise ring my boyfriend got for me about a year ago ... and when he left for basic he let me keep the one i gave him since he couldnt take it . well i found mine - our rings are back together :) HTTPURL,0,0,0.45274544
+128,isarcasm,Throwback to when I answered the phone at work with “ thank you for calling Courtney ! My name is principal ” wow I love myself,1,0,0.47913975
+129,isarcasm,it 's crazy how many of your goals you can actually accomplish when you just do n't broadcast everything you 're doing,0,0,0.45560664
+130,isarcasm,milk and cookies are an undefeated delicacy,0,0,0.4801561
+131,isarcasm,Great night last night ! Muggins here is the commis chef crouched down in the corner . Seriously an honour to help raise money for @USER and work alongside these stellar chefs . Thanks for having us @USER @USER ! HTTPURL HTTPURL,1,0,0.47410077
+132,isarcasm,When you order books from the bookstore a week in advance and then you wait three weeks for ONE book and when you finally email them about it they reply and say they cancelled your order :smiling_face_with_heart-eyes: :smiling_face_with_hearts:,1,0,0.47678366
+133,isarcasm,Ca n't wait to be back at uni so I can order more shoes and clothes without my mum telling me off x,1,0,0.47679466
+134,isarcasm,i wish i could tap in to the government bank account :face_with_rolling_eyes: :face_with_rolling_eyes: :face_with_rolling_eyes:,1,0,0.47045088
+135,isarcasm,i hate it here :red_heart: :red_heart: :red_heart: :red_heart: :red_heart:,1,0,0.47106537
+136,isarcasm,@USER now you have a reason to play this HTTPURL,0,0,0.46664742
+137,isarcasm,"the audacity of the neighbors to mow the lawn while i 'm trying to sleep , at 6:30 pm",1,0,0.4733631
+138,isarcasm,Getting very anxious waiting for #TheGrandTour,0,0,0.48543486
+139,isarcasm,Everton are doing really well at the minute ! Really happy with their efforts,1,0,0.4800852
+140,isarcasm,Bring me the horizon 's new song drown is my new favourite,0,0,0.47786355
+141,isarcasm,' but that 's different ' is never a valid argument,0,0,0.4696472
+142,isarcasm,Headaches that last all day nonstop :smiling_face_with_hearts: :smiling_face_with_heart-eyes:,1,0,0.49745065
+143,isarcasm,"Watched 127 hours ... Kinda reminded me of this one time I got a bad splinter . Writing a book about it now , hit me up for an autographed copy",1,0,0.47237232
+144,isarcasm,"It 's spring , so that means it 's time for couples to leave the bar across the street and come fight under my window at 2 am again :red_heart:",1,0,0.48019394
+145,isarcasm,Of course I was going to spend my birthday desperately trying not to poo myself,0,0,0.47255096
+146,isarcasm,"Whoever thought that making digestives smaller was a good idea , thank you ever so much !",1,0,0.47060704
+147,isarcasm,"Another great patch guys , you fully used the test server !",1,0,0.4771885
+148,isarcasm,"Wow did you see that ! Nice triple overtake from Norris ! , #ImaginaryGrandPrix",0,0,0.48417315
+149,isarcasm,Biden is a great President like none other we have had,1,0,0.4720751
+150,isarcasm,rom coms from the 2000s are simply built different,0,0,0.4733336
+151,isarcasm,"@USER @USER “ Please get a free shot or take a once weekly nose swab . We will literally pay you to take time off to get the shot ” - Czar Nicholas , King George , Charles I , and so on .",1,0,0.4666452
+152,isarcasm,The most 2020 quote of the year : Me : we should go to the Van Gogh Museum ! Little Brother : is that the donny with one ear ?,1,0,0.47458366
+153,isarcasm,"I love it when women are referred to as "" girl boss "" however men are just the "" boss "" !",1,0,0.4676716
+154,isarcasm,Las Iguanas :OK_hand: :smiling_face_with_heart-eyes: :wine_glass: :fork_and_knife:,0,0,0.48547697
+155,isarcasm,"Just finished the most wonderful 12 hour shift ! ! I had no breaks at all , how delightful ! I absolutely LOVE standing on my feet all day long , running on 6 hours sleep . I live for this .",1,0,0.48375416
+156,isarcasm,"everyone gets all hyped about ancient debris , but where 's my modern debris ?",0,0,0.45857757
+157,isarcasm,I swear this triller event is run by teenagers,1,0,0.48084408
+158,isarcasm,"@USER @USER What 's more embarrassing is how terrible Florida is doing with containing COVID - 19 . An utter disgrace . Wearing a mask to protect yourself and others is not embarrassing , it 's leadership .",0,0,0.45678663
+159,isarcasm,All this extra time and I 'm still not flossing,0,0,0.47635484
+160,isarcasm,I wanted to be so much harsher about Zoom meetings . HTTPURL,0,0,0.47080123
+161,isarcasm,"Idk but pick 1 - Fireworks being lit inside school , some guy fingered his girl in the common room , guy threw a chair at the headteacher , another guy flung a laptop outside a window from the top floor , teacher touched up a student , my boy stabbed another guy with crafting knife :loudly_crying_face: HTTPURL",0,0,0.4781204
+162,isarcasm,The key thing to remember here is these boys are someone 's loved one . They did their best . Lets leave the hate . Racism is n't the answer either . #eurofinal #Euro2021,0,0,0.46117413
+163,isarcasm,Currently feeling very disappointed in people that I know . Just wow .,0,0,0.4592271
+164,isarcasm,"Me : "" Did you you find everything you were looking for ? "" Customer : "" why , are you hiding something ? "" Me : "" aRe YOu HIdiNg sOMetHinG ? """,1,0,0.46287292
+165,isarcasm,Congratulations Jayden . A worthy winner of the award and a bright future ahead of you . HTTPURL,0,0,0.4629757
+166,isarcasm,Strong people have no need to bully . Bullies are never strong . Shouting and losing your temper are not signs of strength .,0,0,0.46062753
+167,isarcasm,Just forced myself to go to class and spilt hot coffee in my lap while driving . How 's your day going ? :grinning_face_with_sweat:,0,0,0.48296675
+168,isarcasm,it 's unbelievable to me that “ you pay rent so your landlord can handle maintenance ” “ your landlord does n't have to fix anything that is n't an immediate hazard ” and “ your landlord can forbid you from repairing stuff yourself ” are beliefs that people can hold simultaneously,0,0,0.46140167
+169,isarcasm,@USER Defrost the freezer with the cast of Hollyoaks . Any of them that wanted an extra fun trip could pop to the recycling centre with some empty pesto jars . Magic .,1,0,0.46936706
+170,isarcasm,i really hate goodreads notification system IF I DECLINE A FRIEND REQUEST TAKE IT OUT MY NOTIFS :loudly_crying_face:,0,0,0.47508368
+171,isarcasm,no more disney stores in georgia im so sad right now the one in alpharetta was my favorite,0,0,0.4685698
+172,isarcasm,Roses are Red Violets are Blue My first love was Championship Manager Tommy Svindal Larsen and Kennedy Bakircioglu #HappyValentinesDay,1,0,0.47439298
+173,isarcasm,Accidentally made a friend in ASL today . I hate when that happens .,1,0,0.4676369
+174,isarcasm,too many dudes are wearing birks with socks on . grow up . get the fucking toes out man .,1,0,0.4656578
+175,isarcasm,I love not being pregnant so much it 's my fave thing about myself,1,0,0.46087664
+176,isarcasm,do i like him or is his hair just curly ? ?,1,0,0.46917552
+177,isarcasm,Happy birthday to me . I got pinged and can't leave the house :smiling_face_with_hearts: :clown_face:,1,0,0.48239097
+178,isarcasm,my eye doctor is so cute and charming ok,0,0,0.46961486
+179,isarcasm,"Day 2348 in lockdown . Never in my life did I think I would utter the words "" I 've disinfected the chocolate "" . #coronalockdownuk",1,0,0.47288036
+180,isarcasm,the only ppl who should be worried about Biden 's tax plan r the ones who get gifts for easter,1,0,0.46777764
+181,isarcasm,YOU HAVE TO understand that people fight INVISIBLE battles . do n't invalidate anyone 's feelings .,0,0,0.4530502
+182,isarcasm,I just wanna know why God could n't have given me just a little bit of titty .. ? ? ?,0,0,0.4659019
+183,isarcasm,"Serious question : if I nick a car and elope to Gretna Green to shut my family up , how long will I do in prison ? Can I finish my PhD there ? Think I 've got a plan , lads ...",1,0,0.46521905
+184,isarcasm,"@USER @USER We think you are very , very funny and very , very , very etc ... brave . You nail the issue and put those that actually believe the comments you make to shame ... Please keep doing what you 're doing ...",0,0,0.44530013
+185,isarcasm,I got asked if I needed a kid 's menu today ... 21 is treating me well 👶🏼,1,0,0.47237357
+186,isarcasm,why are the olympics worried about athletes having too much sex when the curling teams do n't even compete in the summer games,1,0,0.46953207
+187,isarcasm,Been playing Ghost of Tsushima and I love it ! ! !,0,0,0.47682574
+188,isarcasm,So now that thats over how 's your day going guys ?,0,0,0.4744168
+189,isarcasm,"Handwashing tip : sing "" Happy Birthday , Mr . President "" because it 's longer and sexier than the original",0,0,0.46795067
+190,isarcasm,I wanted to stock up on office supplies at Tesco but all I could find in the aisle was wine,1,0,0.47254777
+191,isarcasm,"Well done @USER and @USER , great leadership ! HTTPURL",0,0,0.4683633
+192,isarcasm,Blatantly obvious that Lionel Messi is now set for a move to Leeds . The Newell 's old boys network .,1,0,0.46993414
+193,isarcasm,Are jacket potatoes only good for the toppings that go on them ?,0,0,0.47351947
+194,isarcasm,"So now that it 's not getting banned , should I download TikTok ?",1,0,0.46765655
+195,isarcasm,I 'm settled for a night in front of the TV watching #SoccerAid,0,0,0.48057652
+196,isarcasm,I remember when I was a kid how I used to troll my dad . I 'd be watching a film on sky movies and then when I knew he was in the other room I would say out loud ‘ wow look at the tits on her ' He would come back in the room and nothing was there but he 'd ask questions like ...,0,0,0.45641455
+197,isarcasm,Trying to know all this history tonight is gonna kill me,1,0,0.4744974
+198,isarcasm,V excited to grant an extension to students who email me and my co-teacher and get both of our names wrong,1,0,0.4740108
+199,isarcasm,our waitress at dinner tonight complimented my muscles so i guess you could say i 've made it,0,0,0.4644769
+200,isarcasm,"Absolutely love it when I stay late at work to take someones photograph , remind them twice , and then they forget and leave before I can take it :slightly_smiling_face:",1,0,0.47106883
+201,isarcasm,My tolerance for heat is near zero . Sweating putting washing out :hot_face:,0,0,0.4935181
+202,isarcasm,Meh ... Drakes album . Do n't feel like there 's a song on there that I wanna listen to twice . Maybe it will grow on me 🤷🏼‍♀,0,0,0.46743214
+203,isarcasm,Shout out James Boswell #unibowl,1,0,0.47733936
+204,isarcasm,Really really happy to be woken up at 6:30 am again by the next door neighbour 's dog barking . Thanks a lot for that I appreciate it loads :face_with_raised_eyebrow:,1,0,0.4809919
+205,isarcasm,I just love when Twitter decides to reload the timeline seconds after you just opened it up and are in the middle of reading it .,1,0,0.46754688
+206,isarcasm,Happy New Year everyone ! ! ! Bring on 2014 ! !,0,0,0.4838947
+207,isarcasm,"So we 're three ( 3 ) days into the new year and : Steve Irwin 's homeland is burning , Carl Sagan 's wisdom is being completely ignored , and no one is loving their neighbor like Mr . Rogers and that Jesus guy advised ... #worldwar3 #AustraliaFires",0,0,0.4705221
+208,isarcasm,Just like to congratulate everyone on the Kop today for the fastest ever Poor Scouser Tommy . Slow the fuck down,1,0,0.47038087
+209,isarcasm,@USER @USER Oh really ?,1,0,0.46509537
+210,isarcasm,"@USER imagine your delivery being 2 hours late , and imagine calling up your service team only for them to hang up at 10pm , coincidentally the same time the office closes . But it 's okay , my £ 3 delivery fee is being refunded though 👊🏻",0,0,0.47237393
+211,isarcasm,So glad the christmas lockdown rules didnt apply to our poor hard working government,1,0,0.47977343
+212,isarcasm,A message to all Muslims and Refugees : I 'm sorry for how my country is treating you . You are only human . #RefugeesDetained #Trump #rt,0,0,0.4659369
+213,isarcasm,ugh I have to send an email ? ? ? how about I just quit ! ! !,1,0,0.4754068
+214,isarcasm,Love it when someone buys a £ 175 coffee machine in Paris with my debit card :confused_face:,1,0,0.4813566
+215,isarcasm,"E10 petrol in the UK , classic car scene is about to die .",0,0,0.47641805
+216,isarcasm,im about to just walk into a place and start working then and there and they 'll have no choice but to hire me on the spot,1,0,0.4670575
+217,isarcasm,"Heard a rumor that Baja Blast is coming to stores and regardless if anything else I hope for in life falls through , at least I 'll have this .",1,0,0.46593317
+218,isarcasm,I just saw the Matt Hancock video and now I 'm scared that in ten days time he will climb out my telly,1,0,0.4734419
+219,isarcasm,Got my xqc hoodie and signed card a few days ago . Feelsgoodman . HTTPURL,0,0,0.47374177
+220,isarcasm,"@USER @USER @USER I did too , and I also reported Cancun Cruz not worrying about the heartbeats of his constituents without electricity or heat when he fled to Mexico .",1,0,0.46363023
+221,isarcasm,Keeping my fingers crossed @USER continuing supporting the Wii U post-Nero . If Nero is half as good as it looks we sorely need these guys,0,0,0.4672057
+222,isarcasm,This is the XI I think should start against Russia at Euro 2016 . Who would you pick ? HTTPURL #MyEnglandXI via @USER,0,0,0.4707218
+223,isarcasm,Thank you to @USER for organising pizza and ice cream ! It was a lovely end of year gesture :beaming_face_with_smiling_eyes: :two_hearts: Happy holidays everyone - time to collect our time owed in lieu ! :grinning_face_with_sweat: #summerholidays HTTPURL,1,0,0.4816869
+224,isarcasm,I think France will win #Euro2016 . Predict who will flop and come out on top at HTTPURL HTTPURL,0,0,0.47408977
+225,isarcasm,I want one of those ninja insects . You know the guys,0,0,0.46771094
+226,isarcasm,Do you walk past people and automatically think you 're defo a tory ?,0,0,0.46360102
+227,isarcasm,Got my lowball business class upgrade bid accepted for my train from DC to NYC this morning and ended up without anyone sitting next to me for the whole trip . A positive sign for the weekend .,0,0,0.4806123
+228,isarcasm,@USER If they are n't out yet just wait to get the ps5 later with a discount,0,0,0.47003412
+229,isarcasm,me and my gf are on a reality tv show binge lately does anyone have any suggestions for particularly Unhinged reality shows,0,0,0.4678448
+230,isarcasm,"Any #beetwitter or #ecologytwitter scientists have suggestions for where to submit small protocol papers ? Rejected multiple times , everyone expects a full research article but this was just a small ( but worthwhile ! ) protein assay analysis protocol test ... suggestions appreciated !",0,0,0.4716697
+231,isarcasm,So glad boris protected our nhs by having his own Christmas party,1,0,0.4753305
+232,isarcasm,next person that puts beomsil on my tl has to deal w me crying on the floor,1,0,0.47638306
+233,isarcasm,Gods playing games today . Makin it 68 degrees but 1000 % humidity . Smh,0,0,0.48928156
+234,isarcasm,APPLE CIDER IS BACK AT DUNKS BABY,0,0,0.48442543
+235,isarcasm,Would anyone like to give me some money ? #FinDom,1,0,0.47596207
+236,isarcasm,Love being called the devil for taking away someone 's phone at summer school :smiling_face_with_open_hands: :smiling_face_with_open_hands: :smiling_face_with_open_hands:,1,0,0.4848518
+237,isarcasm,so many people pressed that italy won sorry eurovision belongs to the bisexuals now x #Eurovision,1,0,0.468393
+238,isarcasm,@USER Thank you for your well balanced and thoughtful input,1,0,0.46104002
+239,isarcasm,Man I just love it when I 'm forced to pitch two games back to back bc our other pitcher did n't show up,1,0,0.46504503
+240,isarcasm,"Jacob got me sunflowers and roses , is taking me to a crab boil ... AND got me the only sims game I did n't have . :loudly_crying_face: literally all my fav things",0,0,0.47376934
+241,isarcasm,"will never understand why ppl do meth , , just buy a shit tonne of incense in bulk stupid",1,0,0.46765912
+242,isarcasm,I 've seen a lot of people on local Facebook groups asking AirBnB owners if they have any availability recently . If only there was a website you could use to find out if an AirBnB was available :thinking_face:,1,0,0.47105202
+243,isarcasm,"What 's the German word for when you start a podcast when it 's already 2 years old , but now you 've caught up to present-day and you have to wait every week for a new episode instead of blitzing through 3 months ' worth of content in one day ?",0,0,0.45870462
+244,isarcasm,OH MY GOD I AM IN LOVE WITH MY FIANCÉ . HTTPURL,0,0,0.47207588
+245,isarcasm,I wonder if there 's a parenting manual for schools to hand out ? . Some parents could really use the guidance ...,1,0,0.4641803
+246,isarcasm,"Not having this Arsenal kit , looks like Ajax . And the goalie 's wearing the away kit .",0,0,0.4757568
+247,isarcasm,Trains are so unreliable :face_with_rolling_eyes:,0,0,0.48437396
+248,isarcasm,@USER How many of these foreign criminals are Russian backers and funders of @USER #voteleave and the @USER ?,0,0,0.4670625
+249,isarcasm,Enjoy the bars and vineyards ✌🏻 Make sure to send postcards to the people dying in your local hospitals . I 'm sure they 'll be glad you 're not bored anymore,1,0,0.46620816
+250,isarcasm,bae calls me on FaceTime so we can keep each other company while we work on our art and honestly it 's so wholesome and motivating,0,0,0.46791905
+251,isarcasm,Omg thank u for pointing out that I apologize too much :folded_hands:,1,0,0.46640572
+252,isarcasm,Many people have said “ I 'll always be here for you ” . Only a few have actually meant it & I thank God for those people every day .,0,0,0.45274317
+253,isarcasm,The world we live in today actually disgusts me .,0,0,0.46719447
+254,isarcasm,"Well , my vaccinated therapist tested positive for Covid . Hope she 's okay and hope my mental health hangs on for 10 extra days .",0,0,0.46732354
+255,isarcasm,"tiktok has a new girl saying , “ time to go to bed , stop scrolling ” & i decided i 'll listen to her but only because she did n't scream at me",0,0,0.45688766
+256,isarcasm,He 's All That literally made me cry I 'm not kidding I feel so dumb ! ! !,0,0,0.46994978
+257,isarcasm,I 've honestly been dreading the return to school ( no matter what form it takes ) for the first time in my career . Hearing @USER speak tonight with @USER changed that . I feel fired up ! Thank you both !,0,0,0.46164545
+258,isarcasm,ima get up early tomorrow and make some tea and sit on the patio oh how I love to imagine things im never gonna do,1,0,0.4722713
+259,isarcasm,the fact that “ breaking : school shootings preventable ” was an actual headline on nbc tonight is actually laughable,1,0,0.48441717
+260,isarcasm,"@USER @USER @USER @USER I know , right ? He even wanted poor people to be healthy , because he was basically a fucking communist . What a hippie .",1,0,0.456996
+261,isarcasm,I LOVE paying so much for gas . Really feels good to help out big oil .,1,0,0.4635022
+262,isarcasm,sadly the only reason i stop making tiktoks is because my phone is about to die ...,0,0,0.46601737
+263,isarcasm,I am late to the same lecture every single week it 's so embarrassing,0,0,0.4705937
+264,isarcasm,Love it when I get disturbed three times in the bath to be asked where things in the house are ! !,1,0,0.4801019
+265,isarcasm,"how would u kiss ur gorgon gf goodnight , , , so many little snake faces to kiss , , , it would take so long",0,0,0.46486682
+266,isarcasm,Sitting in a waiting room listening to two middle age women talk about how 50 shades changed their life,0,0,0.47742933
+267,isarcasm,@USER Nice,1,0,0.46737912
+268,isarcasm,Friendly reminder you 're not vegan if you swallow cum,1,0,0.47208926
+269,isarcasm,@USER @USER ya need a carry hit me up im a octane main,1,0,0.45784396
+270,isarcasm,Sure you do ! Does n't everyone ? ! I do it everyday ! ! !,1,0,0.47638607
+271,isarcasm,just found ive been walking on a broken foot for the past 6 months :zany_face: :zany_face: :zany_face:,1,0,0.472951
+272,isarcasm,I put on work out clothes then lay on my bed and watch Netflix,0,0,0.4758295
+273,isarcasm,everyone say a prayer to the insurance gods that they approve my heart monitor so that i may continue to have the privilege of being alive . i love the US health care system,1,0,0.4547664
+274,isarcasm,"It 's my last full week of working from home :persevering_face: Now it 's almost here , I do n't think I 'm ready to go back to the office",0,0,0.472874
+275,isarcasm,@USER @USER Cade Cunningham is my favorite basketball player please 2K :folded_hands: :folded_hands: :folded_hands:,1,0,0.4737987
+276,isarcasm,"Surely if all Opticians boycotted contact lens manufacturers until they stopped supplying dodgy online stores , we 'd end up with fewer parasitic sites that do n't require a fit , aftercares or even a valid eye test .",0,0,0.46701583
+277,isarcasm,You on your best behaviour is me on my worst,1,0,0.47641635
+278,isarcasm,a single man directed by tom ford simultaneously resurrected me from death only to brutally murder me once more .,1,0,0.45853314
+279,isarcasm,Is only 12 hours away from my first #raceforlife in memory of my grandma - Margaret Jackson who sadly passed away from cancer,0,0,0.47715452
+280,isarcasm,we hit 17 % of americans fully vaccinated in case anyone was wondering,0,0,0.47642887
+281,isarcasm,"how you gonna ask me how i 'm doing “ on this fine labor day ” while you 're off , as I 'm ringing you out , on labor day . how do you think i am :skull:",1,0,0.46421885
+282,isarcasm,"Ca n't wait to get home take a big ass antihistamine and roll in some topical steroids . Damn it , skin ! What did I ever do to you ? ! ? !",1,0,0.48086968
+283,isarcasm,#HappyBirthdayKeanuReeves Keanu Reeves is so wholesome :smiling_face:,1,0,0.4734334
+284,isarcasm,"My department is hiring in metaphysics and epistemology ( broadly construed ) . 2-2 teaching load with TA support ( 2-1 for the first 2 years ) , MA program , in a city of 260k people with several locations of just about every fast food restaurant . Not bad ! HTTPURL",0,0,0.47315994
+285,isarcasm,@USER @USER I swear I heard this sample way back as far as London 2012 opening ceremony ? ?,0,0,0.46698818
+286,isarcasm,the absolute shiver down my spine i get when i hear sweet caroline,0,0,0.47483978
+287,isarcasm,"Wizkid is the king , ok lol",1,0,0.46672696
+288,isarcasm,new EP out in 15 minutes :hushed_face:,0,0,0.48522174
+289,isarcasm,The phrase “ the white people of black people ” was coined to explain cishet black men 's privilege over other identities within the black community . Not to just throw around when y'all are annoyed / hateful :face_with_rolling_eyes:,0,0,0.4642414
+290,isarcasm,finding vegetarian chocolate mousse is such an annoyingly hard task to do,0,0,0.47945145
+291,isarcasm,"A whole 2 % off for a single order , rejoice",1,0,0.48368406
+292,isarcasm,Driving to work singing along and oh story short I Michael Ball fistbumped my wrist straight into the roof of the car HTTPURL,0,0,0.484659
+293,isarcasm,happy birthday mols ! ! thanks for being such a fun person I love you bunches :sparkling_heart: :sparkling_heart: @USER,0,0,0.47005892
+294,isarcasm,“ it 's hotter in the america right now and it feels fine british people are just being dramatic :face_with_rolling_eyes: ” QUICK ARE YOU SAYING THIS INSIDE UR AIR CONDITIONED HOUSE :double_exclamation_mark: :double_exclamation_mark: :double_exclamation_mark:,1,0,0.48389208
+295,isarcasm,"My children are 18 , 9 , and 7 . They have never known their nation at peace #ww111",0,0,0.46989647
+296,isarcasm,"I got an invitation to my ten year high school reunion today ... just , no .",0,0,0.47603813
+297,isarcasm,"Once you give a give a charlatan power over you , you almost never get it back - Carl Sagan - #BrexitShambles",0,0,0.46442547
+298,isarcasm,""" Does Salah want to score today , even my grand mother could have scored that open goal ! """,1,0,0.4770897
+299,isarcasm,""" your pronouns are what 's in your pants "" ok . juicy / dumper",1,0,0.47378626
+300,isarcasm,"i am afraid that , despite all of your words and actions , you actually just hate me",0,0,0.45156863
+301,isarcasm,I love how Instagram can motivate people . I saw a post by Kim Kardashian and I was motivated to delete my account .,1,0,0.45999146
+302,isarcasm,who thinks me and sam should start a band called ' teeth at midnight ' :tooth: :crescent_moon:,1,0,0.478953
+303,isarcasm,Imagine not liking football :rolling_on_the_floor_laughing:,1,0,0.4927604
+304,isarcasm,Unpacking is the bane of my life,0,0,0.47937018
+305,isarcasm,Just walked past a girl wearing a yellow t-shirt that says ' Danny DeVito ' on it . Now I can't think of anything else .,0,0,0.4660479
+306,isarcasm,"Why does Ramish think he can stop my kitchen rennovation because of the noise ? His kids are not exactly quiet or competent when they play their musical instruments , lets just say my dog makes a better sound .",1,0,0.47259504
+307,isarcasm,"@USER That John Carpenter :videocassette: selection T is pure class . Yes , I 'll take that one , please :heart_suit:",0,0,0.47436374
+308,isarcasm,"Maxwell , Arthur 's middle name is Grandpa 's name . So he has a piece of two very important people of Mikeys family . Grandpa is a incredible guy and this was probably the only thing at this point that we could give him to make him feel appreciated and loved . Grandpa loves his name .",0,0,0.45008093
+309,isarcasm,@USER Please DO YOUR JOB or resign . Enough is enough .,0,0,0.45688438
+310,isarcasm,It 's been a productive last day . Maxed Out all my credit cards in preparation of my Rapture tomorrow ! ! ! #iwishwehadallbeenready,1,0,0.47363394
+311,isarcasm,am honestly so disturbed by the star signs changes ? ? like I 'm a Scorpio not a libra ? ? am so so stressed,0,0,0.46556374
+312,isarcasm,"@USER @USER Yes , because we need literally every single fucking celebrity to speak up on a topic that 's been forced down everyone 's throats for the past four months . I use the internet to get away from these fucking real life problems ; not everyone needs to weigh in .",1,0,0.44779682
+313,isarcasm,"i love dolly parton . that 's all i have to say today , thanks .",0,0,0.44653744
+314,isarcasm,@USER All I want for Christmas is Fate Collab Rerun in 2021 . Alongside Blu ray release ?,0,0,0.46767908
+315,isarcasm,I do n't want to see makeup reviews of a brand new mascara . Show me the 20th time you 've worn it . Even the worst mascara looks good when it 's fresh .,0,0,0.46431682
+316,isarcasm,Loving the representation from South Yorkshire :smiling_face_with_hearts: :smiling_face_with_hearts: #GodsOwn #England #ENG #bbcfootball #bbc,0,0,0.48866376
+317,isarcasm,I love days when Rob works short call and is only at the hospital for * checks watch * 13 hours .,1,0,0.4783795
+318,isarcasm,craving an ice pick lobotomy on this Friday afternoon,1,0,0.48550695
+319,isarcasm,The tiktok fyp knows me better than I know myself,0,0,0.46653748
+320,isarcasm,Nothing can be further from the kickoff of the NFL season than a pre-game performance by Ed Sheeran . Nothing against him but he just does n't inspire me to watch football . #Football #NFL #Weak #TestosteroneDeficiency HTTPURL,1,0,0.46939987
+321,isarcasm,"Do n't worry , 20 something people who follow me here , I brushed my hair for the first time in a week today . I know , impressive .",1,0,0.46903673
+322,isarcasm,oh you 're just friends ? why 'd u shave then ?,1,0,0.46573675
+323,isarcasm,If you do n't like Lemonade you 're an extremist :lemon:,1,0,0.46683532
+324,isarcasm,Poor Steve Clifford . Next hire has to be right to get us from A to B . #Magic,0,0,0.47090772
+325,isarcasm,Newfound desire to study so I can walk home when it is still SNOWING,0,0,0.4844082
+326,isarcasm,@USER With some pastel green flare leggings a Chucky white boot and a hot pink shoulder bag :orange_heart:,0,0,0.48540056
+327,isarcasm,"sorry for crying about paddington , i really did n't mean to",0,0,0.45939356
+328,isarcasm,"Broadband back , starting to feel a bit more normal .",0,0,0.4803921
+329,isarcasm,Currently bombing aces on the volleyball court and math tests in the classroom . #StudentAthlete,1,0,0.483476
+330,isarcasm,"“ tit for tat , butter for fat , you kill my dog , i eat your cat ” is a liberian proverb for “ an eye for an eye ” . my ancestors were spittin '",1,0,0.46534672
+331,isarcasm,@USER @USER It ain't funny it 's heartbreaking :pleading_face:,0,0,0.46316856
+332,isarcasm,I would like to offer my complete support for the new rules as they have obviously supported the public by sticking to them at all times,1,0,0.46500653
+333,isarcasm,All these exams :loudly_crying_face:,0,0,0.4844553
+334,isarcasm,"Being a girl is about garish blue eyeshadow , mostly",0,0,0.47851408
+335,isarcasm,How I flirt with boys Boy : “ Hey I saw you from across the room and had to come over ” Me : “ Wow you 're super observant . Do you have 20/20 vision ? ”,1,0,0.4598563
+336,isarcasm,2 x sand eating toddlers for sale . No previous owners . DM for details x,1,0,0.4748027
+337,isarcasm,Match play golf is just class to watch,0,0,0.48513055
+338,isarcasm,So so thankful for the truth and leadership @USER is dropping tonight,0,0,0.47705966
+339,isarcasm,Where is the Chancellor ? Please check the back of your sofas .,1,0,0.48606965
+340,isarcasm,"So hard to book a jab , turn up , be jabbed , wait a bit and then get on with your life . Why bother ?",1,0,0.47236466
+341,isarcasm,"Forgot to wash my hands after using self tanner so now I have what looks like just-ate-chicken-wings hands , but permanently",0,0,0.47994938
+342,isarcasm,yes it makes perfect sense for harry and ginny to get together . it 's not like she was the most boring person ever or anything,1,0,0.45410156
+343,isarcasm,"@USER Yes , because we really have that sort of power . Why do brexity types always sound like they are all paranoid conspiracy therorists ?",1,0,0.46098933
+344,isarcasm,i want :( a corn dog :( ( so bad wtf :( ( (,0,0,0.46328002
+345,isarcasm,Really glad to learn that the police operate purely in the style of ' Minority Report ' . I was worried they might start looking into crimes AFTER they happen . Phew,1,0,0.46702543
+346,isarcasm,pay it forward is honestly one of the worst movies I 've ever seen why would would anyone make an ending so sad I 've been crying for 30 min,1,0,0.45665082
+347,isarcasm,"If you are a grown adult and you are riding a razor scooter around , please grow up . Best regards",0,0,0.4624036
+348,isarcasm,My dream is to be left alone .,1,0,0.4641948
+349,isarcasm,just realised the first time I will listen to Red ( taylor 's version ) will be on the way to printworks so I will literally be crying in the club,0,0,0.4759992
+350,isarcasm,Just came online to remind y'all that Davido is still The King .,0,0,0.4671227
+351,isarcasm,"Because Karen from YouTube knows more about science than , you know , actual scientists",1,0,0.4700535
+352,isarcasm,I 'm thankful for nuggets but also my amazing friends & fam :red_heart: :red_heart:,0,0,0.4665075
+353,isarcasm,I just can't wait to spend time with my family over Christmas ! I just love being the only single one and the many many questions asking when will I get a boyfriend :face_with_rolling_eyes:,1,0,0.47705638
+354,isarcasm,really not taking this ' university in lockdown ' thing seriously,0,0,0.4836819
+355,isarcasm,If only clever people actually had the ability to be clever and not repeat everything they think they know,1,0,0.46273002
+356,isarcasm,why is someone jackhammering at 8am omfg,0,0,0.48413026
+357,isarcasm,"Prayers go up , blessings come down",0,0,0.4809601
+358,isarcasm,my bf took my off his lock screen which obvi means he 's cheating on me,1,0,0.46576962
+359,isarcasm,Keanu reeves is killing his role in ozark season 3,1,0,0.4690255
+360,isarcasm,James Harden is allowed to travel every time he drives apparently,1,0,0.4753299
+361,isarcasm,My cat eye glasses came in the mail today so I 'm officially ready to start librarian school .,0,0,0.47595063
+362,isarcasm,i 've had more interesting conversations w my wall but alright,1,0,0.46303827
+363,isarcasm,One positive of the dark mornings is you can walk the dogs in your pyjamas and no one can tell :smiling_face_with_open_hands: :smiling_face_with_open_hands: :smiling_face_with_open_hands:,0,0,0.4914694
+364,isarcasm,I hate how anti vaxxers have ruined everything . Trying to find information on vaccine side effects and it 's plagued with morons,0,0,0.46156177
+365,isarcasm,You look fantastic in that new dress . It shows off your figure .,1,0,0.47673634
+366,isarcasm,"If you truly love someone , just remember this . They will dump you for someone better :)",1,0,0.45600113
+367,isarcasm,Welcome to the UK there is no money to allow the poorest people in the country to maintain £ 20 a week to aid living but were here to write off £ 4.3 billion in fraud money .,1,0,0.4663054
+368,isarcasm,thank you @USER i just shit my pants :thumbs_up: very cool #ranbooemail,1,0,0.46678996
+369,isarcasm,My eldest is having a wild Friday night out . She 's going to bingo . :face_with_tears_of_joy:,1,0,0.48525167
+370,isarcasm,why are salads so expensive ? ! It 's like I 'm being punished for tryna eat healthy ...,0,0,0.46115494
+371,isarcasm,Bernie Sanders is the greatest president America will never have .,0,0,0.46553552
+372,isarcasm,"I feel like most teens / women are not told that hormonal contraceptives increase their risk for cancer before going on birth control , and that 's messed up",0,0,0.4608202
+373,isarcasm,Can you guys stop making Palestinian liberation into an excuse to be antisemitic .,0,0,0.46773714
+374,isarcasm,"It was bad enough when some corporate wankers took one of the trains I used to drive and made it a "" breakout area "" for their offices , but this ? This is next level HTTPURL HTTPURL",0,0,0.4684793
+375,isarcasm,The world according to Jeff Goldblum is such a gift,0,0,0.46942583
+376,isarcasm,"Nothing screams “ I 'm a glamorous cosmopolitan woman ” like following your dog down the street in the midst of winter , saying “ go potty ! Go POTTY ! ” over and over again .",1,0,0.47380188
+377,isarcasm,Good to see that our rulers are trying to show that they are just like us really ! * sniff *,1,0,0.47959375
+378,isarcasm,"I feel like influencers encouraging their fans , many of whom do n't have much money , to buy coins in something the influencer is heavily invested in is super immoral",0,0,0.45639235
+379,isarcasm,I always think going braless is a good idea until I 'm in public and am insecure because I 'm not wearing a bra,0,0,0.47263882
+380,isarcasm,The most wonderful time of the year :sparkles: in my element :smiling_face_with_hearts: :Christmas_tree: HTTPURL,0,0,0.49093592
+381,isarcasm,Holly Arnold ? ? ? Who #ImACeleb #MBE nope not sure oh hang on you mean MBE yes that 's her ! ! !,1,0,0.47167894
+382,isarcasm,wow these kids are into musically.lly whatever and jacob sagittarius and I officially feel out of the loop . is this what growing up feels like,0,0,0.459559
+383,isarcasm,""" You 're not a normal white girl "" lol ok",1,0,0.46717823
+384,isarcasm,"If I was a wealthy Boomer and I saw a bunch of angry Millennials coming for my money , I 'd be nervous . We already killed Applebee 's , we will kill again #EatTheRich",0,0,0.4594061
+385,isarcasm,@USER Riveting news .,1,0,0.4723467
+386,isarcasm,"The people who throw around the term “ snowflake ” as an insult are , in fact , the biggest snowflakes . Looking at you @USER",0,0,0.46211165
+387,isarcasm,"Seeing as Kanye West has a range of clothing with Gap , how about me and you do a collab @USER",1,0,0.4702971
+388,isarcasm,"I hurt my foot like 3 days ago , I have no idea how , but it hurts to put pressure on it . Love that for me",1,0,0.46577442
+389,isarcasm,There is a boiling hot place in hell for the bloke who brought and used his nail clippers in a library .,0,0,0.4736963
+390,isarcasm,love when the train stops in philly and everybody boards and of a sudden it smells like a ham sandwich,1,0,0.48461062
+391,isarcasm,@USER @USER absolutely no response from Luna Cinema and my completely factual review on See Tickets has been moderated and will not be published :thinking_face: great to see @USER looking out for their customers . Excellent customer service all round :clapping_hands:,1,0,0.47006458
+392,isarcasm,I 'm so glad that smart people are still refusing to wear masks in shops . Thanks to their selflessness it highlights that if we just ignore something it 'll go away – do n't know why we have n't all tried it .,1,0,0.45883775
+393,isarcasm,"Maybe if we did n't comment on things that do n't concern us , the world would be a happier place ? ? But what do I know 🤷🏻‍♀",1,0,0.46378195
+394,isarcasm,when a girl says she is n't a girls girl :triangular_flag: :triangular_flag:,0,0,0.47852018
+395,isarcasm,"lmfao , I just looked out of curiosity , and I have over 3000 emails saved from the 2 years I was on the NPC , guess I could really write that book I 've joked about ( also , if you are new to the NPC , my biggest piece of advice is have a good system for keeping up with your emails )",0,0,0.45088577
+396,isarcasm,I hate the mall every girl here is talking about shopping for the “ dress code ” . I feel 👩🏼‍🦳 👩🏼‍🦳 👩🏼‍🦳,0,0,0.48079452
+397,isarcasm,I like making food and then not eating it to assert my dominance,1,0,0.4587732
+398,isarcasm,Inspired by the ‘ dinner with Jay Z ' guy still going strong . I choose now to believe him,1,0,0.47032174
+399,isarcasm,You have to love politics - all talk and no action .,1,0,0.46510428
+400,isarcasm,yes i have little interest in doing things that applies to me,1,0,0.45696226
+401,isarcasm,who needs an alarm when u can have the low rumbling voice of a stranger to wake u up in the morning :smiling_face_with_hearts:,1,0,0.4914004
+402,isarcasm,Oh boy I can't wait for the next general election in which a population that has been completely screwed over by the Tories somehow manages to forget all of this and keep Boris Johnson in power ! I love our smart country !,1,0,0.47290394
+403,isarcasm,Why do people get so opinionated over other people going to uni ? Like it 's my debt and my time I 'm ‘ wasting ' leave me alone,0,0,0.45745176
+404,isarcasm,"I love calling my mom early in the morning and waking her up , I take it as pay back for all the times she never let me sleep in :winking_face_with_tongue:",1,0,0.47502542
+405,isarcasm,Home made pizza is in the oven ! We 've made one each so there 'll be leftovers for lunch tomorrow . :face_savoring_food:,0,0,0.48281392
+406,isarcasm,Frankie is so lucky to have some amazing people in his life . Those that have n't bothered are missing out !,0,0,0.4591341
+407,isarcasm,"@USER Well done ! With the better coaching now available , can we expect a decent wee victory tomorrow ? :grinning_face_with_sweat:",1,0,0.4795066
+408,isarcasm,"was Chris Harrison really that fundamental to the bachelor ? ? what are they gonna do , forget how to function when there 's one rose left ? ? ?",0,0,0.46085373
+409,isarcasm,Got to look into these gorgeous eyes while getting my tooth pulled HTTPURL,0,0,0.48643187
+410,isarcasm,Do the people on love island not feel so awkward meeting their partners parents in a bloody bikini ? !,0,0,0.48299012
+411,isarcasm,Casually looking at the 06Z forecast it seems that the ' previous UKMO forecast interpolated ahead ( 6hr ) ' and the ' U . S . Navy COAMPS-TC model forecast interpolated ahead ( 6hr ) ' models have been smoking something . :thinking_face: #Hurricane #Larry #WXGeek #WXTwitter,0,0,0.47817668
+412,isarcasm,The @USER is open again @USER :eyes:,0,0,0.47386807
+413,isarcasm,why is it so hard to find tshirts with cool wizards on them,0,0,0.47234157
+414,isarcasm,"@USER @USER Fuck you got me there , you better get back to getting upset and jealous over successful and talented boxers",1,0,0.45657536
+415,isarcasm,"just asked a patient if she 'd like to schedule for the same time next week and she said "" no , but it was nice meeting you . "" well ... fair enough :grinning_face_with_sweat:",0,0,0.47060063
+416,isarcasm,Someone on reddit the other day said that I ' ooze enby energy ' and I 've been riding that high for the whole weekend .,0,0,0.4625741
+417,isarcasm,It 's been a blissful 2.5 hours of sleep tonight,1,0,0.47947523
+418,isarcasm,#Snowden Sad to see intelligent Americans fall victim to the US propaganda machine in this case . So many lies set up to discredit by the US .,0,0,0.464481
+419,isarcasm,please i just want a gp that can prescribe me my bridging hormones,0,0,0.46475217
+420,isarcasm,naming my son onickolas in honor of my love for @USER,1,0,0.4654565
+421,isarcasm,Just rediscovered that my nose is always in my field of vision so I will unfortunately be dropping out as I can not continue my assigned readings in peace,1,0,0.47608855
+422,isarcasm,Just booked my theory test ... Hahaha finally,0,0,0.48476452
+423,isarcasm,"@USER imagine your delivery being 2 hours late , and imagine calling up your service team only for them to hang up at 10pm , coincidentally the same time the office closes . But it 's okay , my £ 3 delivery fee is being refunded though 👊🏻",1,0,0.472374
+424,isarcasm,I still can't believe England won the World Cup,1,0,0.47417605
+425,isarcasm,@USER @USER I 've done this to my employer too . I 'm expecting we 'll both get the same answer,1,0,0.44885772
+426,isarcasm,crocheting is hard,0,0,0.48004207
+427,isarcasm,Feel like every senior is just ready to move on to bigger and better things,0,0,0.47532758

@@ -1,71 +1,205 @@
 index,dataset,tweet,label,prediction,probability
-1,irony,Pregnant and constantly crave KitKats . I literally have been living off of them for the past 4 months . @USER,1,0
-2,irony,wearing a cute jumpsuit is all fun and games until you have to go to the bathroom,1,0
-3,irony,i love ingesting poison and then wondering why my tummy is rumbling the next morning,0,0
-4,irony,My favorite part of flying is getting to walk past the rich people to get to my poor person seat .,1,0
-5,irony,wow . i left on time today and the airport connector is all the way backed up . love that,1,0
-6,irony,Woke up at 3 am with a MAD craving for pickles . I guess that means I 'm expecting !,1,0
-7,irony,"Wow , can't wait to go into ANOTHER lockdown :face_with_rolling_eyes:",0,0
-8,irony,I may look happy on the outside bit on the inside I 'm dying #painful #sad,0,0
-9,irony,Who 's ready for monsoon storms allllll weekend ? ! ? !,1,0
-10,irony,You know the wolves match is boring when you 're talking with your mate about the best way to wire up his new shed !,1,0
-11,irony,It 's “ let 's see how many crumbs I can find in scarf ” szn .,0,0
-12,irony,@USER Yo jim I put my life savings in $ didi at $ 16 as per your request now me and my family are eating MREs in full survival mode What should I do ?,0,0
-13,irony,@USER @USER absolutely no response from Luna Cinema and my completely factual review on See Tickets has been moderated and will not be published :thinking_face: great to see @USER looking out for their customers . Excellent customer service all round :clapping_hands:,0,0
-14,irony,How is it possible that Sly Stallone 's ‘ Cobra ' is both the best and the worst movie ever made ?,1,0
-15,irony,Breaking news : Pubs and bars the latest cure for COVID .,0,0
-16,irony,@USER Those boots must be tasty for how much they 're choking on ' em :skull:,0,0
-17,irony,Weathers wonderful today ! :closed_umbrella: :closed_umbrella: :closed_umbrella:,1,0
-18,irony,"ANY PENSIONER AND 4 YEAR OLD WHO DARE TAKE ME ON AT DINOSAUR THEMED CRAZY GOLF WILL BE CRUSHED , CRUSHED I TELL YOU . HTTPURL",1,0
-19,irony,Ca n't wait for those $ 2000 checks to go out immediately,1,0
-20,irony,Every time you complain about neopronouns or xenogenders we add five more,0,0
-21,irony,"I find it hilarious that ‘ black and white ' or ‘ all or nothing ' thinking is considered a cognitive distortion and is a symptom of several disorders , and yet it remains a pillar of American ( and Western ) culture . It 's almost like ... our culture is toxic :thinking_face:",0,0
-22,irony,South Park being taken off Hulu is the worst thing that 's happened to me personally in 2020 and like .. my dad died,0,0
-23,irony,Life is about eating chicken finger and getting drunk,1,0
-24,irony,When you get woken up at 3am because of aftershocks from an earthquake :thumbs_up: :weary_face:,1,0
-25,irony,day 5 of people being mad about ellen sitting by gw bush is when we 'll finally get to the bottom of this,0,0
-26,irony,:two_hearts: tip for baking bread ! :bread: :croissant: :baguette_bread: you can use the yeast in your dog 's ears to substitute active dry yeast or instant yeast in a pinch ! :two_hearts:,1,0
-27,irony,Efy is great,1,0
-28,irony,Hey what 's the weather like today ? Am I going to need an umbrella ?,1,0
-29,irony,I 'm in Canada so like Happy 4rth ?,0,0
-30,irony,""" coping strategies to help with tinnitus and hearing loss : see a doctor ! "" Wow thanks internet",1,0
-31,irony,hey quick question is it fall or spring ? ? ?,1,0
-32,irony,"love island is ending , law school is starting again ... summer is really over",1,0
-33,irony,Ca n't wait until I live to be 110 years old and I have people asking me how I 've lived for such a long time so that I can make up some hyper-specific secret to longevity that people will inevitably follow,0,0
-34,irony,@USER SHOCKED . How am I supposed to tell the kids they 're not going to Disneyland on June 21st after all ? It 's already been cancelled 36 times ! HTTPURL,0,0
-35,irony,"apparently it 's the biggest ask on the planet to find decently priced sandals with an enclosed toe . PLEASE , INTERNET . I just want to have vaguely summery shoes that do n't involve me having my toes out to the world at all times lmfaoo",1,0
-36,irony,"Oh boy , a song I 'm gonna play on repeat until it makes me physically ill to hear it ! Thanks FOB",0,0
-37,irony,I love it when my neighbours children block the drive because they can't cook their own meals every single day ! ! !,0,0
-38,irony,help ! i 'm being haunted by dead people ! ( my dissertations ),1,0
-39,irony,I really love finishing my term with an period of enforced isolation thanks to the amazing governments controls on covid in school .,0,0
-40,irony,I just do n't think it 's too much to have a perfect life with absolutely no problems 🤷🏻‍♀,0,0
-41,irony,I think Boris Johnson deserves his parties after the great job he does for the country these past few years,0,0
-42,irony,I would like to dedicate my hot girl summer to the Eastpointe Chick-Fil-A . Thank you !,1,0
-43,irony,I just love going out in the rain . It is so nice going to the park when it is pouring with rain . It is so cool to get mud in your hair and your socks drenched . I love it .,1,0
-44,irony,"@USER @USER Well , illegal immigrants categorically do n't get money from the government but why let a little thing like facts get in the way of a good bit of xenophobia ...",1,0
-45,irony,There is nothing new in an oliver james publication that can't be found elsewhere for free . He 's a leftist living a straight bourgeois life,0,0
-46,irony,"I hurt my foot like 3 days ago , I have no idea how , but it hurts to put pressure on it . Love that for me",0,0
-47,irony,it 's so rude that i 'm not at the beach right now,1,0
-48,irony,A fun musical mashup is the country music playing at the gym with the one guy playing old Eminem on his phone at full volume in the locker room shower :musical_notes: :musical_notes: :musical_notes:,1,0
-49,irony,my car is acting up AGAIN for like the 3rd year in a row and I 'm just going to drive it into the river at the point,1,0
-50,irony,"Just signed up for Apple 's Ping , told it I like ' classical ' and it points me towards Lady Gaga . It takes a certain genius to be this crap .",0,0
-51,irony,I just love the weather in Edinburgh have to dress for every season peeing with rain this morning now beautiful blue skys ! ! Just love getting soaked :face_with_steam_from_nose:,1,0
-52,irony,STOP TREATING MARS LIKE A BACK-UP BOYFRIEND JUST FIX YOUR CURRENT RELATIONSHIP WITH EARTH BECAUSE YOU CAN'T LIVE HERE .,1,0
-53,irony,Mad how many cars they make now without indicators :upside-down_face:,0,0
-54,irony,"Ah yes , another afternoon with the WiFi down ... really makes working from home that extra bit more enjoyable :)",1,0
-55,irony,Good to see that our rulers are trying to show that they are just like us really ! * sniff *,0,0
-56,irony,90 % of adulthood is just refilling your Brita pitcher .,1,0
-57,irony,teams is down what a shame I can't do my assignments 👉🏽 👈🏽,1,0
-58,irony,"Well done Henri , cost us the win #nffc",0,0
-59,irony,"Ah yes , back spasms when I take a deep breath . This is :sparkles: 28 :sparkles: .",1,0
-60,irony,I just love when Twitter decides to reload the timeline seconds after you just opened it up and are in the middle of reading it .,0,0
-61,irony,On a scale from 1 to 10 how deeply was your childhood influenced by the Hannah Montana 2 : Meet Miley Cyrus double album ? This is for research purposes .,1,0
-62,irony,"Day 55 of Lockdown . Finally bought some jigsaw puzzles . Absolutely can not wait for them to come , highlight of my day ( maybe even year )",1,0
-63,irony,"Stimulus checks should come with hand lotion , a face mask , and a bonus for every Instagram bingos you do",1,0
-64,irony,You 're all sickos for being mean to Trump so much for the tolerant left :face_with_rolling_eyes: anyways George Floyd had it coming,0,0
-65,irony,"i love how i literally just finished watching the fifth hp film and then turned to my mum and said "" love a good bit of character death on a sunday :) "" the dsmp lore has utterly ruined my attachment to characters and how i see stories now . i am a broken woman .",1,0
-66,irony,i have bags under my eyes because im tired of your bs :),0,0
-67,irony,Got a bloody screening invitation for a massive film - YES THAT ONE YOURE THINKING OF - and both screenings are on school days :loudly_crying_face: tempted to quit teaching tbh,1,0
-68,irony,this is my 3rd time taking a biology course and it 's so EASY wow i love biology so much i 'm so glad i 'm so good at this subject .,0,0
-69,irony,"Oh wow , trolls really have a lot of time on there hands , jeez :face_with_rolling_eyes: they really do n't like getting banned #twitchtrolls",0,0
-70,irony,Having morning sickness when you 're not actually pregnant is all the fun,1,0
+1,irony,first game not starting when it 's supposed to ? a UCF tradition,1,1
+2,irony,Roses are Red Violets are Blue My first love was Championship Manager Tommy Svindal Larsen and Kennedy Bakircioglu #HappyValentinesDay,1,1
+3,irony,"My favourite thing driving to work in the morning is how peaceful and slow everyone is . I love when people do n't know where they 're going , like they are just out for a stroll at 8: 30 in the morning . It makes me so happy .",1,1
+4,irony,"Ah , we really needed that vaccine booster address from Boris Johnson , and it was n't ANYTHING to do with getting the media to report on something else other than the Downing Street Christmas parties .",1,1
+5,irony,I love working in the office instead of home . I wish they did a wax melt of Bob 's BO so that I could smell it at home too .,1,1
+6,irony,@USER Easily one of the worst and most damaging takes for both trans AND cis women I have seen thus far . Congrats on reaching new levels of awful lmao,1,1
+7,irony,2 busy working 2 care,1,1
+8,irony,"Ah yes , back spasms when I take a deep breath . This is :sparkles: 28 :sparkles: .",0,1
+9,irony,"Yeah , feeding children sweets before bedtime is an awesome way of getting lots of sleep",1,1
+10,irony,Imagine going to university for 4 years when you could just follow Elon Musk on twitter for free,1,1
+11,irony,"I suppose though , we did sign one for the future so , you know , not all gloom and doom ... we might be good in 6 years time .",1,1
+12,irony,"Wow , work is just so rewarding and fulfilling right now",1,1
+13,irony,"Do n't worry , 20 something people who follow me here , I brushed my hair for the first time in a week today . I know , impressive .",1,1
+14,irony,"Yes , that 's fine . Do n't wash your hands when you come out of the gym toilets and go and touch all the weights . We 're not in a Pandemic or anything ...",1,1
+15,irony,"oh great , we have to wear masks and constant tests to protect our loved ones and others around us . being a human is so hard",1,1
+16,irony,@USER Sureeeeeee you do,1,1
+17,irony,"Vaccine mandates are obviously great things for the good of the people , cause nothing bad has ever happened by forcing people into things .",1,1
+18,irony,"not to brag , but my thesis topic was so good that someone else published on it three months ago :upside-down_face:",1,1
+19,irony,@USER And you said Donald trump was racist :expressionless_face:,1,1
+20,irony,never drinking again,1,1
+21,irony,"The Drew Barrymore Show is an absolute trainwreck . Like The Tony Danza Show , every two minutes is a clip for The Soup .",1,1
+22,irony,"I see Dettol , Toilet Duck and Zoflora are all trending on Twitter . Now why could that be ... #TrumpPressBriefing",1,1
+23,irony,I see ITV have new drama starting next week think it 's about a police detective with personal problems that i 'll make change then .,1,1
+24,irony,I miss walking up 3 flights of stairs for class and having to catch my breath in the bathroom :weary_face:,1,1
+25,irony,"I heard it might be snowing ? ? ? Sounds fake , but okay ? ? ? Can anyone verify ? ? ?",0,1
+26,irony,Boris Johnson is a great leader and all his team stick to the covid rules rules,1,1
+27,irony,On a scale from 1 to 10 how deeply was your childhood influenced by the Hannah Montana 2 : Meet Miley Cyrus double album ? This is for research purposes .,0,1
+28,irony,Everybody loves Christmas ! It such a great time to be jolly !,0,1
+29,irony,I 'm the highest I 'll ever be on 420 in my life ! I 'm on an airplane duh,0,1
+30,irony,I love health insurance so much fun paying $ 100 ' s a month and then $ 100 ' s for basic medical services that somehow are n't covered . #America,1,1
+31,irony,i love 6 hour panic attacks,1,1
+32,irony,imma still vote for vermin supreme this presidential election :face_with_steam_from_nose:,1,1
+33,irony,"Me : "" Did you you find everything you were looking for ? "" Customer : "" why , are you hiding something ? "" Me : "" aRe YOu HIdiNg sOMetHinG ? """,1,1
+34,irony,Who 's ready for monsoon storms allllll weekend ? ! ? !,0,1
+35,irony,In sunny spain at the moment ! ! ! Hows it all in england ?,0,1
+36,irony,Only a a President as strong and decisive as @USER would force the FDA to OK a drug even before clinical trial results are in . No need to wait for such silly formalities - people have been taking the drug for years and most are still alive and fine ! #OkToTry #Gotrump HTTPURL,1,1
+37,irony,@USER Those boots must be tasty for how much they 're choking on ' em :skull:,1,1
+38,irony,"Ah yes , another afternoon with the WiFi down ... really makes working from home that extra bit more enjoyable :)",0,1
+39,irony,"I love waking up to start work at 5am everyday . Even better when its Christmas , because there 's nothing I love more than being surrounded by stressed out customers over food !",1,1
+40,irony,i would rather be outside reed timmers car in f3 tornado winds than go to work today,0,1
+41,irony,My living room feels really lively now . I 'm recklessly sipping tea absorbing choons #TaeSup,0,1
+42,irony,Oh my goodness . It 's the first week of the summer holidays and Harrison has found his recorder . Give . Me . Strength .,1,1
+43,irony,you like ketchup but not tomatoes ? ? ? grow up,1,1
+44,irony,July 1st . Half way point of the year . Well I think we can all agree that 2020 has gone swimmingly so far . Ca n't wait for part 2 . #murderhornets,0,1
+45,irony,I still can't believe England won the World Cup,1,1
+46,irony,I swear this triller event is run by teenagers,1,1
+47,irony,"It 's so amazing how people forget you exist until they want something from you : , )",1,1
+48,irony,Happy birthday to me . I got pinged and can't leave the house :smiling_face_with_hearts: :clown_face:,1,1
+49,irony,"@USER "" But it 's a deterrent "" :face_with_rolling_eyes:",1,1
+50,irony,Hey does anyone know of any organizations that have massive stockpiles of money that could be super useful to the world during a public crisis ? ? ?,1,1
+51,irony,Andrews really trying to explain to me that football and rupauls drag race are n't the same thing when it in fact is the same thing .,1,1
+52,irony,shoutout to the assholes at basically every gas station rn filling up multiple gas canisters when i do n't even have enough gas to get home ... :smiling_face_with_tear:,1,1
+53,irony,"I 'm so glad I know the quadratic formula from 8th grade instead of knowing how to pay taxes , get ready for college , oh OR ANYTHING ELSE USEFUL THAT INVOLVES BECOMING AND ADULT :cowboy_hat_face: :smiling_face_with_hearts:",0,1
+54,irony,love when my boss micromanaged me (:,1,1
+55,irony,Loving season 4 of trump does America . Funniest season yet #DonaldTrump #Trump #MAGA #MAGA2020,1,1
+56,irony,I love when I start choking on my water in my 8 person class,1,1
+57,irony,"#bbcqt It sure would be nice if Ms May decided to answer a question , rather than dance readily around it .",1,1
+58,irony,I absolutely love it when its pouring down with rain on a Monday morning and I forget my umbrella !,0,1
+59,irony,did you actually fly on a plane if you did n't post a picture of the view from your window ?,1,1
+60,irony,babe stop i 'm about to gleek,1,1
+61,irony,@USER Suspect there 's still room for you in the ground,1,1
+62,irony,"Please consider map filters on online mutliplayer . Pretty pls , thanks @USER",1,1
+63,irony,""" Alexa add small bananas to the shopping list . "" I 've added smooth armours to your shopping list . "" Gee thanks Alexa ! #alexa",1,1
+64,irony,Corsodyl failing to consider i like being a person who spits blood when they brush their teeth,0,1
+65,irony,"Funny Quote of the Day : "" I believe in luck : how else can you explain the success of those you dislike ? "" - Jean Cocteau",1,1
+66,irony,I 'm in Canada so like Happy 4rth ?,1,1
+67,irony,Replace Pelosi #Nancy,1,1
+68,irony,just stuck my entire hand in a hot oven without thinking about the consequences . self preservation is clearly my strong suit,1,1
+69,irony,Why is this 30 yr old man trying to flirt w / me at this wedding and talking about getting away with dating younger girls . Sir I will call the authorities,1,1
+70,irony,Happy birthday to me ! ! I 'm 30 ! :loudly_crying_face:,1,1
+71,irony,"Sure , vaccines make no difference to Covid spread ; that 's why the hospitals are full of unvaccinated people . Are you able to do the maths ?",1,1
+72,irony,"I love it when women are referred to as "" girl boss "" however men are just the "" boss "" !",1,1
+73,irony,someone hit me w a horse tranquilizer istg ive been in a pool of sweat for 6 hours and i havent slept im so tired but i love my friend so much and oh my fucking god i cant rn,1,1
+74,irony,Really impressed with the clear and unified messages coming from the government re Omicron and socialising over xmas ! !,1,1
+75,irony,love when the train stops in philly and everybody boards and of a sudden it smells like a ham sandwich,1,1
+76,irony,my favorite gay drama is the social network,1,1
+77,irony,"Day 2348 in lockdown . Never in my life did I think I would utter the words "" I 've disinfected the chocolate "" . #coronalockdownuk",1,1
+78,irony,"I love calling my mom early in the morning and waking her up , I take it as pay back for all the times she never let me sleep in :winking_face_with_tongue:",1,1
+79,irony,wearing a cute jumpsuit is all fun and games until you have to go to the bathroom,0,1
+80,irony,I love how Instagram can motivate people . I saw a post by Kim Kardashian and I was motivated to delete my account .,1,1
+81,irony,"Serious question : if I nick a car and elope to Gretna Green to shut my family up , how long will I do in prison ? Can I finish my PhD there ? Think I 've got a plan , lads ...",1,1
+82,irony,Blatantly obvious that Lionel Messi is now set for a move to Leeds . The Newell 's old boys network .,1,1
+83,irony,"Yay - snow day , I can work from home - oh wait ...",1,1
+84,irony,Raging debate on the importance of an Orlando Magic Summer League Championship . Definitely a notch below 6 if decided by coin flip . HTTPURL,0,1
+85,irony,jack antonoff once ur done with clairo i 'm right here sweetie,1,1
+86,irony,my neighbors taunting me outside my office window by chilling in their hot tub every remotely warm day whilst I sit here on back-to-back zooms all day every day . the audacity is astonishing .,1,1
+87,irony,"Using an educator discount , I receive 20 % off Manga at B & N . This is the only reason I am a teacher .",1,1
+88,irony,apparently it 's national siblings day ? idgaf :skull:,1,1
+89,irony,"Love how modern society has the same rules for everyone , regardless of your job or background . Really brings the country together !",1,1
+90,irony,flew into a rage this morning bc i couldnt find my karaoke mic so yeah i would say things are going well for me,1,1
+91,irony,"You know what makes a 15 minute wait for the bus even better , rum leaking all over the contents of your bag :see-no-evil_monkey: :tired_face:",0,1
+92,irony,Hahahah @USER is shutting down the entire campus for quarantine ! ! Could n't happen to a nicer group of Covid deniers ! #CovidIsNotOver #karmaisabitch #Covid_19,1,1
+93,irony,"My PS4 Pro has P . T on it , which is somewhat funny as it was taken down before the PS4 Pro was even released #konami #PT #SilentHills #Spooky #PlayableTeaser #Kojima",0,1
+94,irony,""" @USER : FLORIDA YOU LITERALLY HAVE ONE JOB """,0,1
+95,irony,Tinnitus is my favourite thing ever I love it . So loud so atmospheric HTTPURL,1,1
+96,irony,Idk how some girls put on makeup everyday . Is it just to take selfies or have you just not discovered netflix yet ?,1,1
+97,irony,Think we should all give Bo Jo a break . How could he have POSSIBLY known about the cheese and wine party going on in his own house ?,1,1
+98,irony,ate a bagel with cream cheese earlier and the impending doom immediately vanished from my mind,1,1
+99,irony,I would like to dedicate my hot girl summer to the Eastpointe Chick-Fil-A . Thank you !,0,1
+100,irony,"My poo is green , how festive .",0,1
+101,irony,i 'm dying,1,1
+102,irony,It 's “ let 's see how many crumbs I can find in scarf ” szn .,1,1
+103,irony,@USER @USER @USER Surely you 're not suggesting that their own thorough investigation of their own suspected <fraud> ( which found no evidence for said <fraud> ) was carried out with anything but the very highest levels of integrity ? Seems completely legit to me ...,1,1
+104,irony,also that jacket he wore yesterday i 'm gonna rip my eyes out :/,1,1
+105,irony,@USER Reviewer 2 : this is a very weak paper that fails proof of concept . Stating a cat bed is also a wizard 's hat is totally wrong and your data can not support this,1,1
+106,irony,Drop in Center to let people get the 1st or 2nd Vaccine open today . I went thinking I was able to get my 2nd one . Wait in the que 30 mins . sits down arm ready to get ! Sorry your 12hrs to early ! ! ! We can not vacinate you till 56 days ! ! ! @USER #Seriously,1,1
+107,irony,"Day 3 . Luggage arrived , thanks @USER . Non random Hungarian underwear . Talk delivered . Science sated . #metaxa HTTPURL",1,1
+108,irony,Woke up at 3 am with a MAD craving for pickles . I guess that means I 'm expecting !,0,1
+109,irony,so many people pressed that italy won sorry eurovision belongs to the bisexuals now x #Eurovision,1,1
+110,irony,"Pissed off at @USER and just want out of my contract , but I 'm sure that would just be way too easy , ugh :(",1,1
+111,irony,Using my recently acquired video editing skills on myself for a change . An oral #presentation assignment on #healtheconomics is as much fun as it sounds :speaking_head: :movie_camera: HTTPURL,1,1
+112,irony,Schadenfreude x,1,1
+113,irony,imagine being able to sleep haha can't relate,1,1
+114,irony,@USER @USER sounds like the american dream ngl,1,1
+115,irony,Sleep ? What 's that ... I 've never heard of it ?,1,1
+116,irony,"Thanks to India for being so inept . I was hoping for a full day of cricket , got snacks and everything . Cheers . You could have at least tried . #bbccricket #INDvENG #ENGvsIND #Cricket",1,1
+117,irony,Enjoy the bars and vineyards ✌🏻 Make sure to send postcards to the people dying in your local hospitals . I 'm sure they 'll be glad you 're not bored anymore,1,1
+118,irony,@USER This aged well,1,1
+119,irony,"Boy , I sure do love being constantly misgendered by my cis relatives at family gatherings :upside-down_face:",1,1
+120,irony,"Wait did n't covid go away ? ? It 's after November third so it definitely should be gone now ... wait ... I 'm confused ... 121,000 cases in a day ? You 're telling me THE WHOLE WORLD did n't fake a pandemic for the US election ? No way ...",1,1
+121,irony,"@USER @USER Has n't he opened a few new hospitals ? Oh sorry , maybe it was a new first aid box .",1,1
+122,irony,Life is about eating chicken finger and getting drunk,0,1
+123,irony,I am starting off my day by watching a Dragons Den special on Deborah Meaden and eating a Pot Noodle . My life is perfect .,1,1
+124,irony,"head is pounding , spent £ 25 on ubers last night and I have a 3000 word report to write :) yippee x",1,1
+125,irony,I do love it when my mum makes me spend my savings on beer :unamused_face:,1,1
+126,irony,Love it when you clearly make a restaurant aware of dietary conditions and they ignore it :smiling_face_with_tear:,1,1
+127,irony,went to check out the bios of the ( exclusively ) hipster dudes that work in a rival boutique goods store and found out they all traveled internationally during the pandemic :upside-down_face: :upside-down_face: :upside-down_face:,1,1
+128,irony,Someone should 've had me committed the day I decided to buy a pair of non-stretch denim jeans,1,1
+129,irony,"Wizkid is the king , ok lol",1,1
+130,irony,""" I 'm concerned about the environmental impact of my contact lenses , "" says the occasional daily wearer , throwing their Starbucks cup in the test room bin .",1,1
+131,irony,I accidentally made butter when trying to whip cream this morning and I think that 's a great representation of how I 've reached my capacity for working from home,1,1
+132,irony,i hope u sleep maybe forever maybe not lol,1,1
+133,irony,is this an earthquake because i am shook right now,1,1
+134,irony,"Just signed up for Apple 's Ping , told it I like ' classical ' and it points me towards Lady Gaga . It takes a certain genius to be this crap .",1,1
+135,irony,i 've had more interesting conversations w my wall but alright,1,1
+136,irony,#HappyBirthdayKeanuReeves Keanu Reeves is so wholesome :smiling_face:,1,1
+137,irony,"Whoever 's toddler ass sprayed the entire toilet backstage , I hope you stub your toe and bite your tongue really hard . also you were clearly dehydrated , go drink some damn water like an adult",1,1
+138,irony,@USER I think it should be allowed for customer service workers to squirt water into their face like how they do sometimes to train pets,1,1
+139,irony,Hands up who remembers when EVERY blogger and their dog was a brand ambassador for Coconut Lane :face_with_tears_of_joy:,1,1
+140,irony,High stakes legos,0,1
+141,irony,They should just put a wall around the pitch to stop the ball going out,1,1
+142,irony,"So , a country that is trillions in debt , with numbers approaching 13 million on surgical waiting lists and hurtling towards facism regime , is talking about rescuing people from a facist regime ?",1,1
+143,irony,yeah your girl is fine but does she pass out while giving blood,1,1
+144,irony,"So big BJ threw an Xmas party in lockdown while nan spent it on her own , oh well I 'm sure she had a great time anyway .",1,1
+145,irony,"I 'm sorry , but if you message me on Instagram wanting me to help you sell your fit tea and wraps , I 'm leaving you on read . :upside-down_face:",1,1
+146,irony,I got called ugly on Twitter by an uneducated teen who refuses to show his face :( I 'm gonna cry myself to sleep :loudly_crying_face: I 'm in gut wrenching pain !,1,1
+147,irony,"hello to all three of my followers , this is my big return to twitter",1,1
+148,irony,I 'm hoping my social work class party is going to involve tequila and chip and salsa :woman_dancing: :tropical_drink: :party_popper: :man:,1,1
+149,irony,@USER Ok so when does the anger and bitterness start ? Just so I can prepare properly ...,1,1
+150,irony,The numbers talking to me !,0,1
+151,irony,Hearing Kendrick Perkins refer to Alec Burks as Alecs Burk like he 's attorneys general > > >,1,1
+152,irony,Wow really loving this new job I mean constantly being shouted at and barely earing a fiver an hour why did I not sign up earlier ! ! !,1,1
+153,irony,"Quarantine Day 256 : Dear Ancient Greeks , re : the blanket-wearing — I get it . #QuarantineLife",1,1
+154,irony,The fact I nearly froze on my way to work this morning is definitely a sign it 's not summer anymore #freezing,0,1
+155,irony,maybe i am a cyber bully,1,1
+156,irony,"Seeing as Kanye West has a range of clothing with Gap , how about me and you do a collab @USER",1,1
+157,irony,love waking up in a panic :woozy_face: :woozy_face:,0,1
+158,irony,Love how politicians are exempt from social distancing and all other restrictions placed on the general public,1,1
+159,irony,Just redownloaded the @USER app - let 's see if it improves my exercise routine !,1,1
+160,irony,Great start to the day Neros was shut and now I 'm going akip on the bus :sleeping_face: :face_with_crossed-out_eyes:,1,1
+161,irony,getting stopped by tesco security is the highlight of my day,1,1
+162,irony,Currently bombing aces on the volleyball court and math tests in the classroom . #StudentAthlete,1,1
+163,irony,not to alarm anyone but i just saw spider-man by uta,1,1
+164,irony,So in other news I just held the door open for Bam Adebayo & then I fell down the stairs & I think I broke my finger .. ya I 'm THAT smooth,1,1
+165,irony,Why was I not told Matthew Stafford and Cooper Kupp eat breakfast together before I drafted Robert Woods over him ?,1,1
+166,irony,this bruh rly told me “ Ur anger issues are my playground :smiling_face_with_hearts: ” so uhh hmu if u wana be friends bc i need new ones k thx (:,1,1
+167,irony,@USER @USER @USER Michael Saylor is efficient in his line of questioning . Feels like more an interrogation :face_with_tears_of_joy: :hollow_red_circle:,1,1
+168,irony,Did you know ? Abuse and alcoholism and depression will just :sparkles: disappear :sparkles: if the country is opened completely during a pandemic ? #trumpisanidiot #bidenharris2020,1,1
+169,irony,"Just finished the most wonderful 12 hour shift ! ! I had no breaks at all , how delightful ! I absolutely LOVE standing on my feet all day long , running on 6 hours sleep . I live for this .",1,1
+170,irony,"Have the most balanced diet , a healthy balance of codeine , panadol and ibuprofen ...",1,1
+171,irony,"@USER According to a Trump republican , that 's relative to Penis size . There 's a video . Lol",1,1
+172,irony,i 'm gonna get a boob job so i call myself a customizable doll,1,1
+173,irony,"just booked to see David Gray too , , , am i 40",1,1
+174,irony,omg there 's a sheet of ice in front of my school . should I slip and fall ?,0,1
+175,irony,@USER And with a plentiful supply of rhubarb .,1,1
+176,irony,Really happy that the weather has stayed like this for the whole weekend,0,1
+177,irony,"I am sorry , I forgot , I only exist when you need something !",1,1
+178,irony,""" Do a PhD , it 'll be fun and rewarding , "" said no clinically sane person . Ever . I repeat . Ever .",1,1
+179,irony,Thoughts and prayers will actually work this time . Trust me,1,1
+180,irony,I love it when someone criticses my parenting then their adult son cuts his finger off with a knife and breaks his leg by falling off a bike,1,1
+181,irony,"Salah and Mane can't score for the life of them today , good job we 've got Origi and Minamino to come on and make a difference !",1,1
+182,irony,I really hate the new TikTok voice over voice - she sound annoying af,0,1
+183,irony,Nice to be compared to a brick wall :face_with_tears_of_joy:,1,1
+184,irony,@USER @USER absolutely no response from Luna Cinema and my completely factual review on See Tickets has been moderated and will not be published :thinking_face: great to see @USER looking out for their customers . Excellent customer service all round :clapping_hands:,1,1
+185,irony,@USER Her family should definitely not seek mental health guidance . :grimacing_face:,1,1
+186,irony,teams is down what a shame I can't do my assignments 👉🏽 👈🏽,0,1
+187,irony,@USER But what were the ratings ? ? ( Replied to his Tweet with the same thing . ),1,1
+188,irony,wow . i left on time today and the airport connector is all the way backed up . love that,0,1
+189,irony,love getting assignments at 6:25 pm on a Friday ! !,1,1
+190,irony,alllllll nighter . woohoo,1,1
+191,irony,Fool me once shame on you . Fool me twice shame on me . Fool me multiple times I must have become a brexiter . #Brexit,1,1
+192,irony,No longer a female as I refuse to wear heels ever again,1,1
+193,irony,"Oh wow , trolls really have a lot of time on there hands , jeez :face_with_rolling_eyes: they really do n't like getting banned #twitchtrolls",1,1
+194,irony,"Just got in , how 'd Liverpool get on ?",1,1
+195,irony,"it 's amazing how many people get mad at you for simply Raising Questions , such as “ what if the vaccine makes your balls inflate like helium balloons and cause you to float away to never be seen again ”",1,1
+196,irony,sure you have a paying job but are you a Silver Chick Fil A Rewards member ? :face_with_steam_from_nose: :face_with_rolling_eyes: :face_with_monocle:,1,1
+197,irony,Falling asleep at your laptop is always fun,1,1
+198,irony,Man PepsiCo loves to add 750g of sugar to a mixture of their existing flavors of sodas and call it a new flavor of dew or Pepsi ...,1,1
+199,irony,Yay for being locked out of your own house because you forgot your key,1,1
+200,irony,I love that we have to always pay by cash at the barbers . Sure would be a lot easier if they took card ...,1,1
+201,irony,Getting a dog was single handedly the best and worst thing I 've ever done .. can't imagine life without her and I can't live without her .. Make sense ?,1,1
+202,irony,Shout out James Boswell #unibowl,1,1
+203,irony,So kind of the government to introduce 900 new covid tests right before I fly to Paris x,1,1
+204,irony,Oh what a surprise BBC weather says it 's raining in Manchester ! in Manchester !,0,1

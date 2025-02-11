@@ -1,0 +1,358 @@
+index,dataset,tweet,label,prediction,probability
+1,sarcasm,Uh oh Ben Simmons will also have a Steph Curry type season 76ers better not trade him now HTTPURL,1,0,0.067775846
+2,sarcasm,"I 've spent a thousand dollars in four days and the vet has given me an estimate that it will be an additional thousand over the next couple months for treatment Your generosity has been so helpful , I appreciate everyone who 's helped however they can !",0,1,0.9629391
+3,sarcasm,"Few of us who are in "" low classed jobs "" who are still in work as we are classed as essential workers are the same people who were claiming UC over the past few years & got scrutinised for it . #UniversalCredit is trending because now people see how UC is n't just for "" lower class "" .",0,1,0.5581012
+4,sarcasm,🤙🏼 HTTPURL,0,0,0.18056189
+5,sarcasm,yesterday 4 dinner I just had rice w / sriracha sauce on it and it was arguably the best meal I 've had in a while,0,1,0.92577887
+6,sarcasm,the thought of one of my siblings getting my room when i go to uni makes me sad af :pensive_face:,0,0,0.054267846
+7,sarcasm,youve heard of coffee enemas now get ready for coffee bidets,0,0,0.098085634
+8,sarcasm,Cheers @USER delivery lady for dropping my parcel off covered in coffee :unamused_face: 👌🏼 HTTPURL,1,1,0.94340223
+9,sarcasm,"Dear @USER , I see your enticing #Thanksgiving offer that ends on 2 Dec . I wanted to ask if you 're aware that #Chanukah starts on 10 Dec , continues for 8 days & that traditional Chanukah fare is actually #DOUGHNUTS ? ? :doughnut: :doughnut: #justsaying #AskingForAFriend #opportunity",1,1,0.8135803
+10,sarcasm,Why has Murray not already thrown this set ? No way he comes back from 5-0 and just tires himself out for no apparent reason .,0,0,0.26011413
+11,sarcasm,You 're all sickos for being mean to Trump so much for the tolerant left :face_with_rolling_eyes: anyways George Floyd had it coming,1,1,0.75939804
+12,sarcasm,I love how men know they have a baby on the way in one month and they decide to go out and buy a brand new mustang wow,1,1,0.98834306
+13,sarcasm,Perk of doing a newborn hearing screening on an SLP 's baby : not having to discuss speech and language milestones,0,0,0.30399755
+14,sarcasm,I got called ugly on Twitter by an uneducated teen who refuses to show his face :( I 'm gonna cry myself to sleep :loudly_crying_face: I 'm in gut wrenching pain !,1,0,0.037096474
+15,sarcasm,"I keep getting dramatic , anime style cowlicks in the morning and I 'm thinking one day I 'll just go out without brushing it down to let everyone know I 'm the main protagonist .",0,0,0.22932112
+16,sarcasm,my grandpa has covid so i made a lil care package with his fave snacks and a big blanket . he 's vaccinated and it 's still hitting him hard . i 'm really sick and tired of the my body my choice mentality behind anti vaxxers bc it 's not just your body you 're making a choice for . god .,0,0,0.17240003
+17,sarcasm,So the PM has finally given his verdict on his COVID NHS stay in hospital . Do n't understand why nurses would not want his pay recomendation .,1,1,0.97499937
+18,sarcasm,Do the #Hokies really have to play 5 against 6 tonight ? Come on stripes,1,0,0.08462963
+19,sarcasm,i know i did n't just read a 40 page sex scene . my god,0,1,0.9746295
+20,sarcasm,@USER if i think you would have a chance against fury i mean its easy for some broken bodied old boy to beat the best in the world,1,0,0.062469915
+21,sarcasm,did you actually fly on a plane if you did n't post a picture of the view from your window ?,1,0,0.27448148
+22,sarcasm,@USER How * often * ? ? ?,0,0,0.021895615
+23,sarcasm,evERYTHING IS NOT A COMPETITION OF WHO HAD / HAS IT WORSE OK BYEEE,0,0,0.22249533
+24,sarcasm,"our lord and savior , frank ocean , has saved us all once again .",1,0,0.3738521
+25,sarcasm,when I was younger I used to think that time zones also could change by minutes and people in other towns could be in 12:56 while I was in 1:14,0,0,0.3814629
+26,sarcasm,Let 's cut funding to social services . What could possibly go wrong,1,1,0.65295184
+27,sarcasm,did you know there is a direct correlation with how cool someone is and how high they cuff their pants ?,1,1,0.81324697
+28,sarcasm,"The #PostOffice KNEW there were bugs in the system ! "" Not remotely reliable "" . Innocent lives were completely ruined and SOMEONE is to blame . Not fit for purpose . An utter disgrace . I 'm oddly livid over this #bbcpn",0,1,0.8889599
+29,sarcasm,Amazing ! Simply amazing . Well done Sky Brown . You are an inspiration to all of us . HTTPURL,0,1,0.5811929
+30,sarcasm,employer : so what are your strengths me : i 'm smart i 'm funny i 'm nice i 'm cool i 'm creative i 'm hardworking i 'm made of wood i 'm honest i 'm fast i 'm awesome i 'm hot i 'm chronically ill i 'm little i 'm in demand i'm,1,0,0.20512745
+31,sarcasm,"How this is n't just Cowboy Bark listed 100000 times , I 'll never know . Nevertheless , an A + + + thread HTTPURL",0,0,0.014740176
+32,sarcasm,"I 'd like to thank my current employer for making me feel accepted and valued . It 's particularly nice that , whenever I have some suggestions for them , that they seriously consider them and do n't just automatically put their fingers in their ears and shout ' I CAN'T HEAR YOU ' . Metaphorically .",1,1,0.85636324
+33,sarcasm,"@USER Hi there , I 'm told by the staff at fellowship square on this hot day that there is no cold water provision to full up reusable bottles unless I want to fill up "" from the toilet "" , is that actually my only option ?",0,1,0.95137715
+34,sarcasm,THAT'S MY BEST FRIEND :heart_suit: :heart_suit: HTTPURL,0,0,0.021864112
+35,sarcasm,Love it wen people try and stop my friends seeing me ! Looooolll .,1,1,0.9884991
+36,sarcasm,I just had to hide all ads from Crumbl cookies cause I 'm fat and can't resist temptation :tired_face:,0,0,0.03626304
+37,sarcasm,"I suppose though , we did sign one for the future so , you know , not all gloom and doom ... we might be good in 6 years time .",1,1,0.9485575
+38,sarcasm,Fascinating article about the Vatican 's finances in these challenging days #catholic #finance #catholicism HTTPURL,0,1,0.9422868
+39,sarcasm,i 've come to the conclusion i do n't rly like strawberries & i think they 're overrated,0,0,0.03546085
+40,sarcasm,"The first paper @USER and I accepted as part of our special issue on intergroup conflict @USER is now online ! Check it out at HTTPURL and kudos Sam Whitt , @USER and @USER !",0,0,0.03182034
+41,sarcasm,being a head nodder in zoom university is a curse,0,0,0.30838776
+42,sarcasm,@USER @USER Well I doubt they 're trying to smash the doors in to change the regulation of cough medicine .,1,1,0.9497491
+43,sarcasm,"Your family just escaped war , bloodshed , and devastation . #Trump 's bigotry sent you back to face persecution . #US HTTPURL",0,0,0.33475623
+44,sarcasm,"Follow us at @USER for updates on the @USER Care-A-Thon today ! Listen in for interviews with Jaguars , families and more ! :beaming_face_with_smiling_eyes:",0,0,0.034797236
+45,sarcasm,"Happy new month to all my Mutuals and Friends on here , wishing us all good health and more financial breakthrough this month .",0,0,0.42475736
+46,sarcasm,"Yes , I am taking royalties for the phrase “ Thiccle Mistress , which I definitely just made up - thanks for asking",0,1,0.9798854
+47,sarcasm,The sign of spinelessness : complaining to someone having a call on a bus as they 're getting off . Was the person on the phone a woman alone ? Of course she was . Was the person complaining an older man ? Of course he was . Did I yell at him ? Of course I did . Speak out for justice . :raised_fist:,0,0,0.15943913
+48,sarcasm,@USER Actually I 've extrapolated based on the last daily candle and it turns out BTC will be sub-zero by December . The math does n't lie .,1,1,0.9326342
+49,sarcasm,every time i see someone named david im like ... wow ... that really IS a guy named david,0,1,0.8912675
+50,sarcasm,i love talking about feminism when I 'm drunk,0,1,0.9848957
+51,sarcasm,"@USER @USER Let 's listen to Dylan Petit over actually doctors , biologists and epidemiologists . :face_with_rolling_eyes:",1,0,0.21147984
+52,sarcasm,GIVE THE BALL BOBBY AND HE WILL SCORE :soccer_ball:,0,0,0.062189527
+53,sarcasm,Finally listening to Luke 's album and I really like it .. very vibey,0,1,0.94320726
+54,sarcasm,Me and my mum just went through our cupboards to find some food for a food bank collection only to discover half of our food is out of date :grimacing_face: :grinning_face_with_sweat:,0,0,0.09647054
+55,sarcasm,"Hey Siri , how do I stop simping ?",1,0,0.38364455
+56,sarcasm,"@USER I think Johnson likes this extreme form of social control . It is surely time to revolt against this madness . The vulnerable and over 60s have mostly all been double vaccinated & for the over 50s it is imminent . Depression kills as well , further restrictions make it more likely .",0,0,0.14039621
+57,sarcasm,I 'm so glad that the police have decided that historical crimes are no longer of interest ; there 's a couple of my haircuts from the early 90s that I can now forget about ...,1,1,0.96249247
+58,sarcasm,Context : ~ leg day ~ Jacob : I need power * plays Britney Spears * Yes sir I love u,0,0,0.024586521
+59,sarcasm,If anyone wants to know how my nights going I tried making a private story on Snapchat and instead made a group chat ... I hate my life,1,0,0.34793016
+60,sarcasm,I heard somebody unironically say Daddy God in a prayer today and akslfljsd why are Christians so cringey sometimes :loudly_crying_face:,0,0,0.048681717
+61,sarcasm,my favorite thing about my grandparents is that they 're so afraid to talk about me being gay that our catch up phone calls are incredibly short :heart_with_arrow:,1,0,0.4425955
+62,sarcasm,It makes me feel a lot safer knowing the MET Police do n't investigate crimes after they happen .,1,1,0.9680654
+63,sarcasm,Also I can't wait to see how many white Boomers are going to be pissed off about the artists singing in Spanish . #SuperBowl #SuperBowlHalftimeShow,0,1,0.91454685
+64,sarcasm,victini is my favorite pokemon,0,1,0.5206303
+65,sarcasm,“ @USER : Physically and mentally stressed ”,0,0,0.3180834
+66,sarcasm,"Mormons are a deeply traumatized people . All of us . Post , current , mainstream , offshoot . And the only way to heal from generational trauma like this is to acknowledge that we perpetuate it , even without realizing it . Leaving was hard . But staying was harmful .",0,0,0.06300528
+67,sarcasm,And the police clearly have nothing better to do,1,1,0.54519576
+68,sarcasm,i am sometimes one of the most blondest people out there its a pity my hair colour doesnt match which would make it the perfect combo haha,1,1,0.8221116
+69,sarcasm,You know it 's bad when your vet texts you to check in on your dogs diet #thicc,0,1,0.8811865
+70,sarcasm,fun fact : earth day started in santa barbara,0,1,0.9337761
+71,sarcasm,@USER ye,0,0,0.14933468
+72,sarcasm,"@USER @USER @USER @USER It 's probably something closer to Xenophobia . Which is someone hating someone else just because they 're foreign . I mean , you are an English teacher , are n't you ? Figured you might know that .",0,0,0.36047325
+73,sarcasm,my life is great lmaooooo .,1,1,0.98766416
+74,sarcasm,@USER Easily one of the worst and most damaging takes for both trans AND cis women I have seen thus far . Congrats on reaching new levels of awful lmao,1,1,0.97893757
+75,sarcasm,somebody tell these birds to be quiet because they not listening to me,1,0,0.283457
+76,sarcasm,If I were the Red Sox I would simply play the Orioles more,1,0,0.040615607
+77,sarcasm,Life at the moment is fantastic . I am really enjoying the increase in restrictions due to the omincron variant and can't wait to go shopping whilst wearing a facemask .,1,1,0.97428757
+78,sarcasm,I love when I learn about stuff I 've apparently done and said from people :face_with_tears_of_joy:,1,1,0.98754764
+79,sarcasm,"Bart is closed rn in Oakland so I can't go to work , I 'm so upset ...",1,1,0.5806026
+80,sarcasm,Nothing but respect to the people in my neighborhood who are already putting out their Halloween :jack-o-lantern: decorations,0,0,0.059869397
+81,sarcasm,never drinking again,1,1,0.5542801
+82,sarcasm,"Hearing I love you is nice and all , but has your SO ever told you to eat shit ? :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: ugh @USER",1,0,0.25887212
+83,sarcasm,Wow it 's almost like we do n't nap every single day at the exact same time wow how dare I try to do the thing we do every single day !,1,1,0.97277415
+84,sarcasm,"So the Lions fans think winning one game will change anything ? Sure , and I have a bridge to sell you . :)",1,1,0.914346
+85,sarcasm,Totall Carloss ... #WTF1 @USER HTTPURL,0,0,0.013120239
+86,sarcasm,Nice to see @USER have started the new year off with the usual crap service . Just love waiting for a bus that does n't turn up,1,1,0.9857114
+87,sarcasm,Just redownloaded the @USER app - let 's see if it improves my exercise routine !,1,1,0.8026282
+88,sarcasm,@USER @USER I think about Blue Rat whenever I see an energy drink : ' All the energy of a rat ... in a can ' .,0,0,0.0365797
+89,sarcasm,"At least half of my days are still bad days and let me tell you , i 've never once killed 8 people because of it . A true miracle apparently",1,1,0.98889005
+90,sarcasm,Words can not express how much I HATE glitter,0,0,0.08014217
+91,sarcasm,gonna finally put in my two weeks today :raising_hands:,0,0,0.026755149
+92,sarcasm,Drake literally ended everyone in the industry like,0,1,0.8274726
+93,sarcasm,2021 will u think about me ?,0,0,0.093524456
+94,sarcasm,im not ignoring you ... I 'm just ignoring my responsibilities,0,0,0.29010537
+95,sarcasm,If only people would care as much about poverty and social equality the way they do jumping up and down for Team Remain or Team Leave .,1,1,0.59916306
+96,sarcasm,"Funny Quote of the Day : "" I believe in luck : how else can you explain the success of those you dislike ? "" - Jean Cocteau",1,1,0.8144617
+97,sarcasm,What happened to unbiased journalism @USER ?,1,1,0.69882435
+98,sarcasm,It 's only now that I 'm seriously trying to save that I 'm regretting treating myself to something new almost every week last year for just surviving my first few terms of teaching :money_with_wings: :money_with_wings: :money_with_wings:,0,0,0.34653452
+99,sarcasm,Get in Notts . Awesome ts @USER,0,1,0.96927667
+100,sarcasm,When I grow up I wanna be a sociopath,1,0,0.040042315
+101,sarcasm,apparently it 's national siblings day ? idgaf :skull:,1,1,0.903963
+102,sarcasm,Bristol is absolutely littered with students ! ! Glad I never was one :see-no-evil_monkey:,1,1,0.9611562
+103,sarcasm,ik the republicans r like tryna say they won but idk why they do n't just settle this w an instagram poll ? ?,1,0,0.037653904
+104,sarcasm,IMAGINE the outcry if SNP voters went and celebrated this win that actually means something in the same way that Rangers fans ‘ celebrated ' a few weeks ago over football game .,0,1,0.62276334
+105,sarcasm,So happy to be alive today .,0,1,0.9493917
+106,sarcasm,Anyone else wanna ruin me day x,1,0,0.07996565
+107,sarcasm,"Halloween is coming very soon which means parties like crazy . No matter who you are , DO NOT drink anything if you do n't know exactly what it is or it has been unopened . People do not have your best interest in mind , so everyone please be safe and aware ! ! :orange_heart: :yellow_heart:",0,0,0.13029712
+108,sarcasm,Trader Joe 's Candy Cane Joe-Joes are pure crack and I cave to them every year .,0,0,0.043284196
+109,sarcasm,Today was a good day :relieved_face: I am happy,0,1,0.5843568
+110,sarcasm,. @USER thanks for shutting down the only Disney Store in northeastern Ohio . The other two stores went out of business yrs ago . It 's not the same with shipping costs online not to mention LE doll sales are an absolute nightmare online . So unbelievably disappointing . :broken_heart:,1,1,0.84354085
+111,sarcasm,I wonder how much wine I 've drank over the past year,0,0,0.32047746
+112,sarcasm,"I turn 30 in just over three months from now , and I 'm feeling weird about it . On one hand , I know that aging is normal and okay and good and that most people are happier in their 30s compared to their 20s , and that 30 is not “ old . ” On the other hand , I feel nervous and sad .",0,0,0.09267814
+113,sarcasm,"i 've never been a runner / very fast at all , and it 's been a year or two since i 've been in what i would consider good shape , but i decided to work on that this summer . since the beginning of June i 've gone from running an 18:29 mile to running a 14:06 mile , and i am so proud",0,1,0.5291315
+114,sarcasm,I love to pick my modules on a first come first served basis at the same time as everyone in my entire year on a website that has n't been updated since 1995 . Thrilling :red_heart:,1,1,0.88404524
+115,sarcasm,"@USER I think lunch was ready at the care home , then it was time for nap and then Countdown .",1,0,0.08221882
+116,sarcasm,im ollie im 5 ' 8 and i think my 5 ' 7 boyfriend is short,1,0,0.045312222
+117,sarcasm,Another great day in the office ! Happy to be working with @USER and @USER #softwaredevelopment #webdevelopment #Motivated #tech #Businesses HTTPURL,0,1,0.98307747
+118,sarcasm,"Sooo ... @USER was that "" Nice ! "" and double fist pump for the show or @USER s ass that you were checking out ? @USER",1,0,0.20134598
+119,sarcasm,"@USER I feel that 100 % , my anxiety stops me from talking to so many people . I 've let so many friendships die because I can't push myself to talk to them .",0,0,0.040206566
+120,sarcasm,It 's funny that you guys thought sports mattered during a pandemic . I simply can not imagine caring about a winning streak rn .,1,1,0.9234977
+121,sarcasm,Loving season 4 of trump does America . Funniest season yet #DonaldTrump #Trump #MAGA #MAGA2020,1,1,0.73393714
+122,sarcasm,"For a good laugh , follow me over on @USER to see my best attempt at covering sports business news for class this semester .",1,0,0.3285067
+123,sarcasm,I do n't remember the last time a Sixers game gave me a heart attack but this game was a roller coaster . Hell of an effort but those 10 missed foul shots really hurt .,0,0,0.4538708
+124,sarcasm,Not me seriously debating buying a singular can of monsta energy of amazon because I 'm really craving one but I 'd feel guilty if I went into Tesco just to buy one,0,0,0.1011532
+125,sarcasm,I do n't think Republicans have any self awareness or any idea of how the world works ... Nice try though .,1,1,0.9485621
+126,sarcasm,It 's “ let 's see how many crumbs I can find in scarf ” szn .,1,0,0.039417434
+127,sarcasm,its my party and ill shit if i want to,0,0,0.06758029
+128,sarcasm,"@USER whoa ! that 's a little too crazy man , slow down",1,0,0.048025653
+129,sarcasm,Do n't let people walk all over you . Or breathe on you . Either one .,1,1,0.62716895
+130,sarcasm,I wish I had a green thumb,0,0,0.059615854
+131,sarcasm,"Wow the Prime Minister is so good at the telling the truth , yet again he just can't stop telling the truth about Brexit !",1,1,0.99126804
+132,sarcasm,Herbert 's vision is elite #Hokies,0,0,0.20237628
+133,sarcasm,"It makes perfect sense that the government is forcing face masks in shops , but all drunk people in bars are immune from covid apparently . Moral of story , alcohol cures everything .",1,1,0.7874458
+134,sarcasm,“ The number one freedom white people have in America is to remain totally ignorant about the injustices committed against those who are other than white ” - Jane Elliot,0,0,0.31847134
+135,sarcasm,"There are a bazillion things to do in my small town of Wadsworth . One thing you can do is ride horses on the moon and sing songs with Abe Lincoln in the bar . On top of that , I recommend eating a hundred gallons of ice cream at any local ice cream shop downtown . Some of the flavors that they have are out of this world ! Additionally in the winter , I like to go over to a place called kill hill next to the main highway . The hill is up extremely high , you can see the whole world from there ! It has to be at least a million feet tall !",1,0,0.038379654
+136,sarcasm,"idk . academic writing is exciting but what 's the point if the only people reading your work are academics ? same with literary journals , tbh",0,0,0.39139742
+137,sarcasm,@USER But how can we possibly deal with a human experience we have n't first relentlessly quantified ? ? ?,1,0,0.06358055
+138,sarcasm,"Do n't keep up with the Joneses , the Joneses are broke !",1,0,0.24048223
+139,sarcasm,"Wish I was the bitch that Elijah hewson fucking hated , sad :(",1,0,0.025523156
+140,sarcasm,It really bugs me when teachers uncap and recap highlighters three or four times per book when marking - Poor time management ! #efficiency,1,1,0.97976685
+141,sarcasm,trying to figure out how to use notion for my anime list . I think i 'm dying,1,0,0.070133716
+142,sarcasm,we used to make fun of rich men for using 3in1 turns out they were never using anything at all :face_vomiting:,1,1,0.58728975
+143,sarcasm,yo @USER do yall do hysterectomies ?,1,0,0.17857388
+144,sarcasm,I have every confidence in our government 's Covid action plan this Christmas :face_with_rolling_eyes:,1,1,0.90961397
+145,sarcasm,"@USER @USER @USER I had an orange one ! Around the same time as you as well , great memories .",0,0,0.3776484
+146,sarcasm,I think women should be able to join men 's sports teams and vice versa . I really do n't see any problem with for example having a 5 foot 3 inches slim women versus a 300 pound heavyweight boxer because i feel like women are very much equal to any man . Even much faster and stronger men . If anybody takes offense to my point then they need to reevaluate their lives as their are no man that could do anything better than a lady .,1,0,0.105431505
+147,sarcasm,Cannot cope with uni reading it 's doing my head in !,0,1,0.6852662
+148,sarcasm,being sick w a nose piercing is rly annoying,0,0,0.058268458
+149,sarcasm,"Whenever I text Scott in the middle of the night and tell him it 's been a rough night or that I 'm tired , he brings me breakfast home and this is the type of love language I 'm here for :smiling_face_with_open_hands:",0,0,0.39342576
+150,sarcasm,I felt like a wet dog after tonight :face_with_tears_of_joy: :dog_face:,0,0,0.03651839
+151,sarcasm,Thanks @USER for losing my parcel but giving me someone else 's . I 'm nice enough to go give it to them though . Please DM me back soon :neutral_face:,1,0,0.1290436
+152,sarcasm,where can I hand my notice in for mental illness ? been working at the same thing for way too long and it 's time for a change .,1,0,0.42201072
+153,sarcasm,Joey the genius ! I wish i was as brainy as him #towie,1,1,0.7862049
+154,sarcasm,Social Care for the young is basically a bath board and bed rest and your done .,1,0,0.30027652
+155,sarcasm,I reckon I could have put that in the net Morelos sir,1,1,0.85022765
+156,sarcasm,Wow I love it when rich people get stuff for free .,1,1,0.9905245
+157,sarcasm,Ayeee it 's officially “ I 'm not even your girl ” season :face_with_tongue:,1,1,0.73646814
+158,sarcasm,@USER Based confidence and believing in proper eye contact-pilled !,1,1,0.8403984
+159,sarcasm,I 've decided that I 'm ready for the Schrute Farms offshoot show now .,0,0,0.11181458
+160,sarcasm,The Prime Minister is an honest Injun as honest as midsummer 's day is long,1,0,0.16697946
+161,sarcasm,i love ingesting poison and then wondering why my tummy is rumbling the next morning,1,1,0.9859364
+162,sarcasm,i forgot i have tickets to the disney princess broadway celebration in november um i hope that they replace laura with christy altomare,0,0,0.12231687
+163,sarcasm,"yaaaaay ordered my cap , gown , and hood :smiling_face: :graduation_cap:",0,1,0.88340944
+164,sarcasm,@USER @USER @USER @USER @USER Finally someone is speaking up for the billionaires .,1,1,0.8605148
+165,sarcasm,I reckon zoella will get engaged in New York this year,0,1,0.89588124
+166,sarcasm,Really impressed at human evolution - Covid has made our bodies adapt so we breathe out our chins . Darwin would be so proud .,1,1,0.98612195
+167,sarcasm,dev patel is so hot girl i was having a crisis watching the green night,0,1,0.75317764
+168,sarcasm,Hahaha these lads have never heard gucci mane or migos in their lives :rolling_on_the_floor_laughing: #UniversityChallenge,0,1,0.95119685
+169,sarcasm,can't wait to cop tickets to see the cracker quartet,1,1,0.9821208
+170,sarcasm,Love seeing 15 year olds being vaccinated in the states when I have to wait till the end of June for my first one,1,1,0.99126124
+171,sarcasm,"@USER it 's true , every time my little cousins put on their masks they choke to death and have to be revived . it 's very stressful for us .",1,0,0.2771225
+172,sarcasm,When your walking and eating hot Cheetos at the same time and you get your move goal on your watch . That 's the definition of balance,0,1,0.77576375
+173,sarcasm,elrow at ushuaïa was bloody great,0,1,0.9560187
+174,sarcasm,This is awkward ... @USER is a Diet Coke ambassador :exploding_head: . #ThisMorning,1,1,0.9367298
+175,sarcasm,"So you can't really get huckleberries outside of MT / WY area because they 're hard to cultivate and need to be picked by hand at high altitudes , making them ~ $ 65 / lb . But bears love em and will go to town and eat like $ 300 of huckleberries in a sitting and I love thinking about that",0,0,0.2379975
+176,sarcasm,sure you have a paying job but are you a Silver Chick Fil A Rewards member ? :face_with_steam_from_nose: :face_with_rolling_eyes: :face_with_monocle:,1,0,0.40155822
+177,sarcasm,i love jumping on zoom meetings where everyone is talking about their kids & i 'm stuffing my face with taco bell,1,1,0.99021226
+178,sarcasm,my super power is always biting into the sour cream side of the burrito no matter what,1,1,0.5664237
+179,sarcasm,@USER And with a plentiful supply of rhubarb .,1,0,0.19520426
+180,sarcasm,just met the love of my life do n't text,1,1,0.8258287
+181,sarcasm,Wtf is a Justin Herbert,1,1,0.5465049
+182,sarcasm,I forgot my keys omds I had to message my brother on roblox to open the door,0,0,0.073181786
+183,sarcasm,"Those “ nutrition ” places yall frequent are thinly veiled Herbalife stores . Also , they are not healthy ...",0,0,0.18963373
+184,sarcasm,Ca n't wait to see Ed sheeran at tramlines tomoz x,1,1,0.9347779
+185,sarcasm,Happy New Year,0,1,0.89990705
+186,sarcasm,"got a google calendar notif , my boyfriend put "" think about dwarves "" in as an all day event",0,0,0.44186574
+187,sarcasm,this is my 3rd time taking a biology course and it 's so EASY wow i love biology so much i 'm so glad i 'm so good at this subject .,1,1,0.9861252
+188,sarcasm,I miss walking up 3 flights of stairs for class and having to catch my breath in the bathroom :weary_face:,1,0,0.23614316
+189,sarcasm,Oh my what was that noise ? The dog is n't happy either ! #loudbang,0,1,0.7432316
+190,sarcasm,"Yes , I would absolutely love to see how my favourite game company is going down the drain . I TOTALLY do n't want them to pick themselves up and make better products . Not at ALL .",1,1,0.9816688
+191,sarcasm,@USER i would never go to six flags with u,1,0,0.030185916
+192,sarcasm,"#DominicCummings Sack him . Or better yet , charge him .",0,0,0.3889301
+193,sarcasm,grimes was the vibe for this evening,0,0,0.17297101
+194,sarcasm,safe to say my life is a lot better HTTPURL HTTPURL,1,1,0.8753496
+195,sarcasm,Off to london today for the Aurora Programme ! See all you girl bosses there ! 💁🏽‍♀ :two_hearts: #Iamaurora,0,1,0.6253934
+196,sarcasm,#McflyAllAboutUs got me right in the feels :red_heart:,0,0,0.062102307
+197,sarcasm,maybe i am a cyber bully,1,0,0.31674442
+198,sarcasm,Andrews really trying to explain to me that football and rupauls drag race are n't the same thing when it in fact is the same thing .,1,0,0.35166207
+199,sarcasm,I ask myself everyday why did i pick art ?,0,0,0.135433
+200,sarcasm,Tinnitus is my favourite thing ever I love it . So loud so atmospheric HTTPURL,1,1,0.93752235
+201,sarcasm,@USER Sureeeeeee you do,1,1,0.96630234
+202,sarcasm,i love siriusxm . siriusxm is my friend,1,1,0.57074755
+203,sarcasm,me with an 8am chem lab on friday :loudly_crying_face: :loudly_crying_face: HTTPURL,0,1,0.64956164
+204,sarcasm,drive to work with no music kinda day,0,0,0.17876771
+205,sarcasm,Perfect way to end a 2 + hour @USER deley : getting stuck on the tarmack at @USER waiting to go to a gate for almost an hour :face_with_rolling_eyes:,1,1,0.92651546
+206,sarcasm,i needa win cmon wildcat william #JWUFAMBINGO,0,0,0.11544861
+207,sarcasm,"Well , what a way to ruin Easter . Thanks @USER HTTPURL",1,1,0.98063385
+208,sarcasm,"Have the most balanced diet , a healthy balance of codeine , panadol and ibuprofen ...",1,1,0.89196503
+209,sarcasm,Nothing can ruin a summer like hayfever,0,1,0.6095849
+210,sarcasm,thinking about getting a jibbit for my crocs that says swag,0,1,0.69093287
+211,sarcasm,@USER Tankful for my 20 + 90 Tank Cat,0,0,0.048681915
+212,sarcasm,"It would seem like Microsoft keep going through the emo stage in life . They 're blue screen of death keeps turning black , started in 1999 then again in 2011 and now again in 2021",1,0,0.03978504
+213,sarcasm,i 'm gonna get a boob job so i call myself a customizable doll,1,0,0.10557047
+214,sarcasm,It would be nice if my body would let me sleep ...,1,1,0.97927034
+215,sarcasm,the manliest thing I can think of is when the men from the World Cup passionately sing their national anthem,1,1,0.70551
+216,sarcasm,@USER how can you allow someone to be without internet for three days in 2019 ? Told I have to wait 72 hours so managers can check if other customers are effected before resolving the issue @USER,0,1,0.51130825
+217,sarcasm,"My sisters kid , when we were playing in the living room , told me that I look like ghoul due to my baggy eyes . I love children so much , they make me feel so appreciated and loved , always say the kindest things !",1,0,0.24259517
+218,sarcasm,"Get ready for the next big horror game this season , Slender Suburban Man",1,0,0.07927274
+219,sarcasm,Is it unreasonable to spend £ 50 on a bonsai tree ? Asking for a friend :thinking_face:,1,0,0.114981264
+220,sarcasm,Happy 45th birthday Chester Bennington ! We wish we could have celebrated today with you . You will always be in our hearts . #linkinparkforlife #ChesterBennington #HappyBirthday #LinkinPark #SuicidePrevention #wewillalwaysloveyou,0,1,0.70680505
+221,sarcasm,"Wait did n't covid go away ? ? It 's after November third so it definitely should be gone now ... wait ... I 'm confused ... 121,000 cases in a day ? You 're telling me THE WHOLE WORLD did n't fake a pandemic for the US election ? No way ...",1,1,0.89670104
+222,sarcasm,“ I do n't really like partying ” Oh is that why you 've gone to parties twice in the last week ? Because you just can't stand it ? Makes complete sense .,1,1,0.97876567
+223,sarcasm,Being loyal should be the standard . Being loyal should be the standard . Being loyal should be the standard .,0,0,0.098644376
+224,sarcasm,"@USER @USER @USER @USER @USER @USER @USER I do n't think they did , but I could be wrong . Jon Ronson interviewed a guest booker for the Jeremy Kyle show for his book , The Psychopath Test . There 's a short exerpt of it here . It paints an ugly picture of how these guests were viewed and manipulated : HTTPURL",0,0,0.021942869
+225,sarcasm,getting a bidet was the best decision of my adult life,0,1,0.8375123
+226,sarcasm,can't wait til a bunch of pudgy suburban dads save the day with their firearms,1,1,0.9688259
+227,sarcasm,""" I can't wait to be a piece of shit with a bachelors degree """,1,1,0.98023707
+228,sarcasm,it 's literally so hard being this hot and sexy and beautiful everyday,1,0,0.34402362
+229,sarcasm,"I 'm so glad the clocks just went back , I have this whole extra hour of insomnia to play with .",1,1,0.9860584
+230,sarcasm,IBIZA HAS JUST BEEN BOOKED AGAIN wohooooooooo :party_popper: :clapping_hands: :party_popper: :clapping_hands:,0,1,0.7856611
+231,sarcasm,you ever completely embarrass yourself on zoom and decide to drop out of college ?,1,0,0.0305369
+232,sarcasm,thinking about that time when a week after i broke up with him my ex sent me a playlist to tell me all his feelings from throughout our 3 week relationship + how he felt about it ending and the whole thing was just john mayer songs,0,1,0.61342746
+233,sarcasm,"Just got in , how 'd Liverpool get on ?",1,0,0.39727223
+234,sarcasm,"So our landlord just brought in new sofas which is lovely but in the process broke a table , someone 's cup and spilt tea on the carpet and left saying “ you should probably clean that up ” thanks Darren 🖕🏼",1,1,0.94118595
+235,sarcasm,"Yes you look fantastic for your age , thank the lord for filters hey !",1,1,0.97661906
+236,sarcasm,thanks to everyone for all the love and support ! ! ! so blessed to have this opportunity ! officially a mustang ! ! #stanggang @USER @USER HTTPURL,0,1,0.87653387
+237,sarcasm,any of my oomfies wanna write my user on their thighs,0,0,0.018429382
+238,sarcasm,"dad : "" are ya sending any of those boys from 5soz ( wtf is a 5soz dad ) a valentines gift ? "" me : yes dad yes i am cuz im dating all of them duh",1,0,0.24643378
+239,sarcasm,how do I get my boyfriend in a maid costume ?,1,0,0.11940822
+240,sarcasm,WTF is Tim Horton 's ?,0,0,0.21945974
+241,sarcasm,My coworkers play this fun game where they try to describe bars in la crosse & have me guess which one they 're talking about,1,0,0.10784074
+242,sarcasm,"@USER Ahahahaha the Feeya I know and love , miss u :crying_face:",1,0,0.05872843
+243,sarcasm,me and noah forgot that today is our anniversary . if that is n't couple goals then idk what is :relieved_face:,1,0,0.036298186
+244,sarcasm,Here we go again ! We are expecting ! Our third baby is due Feb 2022 ! Absolutely terrified of having 2 under 2 and a 10 year old but we move baby ! This is the last addition to the family so going to enjoy this for the very last time :red_heart: 👶🏽,0,0,0.21367623
+245,sarcasm,I swear stupid people were put on this earth to test my anger management skills,1,1,0.9278805
+246,sarcasm,Drum and bass is dangerous stuff do n't you know .. #FabricReview 🙏🏻 🙏🏻 🙏🏻,1,1,0.87419873
+247,sarcasm,That rest stop was so stressful I forgot to pee :weary_face:,0,0,0.48243338
+248,sarcasm,Congratulations to Qpfc Champions of League 2 #whowantsasuperleague,0,1,0.74278367
+249,sarcasm,@USER @USER We share a birthday Martin ! Happy birthday fellow Taurean - hope your day has been good so far :smiling_face_with_smiling_eyes:,0,0,0.14524339
+250,sarcasm,“ The more you toot the more you poop ” - my 6 yo nephew,0,0,0.43179664
+251,sarcasm,“ You 're never going to have a white boyfriend are you Jess ” Nah do n't think so Mum,1,0,0.4400376
+252,sarcasm,As if some people left the cinema during Super Trooper I am so offended :exploding_head:,0,1,0.6995349
+253,sarcasm,Only positive of sitting in traffic for over an hour is catching people picking their noses in the cars next to you . Current count : 4,0,1,0.7956419
+254,sarcasm,hot take : the worse taylor swift song is false god do n't kill me pls it just sounds messy,0,0,0.090970464
+255,sarcasm,@USER @USER hot loli,1,0,0.03224352
+256,sarcasm,Just had my windows cleaned and I feel posh lmao,0,1,0.9309273
+257,sarcasm,@USER u did such a good job the last time ! ! I can always reteach u :relieved_face:,0,1,0.8650937
+258,sarcasm,I hope the #COVIDIOTS and #antivaxxers are watching this brutal episode of Ambulance @USER,0,1,0.6351704
+259,sarcasm,have to somehow become fluent in Spanish in these 2 weeks before school starts because i bullshit my way through my past 2 semesters in online classes . it just set in that i 'll be in class with native speakers and i am so embarrassed already,0,0,0.29251477
+260,sarcasm,""" Should I wear my lime green pants ? "" dad its 4th of july ...",1,1,0.9730732
+261,sarcasm,"Just watched Homewrecker @USER Halloween event , loved it ! :jack-o-lantern: #homewreckermovie #grimmfest",0,0,0.040538438
+262,sarcasm,West Ham beat Chelsea ? Really ? ? Did that really happen or did I dream it ? I for o e am in shock ! I never thought I would see the day !,1,0,0.23289451
+263,sarcasm,My favorite part about running on the track is seeing how high my heart rate gets just walking up the stairs to it .,1,1,0.9482237
+264,sarcasm,I have never missed something as much as I miss the soy milk machine at the dining hall,0,0,0.4595303
+265,sarcasm,"I might be rubbish at driving , and have a less than stellar career , but I 'm really good at making Spanish omelette . So , you know , there 's that .",1,1,0.7888883
+266,sarcasm,"Sitting on our new leather sofa , windows open , rain outside , candle burning , Sex and the City on , glass of rosé in hand . This is it . This is a pure vibe .",0,1,0.5950794
+267,sarcasm,dont you love it when youre just chilling in your room and then theres a spider and you kill it but when you kill it you spill soda all over your keyboard yeah me too,1,1,0.7608142
+268,sarcasm,"Got some beers in for the keynote , roll on 6pm",0,1,0.5823771
+269,sarcasm,Hahahah @USER is shutting down the entire campus for quarantine ! ! Could n't happen to a nicer group of Covid deniers ! #CovidIsNotOver #karmaisabitch #Covid_19,1,1,0.92466766
+270,sarcasm,@USER @USER There are so many films I want to see atm ! This would be amazing :raising_hands:,0,1,0.79473287
+271,sarcasm,Wonderful human population and their caring nature to animals to continue to drink their milk and eat them day in day out !,1,1,0.9032836
+272,sarcasm,my boss sent me ice cream bc I got my wisdom teeth taken out :pleading_face:,0,0,0.17474663
+273,sarcasm,"They had 5 turnovers and we needed to capitalize on them , this whole season we said we needed touchdowns instead of field goals",0,1,0.73679936
+274,sarcasm,"Okay , well nice of 2020 to bless us with the gift of great sports team names - The Kraken and the Washington Football Team :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy:",0,1,0.96210027
+275,sarcasm,Do n't expect others to help you if you do n't want to help yourself :speaking_head:,0,0,0.02709682
+276,sarcasm,"When you 're feeling all in your feelings , but a certain BEST FRIEND is making you see reason , and maybe you 'll be okay . So damn rude . :face_with_steam_from_nose: @USER",1,0,0.39309785
+277,sarcasm,The problem with buying Christmas presents is that I want to keep so many of them :smiling_face_with_heart-eyes: :wrapped_gift: :Christmas_tree: 🎅🏼,0,0,0.086552635
+278,sarcasm,hot girls have tree shaped dents in their rear bumpers :red_heart:,1,0,0.032661997
+279,sarcasm,i love when i respond to my professor immediately after she emailed me and i still have n't gotten a response :) ) ( it 's been almost 4 hours ) :) ),1,1,0.990436
+280,sarcasm,"if you see me crying in the self-service car wash in my rosati 's uniform , no you did n't :red_heart:",1,0,0.03163638
+281,sarcasm,"When parents ask about your mental health during parent-teacher conferences :smiling_face_with_hearts: ( and you do n't tell the truth because , like , gestures broadly . But still ! )",0,0,0.25076213
+282,sarcasm,ok call me crazy but sometimes i swear i get a little kombucha buzz,0,1,0.9183221
+283,sarcasm,in desperate need of ( and I can NOT stress this enough ) spring break,0,0,0.04282674
+284,sarcasm,"@USER My mother in law says “ grandma-great ” instead of “ great-grandma . ” Among many other mispronunciations , but that one came to mind first .",0,0,0.30457452
+285,sarcasm,Good deed for the day : Keeping extra water bottles from work and giving them to people needing it on the tube :potable_water:,0,1,0.92655003
+286,sarcasm,You can help protect Hossein and Arman . Join me and @USER in calling on Iran to halt the executions now HTTPURL,0,0,0.06176479
+287,sarcasm,@USER what time do you close today at your Regent Street store ? Thank you,0,0,0.14183606
+288,sarcasm,@USER desperately searching through emails for our #lebrock tickets for Saturday - if we can't find the email can it be resent ? Or do you still have the name list on the door ?,0,0,0.018012464
+289,sarcasm,"Doing Kings Worthy School quiz .. 9/10 ... face number 9 let us down , thought it was @USER but it was actually Rolf Harris #fail :expressionless_face: HTTPURL",0,1,0.7917623
+290,sarcasm,we happy ! ! !,1,1,0.8812724
+291,sarcasm,Teachers are such precious gems,0,1,0.9635146
+292,sarcasm,@USER ye,0,0,0.14933468
+293,sarcasm,@USER @USER @USER It literally says in the article that he 's expected back next week .,0,0,0.462877
+294,sarcasm,we love mixed signals :face_with_rolling_eyes:,1,1,0.984518
+295,sarcasm,You know you live in a city when you refer to crumbs as “ roach snacks . ”,0,1,0.7232706
+296,sarcasm,lord may my ego calm itself before i go insane,0,1,0.93659765
+297,sarcasm,is it illegal to discriminate against someone on the basis that they have a joker tattoo,1,0,0.1753773
+298,sarcasm,Best bullpen in baseball selling rn to Stanton and Judge . Not a place you want to do it .,0,0,0.4887821
+299,sarcasm,Was fun . Looking forward to the next one ! #podcasts HTTPURL,0,1,0.9046835
+300,sarcasm,"Whoever 's toddler ass sprayed the entire toilet backstage , I hope you stub your toe and bite your tongue really hard . also you were clearly dehydrated , go drink some damn water like an adult",1,1,0.5698679
+301,sarcasm,do you guys ever turn the music down to try and figure out what that smell is,0,0,0.068387166
+302,sarcasm,You can tell ted cruz cares about Texas . He came back from Cancun to be with his fellow Texans,1,0,0.12954032
+303,sarcasm,babe stop i 'm about to gleek,1,0,0.17263639
+304,sarcasm,just wondering how to get my diss down by 1500 words .. such fun,1,1,0.99059254
+305,sarcasm,I stole a book in Skyrim and somebody sent hired thugs after me,0,0,0.16835049
+306,sarcasm,@USER :blue_heart:,0,0,0.04687239
+307,sarcasm,"missed this the first time round but a conversation I really wanted to see happen , great article @USER HTTPURL",0,1,0.64439076
+308,sarcasm,"ever just peep fox to see what crazy tuck is saying ? tonight , i am learning that fauci actually funded the creation of covid in a lab and is solely responsible for the pandemic",1,0,0.07709987
+309,sarcasm,Just watched a man smoke crack on the R train in front of 3 families . New York is healing :sparkles:,1,0,0.07464452
+310,sarcasm,"now that I 'm working in the commercial talent business , I can't help but wonder how much Jake from State Farm gets paid . I think about it every time I see a SF commercial",0,1,0.5149808
+311,sarcasm,brb just spent 10 minutes looking frantically for my phone with the help from the flashlight ... from my phone,0,0,0.13226348
+312,sarcasm,not to alarm anyone but i just saw spider-man by uta,1,0,0.10206201
+313,sarcasm,Love Frank Oceans new album 👌🏻,0,0,0.2871837
+314,sarcasm,thanks @USER for ratting my location out on stream and then embarrassing me :face_with_tears_of_joy: it made my day though HTTPURL,1,1,0.9617065
+315,sarcasm,"Somebody ran up to me today to tell me they like my tattoos , which is adorable but like , how do people find these levels of confidence ? !",0,1,0.6637791
+316,sarcasm,I do not understand deku 's fa jin quirk,0,0,0.0643539
+317,sarcasm,I love working in the office instead of home . I wish they did a wax melt of Bob 's BO so that I could smell it at home too .,1,1,0.9482491
+318,sarcasm,I think I 've figured out why Ted Cruz always looks like he 's melting . It 's because of the flames constantly emanating from his pants . #TXSenateDebate #LyinTed #LoseCruz #PantsOnFire,0,0,0.07025907
+319,sarcasm,#NakedForMonstaX @USER This is a great hashtag :face_with_tears_of_joy:,0,1,0.97324604
+320,sarcasm,"When I finally die , just please do n't let it end with one of those shitty pop covers that Disney plays over the credits",0,0,0.048812084
+321,sarcasm,@USER I 've been waiting for a refund for over six weeks from Sky and no one seems interested in helping me despite multiple calls to your customer service team . Please help me ! Sky took my money but seem very reluctant to return it .,0,0,0.054575544
+322,sarcasm,I 'm really looking forward to not hugging my friends and family through choice rather than by law .,1,1,0.96932966
+323,sarcasm,really honoured to have shared a coach today with a group of girls who did n't know downing street was real and thought the prime minister and the queen lived together at buckingham palace,1,1,0.9788142
+324,sarcasm,I need the weekends to stop being like 20 minutes long .,0,0,0.14614621
+325,sarcasm,Mad how many cars they make now without indicators :upside-down_face:,1,0,0.4203139
+326,sarcasm,Marshalls in Zandvoort be like #WTF1 @USER HTTPURL,0,0,0.022847287
+327,sarcasm,#PostAnUnpopularFoodOpinion salad cream on toast mmmmmmmm,0,0,0.25089836
+328,sarcasm,My stray boy playing ... he is looking well but still worried :worried_face: will manage one day to grab him . I got sliced up today though . HTTPURL,0,0,0.027890936
+329,sarcasm,wish i could ctrl + f my bedroom,0,0,0.08258904
+330,sarcasm,I 'm going back to work exactly 8 weeks postpartum and that just does n't sit right with me,0,1,0.87405807
+331,sarcasm,Midwife means with woman be it a male or female midwife that 's what we are there to do #WomanCentredCare Thank you @USER and @USER for highlighting the work we do as midwives . Seeing a happy and healthy mum and baby knowing I made a difference #allthethanksineed,0,1,0.85840297
+332,sarcasm,Did you know ? Abuse and alcoholism and depression will just :sparkles: disappear :sparkles: if the country is opened completely during a pandemic ? #trumpisanidiot #bidenharris2020,1,1,0.5202992
+333,sarcasm,Pub crawl pub crawl pub crawl pub crawl pub crawl . There are pubs and I am crawling too them,0,0,0.019137364
+334,sarcasm,i hope my 6th grade english teacher knows he inspired my first tattoo :) there 's no reason he would know that but i hope he just feels it in his bones,0,0,0.45877567
+335,sarcasm,breaking my strict buying hiatus to get lisa 's album ? it 's much more likely than you 'd think,1,1,0.90093756
+336,sarcasm,"was not back in the states for even 5 minutes before someone ran into me at the airport with their suitcase and said “ ope , sorry ! ” I 'm home :-)",0,0,0.1755516
+337,sarcasm,@USER @USER @USER @USER Aware she was not a tennis player when she left Canada at 2 yrs old ? ? aware she did not pick up a tennis racket until 6 years old ? ? . aware last 12 years trained at the same tennis club in Bromley Kent England ? ? the girl is British no haters or doubters will take that away from her,1,0,0.42484143
+338,sarcasm,I know I 'm really settling into my 30s when I take a drug test and all they find in my system is antacid,0,0,0.46610722
+339,sarcasm,"I recovered a repressed memory today of working at @USER in high school 13 years ago & having to answer the phone as “ we go all out at Kum & Go , this is Shelby . How can I help you ? ” And the prank calls that led to . Pretty sure K & G owe me therapy .",1,0,0.06916626
+340,sarcasm,"My boys Sam & Ben Haigh (8 , 4 ) are huge fans of yours and would like to wish you a happy birthday all the way from England , ps cant wait to try the colour challenge with the boys during lockdown great ideas to keep them busy ! x @USER",0,0,0.15048476
+341,sarcasm,"@USER @USER Well now I am going to have to make my own ... HTTPURL ... "" frowned upon by the Scottish church "" - new tinder profile sorted .",0,0,0.1251941
+342,sarcasm,So kind of the government to introduce 900 new covid tests right before I fly to Paris x,1,1,0.9836406
+343,sarcasm,i 'm dying,1,0,0.3520781
+344,sarcasm,@USER Only joking ... keep it real . HR professionals have a life too ... :thinking_face:,1,1,0.66073716
+345,sarcasm,Sometimes I forget giraffes exist :flushed_face: I meannnnn ... wtf is they,0,1,0.7707845
+346,sarcasm,@USER Is there a problem with the predictor page ? Its not loading so unable to enter my predictions .,0,0,0.02329347
+347,sarcasm,Not at all concerning that a man 's just been round to fiddle with the boiler and now he 's left the carbon monoxide alarm wo n't stop beeping,1,1,0.8714172
+348,sarcasm,oh cool I drive to school in less than 12 hours and I 'm frantically looking up fun facts about the final destination franchise for absolutely no reason it 's fine everything 's fiNE,0,1,0.9890465
+349,sarcasm,"Left a chai tea in my car last night , baked all day in there today & just now I thought it would be a good idea to take a sip . Someone come get me bc I 'm clearly not ok",0,0,0.078362904
+350,sarcasm,Can a burrito change the world ? Do n't miss Chipotle 's first Game Day commercial HTTPURL #bonuspoints,0,1,0.50844544
+351,sarcasm,"Who wants a cute customised animal cushion this month to put a little sparkle back in your days . Here is 10 % off , just because life 's a bit crap at the moment , so im sending you some love xxxxx HTTPURL",0,0,0.08834811
+352,sarcasm,@USER SO PROUD OF YOU,0,1,0.97566175
+353,sarcasm,Wow how do y'all watch basketball just a bunch of dudes running around and bouncing a ball what a snore fest,0,1,0.93827623
+354,sarcasm,climate change is REAL and scary as FUCK . I resent every person financially sound and competent enough to counteract even an inch of humanity 's carbon footprint but disregarding any notion of being eco-friendly . the severity of these natural disasters are not normative .,0,0,0.25963035
+355,sarcasm,"I do n't understand how @USER ' s opinion on std testing is so educated , forward-thinking , and science-positive and then her covid vaccine opinion is completely the opposite",0,0,0.18144883
+356,sarcasm,@USER And you said Donald trump was racist :expressionless_face:,1,0,0.033753112
+357,sarcasm,"What a stellar performance by @USER yesterday at Cadogan Hall . A tour de force . Tears , tingles and jaw-dropping awe .",0,1,0.9759143
